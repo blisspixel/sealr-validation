@@ -34,9 +34,16 @@ and audits installed paths, content, executable modes, and realization identity.
 The Python bridge denies wheel opens after admission. Both origins must produce
 the same source, archive, artifact, plan, and realization identities.
 
-Three additional runs mutate the worker release version, target, and bootstrap
-ABI. Each must be refused without consuming the input or creating an installer
-destination.
+For each project, three additional runs mutate the worker release version,
+target, and bootstrap ABI. Each must be refused without consuming the input or
+creating an installer destination.
+
+Each project has its own Linux job, with a ten-minute deadline per complete
+handoff and a thirty-second deadline per manifest refusal. Reports preserve the
+elapsed time. A locally measured Deepr inspect handoff took 217 seconds for 834
+audited output files, so the original three-minute harness deadline was too short.
+Each unretained member read uses a fresh restricted worker. This validates the
+boundary; its per-member overhead remains integration feedback to address.
 
 These installations do not execute application code, install runtime dependencies,
 or establish that the applications run in the test environment.
@@ -81,7 +88,7 @@ python3 scripts/verify_source.py /tmp/sealr-validation-metadata.json
 
 The [CI workflow](.github/workflows/ci.yml) contains the exact installer acquisition
 and complete handoff commands. It saves `results/report.json` as a commit-bound
-artifact for 30 days. Input copies and installed trees are temporary; the original
+artifact per project for 30 days. Input copies and installed trees are temporary; the original
 download cache remains available for deliberate reruns.
 
 ## What comes next
