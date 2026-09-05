@@ -1,0 +1,5840 @@
+[
+  {
+    "executable": false,
+    "relative_path": "deepr/__init__.py",
+    "scheme": "purelib",
+    "sha256": "d27202c03a9b8a21e4d43b8d9c006a6b946070ff651affba713c6cb546b85cdd",
+    "size": 1277
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/__init__.py",
+    "scheme": "purelib",
+    "sha256": "81eebd2bfcd15d26ba92c43ccc9b3914e58b7bbd08600165775e7f1116ae6dea",
+    "size": 352
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/agent_card.py",
+    "scheme": "purelib",
+    "sha256": "1cf0d628a55f9764a97b0973f1f284accc58836a06f4ad02e50922ccdd693de5",
+    "size": 3409
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/constants.py",
+    "scheme": "purelib",
+    "sha256": "cdde36a080c1d7ddfb0af78d6ddd5a459d013f88ab57d84cc001b1c04c78a173",
+    "size": 254
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/consult_tasks.py",
+    "scheme": "purelib",
+    "sha256": "87790aed6861afd6db071ef7b965bbf7005fc8ded311f2dc0287f0bdff76419e",
+    "size": 10137
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/models.py",
+    "scheme": "purelib",
+    "sha256": "0b29092ad7e7de3574408a64badf77139ff438e3e9788f90baacc82e065bdaf5",
+    "size": 4238
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/output_contracts.py",
+    "scheme": "purelib",
+    "sha256": "59693ba6746c7e1777902038e414acdd8b62aba1b3a85b05046eae101d159caa",
+    "size": 2896
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/server.py",
+    "scheme": "purelib",
+    "sha256": "3fd9e33afafa1499d0b7a2285a2f79991c3a39d814d03d74aeb86073c7a5f33b",
+    "size": 18723
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/task_manager.py",
+    "scheme": "purelib",
+    "sha256": "e33dffd8463eaacda98ae2a7303ebcc28f7efb9359dcc1de4f2bb370084705df",
+    "size": 8558
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/a2a/validation.py",
+    "scheme": "purelib",
+    "sha256": "1d420a1795b998118238d453a3c699b682bd72ee0b80f3917511a0c6bf27f238",
+    "size": 24391
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/__init__.py",
+    "scheme": "purelib",
+    "sha256": "f31f92297fe93ef9b6c8e19ed5386e9de4382daa07b526f1930f4de20fd21b63",
+    "size": 888
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/agent_tool.py",
+    "scheme": "purelib",
+    "sha256": "40fbe07126769d2df8f2904bd7c7bd12301a807adfed800a000ae9045f4c05ca",
+    "size": 4960
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/circuit_breaker.py",
+    "scheme": "purelib",
+    "sha256": "0dbd09a1151ed879dc60614b8ff93c9c00dd9d679a186161bf7d1650f67fce63",
+    "size": 3708
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/contract.py",
+    "scheme": "purelib",
+    "sha256": "5edf3e64a18e5617d008081d176b80c6a87f0c35f5b790c80c69f393ff80e940",
+    "size": 7212
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/handoff.py",
+    "scheme": "purelib",
+    "sha256": "daa561be843cec4778ecce097a0a3689fbc32e1d9eff2494f0e32103f0ea39aa",
+    "size": 2738
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/orchestrator.py",
+    "scheme": "purelib",
+    "sha256": "f5938be25c73354d8aa6eb1f645863bbf4f5dfc7f1b813fe367364f1863c0673",
+    "size": 8236
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/agents/runtime.py",
+    "scheme": "purelib",
+    "sha256": "89b59d29154af1c79620acb825796b225707777148ebc029bec8f30780c1e837",
+    "size": 10314
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/__init__.py",
+    "scheme": "purelib",
+    "sha256": "7ac04b5324e579f53a8d6c72b048da9064f1eaece6285e684660df16fae500bb",
+    "size": 136
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/app.py",
+    "scheme": "purelib",
+    "sha256": "e12c065d6015c9b7fb8b314047330eacf91e624edeac4a37e1d7cf2a2bbec21c",
+    "size": 36208
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/job_cancellation.py",
+    "scheme": "purelib",
+    "sha256": "1485c6ef454c6c8359901009f2d52fbfb2a9d95e099cb278941953bc2e76a694",
+    "size": 941
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/middleware/__init__.py",
+    "scheme": "purelib",
+    "sha256": "35e0fd8cf8283c9498ba300063aada6bfa5fc60661061043fe47c45e0c09536c",
+    "size": 109
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/middleware/errors.py",
+    "scheme": "purelib",
+    "sha256": "59a5cfe295f0ff30eab0d7918bb1e9c5193d47380063913e908096e80fbd516c",
+    "size": 4638
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/middleware/rate_limiter.py",
+    "scheme": "purelib",
+    "sha256": "8f5204b9f0f4486a587c5ee5208e1d1973c7bcd1a92d18d0cf730e55652d956a",
+    "size": 3994
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/research_cost.py",
+    "scheme": "purelib",
+    "sha256": "eb4e77ab612c515d02eeba9bd9c6ade5cfdca7c1ba238d43b074851fb7a327b1",
+    "size": 2933
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/websockets/__init__.py",
+    "scheme": "purelib",
+    "sha256": "34b224601f131cbf808781597d90f382f01820906813dd338f866f541e3be663",
+    "size": 122
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/api/websockets/events.py",
+    "scheme": "purelib",
+    "sha256": "051bc6d9d203f85b50665e8b2c3141a5f55086107fb03b3ac045dd243257dc74",
+    "size": 39089
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/__init__.py",
+    "scheme": "purelib",
+    "sha256": "526604a14dcde3855005d5ef8aca91a4ae648fb947124c554761d6752a33f2da",
+    "size": 2658
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/admission.py",
+    "scheme": "purelib",
+    "sha256": "e46df72a1410ac7ed242eae4d7d778ff648683fa288ed215640c0b6d06f18c45",
+    "size": 16246
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/capacity.py",
+    "scheme": "purelib",
+    "sha256": "b3c1ff4d24dfc014b639ee42e0d659e3fc622777a4fd0aff1d1b344a30361b21",
+    "size": 13934
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/capacity_actions.py",
+    "scheme": "purelib",
+    "sha256": "70fce894edbf87b8475d0b1296052ef96dcc65511dccdf9091bcb108dac9411f",
+    "size": 13017
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/context_building.py",
+    "scheme": "purelib",
+    "sha256": "a5e1944d34bb9b6051dd913243fea01ef61bcdf11ee7f9376c7bf0bdad1c7552",
+    "size": 4189
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/eligibility.py",
+    "scheme": "purelib",
+    "sha256": "b79e1d7157d6f4cf60fcd1e902d4d784bd2c7a9c34c4820b7b56056e612c6b36",
+    "size": 7559
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/fresh_context.py",
+    "scheme": "purelib",
+    "sha256": "48816569b112aa9eecd4e44a962b3058b528929c70ee89837eb7f7c713840962",
+    "size": 28839
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/local.py",
+    "scheme": "purelib",
+    "sha256": "2f78fb52d2e87df0a3eaa820d2bc9fced41e27ae495b404ab4517ad0fe39596a",
+    "size": 18651
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/local_capacity.py",
+    "scheme": "purelib",
+    "sha256": "555c706f4846832855122f40c0a3c98b05b2e36cef6389c76949bd28e46ec8fb",
+    "size": 5399
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/local_fit.py",
+    "scheme": "purelib",
+    "sha256": "97bfd5fbb2c53b7dd4dd0d16f1db8ec8b9f15476895d615902ecd9b3090db1f7",
+    "size": 8600
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/__init__.py",
+    "scheme": "purelib",
+    "sha256": "fe579f68edb4afbae13876269cf9bf6ebe0ecec14f940ec550643506e2771984",
+    "size": 2456
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/adapters.py",
+    "scheme": "purelib",
+    "sha256": "36af3a54c18d1fc27c97d01af27d40c04ffc2a46e95f6b468579a5a07aa0dfba",
+    "size": 23763
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/antigravity_transcript.py",
+    "scheme": "purelib",
+    "sha256": "c8ab279a0d09bebad2dcf806f6896a5b4dc6b3160960d21324fee9194baa42c7",
+    "size": 10073
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/attempt_accounting.py",
+    "scheme": "purelib",
+    "sha256": "819ae4028e7b68ebd93cfcdd3dd0756d198137444dfc3b53c9a9739265cee888",
+    "size": 6592
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/cli_runner.py",
+    "scheme": "purelib",
+    "sha256": "92daf605d3b4e4644fdbc92673fab61b26efaf7a7931434f89c5271ab345c8c2",
+    "size": 36848
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/client.py",
+    "scheme": "purelib",
+    "sha256": "a66dc6920e59b0abc9636ecf2e6f416535362573317ff88c63a26d044e1b4c1a",
+    "size": 39185
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/dispatch_boundary.py",
+    "scheme": "purelib",
+    "sha256": "3a3e2638445a9f226abe6bd673ee7b0383e246b733ab5d8261c2783713e47479",
+    "size": 4436
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/errors.py",
+    "scheme": "purelib",
+    "sha256": "685f166a204113c5161a0c32fad2b656700e3cfe0708a75a13fc0836c8b9e0e3",
+    "size": 1280
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/fleet.py",
+    "scheme": "purelib",
+    "sha256": "0f34831db8a4052af37972002f36b761a79b24350be2bdb5b14f2fb23e215947",
+    "size": 4459
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/output_safety.py",
+    "scheme": "purelib",
+    "sha256": "8fae7d73a83e9a143059150cf38e8c0e894dc1763b4e2b513187134e2b51075c",
+    "size": 6708
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/overage_guard.py",
+    "scheme": "purelib",
+    "sha256": "434bfd17e981c228aa9209f917e187d05ebb7e12578ffaaf04e0a26242b5ee2e",
+    "size": 3844
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/posix_supervisor.py",
+    "scheme": "purelib",
+    "sha256": "67fea3b50098fa82c3f126a13e8b5606b85b1a7963d4301c5a92af99764b6570",
+    "size": 7446
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/probe_support.py",
+    "scheme": "purelib",
+    "sha256": "90a7e65275728b3c803210571e7b91ae56827409c4619feb3572f5cb68827e91",
+    "size": 10538
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/process_cleanup.py",
+    "scheme": "purelib",
+    "sha256": "5a0596df05d490f0fa17829047359a0e0440b4b7de56ee4d6eb7c10bbd9fa3fc",
+    "size": 3665
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/process_control.py",
+    "scheme": "purelib",
+    "sha256": "5faade375d997190a3b5616da04abf671b561d01cf5339d0a65dec0a02c287a7",
+    "size": 1631
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/process_launch.py",
+    "scheme": "purelib",
+    "sha256": "989f8d21a5d52222cfdeadb2277b3aaa0edc35015ea89293d73ea62be671ee46",
+    "size": 6190
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/prompt_delivery.py",
+    "scheme": "purelib",
+    "sha256": "930cff28a9bf5a9c21a185467bf02efcff4a98f0c46c193b277071f88cf6e1a4",
+    "size": 1889
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/quota_probes.py",
+    "scheme": "purelib",
+    "sha256": "cbe458dfaeb4724b34a37f278474d7b46180bbbd14da0d372cbd9c09d646d20f",
+    "size": 25049
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/research.py",
+    "scheme": "purelib",
+    "sha256": "c7ddd513601418fb363c8e462d40385a8a7f5e66c164810a09512d6ffec32ff7",
+    "size": 4734
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/response.py",
+    "scheme": "purelib",
+    "sha256": "5ee47de9fd4780248292dcf0684884b8430be51c707989f52388a8e5f94a81a7",
+    "size": 552
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/safety.py",
+    "scheme": "purelib",
+    "sha256": "f08b4c6a74c470a85b2cf92f777a488451b6d8da83813c17c1d9280a38db3f4f",
+    "size": 8441
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/transcript_dispatch.py",
+    "scheme": "purelib",
+    "sha256": "0179d75c250f155cffd9db87e3cd5f857ab47a8fc52c3e9578dfb94c0b836043",
+    "size": 8102
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/plan_quota/windows_job.py",
+    "scheme": "purelib",
+    "sha256": "c86dbb47ee6c7549dbb827baa68b601e084dacdb05e3cb4ac810fefb1f9adb34",
+    "size": 9628
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/quota_headroom.py",
+    "scheme": "purelib",
+    "sha256": "cd4b683f4286c2df33e0a6923950ed48e21cf9d8d75bf347f9bc38bdb811e7ec",
+    "size": 8095
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/quota_ledger.py",
+    "scheme": "purelib",
+    "sha256": "4c89c9a2201f2e83db873d40df8e1638ef65e75b4cb38341233709170a3f234f",
+    "size": 27100
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/quota_snapshot.py",
+    "scheme": "purelib",
+    "sha256": "02aa5fd76c7c1dff078564dcdd50284de2458f3a9382bca47c297e3ed45efbb3",
+    "size": 9157
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/research_backend.py",
+    "scheme": "purelib",
+    "sha256": "014b7f2054b87beb672e44949bce30c7924099bddb92bd35c24bf098c31f9634",
+    "size": 3204
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/selection.py",
+    "scheme": "purelib",
+    "sha256": "9ec94ae45a58286f875d6674562e3b51d332ae08bdef0278edd6dd24b79e587c",
+    "size": 8091
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/vram_report.py",
+    "scheme": "purelib",
+    "sha256": "225c3995e98988f85b94cc359fe6b5fc7efbcf65e65fb3dddf70bbdba70a7b9b",
+    "size": 6258
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/backends/waterfall.py",
+    "scheme": "purelib",
+    "sha256": "78edb8a866fa25100e16ec464127433f2f3f7a3be1e72e534715002b281de498",
+    "size": 12771
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/branding.py",
+    "scheme": "purelib",
+    "sha256": "b1be63d35035634fdcfebc4dcaa34f73d7465e50bfb01c787ff9a86af3b120c0",
+    "size": 4742
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/__init__.py",
+    "scheme": "purelib",
+    "sha256": "8dd5528ebfc49cb9d95e5b25ac2fbb6727b5ecd0bf7acd3ae034d28ad092163a",
+    "size": 118
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/async_runner.py",
+    "scheme": "purelib",
+    "sha256": "af12975b99b203dc21ebcf8ef166d9f841581676c99c996ae71f225a32f433b3",
+    "size": 367
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/color_policy.py",
+    "scheme": "purelib",
+    "sha256": "e65db265312e21633ca80a40da249064cce65988c056da0424bed5e20bdf3b98",
+    "size": 689
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/colors.py",
+    "scheme": "purelib",
+    "sha256": "a50eeb748b9c664a3fa02bb01e601934a14e9aaf1206c30add45218650217b77",
+    "size": 18329
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/__init__.py",
+    "scheme": "purelib",
+    "sha256": "57cf65f04a05fe4e28373418c4f22231dbe9b4551cef7d62ab384be4a37d5ab2",
+    "size": 28
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/a2a.py",
+    "scheme": "purelib",
+    "sha256": "333342d87d5f4be247d7bc5f3e42204cab2aaca872bcbccec1154dfc1fec5766",
+    "size": 4317
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/analytics.py",
+    "scheme": "purelib",
+    "sha256": "e1e53d391542e46784e0bebb5bb9da0a6e0f01c394b5494e5f08e0eb58ad33c9",
+    "size": 10998
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/budget.py",
+    "scheme": "purelib",
+    "sha256": "af86a82d5102810082e3e8c06b4e072dec894dd68de3ecd309180dd00a6b1506",
+    "size": 33654
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/capacity.py",
+    "scheme": "purelib",
+    "sha256": "83517cafc746e66b4c0896639b3483fb97cd6c203887fe7a8d5b894cfa264e6f",
+    "size": 39531
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/capacity_inventory.py",
+    "scheme": "purelib",
+    "sha256": "1854e436d327846bf7e40d86eb73687295c0dcc9ed8b503a4289c51e67a2a150",
+    "size": 2629
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/capacity_validation.py",
+    "scheme": "purelib",
+    "sha256": "e5abf3861fb33a23be0bf9a40d1d0f867e3057392d856620349add57414f0867",
+    "size": 6690
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/completion.py",
+    "scheme": "purelib",
+    "sha256": "a37ee271de65ae00ecaa54e2c2ad86b5906040dfb9f0b90e6bd1b41f8496e000",
+    "size": 1958
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/config.py",
+    "scheme": "purelib",
+    "sha256": "c17585d4910d81756a0d1f5b22fb44cf42178143aee91d4816716b75c8327272",
+    "size": 11241
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/cost.py",
+    "scheme": "purelib",
+    "sha256": "540766fef3f49bde03f2705801c0c81d72a63b7871ad0f6b96402b0932e1b7da",
+    "size": 6507
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/costs.py",
+    "scheme": "purelib",
+    "sha256": "1b5a038876765ad96e08dde7bac2a804e4981b7163113ae3360af3aa074c9580",
+    "size": 36924
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/costs_spend_dispositions.py",
+    "scheme": "purelib",
+    "sha256": "f7fb46d9fc591e487b2a5de333c6f39b92ebb5007b3b5e731e999d10b170998a",
+    "size": 12336
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/diagnostics.py",
+    "scheme": "purelib",
+    "sha256": "14e3f54c331f36498e3e90aca7606b59f8019e2032fd4aefd1eed33890f28523",
+    "size": 6371
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/docs.py",
+    "scheme": "purelib",
+    "sha256": "0858802d75dacff62af4d600089d82771e04214429f5d0e31f4b65bf630a36f9",
+    "size": 9835
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/doctor.py",
+    "scheme": "purelib",
+    "sha256": "922b1dc68b0f61d8e5f1e9410ca757b36639ab46c6f4d4c3b84752466b6847fb",
+    "size": 30980
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval.py",
+    "scheme": "purelib",
+    "sha256": "1257a81e88ca76603a7f9874e62902951ec66410a7313ae144a7eef0edaa538a",
+    "size": 34259
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_consult_graph.py",
+    "scheme": "purelib",
+    "sha256": "6114aaff925ef814eb6660b8d70e0987be2e12a6cf281a02f842eb99f334e4c9",
+    "size": 6822
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_conversation.py",
+    "scheme": "purelib",
+    "sha256": "fa2fe00e5ac21323c8e628b5a57f4e869ceba761c1ec477efd5ec7358c12fa28",
+    "size": 1889
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_deliberation.py",
+    "scheme": "purelib",
+    "sha256": "ee0d25c40cfc853bd9e1215cd93725f666ece96c72ffa7a546e447fd1b4be47b",
+    "size": 1888
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_expert_value.py",
+    "scheme": "purelib",
+    "sha256": "b08f6d1dece4e54c4f9f2a95d14b7a9f57a3503aa3805d5894b7186f6c0562a4",
+    "size": 8995
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_grounding_correctness.py",
+    "scheme": "purelib",
+    "sha256": "8f88212d5fc6dd1cf0f27cfc7ecfb4f6d7e66c9a47cd2583b691cf2724f29eae",
+    "size": 9214
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_investigation.py",
+    "scheme": "purelib",
+    "sha256": "e2d113ac013f16d268a18e8edf6b8ac4584601c8a6cae1372c25ea27989a7ebe",
+    "size": 1895
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_judge_calibration.py",
+    "scheme": "purelib",
+    "sha256": "9dd97129ff0882d41c366eb49c3bb39336364efa1b73ee21074a4268b8536d18",
+    "size": 4565
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/eval_recall.py",
+    "scheme": "purelib",
+    "sha256": "986d19b2f5892c3de22984a1a1219b476d990e7c9ff63849d949272768bd0118",
+    "size": 15312
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/file_handler.py",
+    "scheme": "purelib",
+    "sha256": "bd664376b4048a30c61bce84439e1397e7f58149900db1d49ebc24fea968de02",
+    "size": 9222
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/fleet.py",
+    "scheme": "purelib",
+    "sha256": "a53b9e668e63e2edf50f2dd1d48ce48690868bd6434bdf11d0468b30886dc939",
+    "size": 14501
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/help.py",
+    "scheme": "purelib",
+    "sha256": "8970fceb42643902b167aa5a5f2388f52ec5c77626c3dae09c69bb91a5dbb065",
+    "size": 6514
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/init.py",
+    "scheme": "purelib",
+    "sha256": "9e5e101aed36c2f2da83948b5d57382282d1c8d92277944b437f054e36def975",
+    "size": 12527
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/interactive.py",
+    "scheme": "purelib",
+    "sha256": "c4306b37a8b9f8c493511dd1480c341d0b0d83b2a14d3115f48260d9b37e62a0",
+    "size": 23086
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/jobs.py",
+    "scheme": "purelib",
+    "sha256": "653be5a35bb77e0ff39b3cd18ceb19b921b60b13c20b0ce9e143babf711f8f95",
+    "size": 20339
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/keys.py",
+    "scheme": "purelib",
+    "sha256": "29bcaf827f65eedd20cfcc0581f17bcc0519386109b212e97366a97d25a83d27",
+    "size": 7368
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp.py",
+    "scheme": "purelib",
+    "sha256": "020a9f30ae97a8431641e913bbf54d402e014d7cc2a032fbd5461542261e8ac6",
+    "size": 35226
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_agent_guide_text.py",
+    "scheme": "purelib",
+    "sha256": "4863c3310c6ccf1d881cab73931cdf9fe3226b8ea702847d05ede0e034f585ad",
+    "size": 3808
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_conformance.py",
+    "scheme": "purelib",
+    "sha256": "8b2f5d76c43a9ccdb5968611fbc7b2c44862bcb711a115f045ba03e0e95bd4f8",
+    "size": 2023
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_consult_validation.py",
+    "scheme": "purelib",
+    "sha256": "1a8186a65183563bc8062b054fb54f007d8885e23d871d1f9f4dc868edba7406",
+    "size": 5140
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_conversation_validation.py",
+    "scheme": "purelib",
+    "sha256": "264bfa00c8989267b1582ae6940328c0275fbddb748422988e0f0bd9d0975467",
+    "size": 3561
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_host_install.py",
+    "scheme": "purelib",
+    "sha256": "8312de2a2eb59abb75839bd8cefe0af24069dbe7337e1346cf40149c45f9c4d9",
+    "size": 7967
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/mcp_host_profile.py",
+    "scheme": "purelib",
+    "sha256": "966182f0c0822ae80f945323581dd83f8008ae5e07394fd8626e9c587e109119",
+    "size": 1603
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/migrate.py",
+    "scheme": "purelib",
+    "sha256": "1e031bda2aeaa585eb35b1e468f0df8a4c5fdb5809cfba4a60131540faf1cdbf",
+    "size": 8131
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/openrouter_catalog.py",
+    "scheme": "purelib",
+    "sha256": "28e13377056ef271ba4717b82626ea37f1440890a08c0eb71d31b551a009b645",
+    "size": 3216
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/openrouter_key.py",
+    "scheme": "purelib",
+    "sha256": "0e7dd84bb6269fb24147b1da423bfe0e154fc848cdd6bf91d8bd70d3908cc609",
+    "size": 3786
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/prep.py",
+    "scheme": "purelib",
+    "sha256": "ada6f2742ee27a8f63de5a2b862a9ad9c4c0a36372bca500f21acc1370486fdc",
+    "size": 40956
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/provider_billing.py",
+    "scheme": "purelib",
+    "sha256": "d7e8f00752ef2c3427f2532a2ff1831f4609c77db935107e38bb5c759c6e1703",
+    "size": 3946
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/provider_factory.py",
+    "scheme": "purelib",
+    "sha256": "aaab2ae59163b77faa0ed89545cf12d8517c337f83afbcd324117d13266264c4",
+    "size": 4763
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/providers.py",
+    "scheme": "purelib",
+    "sha256": "a9bc870fe7ed438480160cb900f3c770a87596cbd15a4a0e689804c25abc91ce",
+    "size": 21235
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/queue.py",
+    "scheme": "purelib",
+    "sha256": "4e8cd0b18dc058b0eee1fb2e494cd26ddab76949cd661e33edd121d4b405634e",
+    "size": 11151
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/research.py",
+    "scheme": "purelib",
+    "sha256": "2f2958bf6c38e97ffab319ecc2f2b9860b1c7fcc49d88a31b3b5148e77b8c88a",
+    "size": 40670
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/research_safety.py",
+    "scheme": "purelib",
+    "sha256": "3ce6df450578f64839ecd9219fe1b57c47606ba005822bdea07e4d19a574f66d",
+    "size": 2569
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/research_support.py",
+    "scheme": "purelib",
+    "sha256": "1d338018e0b02c0c94fac587cd0451990ae097dd1ea93effc0f09a71e3a4fbfe",
+    "size": 7158
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/route.py",
+    "scheme": "purelib",
+    "sha256": "f97f3a017a23c63e0a7c36809d3481c06d3c0428ea1b0f79726f62abaaed3401",
+    "size": 3526
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/run.py",
+    "scheme": "purelib",
+    "sha256": "a035eaa81c0a7ce4e42433310a57c247d3ebc8081637043d3c9c79313e491712",
+    "size": 52236
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/run_submission.py",
+    "scheme": "purelib",
+    "sha256": "e342fcf925f4f043f3fd3ae5e25ef1e30f75c2f2675e2ba1be7d25c09bb58b03",
+    "size": 15711
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/search.py",
+    "scheme": "purelib",
+    "sha256": "2fda8e40a9a738f7cda4384eeb18986d24dfc079608fbc4a5d99a40de973881d",
+    "size": 11638
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/__init__.py",
+    "scheme": "purelib",
+    "sha256": "1f9d0396d818204fc4fefbb9dc01f389a7bdbd3ca989fe1981b3d8a563b6dc2c",
+    "size": 1546
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/artifacts.py",
+    "scheme": "purelib",
+    "sha256": "dfbd9e3a3cde22dcc8fbdc776eed99855d1b4eca9d9f788cc06d31437429a0a0",
+    "size": 36922
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_absorb_support.py",
+    "scheme": "purelib",
+    "sha256": "c585a7b9d59d6b9f944ee3b7c4f67feccc3df1f9231e2eeeb767f6f8d584fa72",
+    "size": 12044
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_blueprint.py",
+    "scheme": "purelib",
+    "sha256": "0d11f79d7fb77cdedda1cbaa93d1445254a3dcea175d443940f683f7f11fdc4f",
+    "size": 8721
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_cleanup.py",
+    "scheme": "purelib",
+    "sha256": "c6191c8f96236353e48476929e043c7fcb7fbc6f58fee839605856e7c7eb41de",
+    "size": 12338
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_command_registry.py",
+    "scheme": "purelib",
+    "sha256": "8e9cda5a8dc3411472fc699469fc9850500c4d509e77a9e7a1be15b4510d5e80",
+    "size": 3358
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_consult.py",
+    "scheme": "purelib",
+    "sha256": "4fb93e65031952e853c5c9f4b57c316ad2056852f941f425e97a0cd1c5a4db52",
+    "size": 13500
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_consult_quality.py",
+    "scheme": "purelib",
+    "sha256": "eb32563bc32c8c97967ee3b8bdae0f14f35cf98b8b9f1a584c2f6ff148a570bd",
+    "size": 19891
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_consult_traces.py",
+    "scheme": "purelib",
+    "sha256": "b691f66a84d5b17254cabb8f92974890e2ebf506d3447f01b67fff4d1056b448",
+    "size": 2918
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_fleet_health.py",
+    "scheme": "purelib",
+    "sha256": "6ed3517b74ab7d4806581837a613c55405f3c555f278114505055f597d7fd61b",
+    "size": 4823
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_freshness.py",
+    "scheme": "purelib",
+    "sha256": "32334b8e0450476c9e22dc51fbc5dda20d2b4639624f53e66da8b1a1fee90d8f",
+    "size": 3907
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_gap_routes.py",
+    "scheme": "purelib",
+    "sha256": "fd2bbcf56e4fe8a21942483e14479e81fd277673fb39d4c4a7cff3081ae0cfac",
+    "size": 29518
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_graph.py",
+    "scheme": "purelib",
+    "sha256": "2bc61e15cc2e51031d3b852f024d31451a4f461ab4340b4ff422ec2117537e95",
+    "size": 10253
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_graph_commit.py",
+    "scheme": "purelib",
+    "sha256": "b1e64b71626581505129f50dfefda13cf05276aea55d2a294e03e0fbfdb30f5f",
+    "size": 8580
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_health_archive.py",
+    "scheme": "purelib",
+    "sha256": "35f32e80d173b6103f8aa96287afef0fa056811f2cf20e5b958a54c3bad5426f",
+    "size": 4020
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_health_loop.py",
+    "scheme": "purelib",
+    "sha256": "1b252f05d3067f8eaa3303de4f9bf0e4b3598ee57c140ad106e6ba6b139f8759",
+    "size": 1025
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_health_schedule.py",
+    "scheme": "purelib",
+    "sha256": "749a81742d951c840e474f16040d42846fcd61f0067a829cd0abec64d8875f5d",
+    "size": 8216
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_investigate.py",
+    "scheme": "purelib",
+    "sha256": "7efeed328c220429ec7210d1d2132ac3a14ecb99d28b59251cadd0e09f9fffe4",
+    "size": 27087
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_learn_web.py",
+    "scheme": "purelib",
+    "sha256": "f1a334cf43cbfcc3fa8a130fade794bb3d5e181085edeaf69a7afd4a44644df6",
+    "size": 12237
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_loop_status.py",
+    "scheme": "purelib",
+    "sha256": "0fa3815de6b7686638eeb8bb75c59d52c3202f1afb7589128f9dd6e96eda2458",
+    "size": 2779
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_maintenance.py",
+    "scheme": "purelib",
+    "sha256": "928ca403bfd1d8ed4e24c653a212f31e2bb40af821e7c624b74d10c9f63f2ce0",
+    "size": 40491
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_make_profile_setup.py",
+    "scheme": "purelib",
+    "sha256": "e6ac6153b5fb2f9a9ba50bdee7fc3c6bdf84fe63c2830c94e42847f924786e3f",
+    "size": 3740
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_memory_card.py",
+    "scheme": "purelib",
+    "sha256": "64e4494ee5b581e19f16558d25bd091a31222059f6a4de263c11eaa11051e488",
+    "size": 3521
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_migrate.py",
+    "scheme": "purelib",
+    "sha256": "428e4feea3d8d01880d2c1830de4fdbd6605f452c42dde02f43c80f0291d3bf4",
+    "size": 4372
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_okf.py",
+    "scheme": "purelib",
+    "sha256": "b45c69b8e2dd2f955c0c45019860dbe8df7228987a855c512c8932eb009eaaf8",
+    "size": 10509
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_outcomes.py",
+    "scheme": "purelib",
+    "sha256": "e742a20b4eacb4dd7c6ff8cdb250800959ec9105fb39d575182d8823690f0ff7",
+    "size": 8661
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_perspective.py",
+    "scheme": "purelib",
+    "sha256": "5b71e89c7c45fbc20028e35a2847c60996c733c71041e4e8222de8b6e23779b1",
+    "size": 7541
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_portrait.py",
+    "scheme": "purelib",
+    "sha256": "85118d207115fe0dcd4999a8cf16914ea8e258ee2ffa7f83de466b4a83fdf681",
+    "size": 5989
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_practice.py",
+    "scheme": "purelib",
+    "sha256": "839e8c4d2b915eecc6654ac492d9c9fb0b0690ecf8fac18327f0960b2c0f9867",
+    "size": 11323
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_profile_card_cmd.py",
+    "scheme": "purelib",
+    "sha256": "010e22bb662d79f0857c94f571c1b377195203d57200716440b3042ccb5e34b1",
+    "size": 13820
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_quality.py",
+    "scheme": "purelib",
+    "sha256": "a9d1444601a8e3596290b3d1524868a7a40a42c8d1bab5753b3e562c6502c60f",
+    "size": 17469
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_reflect_schedule.py",
+    "scheme": "purelib",
+    "sha256": "a9dae6abe3217f13cd12f8f3fc0bcec797a5e27ade7e10167f2e50f7ea2449df",
+    "size": 17238
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_reflection_loop.py",
+    "scheme": "purelib",
+    "sha256": "10a57ee5c47c25094e5cd4b0e1a77f3b42ad3f195e86ad8dcb81899c48bfa722",
+    "size": 4943
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_roster.py",
+    "scheme": "purelib",
+    "sha256": "a20f1c8fea186fbb2dcb09063d43cae1e45aee11095d9c6ec18fd56e23ffcbaa",
+    "size": 1909
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_self_model.py",
+    "scheme": "purelib",
+    "sha256": "f69788d65008901ad85d51f932c9a8ed70db2575ab75d18cb881075491e24c41",
+    "size": 17152
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_semantic_recall.py",
+    "scheme": "purelib",
+    "sha256": "65616cd999be4158623dba2b87ce9d4d74928bf47a2122a9737b8217ebd562ee",
+    "size": 13110
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_source.py",
+    "scheme": "purelib",
+    "sha256": "3aac1ca6a1058c573cf8c4db1dc5a83e145868edf9f4e4fb6a54d4256eaac75a",
+    "size": 10014
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_status.py",
+    "scheme": "purelib",
+    "sha256": "d65481621ddd34032862a11e888ccdba75d67bf8df37764189c72314a3b78e5a",
+    "size": 5769
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_study.py",
+    "scheme": "purelib",
+    "sha256": "da559a61c5dbb3726c0888f7f93d871d14265d48e17f47047af930fb4eba3bdf",
+    "size": 33791
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_sync_all.py",
+    "scheme": "purelib",
+    "sha256": "8650ea0684d2ce4e6cc0bb2c86e988d05dc636349814fb8085c52e234ec23ba6",
+    "size": 36156
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_sync_heartbeat.py",
+    "scheme": "purelib",
+    "sha256": "674e7430671a28c136f8aaea582820e2baa24bf405c45a3468b5241abc272d84",
+    "size": 4911
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_sync_support.py",
+    "scheme": "purelib",
+    "sha256": "e39063c7177ab08e7596efae0157f8c4ce6588a3b224f56aa5122cd0af55d477",
+    "size": 32535
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_validate_export.py",
+    "scheme": "purelib",
+    "sha256": "cc10222819b2dadd7147d6828f982f0c7e519314275ebab404617324cc324198",
+    "size": 2038
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/expert_viva.py",
+    "scheme": "purelib",
+    "sha256": "56bd746e3820a8e1cf441acf7dfb1cb488180ea0d9243732305a5e6787c260ca",
+    "size": 11388
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/experts.py",
+    "scheme": "purelib",
+    "sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+    "size": 132931
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/grounding_support.py",
+    "scheme": "purelib",
+    "sha256": "35e42246c3774595651287dd883ff83dd956ea7a59f24de47b3b313bdd801d6d",
+    "size": 7412
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/local_expert.py",
+    "scheme": "purelib",
+    "sha256": "7d8dc3576452df9972a6eaeda92f34e2c0dc19ad3c1c75d34ea609760c891c45",
+    "size": 4556
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/research.py",
+    "scheme": "purelib",
+    "sha256": "d0ce0f33d06210f8a761ba777cbab2a37648cf53e1d09f6e63e5a71043e22f3d",
+    "size": 36223
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/skills.py",
+    "scheme": "purelib",
+    "sha256": "fcd83e6d6e9a9db20ca13c1c82ba67ad81c546c364117e19a1c50546abc0b892",
+    "size": 10115
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/semantic/study_backend.py",
+    "scheme": "purelib",
+    "sha256": "c4403d815aa2e06efda1786effeabd7defaa6f3f640ac1a98d06f10a8c727e34",
+    "size": 14550
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/status.py",
+    "scheme": "purelib",
+    "sha256": "8dd715978dc4796e35fd0c40bdf73a207f467773e4674c9110bdea1cfacc8591",
+    "size": 23174
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/team.py",
+    "scheme": "purelib",
+    "sha256": "c8c93ff7f80c86629a924bdc3ea6e3b0d29bebbb3da8085d1585ab977f5454e7",
+    "size": 23563
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/templates.py",
+    "scheme": "purelib",
+    "sha256": "89a696402d4af5b0dad4b09a177809c3734876cd042ecc03651b15bbd9f93424",
+    "size": 11136
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/upgrade.py",
+    "scheme": "purelib",
+    "sha256": "3f876e1d2c390b5a23965d16fc03fac43db41cb598d8d0a2e428b337b2dfb21e",
+    "size": 7223
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/vector.py",
+    "scheme": "purelib",
+    "sha256": "5506b71bcbb0274ffe83425acb74c46465d636c3e24a1fe34445604fc961f8ed",
+    "size": 12121
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/commands/web.py",
+    "scheme": "purelib",
+    "sha256": "2230562deaf13dcc4c0928b959c316df12d8e75e45feaa39f2755064525b241b",
+    "size": 3171
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/effects.py",
+    "scheme": "purelib",
+    "sha256": "364424c2c49f1bed41fb2f18994671e01de391030b4057bb06691f2b634f4127",
+    "size": 4544
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/live_status.py",
+    "scheme": "purelib",
+    "sha256": "c4f75e47f78daf748337f59af60972e273b712a0504278df538f3908f7ae77d5",
+    "size": 3114
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/main.py",
+    "scheme": "purelib",
+    "sha256": "b77446039ca03c13d42496a73fba5aac229bb765d9f69b83899564b72729d646",
+    "size": 14618
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/output.py",
+    "scheme": "purelib",
+    "sha256": "e1b7052e2e0bb94eded1e0d0fb3be257432ae8d4a32bcfc1b8ad1c81aee21d76",
+    "size": 19178
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/progress.py",
+    "scheme": "purelib",
+    "sha256": "4de3cef69c4e5fdda71fbce624fafffba2ff741489e87fc608a015f777fa3b27",
+    "size": 4581
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/realtime_progress.py",
+    "scheme": "purelib",
+    "sha256": "424e7710b9466707419f5c459cd97a556733d3cbdf003f4fe21fd9c7af8a8495",
+    "size": 15645
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/startup_banner.py",
+    "scheme": "purelib",
+    "sha256": "121a5171b5d998108d7ed8236fad2616cee95faf62e86d54b2b07c8534ec13ff",
+    "size": 11534
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/ui.py",
+    "scheme": "purelib",
+    "sha256": "68db43bea8f831d8b85c77cc819a40cc9e27af999f77e43cb0ed6946568e1d7d",
+    "size": 13379
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/cli/validation.py",
+    "scheme": "purelib",
+    "sha256": "c8615e7d8759a1b4c1b168340f07fffddea88c8511fe59c2c2cb2e12ab20315d",
+    "size": 7165
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/config.py",
+    "scheme": "purelib",
+    "sha256": "8285fac16f2cf252798e748e1039d39ea8391e60dbf8a1e040a9278ba428d2ca",
+    "size": 27570
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/config/models.py",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/config/system_message.json",
+    "scheme": "purelib",
+    "sha256": "1e6dac98789971202adf7142338d361e8a0c1285f1a1862da0e62b465a3635c1",
+    "size": 1122
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/__init__.py",
+    "scheme": "purelib",
+    "sha256": "bba7fc0fb2256d5411de744ed90da5ed4504ca872d03d1839485e3ea605b9241",
+    "size": 3772
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/company_research.py",
+    "scheme": "purelib",
+    "sha256": "2a979f962ffb874efba5793d50f0aa92a1ab5d72ec2966782efd2b600361ac68",
+    "size": 15123
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/constants.py",
+    "scheme": "purelib",
+    "sha256": "6829e0741dbf4bb782cd0258ea8069a00a0743073e5fd01abdb1e617f8693ca4",
+    "size": 11551
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/contracts.py",
+    "scheme": "purelib",
+    "sha256": "7a3d2ab8d70f21de6b95d08a47c328682fdd53fd4544ac262c8f913d1e23267f",
+    "size": 39837
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/cost_caps.py",
+    "scheme": "purelib",
+    "sha256": "7b8b9d277267f6fd36d60220db578b72e8934408b79ee9042fe7a15d4571b754",
+    "size": 34289
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/costs.py",
+    "scheme": "purelib",
+    "sha256": "079f7cf7ddc99f5929ae51a97c3a869898b36c3c09c530d11bd1a5d9758d323e",
+    "size": 14154
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/documents.py",
+    "scheme": "purelib",
+    "sha256": "a6d9ada142551b05eeec74d7c51dee451ba1f6c63c48f4185e54c908abba883b",
+    "size": 3242
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/errors.py",
+    "scheme": "purelib",
+    "sha256": "130491dd8e7069364f4044f2116f8f19171167a630cbca59a7574762b6d14313",
+    "size": 9181
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/evidence.py",
+    "scheme": "purelib",
+    "sha256": "eb61ad5f5abcba95af58f7846bcb9ab1278bef9db75bf97eb176fb91e1ce0403",
+    "size": 7933
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/jobs.py",
+    "scheme": "purelib",
+    "sha256": "12050a623f4f65534f83df37b336bda952e4e4325ab7dc92fa89f1fdea4137be",
+    "size": 8935
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/reports.py",
+    "scheme": "purelib",
+    "sha256": "9c8242455349dd2c0ea6ef74ad33eae4f261e1e88876e9c3d52ca3a17d8cabe1",
+    "size": 3004
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/research.py",
+    "scheme": "purelib",
+    "sha256": "00f55f4577faad3a3a1e747204faf63bba972350ab89f03f65f7cfa314c6d6d8",
+    "size": 34287
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/schema_version.py",
+    "scheme": "purelib",
+    "sha256": "59ae2a57d5125518dbb4a72db21db3e1ebe87e3bd11fb2fcb5d4ccca2ca8f183",
+    "size": 11172
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/settings.py",
+    "scheme": "purelib",
+    "sha256": "c3d9bf5926acd9882299d2f81823c7b151e219f8c0c422134497f60c583c3333",
+    "size": 41909
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/spend_wallet.py",
+    "scheme": "purelib",
+    "sha256": "a536e312cd9c52daba254caba2653efae5f897e904cc5b5ef7de181d39d32d56",
+    "size": 12772
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/core/unified_config.py",
+    "scheme": "purelib",
+    "sha256": "5c3d45c181156eb506c941ef1998b428807498b7fb6baf8251cddcd60700c708",
+    "size": 17129
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/__init__.py",
+    "scheme": "purelib",
+    "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+    "size": 26
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/benchmark_adapters.py",
+    "scheme": "purelib",
+    "sha256": "580390320fa2b5f44d0b3a715328951e0a7fd24fc35f2c89bc4d6096f145a9e3",
+    "size": 4842
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/benchmark_budget.py",
+    "scheme": "purelib",
+    "sha256": "03002f6f59d8c99697d46c662fee2c5745ddf532012fdb549abfd76f3a0acd4d",
+    "size": 7717
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/consult.py",
+    "scheme": "purelib",
+    "sha256": "e521fbb62e53beddbe64f89fd74b5e0e3eed3ed70b2be4a10ad6c35e9d236589",
+    "size": 24790
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/consult_graph.py",
+    "scheme": "purelib",
+    "sha256": "10bad558d2c4a393dae33a00a7bd3a1c302d6f2e607214620d0082e96b7433ac",
+    "size": 39741
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/consult_graph_accounting.py",
+    "scheme": "purelib",
+    "sha256": "c9e61d9d8392817455bda6a18abf20b26b77e428b823884fc5fde272b9dc7e82",
+    "size": 3921
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/consult_graph_contract.py",
+    "scheme": "purelib",
+    "sha256": "cb6c82f948795fdd620ce8244af2f9fc0da92b2a05058ae3d41a9a8202b4e629",
+    "size": 37811
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/consult_graph_transport.py",
+    "scheme": "purelib",
+    "sha256": "8ad22d5ef613fafdf91c50296781788ab2633f10c73774a1631a8d62a786e715",
+    "size": 8032
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/conversation.py",
+    "scheme": "purelib",
+    "sha256": "ed49089bfc71d9cf13993580353d6546c2351e3f7c7e1289ee3a9b943102b592",
+    "size": 24845
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/deliberation.py",
+    "scheme": "purelib",
+    "sha256": "2165dc041ad4083d41a43a829bcc8248cf88f64b830054209641a82e001e527c",
+    "size": 24518
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/epistemic_simulation.py",
+    "scheme": "purelib",
+    "sha256": "6f658304667a167b703158a0e8b6a41f0fee49d24076648ec1349cc7722a73b6",
+    "size": 41148
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/epistemic_simulation_pairing.py",
+    "scheme": "purelib",
+    "sha256": "3f6f60b7a6c10b8c94136b790124c5fa3a3d893f304e2467cce1a8dca470aced",
+    "size": 3704
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/expert_value.py",
+    "scheme": "purelib",
+    "sha256": "6475c5b8e6cd9032296b739b0887b7bf99fe4cf9a99c67342bd5a855351b3766",
+    "size": 41620
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/expert_value_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "15dfce586d291089bd04b8276ea50d08c36b75db0031556d49156339a18c3d57",
+    "size": 8212
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/expert_value_statistics.py",
+    "scheme": "purelib",
+    "sha256": "c141a4bbeb801cd6dfb6efe6a990d46485e07a1af2bd0c983290df1dfac70822",
+    "size": 5471
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/grounding_correctness.py",
+    "scheme": "purelib",
+    "sha256": "1bfadc96608e4cc1b4af3e93de578e4d75d10b839dd6a8413d32ac2d560b2c94",
+    "size": 22357
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/hallucination_risks.py",
+    "scheme": "purelib",
+    "sha256": "ed6aea2a8f57fcc041db3c9696802b37a0ccce5682dcd305c61cbbac516099b1",
+    "size": 25202
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/investigation.py",
+    "scheme": "purelib",
+    "sha256": "8069ed6a9e4603ff07682dfc6695725790fa4c1edfe8a35f53345f83bb21da15",
+    "size": 12412
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/judge_calibration.py",
+    "scheme": "purelib",
+    "sha256": "321d3f5d342d1ca4c34a45692c9521eaf2ad89eaf7e63060c15ec263379d2c52",
+    "size": 11962
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/judge_json.py",
+    "scheme": "purelib",
+    "sha256": "edb9e351f8560d9073b5c0c78f4a52256359e0cb4dca88f76695de3d5b24a6f6",
+    "size": 700
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/local_compare.py",
+    "scheme": "purelib",
+    "sha256": "c70efb69781049d2cd62427a553e1a9f3ded09e7e45cf000fbaf061c14ee5760",
+    "size": 13884
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/local_context.py",
+    "scheme": "purelib",
+    "sha256": "20fee9d0afb6a316e991b967eaa1d3e962cc6c5a0fbcefa894102063d1d24b32",
+    "size": 17130
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/recall_quality.py",
+    "scheme": "purelib",
+    "sha256": "0a8606b96545498077b3a78f3c9ea64bce63d1d5222136e748be58c605c24fc4",
+    "size": 40327
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/evals/retrieval_metrics.py",
+    "scheme": "purelib",
+    "sha256": "322559a77f8cb997276dbeaf07463d7d0eb227ae57332baa163cb7e1bbe3585a",
+    "size": 7406
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/__init__.py",
+    "scheme": "purelib",
+    "sha256": "ebd2c8f160842d958fcfd4f450bc5ea933504fe510155660b3b2dcbb04bcbb81",
+    "size": 3323
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/acquisition_plan.py",
+    "scheme": "purelib",
+    "sha256": "ed4d4dd3b27449373126e9af2cabaf9b38a1b5c71f113d24c305301a97f515c5",
+    "size": 12200
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/activity_tracker.py",
+    "scheme": "purelib",
+    "sha256": "71516719062403cdcb89a037233e2e001d14e68982fedc24250c9666ba69a195",
+    "size": 4757
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/approval.py",
+    "scheme": "purelib",
+    "sha256": "0141459d1c68b130ab702076cfa91d8f1710fdd9ed328cf12ced48b8785c3165",
+    "size": 4670
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/backend_pool.py",
+    "scheme": "purelib",
+    "sha256": "394bf39c8ce119f9361d304620558e0c37675dc5427443b9e3493e0c50486853",
+    "size": 8811
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/belief_edges.py",
+    "scheme": "purelib",
+    "sha256": "f73cdd4d3c6a1971a27f1328afa1849fe26672d0e0201d1311e5ccd1f73acb0d",
+    "size": 3648
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/belief_embedding_refresh.py",
+    "scheme": "purelib",
+    "sha256": "d48aa026aca2f78de88486b2cd82a9f0e39b830f583113b54438e9820f89bc56",
+    "size": 5557
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/belief_event_wal.py",
+    "scheme": "purelib",
+    "sha256": "49f82b8f883e43a0469c00e8d268da534e16548ef70a70ee1f6bfae693c5ce11",
+    "size": 2075
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/belief_vector_index.py",
+    "scheme": "purelib",
+    "sha256": "6b7689bdeb856a8e9a2cf3df841af61f2d48a68a76a5d8a0862358bc2d7acfa5",
+    "size": 8886
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/beliefs.py",
+    "scheme": "purelib",
+    "sha256": "a465a6e22e47940618a208a38b2ce984d8c59854e381beeee2fc70088436c0ae",
+    "size": 60996
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/blueprint.py",
+    "scheme": "purelib",
+    "sha256": "676513c6beff1f1bb46aa7b83fadda2e2079e1bdc6cd626671578befc8f9a145",
+    "size": 19836
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/brief.py",
+    "scheme": "purelib",
+    "sha256": "b49ab94b0b4f68c0caac5e94f25e51370bf1930b3d0a29c552effd17cd9f881c",
+    "size": 26268
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/brief_contracts.py",
+    "scheme": "purelib",
+    "sha256": "e16da725819ee3700362c55535d61bc11bd007321df78e5e479b32a31d22cee9",
+    "size": 18485
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/briefed_perspective.py",
+    "scheme": "purelib",
+    "sha256": "f2216de864eb4e60c58cc895a059a9d546666c304b44a8487709b23cfa732ceb",
+    "size": 4126
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/budget_manager.py",
+    "scheme": "purelib",
+    "sha256": "129acf4c0ca5b0db6f7d98d0e9bcde8641991dd9bdcb1ace9687aa0545dddff1",
+    "size": 8985
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/calibration.py",
+    "scheme": "purelib",
+    "sha256": "33bdb387a44de52445236a41bcadcc621bf89357d87e17e9b4c28a28f109de74",
+    "size": 15841
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/card_pass.py",
+    "scheme": "purelib",
+    "sha256": "ddfccc5508c8026ee822aa1f7c446e8d4961dd6518f33a9fc38b7117dd1f3fde",
+    "size": 7354
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat.py",
+    "scheme": "purelib",
+    "sha256": "4ab5a88977581ab78ca6550446578aec1b596eb3da66fa06bdf478dd5ffd89b5",
+    "size": 114911
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_api_backends.py",
+    "scheme": "purelib",
+    "sha256": "259e4250f50401c8e311baf2ec0d61a12b35a688a83df4fc165d6e47cf6af23a",
+    "size": 2753
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_backends.py",
+    "scheme": "purelib",
+    "sha256": "34885a2cb92b01c611d246bfa8b3be58b0bfc9560124262d6e5eebdbdae75ab1",
+    "size": 18149
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_capacity.py",
+    "scheme": "purelib",
+    "sha256": "42a230166e6c78819b6610ed2d5afe9523ad4d304c0f66fc17d399aefcab4671",
+    "size": 5450
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_grounding.py",
+    "scheme": "purelib",
+    "sha256": "852645f4cbfb2ff33fb5d76d54234d66e69954bcda64e6bc1b4aa7499f1548fc",
+    "size": 5451
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_metered.py",
+    "scheme": "purelib",
+    "sha256": "d6ab659d1e28e5d3e7d0e0b40fc60e10535acf7792293c16c63ebf1ea8c2bae2",
+    "size": 5363
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_research_ops.py",
+    "scheme": "purelib",
+    "sha256": "1c48441cf908e5952f1ce43ec0e83c0ad0a0cf812efaaac0afaac3d7922930da",
+    "size": 1848
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_session_ops.py",
+    "scheme": "purelib",
+    "sha256": "9619f72708c0d64bfeb3200f5a08750a6153d16301be88e86a9e4a0327a54a05",
+    "size": 6112
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/chat_turns.py",
+    "scheme": "purelib",
+    "sha256": "d7db03700d92f3510a859a2c7c282d0b7ee0fb74003b5a7e9605827d28bc73d8",
+    "size": 7150
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/citation_validator.py",
+    "scheme": "purelib",
+    "sha256": "92ca62eb0086f00920d8173c10f6254615f4a969d22f19101df507cf39d34257",
+    "size": 9754
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/claim_extraction.py",
+    "scheme": "purelib",
+    "sha256": "ff9a65446f83266661b4ccec18c912df8f0fd3941bd1a1a3ff455b2bd2129b86",
+    "size": 15743
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/claim_inventory.py",
+    "scheme": "purelib",
+    "sha256": "1749e6c5c68480b2f5f712d8b193c67032811b9951a050c6db8dd1e25a3e3610",
+    "size": 3033
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/claim_verification.py",
+    "scheme": "purelib",
+    "sha256": "0c7a5c74f1277514f5f1844530d96ea54c07431bb81f6228ae42fb6eeb787312",
+    "size": 39144
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/command_handlers.py",
+    "scheme": "purelib",
+    "sha256": "ef13fc25a1d3920862a516d0b6e738e4b2d5b8668cacb41db1650eab4850dba4",
+    "size": 19335
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/commands.py",
+    "scheme": "purelib",
+    "sha256": "689df8bd8a66a892cdaaf18d054354b924404a24d65b136d4b33c542e75adb4e",
+    "size": 13326
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/confidence_calibration.py",
+    "scheme": "purelib",
+    "sha256": "1cda0ba707c49fedf30dd6ab6e1956859ec828c30c2f499fa7735f19da9424a3",
+    "size": 12539
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conflict_resolver.py",
+    "scheme": "purelib",
+    "sha256": "ffc674aa166707355d4bba8e2b24e48a216bf9541cba8111ea5ed6ebb9374c96",
+    "size": 15655
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consensus.py",
+    "scheme": "purelib",
+    "sha256": "270b69d230e4cee6e2011bafd16a715a819fd6464497b741653855c300436e6c",
+    "size": 19778
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/constants.py",
+    "scheme": "purelib",
+    "sha256": "802c0a730ccffa4e13d71dcb1df01b5965664e8fa5067e1dbf0247722d8268ff",
+    "size": 1031
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult.py",
+    "scheme": "purelib",
+    "sha256": "26deeb131463809e42a32374bd816743294d82396b956ba6e420b287efbc874d",
+    "size": 20217
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_context.py",
+    "scheme": "purelib",
+    "sha256": "f3f25ad596220888201b1e74bf684b19abb7ec523a943d75d0f86f4ee7c50b05",
+    "size": 14948
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_lifecycle.py",
+    "scheme": "purelib",
+    "sha256": "5e9d46b35d1440f12040dc57f3f4453f2c08e052f61c8e9f5de3e6a76fc7620e",
+    "size": 41518
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_lifecycle_contract.py",
+    "scheme": "purelib",
+    "sha256": "15d7ab4c72edb90d18b36cd70e585b196a5ba557b1672ab6ec30187854663ce4",
+    "size": 5068
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_lifecycle_errors.py",
+    "scheme": "purelib",
+    "sha256": "7da2c0515ebdd0918882fada08de3e379f62ba783f1859ff534207c98f2c2fb4",
+    "size": 1944
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_lifecycle_storage.py",
+    "scheme": "purelib",
+    "sha256": "8bbdf0fb5bed8535e7705417babe4308e5ecd2c985ac06274ded16039f5f5590",
+    "size": 3204
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_quality.py",
+    "scheme": "purelib",
+    "sha256": "9b297cc106340905bfaa3b20930a5ab3b6eb1ef43df9ab2b513efa1a5a8fae71",
+    "size": 29685
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_quality_judges.py",
+    "scheme": "purelib",
+    "sha256": "283ea62f96de6a4e63a42e35c58c1b6ba2f5759298176b44c082aded8da43046",
+    "size": 25096
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_traces.py",
+    "scheme": "purelib",
+    "sha256": "ec11116d0ce01b5874bcf46e9e578cbefb9f1992ec925946faa442768be71ce9",
+    "size": 32931
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_transaction.py",
+    "scheme": "purelib",
+    "sha256": "a3bedebe1c54b9434a84a2716b0639d4a3bbd45885fde294430c52b8ac5b2cbf",
+    "size": 36232
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/consult_transaction_errors.py",
+    "scheme": "purelib",
+    "sha256": "9fecbaab1785e51b8f317c41a25a5ad1d9cdf56ba2834b1273bb0fc7ddb243aa",
+    "size": 2966
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/continuity_metrics.py",
+    "scheme": "purelib",
+    "sha256": "b27eed4b0a4a38bc8ea868fc12d1c4ab26d54b7960d8f196adcf83105d2792bf",
+    "size": 21633
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/__init__.py",
+    "scheme": "purelib",
+    "sha256": "c99346dee0473e783cd7c0bbd382f2df384f0de0a4c233db9d06df29c99ece03",
+    "size": 1803
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/context.py",
+    "scheme": "purelib",
+    "sha256": "e71578e105255bfddda97810355a1a25122f3e51dae00d4cb2f0dae63988acae",
+    "size": 6796
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/database.py",
+    "scheme": "purelib",
+    "sha256": "0cf4413b85fc746b65a4bac4b86d7ca74c68a749ef200e5fbad538dc9183da0c",
+    "size": 3479
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/local_executor.py",
+    "scheme": "purelib",
+    "sha256": "09d704f0d453f0a9786fc6992b9dda652209965bc200f815a826b425f400396e",
+    "size": 12514
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/models.py",
+    "scheme": "purelib",
+    "sha256": "adbab8e8ce090a171e10c0ab97fa5f3366ec640d89547cd6b6057f88d4db4f34",
+    "size": 39753
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/reservations.py",
+    "scheme": "purelib",
+    "sha256": "f71d8da9526fa29cfceda4760707cf7c8608e6ae216b36963623c0b62e7d7913",
+    "size": 22660
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/schema.py",
+    "scheme": "purelib",
+    "sha256": "2ccf7049ec9b706a8269e2fcd2e5266e9c385dfa84eced5e002cd5429c6137f8",
+    "size": 8242
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/service.py",
+    "scheme": "purelib",
+    "sha256": "aff03a450343ffd69c1f801c209325361f6903e561e42c84df0df7c5f85f4418",
+    "size": 7952
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/snapshots.py",
+    "scheme": "purelib",
+    "sha256": "5b843a673cd61dc114ed7821490b5bf480f2a1380c32ce79e6c13569db4dec84",
+    "size": 5728
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/store.py",
+    "scheme": "purelib",
+    "sha256": "e079867bba12b5cdfcd22931305d58c673b143171ef8255c7a7defa1b337f0a1",
+    "size": 20485
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/conversation/transitions.py",
+    "scheme": "purelib",
+    "sha256": "af82b510bb6277bc197b85ca1a27c8a82695dc11f313fb24604bec5ba0d4ac91",
+    "size": 34004
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/corpus.py",
+    "scheme": "purelib",
+    "sha256": "d6ff205c1ae10b4086e3c7899bfe1514debf4727baeef2ab2a0b9c8d927f2759",
+    "size": 20245
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/corpus_acquire.py",
+    "scheme": "purelib",
+    "sha256": "07fb56f0e06e6d58f4526e1dc289d4c3e4afafb20fc5c15b66e9a9b34b3da2bb",
+    "size": 7848
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/corpus_independence.py",
+    "scheme": "purelib",
+    "sha256": "3c0a01d726ad2de7738fb8b931fccf8fb6a4cb7a7aa9eae39ffa0ff811ca2934",
+    "size": 6307
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/corpus_search.py",
+    "scheme": "purelib",
+    "sha256": "4027eb3ce115a0fc03dd3432cddc693512eca1e43f83d5163a630efff445e5d7",
+    "size": 11957
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/corpus_store.py",
+    "scheme": "purelib",
+    "sha256": "9584cc738eacd262bd68041f1f5788663112183c3eaf359490a74cdc725b1f28",
+    "size": 13495
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_admission.py",
+    "scheme": "purelib",
+    "sha256": "1d6dd5f35f058faa3356f68ed928adc63eaccba14d6928e071c84d7a2139a6c7",
+    "size": 4027
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_circuit_breaker.py",
+    "scheme": "purelib",
+    "sha256": "ead4aa891f6ac77b1905d21bf0fce0fcc6e66569d12aae6abcb39f4d153c4f89",
+    "size": 7673
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_safety.py",
+    "scheme": "purelib",
+    "sha256": "b47fc0d280a8b16299a4d7bb18ae78633ea7cb0f255eb818da8313145c47b8c4",
+    "size": 42252
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_safety_durable_identity.py",
+    "scheme": "purelib",
+    "sha256": "601d215439f18e6eaf1b20cbeeed300c2d227990cbf1e4462d4931ce90c22793",
+    "size": 2753
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_safety_ledger.py",
+    "scheme": "purelib",
+    "sha256": "8c020515f994e6b684d489e080ca657f06131d31c73cbc0a1434c827342fe890",
+    "size": 6682
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_safety_messages.py",
+    "scheme": "purelib",
+    "sha256": "99c2690747733736b3ff958577d862d43d7258a60f464050b1a0680ef78f522b",
+    "size": 2099
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cost_safety_windows.py",
+    "scheme": "purelib",
+    "sha256": "b5e76e9541e9cfa220258872f57778e83530f9938fe8acdb5a072d91cd7d0ddd",
+    "size": 3648
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/council.py",
+    "scheme": "purelib",
+    "sha256": "999634c37c245d93ab0e4357210555d9dd169f61494f0cf0501c961e94540b9a",
+    "size": 43083
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/council_plan.py",
+    "scheme": "purelib",
+    "sha256": "9c89ed023adfd546bbafeecc2870b88d47c07b3fe2bd7fff270e27eec9fc77a2",
+    "size": 19913
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/council_synthesis_costs.py",
+    "scheme": "purelib",
+    "sha256": "85f179002f04848fcf5ab69222b75899df21abaf5251d65022798db492f97e07",
+    "size": 23348
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/council_synthesis_runtime.py",
+    "scheme": "purelib",
+    "sha256": "f255b527a8c0cdbb3b5ddb9810d6150abc0127f04b8da3ca7c988a190137f6a0",
+    "size": 5162
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/cross_domain.py",
+    "scheme": "purelib",
+    "sha256": "bd4fc4304b95db5b70d7c851eef820fc7912a26cd967582dbc13cebf58fc9a85",
+    "size": 9399
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/curriculum.py",
+    "scheme": "purelib",
+    "sha256": "43458ddc3f73a9758d077ec4741d9be08c5a26e852096a2e087221a63139d085",
+    "size": 58244
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/dashboard_telemetry.py",
+    "scheme": "purelib",
+    "sha256": "1b1bffa9fa0e6edf06726bbcd994d155ba3de77108025956ecf0b8e4a75dfefc",
+    "size": 7101
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/deepen_plan.py",
+    "scheme": "purelib",
+    "sha256": "aaa393d1f84ffb08790f5625054bffa3eab1e6d1e3b368e6efcfd935103bc31f",
+    "size": 7525
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/digest.py",
+    "scheme": "purelib",
+    "sha256": "56761f6521e4f060cb6265f05eb034594e48f4e7d654a09ff0eeac7c91e56ae8",
+    "size": 11939
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/dspy_pipeline.py",
+    "scheme": "purelib",
+    "sha256": "e43aff2ea460abf148b21233f70cc9ec2d16dff09deded506e5322242bbcd7db",
+    "size": 27768
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/edge_temporal.py",
+    "scheme": "purelib",
+    "sha256": "0510123d8d94d5855e180201498153e08d885ec6f22a0dae1043a5b225f01e66",
+    "size": 1927
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/embedding_cache.py",
+    "scheme": "purelib",
+    "sha256": "49fea8a6ae9c83a6c9c17d5b387f023d387e400088f073fd484e3c4f23056ca3",
+    "size": 12084
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/epistemic_simulation_context.py",
+    "scheme": "purelib",
+    "sha256": "977d5eb483b0f2efc2702d82096da4b9da4b5d4f145b3aeba773140d91d696a9",
+    "size": 11983
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/epistemic_simulation_contract.py",
+    "scheme": "purelib",
+    "sha256": "0c7008f3c544da631d5ff9a9e6e3325195cc735c1977661d4d4e24c3c73cbde8",
+    "size": 44288
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/errors.py",
+    "scheme": "purelib",
+    "sha256": "6eddeeb3cdcc0f3fc2a6acd0d745fb35c72ad95a5134a90ce6d260a55b099f3e",
+    "size": 6102
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/evidence_graph.py",
+    "scheme": "purelib",
+    "sha256": "c52aac61cce96c05a5ec97ef58787041e5cb0a3391c676316d71218e41429ca8",
+    "size": 16022
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/experience.py",
+    "scheme": "purelib",
+    "sha256": "f34a3fe4d0e1a2022bacd0f9664ff211cab24b63af417c2fa24bee9a0a8881f7",
+    "size": 9540
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_health.py",
+    "scheme": "purelib",
+    "sha256": "15f94c074668e01e4426c465213f3c7a0fb2a901c99ce34ff055111c724f7c75",
+    "size": 29285
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_layout.py",
+    "scheme": "purelib",
+    "sha256": "6af4d9f29927843ccdf4f3b105fd79b413c02f96d0d1e42b474f96e729d0b917",
+    "size": 8113
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_migration.py",
+    "scheme": "purelib",
+    "sha256": "d4f31961e77827aeabd4aa1ee8812ca2f6fec01f5e8b1393278973cba141d91c",
+    "size": 4684
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_profile_card.py",
+    "scheme": "purelib",
+    "sha256": "a151dd03c7eebd813f3abcfa3faee3f440ab2501c2fccba90cd6a019d536acbb",
+    "size": 15714
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_routing.py",
+    "scheme": "purelib",
+    "sha256": "568068944d82b8d8b1d3957f52676b386bd4f296f810a549d0beeef2da840d2b",
+    "size": 4124
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/expert_semantic_recall.py",
+    "scheme": "purelib",
+    "sha256": "b96b45becc356ee872cfba62d85f4a75a040ab0a7c16e7f722ffa6840fa8727d",
+    "size": 13648
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/export_validation.py",
+    "scheme": "purelib",
+    "sha256": "a003f695d9516ba4627f093e926506678d50ce074d7ee41d3e0453477f0e4db6",
+    "size": 8251
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/fleet_schedule.py",
+    "scheme": "purelib",
+    "sha256": "ed466489836404e3aa20718071f95754b5e1c29d1773589f730a35356d6e0563",
+    "size": 15610
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/fleet_status.py",
+    "scheme": "purelib",
+    "sha256": "8bf09a56fccef8381c30ac11940dd462e6f599a4700e821007d534e5bc5ae710",
+    "size": 11925
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/freshness.py",
+    "scheme": "purelib",
+    "sha256": "cf458f8d727b9a2d3304becb3297370bf4e7f31a5c681d2171405fbca2fd30ef",
+    "size": 10486
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/gap_discovery.py",
+    "scheme": "purelib",
+    "sha256": "cbc94bbb4dd51d2a3eaba82a11f3e72b95552d7cd118e783dcc26891869e457a",
+    "size": 12801
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/gap_fill.py",
+    "scheme": "purelib",
+    "sha256": "0804017bcc835e8c438cded6e65b29a260fcce293666a02f913163e61e1a1d63",
+    "size": 12470
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/gap_router.py",
+    "scheme": "purelib",
+    "sha256": "a01ef33b1f47ee6365176d002e7c53537191b287b7d65d7dd50c842ce1eb8807",
+    "size": 8430
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/gap_scorer.py",
+    "scheme": "purelib",
+    "sha256": "aa36fd39b1cf0d3f2a485b6a5019a2234c916039bfdca7a452bc7e7903b53604",
+    "size": 1703
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/gap_spend_gate.py",
+    "scheme": "purelib",
+    "sha256": "f172ddcd65deb4793b456e77cbc7f7568e1aad32e0ec5078fffb32937cf1b59e",
+    "size": 2748
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/graph_commit_apply.py",
+    "scheme": "purelib",
+    "sha256": "8661fda66000ae93c271253d7baaa3d572491d3fc302dfe0c5d96641f5f57985",
+    "size": 39129
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/graph_commit_envelope.py",
+    "scheme": "purelib",
+    "sha256": "ab632158816149680ad02238cfd811fbcfd693354711d1c1d0e786b7cea07541",
+    "size": 41754
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/graph_commit_provenance.py",
+    "scheme": "purelib",
+    "sha256": "91ef1fe7712819d8a4b3ffd46a83221f785be64bbd20d3a1655718f4e53a783b",
+    "size": 23664
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/grounding_escalation.py",
+    "scheme": "purelib",
+    "sha256": "7ce908cf22e7e70d71d5a65915b4682e3319dd8409d25bf52d1df2840f536154",
+    "size": 7872
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/handoff.py",
+    "scheme": "purelib",
+    "sha256": "bb92648dde1ee8ee76bf06b9ba4da5f90045f7d22c745f7db5883ac60df9f29c",
+    "size": 8873
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/health_check.py",
+    "scheme": "purelib",
+    "sha256": "df2e9810c4080813f9850b12ff05774f56aa4549f55763f4a193fdfe9da551e4",
+    "size": 21815
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/heartbeat.py",
+    "scheme": "purelib",
+    "sha256": "289e01448b8b0a7651ac9f3292a95c8c37d9439624896bfc163daa8915566914",
+    "size": 3621
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/__init__.py",
+    "scheme": "purelib",
+    "sha256": "40fa0738d59b65324b68e4220875442c88bc9feb6d84fb009f5c7f0d7202efd5",
+    "size": 521
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/executor.py",
+    "scheme": "purelib",
+    "sha256": "964866a2412bf99d61160246b163c3d47b30555397334d820515ee7fa6d527f2",
+    "size": 35669
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/inputs.py",
+    "scheme": "purelib",
+    "sha256": "ceb13aa1a2c1c8e467ac9ea5f06151f85bb7c0556b78e1f133294d7eaa54811b",
+    "size": 28654
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/learning.py",
+    "scheme": "purelib",
+    "sha256": "92a5da01e5d0eef7f1525b0088528a652140c8d2c29d7b3090ff8ec3047caf1b",
+    "size": 9015
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/learning_apply.py",
+    "scheme": "purelib",
+    "sha256": "f53809be1e0584054d6e5898a4adce677a9dfa06d853774ba595ac9a6102f278",
+    "size": 18469
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/models.py",
+    "scheme": "purelib",
+    "sha256": "78fc4e19f0979c4ece64b0d0fd6ce69a8a075bf62134368175bab0b55a93e8a3",
+    "size": 21667
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/ollama_backend.py",
+    "scheme": "purelib",
+    "sha256": "601e824ca9d86c5c5f070fdb9b4a7030686526a55b89b9a228866007e88c2c2e",
+    "size": 7105
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/perspective_learning.py",
+    "scheme": "purelib",
+    "sha256": "b74510b4695b4c74e42bd36227c1f6f8d371b206d1ad02ede9d654f5fc783324",
+    "size": 9065
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/planner.py",
+    "scheme": "purelib",
+    "sha256": "c90042af83fe8da4f498f42f8d3dcce55c30e21b906e8ae67ebdb6ccf58d3d29",
+    "size": 15405
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/projection.py",
+    "scheme": "purelib",
+    "sha256": "dfe2a6796b28a02395a221ad1a8cba0c962b19f00f79d1ba5b382bd9884752c3",
+    "size": 21020
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/protocol.py",
+    "scheme": "purelib",
+    "sha256": "581a6e5b27ae066fecb0d0a667ea3c5acc9e905e1756a212c9ab26684754c5c8",
+    "size": 39924
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/runtime.py",
+    "scheme": "purelib",
+    "sha256": "8efec1c173c3ff5d8a2292fea5e1235a3b8f00d6c6ef2998466624e6b9b84bbf",
+    "size": 16566
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/investigation/store.py",
+    "scheme": "purelib",
+    "sha256": "fb5c66d6fad300230b38996ff6c454bf854e4e99cd6fde9f6a1b1b4c27f80c65",
+    "size": 15311
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/knowledge_consolidation.py",
+    "scheme": "purelib",
+    "sha256": "75ed3a0e1624857458786843f0b8de1ad506b8ba68069beed3192248628f9324",
+    "size": 16233
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/knowledge_freshness.py",
+    "scheme": "purelib",
+    "sha256": "ecbc441c7dcfd1a1675a030662628173096bc9e227711c24c0e727a061a7de41",
+    "size": 7191
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/lazy_graph_rag.py",
+    "scheme": "purelib",
+    "sha256": "6f48900d1c0d81a9aad69d870967c84d122dd8923bf8c1f9e4eea6f6c75d691d",
+    "size": 66942
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/learn_web_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "442501f38011503b8c4095b732debfe6225bea94617b827c8bb8ed20eb25db5e",
+    "size": 5675
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/learner.py",
+    "scheme": "purelib",
+    "sha256": "37d59745795ad1e0a5defff7e33bc77461c1bfe753f93d42720df4e28f0bb14e",
+    "size": 55234
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/learner_persistence.py",
+    "scheme": "purelib",
+    "sha256": "75e35c1bda3bd26254dab0db13652c01b278cf5a71b6f14438c98bcfcd0138ef",
+    "size": 5978
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/legacy_state_migration.py",
+    "scheme": "purelib",
+    "sha256": "73890e3fc730e234b01ca6abf66b319dd1da3fb2867e1f776ee9bafad8146767",
+    "size": 11044
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/local_image_cli.py",
+    "scheme": "purelib",
+    "sha256": "47dba9f7aab89af256460ca44024dab086fad5133a2d79414d9c16993c2d1bf1",
+    "size": 6870
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/local_research.py",
+    "scheme": "purelib",
+    "sha256": "69ca2694cd682d97c2fb2904283dd07e2837baed02c61e1b79312c8324ed048d",
+    "size": 15703
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/loop_admission.py",
+    "scheme": "purelib",
+    "sha256": "882eab28052360daeb4d7e0c43ff8edc5cdd1600647a7f8aa8019c151d8a3ac2",
+    "size": 3533
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/loop_capacity_outlook.py",
+    "scheme": "purelib",
+    "sha256": "5bf8a28114e66a36f3a065ffeb7f946c4007f2c79ca8198b1f4296b64b7fc288",
+    "size": 4322
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/loop_lock.py",
+    "scheme": "purelib",
+    "sha256": "cffe8bd683848d5bb547a439694c7bdb70dc8b5af601f875eeb10ebac37364d5",
+    "size": 4248
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/loop_runs.py",
+    "scheme": "purelib",
+    "sha256": "ab9159ed9e9ec744fa46b35c2c732a8f4e314fe2c436e29ffedffd4cc7a897e5",
+    "size": 19407
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/loop_status_rollup.py",
+    "scheme": "purelib",
+    "sha256": "349b798eb90100b036e266a6c18c5cf7879baae024ee4d96e40f1473709ba8c8",
+    "size": 6272
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/maintenance_engine.py",
+    "scheme": "purelib",
+    "sha256": "0f6e72f266fa5248df4b62edd748aab576a14d7617ba8cc5c665ae59e796d79d",
+    "size": 13586
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/maker_checker.py",
+    "scheme": "purelib",
+    "sha256": "b4eca52c6d4ce64c979cc427927489879ee8f7885820346bd99a36a4006b6672",
+    "size": 10731
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/map_reduce.py",
+    "scheme": "purelib",
+    "sha256": "8dbe7c14d5a624f39ed9484d7de8ec6475692fa883c4d8d0266df3ed0f106394",
+    "size": 11784
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/maximum_charge_contract.py",
+    "scheme": "purelib",
+    "sha256": "16c3ce116effa1d00b8c92c41cf01c1c8ed5d255a78ecd604efdba9fbe02217d",
+    "size": 17141
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/memory.py",
+    "scheme": "purelib",
+    "sha256": "e2087260a07efc79a69a4bdbdf6231bc211f8edbf55a05c492dff9c7aa3899a5",
+    "size": 44857
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/memory_card.py",
+    "scheme": "purelib",
+    "sha256": "872baf481474a970f42b16375e0ca826ed59c3a7a4015fe2c0bb1a8aebf97bb9",
+    "size": 28768
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/metacognition.py",
+    "scheme": "purelib",
+    "sha256": "ce6639dfc5128c59ddf9539d30b59345830ee074536c14e438b904d69391143b",
+    "size": 26758
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/metacognitive_monitor.py",
+    "scheme": "purelib",
+    "sha256": "286884d25e0c60eccd23a1cde80f876f56bd0c0ce87f827db323d206663d2737",
+    "size": 11877
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/metered_mutation_gate.py",
+    "scheme": "purelib",
+    "sha256": "34afe1eaee8c7c36a9c09b162d50230b6e7556e726a098393aedb5dbd3e6a6da",
+    "size": 3214
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/model_provenance.py",
+    "scheme": "purelib",
+    "sha256": "d7975cececbe6742830df94dfb04d826220c9d3a6bf9c28019cb0a530801e4c0",
+    "size": 5915
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/monitor_promotion.py",
+    "scheme": "purelib",
+    "sha256": "831fd0fe29c30038d9dcd9cf348af03c8b375e352729b59012e3a70b5f3081af",
+    "size": 8692
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/multi_pass.py",
+    "scheme": "purelib",
+    "sha256": "0b761adfaab9d4fac2cdfd25030dcdda0438b322ec641b589c385b21ef046784",
+    "size": 15999
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/mutation_audit.py",
+    "scheme": "purelib",
+    "sha256": "f30b917ee868026c2c95262d3b580cb3d761ac21ae0bf513ecba35fdf1bcf3ec",
+    "size": 5488
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/next_actions.py",
+    "scheme": "purelib",
+    "sha256": "549affc31968f4ac6bb5249ffb6642468a825bc9fee4afb5a81ccd00deee80bd",
+    "size": 10684
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/notebook.py",
+    "scheme": "purelib",
+    "sha256": "baff8c47a5daaf0d1736821299e557062f579eb7b19059e6145d3b826c669a84",
+    "size": 11537
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/okf.py",
+    "scheme": "purelib",
+    "sha256": "7ddaa1b55107362189e0a8e9ff077830812cf7f7dac5bb87e4ca9552ec1b50dc",
+    "size": 25205
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/okf_contract.py",
+    "scheme": "purelib",
+    "sha256": "8561ef809816f5e9d4eeea677a6db80e06badcab67891988c31493a96e824d21",
+    "size": 22503
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/okf_publication.py",
+    "scheme": "purelib",
+    "sha256": "f339bfd6a83b3b7c2871372c0da7f3209370990ce82d3379301f4f496adda4c8",
+    "size": 23316
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/outcomes.py",
+    "scheme": "purelib",
+    "sha256": "92857561df179a799ac91515ed0e0008283f264af2b598600e776ccc51b9d014",
+    "size": 18200
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/parent_budget_store.py",
+    "scheme": "purelib",
+    "sha256": "f73b865dfbc0ab95600405917b012cee74ba9427bc4ec5095d5fd6462d173c1c",
+    "size": 14966
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/parent_budget_transaction.py",
+    "scheme": "purelib",
+    "sha256": "a2e6e2efef503925a499633d577d571c52d47c88cf92096e4223f4f7ae418394",
+    "size": 12559
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/paths.py",
+    "scheme": "purelib",
+    "sha256": "7d0fbf9da4d18e3ebb7b5f7f90c14ca5a73a6beb0bfd6c0fb3bd0cd9f897ef22",
+    "size": 1899
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/perspective.py",
+    "scheme": "purelib",
+    "sha256": "107d4001a0ec7456c93d6db9d661007cfcddbb009d712ad2a566c71e53af1727",
+    "size": 26070
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/perspective_graph.py",
+    "scheme": "purelib",
+    "sha256": "a3130f815f8c1fa368e615c16ee2296a3e7f671e2707680871e320b3c79217f7",
+    "size": 15127
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/perspective_state.py",
+    "scheme": "purelib",
+    "sha256": "e49b82418d5ff84ac61510085ece8f0a5e3e8f81cc2328f35f61f1c17f91b997",
+    "size": 5400
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/portrait_cost_gate.py",
+    "scheme": "purelib",
+    "sha256": "5b2beb370ef4ee1cef08e7002fa5a2d4d5b01a03949dede6dcbed239c5e77d91",
+    "size": 2601
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/portraits.py",
+    "scheme": "purelib",
+    "sha256": "969aab8614b11f7750ca4120f1c986ba006d1df1d116972f0a9747ee15ad7335",
+    "size": 19579
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/position_ledger.py",
+    "scheme": "purelib",
+    "sha256": "5126b821cf10b989cf74787954789dfceb73d76edc4fc72e7186eead506368c4",
+    "size": 16761
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/profile.py",
+    "scheme": "purelib",
+    "sha256": "7fbe71eda2cd9c17a6d46da04c0d2a9fa28407952080e22f11d9f22b71b714c7",
+    "size": 25095
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/profile_store.py",
+    "scheme": "purelib",
+    "sha256": "75f231c61299ae77bbcb414a9782fc258c20e0322a732af01e5eba1eaa2100d7",
+    "size": 24730
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/quality_scorecard.py",
+    "scheme": "purelib",
+    "sha256": "124f76084e7a158f9b446b78980398194d7f10f6d1cd03b5186d9362fa073f3b",
+    "size": 13968
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/query_proposal.py",
+    "scheme": "purelib",
+    "sha256": "2be9379324366cbc4b988dac2c6c46e05a79b5c13846445d9035ec2e7227c27b",
+    "size": 7925
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/reasoning_graph.py",
+    "scheme": "purelib",
+    "sha256": "114a6dc56d634c729ab2a8d67ad3a876082703c67f85dc2299821631a5d2f51c",
+    "size": 37179
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/recall_case_candidates.py",
+    "scheme": "purelib",
+    "sha256": "7184eeaa3a1b5620ac8ce067b8681c63e268ab5ecd3aacd8533b76fbb449cbbb",
+    "size": 3648
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/recall_preference.py",
+    "scheme": "purelib",
+    "sha256": "c40b3efcad3ac33bcdceecd0593cc6398e02b771b4eeb88ef96960f653c23924",
+    "size": 4552
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/record_identity.py",
+    "scheme": "purelib",
+    "sha256": "37f55cb1d04553e2f580ea8b10d5bab81bdfe20a21312389d9c4ab1fdf3ceb5a",
+    "size": 5644
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/record_time.py",
+    "scheme": "purelib",
+    "sha256": "76421aa2d808e6559cc8a11f13a1ea0d05976c40c1eacec87c718a15a87d2254",
+    "size": 5821
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/reflection.py",
+    "scheme": "purelib",
+    "sha256": "95bd590aa1a80457471b30157e684688ac25efc63ede634361f8b391b4408c55",
+    "size": 11190
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/report_absorber.py",
+    "scheme": "purelib",
+    "sha256": "6f8fe2df9d2f4e5a10bf27c6db7263c00f9c9fde7b53e591029721958f6bcc08",
+    "size": 48225
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/report_absorber_candidates.py",
+    "scheme": "purelib",
+    "sha256": "805f829187ee14f217f9fd72265e66478ee20a42f07cd88db42e19af65ab9aeb",
+    "size": 2501
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/report_absorber_commit.py",
+    "scheme": "purelib",
+    "sha256": "2fac2a9e822dbdc5f554ddd17304d12a0a4b6a128db9339efe5dee5e3e6f3701",
+    "size": 2685
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/report_absorber_contracts.py",
+    "scheme": "purelib",
+    "sha256": "c52661b8fdf9ae052096ab49d18efd95ee4a1b27730280658a4b145af9072244",
+    "size": 9997
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/report_absorber_costs.py",
+    "scheme": "purelib",
+    "sha256": "d333ff7c7cb14264ab5efc7ee3154387547cd0acf65c4f186aa23100423032d7",
+    "size": 3572
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/research_cost_gate.py",
+    "scheme": "purelib",
+    "sha256": "789ae45a4bb1d6bbf0d4c404c0528fe9b11984a3177c4b43fd0c91fe325af554",
+    "size": 31241
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/research_practice.py",
+    "scheme": "purelib",
+    "sha256": "e86b91488ea33a3be6f3786d68a26da18a37afb3eb76e69dc4540a2aafcb9ed0",
+    "size": 22737
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/research_reservation_store.py",
+    "scheme": "purelib",
+    "sha256": "3869be3d401be6532c973dcb51e5e37a0d716ba64aff65ea468f4736649187e1",
+    "size": 47774
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/route_explanation.py",
+    "scheme": "purelib",
+    "sha256": "bd60511f3fc1c2886ed85ddac21ba644da2034a0d9a76a09fd731cd45cbc33b3",
+    "size": 4510
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/router.py",
+    "scheme": "purelib",
+    "sha256": "45c39e2a678ac8ee78a28fc346513c4f9198ece52b81fb51db3e35080078c815",
+    "size": 18917
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/scheduled_local_capacity.py",
+    "scheme": "purelib",
+    "sha256": "ace7ea0678083626993472def384e2a0571f39de99a3e79776c481c5c9a9ee9b",
+    "size": 5549
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/self_model.py",
+    "scheme": "purelib",
+    "sha256": "9f256fb7dcae5ce09f7a82fc4099d9629a8c3306740e89a42524d25214aecc7f",
+    "size": 11177
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/self_model_updates.py",
+    "scheme": "purelib",
+    "sha256": "a4078547451a3c62699d51e2a46a79256f26985290c66aac2f2e17b63db43c72",
+    "size": 21232
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/semantic_model_gate.py",
+    "scheme": "purelib",
+    "sha256": "7a49def997e6e23013c6825326f65cbe0c280d2a47876861238c47dc6fd73153",
+    "size": 3665
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/semantic_recall.py",
+    "scheme": "purelib",
+    "sha256": "28eed4a804c0bf1cd6e82f44369800c6aabb70c98dbb1b8f4296baccff82d28c",
+    "size": 18167
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/serializer.py",
+    "scheme": "purelib",
+    "sha256": "798b4de4982b031bacbeb2d726dbe72bd3cfd26de13b9534007a5fa70664bd0c",
+    "size": 6454
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/shared_beliefs.py",
+    "scheme": "purelib",
+    "sha256": "9ab9f15a988635f38f38c5a99d95ae747c88d271e85944bb52ee1a7bc2ed9cdd",
+    "size": 8348
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/__init__.py",
+    "scheme": "purelib",
+    "sha256": "95b84a697f2d47414a6354dfbb867a1a60c11dc0a5c6e269ee0ba7fdf6b5f407",
+    "size": 1186
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/definition.py",
+    "scheme": "purelib",
+    "sha256": "0291c678e7456f8b060f9909f68faf666db60cad7fc628a8a3264b0d85743312",
+    "size": 11580
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/executor.py",
+    "scheme": "purelib",
+    "sha256": "049ec6c459a08bbd521e53ee865efae9992f91b6c285c980e410fbc858dfad6b",
+    "size": 2718
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/expert_skill.py",
+    "scheme": "purelib",
+    "sha256": "3701ad86880ed417e37b178aa2cc24eea6153694e9072cb68388329d366691fe",
+    "size": 8465
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/generator.py",
+    "scheme": "purelib",
+    "sha256": "92a1ade7f16fcc0609f707d60b24b111318f6f8b14c0dbf82b47da9d70068fc0",
+    "size": 9167
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/knowledge_absorber.py",
+    "scheme": "purelib",
+    "sha256": "26b8d88d24c31bc159567048b0725e99c95f607c9283aa1f3e09ef4612fab7d6",
+    "size": 23338
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/manager.py",
+    "scheme": "purelib",
+    "sha256": "5100adce006931c8edd65d54cad83aed3d98598f6ed8313aff6a86a69aff807c",
+    "size": 5085
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/skills/refresh_policy.py",
+    "scheme": "purelib",
+    "sha256": "209e63d24659f8e59563b46beb5d1424e888bfeb5e495ea080285e4350538520",
+    "size": 1645
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_card.py",
+    "scheme": "purelib",
+    "sha256": "87ce3d570899e05306a194e5e54c4e5a65b38f39cd660c088633f959b113e288",
+    "size": 8364
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_compiler.py",
+    "scheme": "purelib",
+    "sha256": "7c286b2a58258dba74c13fb116024f0de19a2a85f75d526bf86ec5aaacf5ada2",
+    "size": 42147
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_edges.py",
+    "scheme": "purelib",
+    "sha256": "94c89bfb8433d6ee8e433008c64b99c6f3dda537162eae69d493d062226dd2a0",
+    "size": 3919
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_notes.py",
+    "scheme": "purelib",
+    "sha256": "9594444d6db6e7d731ff4b5c83485f04210782abe7f7b9e09b90beb70ee062db",
+    "size": 4288
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_payloads.py",
+    "scheme": "purelib",
+    "sha256": "382ff205063812bb578d767cdebe1c4bfcf2861ccc1b553a867468d879af9891",
+    "size": 1001
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_policies.py",
+    "scheme": "purelib",
+    "sha256": "f956d9f6a47455178a40106ad4333bc8def88fe1db99362792785abc554af249",
+    "size": 3892
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_recall.py",
+    "scheme": "purelib",
+    "sha256": "e847c40d29f401b70a59ce417af6c3092e723bd5a0f8028f49e11860b0850ea2",
+    "size": 10499
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/source_pack_values.py",
+    "scheme": "purelib",
+    "sha256": "e0a559143258bcd6b04112dc50ecc0e15b797526af9c85259c1a94683d045170",
+    "size": 1790
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/spend_decisions.py",
+    "scheme": "purelib",
+    "sha256": "2e271faad187e5ae2465468c0d5f5a8bd310e3dcc4c8119df482794e52745955",
+    "size": 2736
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/spend_policy.py",
+    "scheme": "purelib",
+    "sha256": "cb6c92729d8ce68831d9206bf9eb7eed782d83deb1d4adbd367ef0e023c68c26",
+    "size": 6468
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/stage_contract.py",
+    "scheme": "purelib",
+    "sha256": "27211cc6e1f5594edff685a508f9ef2312578055bf03d0c5b1350faf9843fa49",
+    "size": 11111
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/study.py",
+    "scheme": "purelib",
+    "sha256": "ca844b69f04ae4c25103665142eb88e94850cc1dc8704cf4eceba009b4d19246",
+    "size": 28886
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/study_contracts.py",
+    "scheme": "purelib",
+    "sha256": "849e9f6dccf69b43eb1ff0f5e74ba5b9e1d93abc9d1ee5bc40adb85d9bfa3006",
+    "size": 11953
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/study_coverage.py",
+    "scheme": "purelib",
+    "sha256": "9b2e929b65f3ce0d5a1b7399b14f86c28fc3af4309c7b4e8f92b441b9dad4d9f",
+    "size": 7015
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/study_lenses.py",
+    "scheme": "purelib",
+    "sha256": "4faf6cf5247341297e3eae2c6feb22eb14c1a29fc3c82eee1e747d3cd4074e64",
+    "size": 13861
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync.py",
+    "scheme": "purelib",
+    "sha256": "159d4552d02ce7576b11c27a601e7e83c01180f6b71e8960586f3cf4b1c1d806",
+    "size": 42990
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync_all.py",
+    "scheme": "purelib",
+    "sha256": "b58c5ec24ba1ab0115d03381185097a7a71404ef4f1afbbf86301b8a85d6b450",
+    "size": 10893
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync_contracts.py",
+    "scheme": "purelib",
+    "sha256": "ef78628e52438da80f242e223d721ec0f91a6c986aacf795d9c5f9618db1da6b",
+    "size": 10749
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync_graph_commit.py",
+    "scheme": "purelib",
+    "sha256": "4f8dcb24a9bcb6526594700b5e27a28539fec1d65b4b3340b2469d64e84ca1cb",
+    "size": 5126
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync_spend_gate.py",
+    "scheme": "purelib",
+    "sha256": "7d45110843a104ea6053165856bd2a071994a380f0a63ecbf64078bcb7ef1431",
+    "size": 3168
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/sync_support.py",
+    "scheme": "purelib",
+    "sha256": "0db67f988c42f5eb42312837b0873774fe83acaba2d61f58db2563eb2f8f2359",
+    "size": 10187
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/synthesis.py",
+    "scheme": "purelib",
+    "sha256": "fb11babb286d0e866c751109e89c3fd4c45e4f06a2032f2ecd80f43698964ee0",
+    "size": 20284
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/task_planner.py",
+    "scheme": "purelib",
+    "sha256": "f68e096fb3e59e37cc58fcd72df026fd8065a039e692d49b4a8f0c0e6d0e700a",
+    "size": 12347
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/temporal.py",
+    "scheme": "purelib",
+    "sha256": "79fff55b5f46de590b8ed253b80f823787818f14403d92ee7060fc4dd4f0cc91",
+    "size": 6372
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/temporal_knowledge.py",
+    "scheme": "purelib",
+    "sha256": "72961b96c0d337689acd3c075b467a6c890041c5bf6cb3f40707f506e3e04729",
+    "size": 13159
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/thought_stream.py",
+    "scheme": "purelib",
+    "sha256": "cc746da27ae017391df47f13793f0f1644321f130ed6688045653f8e527e5d72",
+    "size": 26712
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/user_profile.py",
+    "scheme": "purelib",
+    "sha256": "5d76a9003b6af65ba16e427da5b77ca06749bce0f2e85ab64a0b23772eb97e90",
+    "size": 11947
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/verification_memo.py",
+    "scheme": "purelib",
+    "sha256": "1e67ec6da7db8c0f55b9176cb1f4d4df4beff444a2aeae07d98966110188f257",
+    "size": 6769
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/viva.py",
+    "scheme": "purelib",
+    "sha256": "30e09c5c2e6da87a0164a203d3083630d04b47616ad71f8bdb0b72ff3384c943",
+    "size": 18865
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/experts/viva_session.py",
+    "scheme": "purelib",
+    "sha256": "05c1aeb7e9cd5d7eb79260e2e2e11c783869f1e0b5ab1fc09fe5f143d21a665a",
+    "size": 6815
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/formatting/__init__.py",
+    "scheme": "purelib",
+    "sha256": "2433c2629d619db42d5fae756ff72b495fd4b8003389ce35a00fbf5fb385f2eb",
+    "size": 293
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/formatting/converters.py",
+    "scheme": "purelib",
+    "sha256": "7aa05cddee2cc8367fd138c58c54b4b8b7fc2bb4e89380af2d2ba08acda89365",
+    "size": 5127
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/formatting/normalize.py",
+    "scheme": "purelib",
+    "sha256": "43d05576c19ef3d34409ee7e51921f4d247d3cb742d3940651832b1773aa4ca2",
+    "size": 1395
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/formatting/style.py",
+    "scheme": "purelib",
+    "sha256": "3cda3fc71247fea60ead2da11c9ad8c9de01ec5f6744780689ff7fe033476985",
+    "size": 6690
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/__init__.py",
+    "scheme": "purelib",
+    "sha256": "ef3d1c629bca0cfe3df07d9783547ba0146d7b2b04ae5660ecc938f5fc754caf",
+    "size": 173
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/artifacts.py",
+    "scheme": "purelib",
+    "sha256": "ca9b5fbdc46ae5fa5f1ad2794a293ca54e75faac47c8f6c2427fe5234558bf7b",
+    "size": 3698
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/capabilities.py",
+    "scheme": "purelib",
+    "sha256": "8f5cce19b6fa13b88dba2ffed7a8f2eff8082b40e33b9b93d33671726a398f37",
+    "size": 4754
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/__init__.py",
+    "scheme": "purelib",
+    "sha256": "42d42d7b96579f33c58ba9caed8a320f47811a87465e87fef552795171fe9dcd",
+    "size": 1077
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/base.py",
+    "scheme": "purelib",
+    "sha256": "d0eea93ab138f08a9557aa27b24448792ee0c145567e4f213c2b857f627a67fa",
+    "size": 7260
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/budget_propagator.py",
+    "scheme": "purelib",
+    "sha256": "1f39b1ff0cd784261c894d4487ea442ed1a4db8e70e28f87a2b41e3c975d9530",
+    "size": 4960
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/circuit_breaker.py",
+    "scheme": "purelib",
+    "sha256": "f6f58c088bbde54a7983f19aca39e1d62a65f2131890315c6762280c9e403d1a",
+    "size": 4136
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/config_loader.py",
+    "scheme": "purelib",
+    "sha256": "b6b5e23e6a24baebd1c4be86e96b22c910b62ed81bfdda3eef47cd8f758b262d",
+    "size": 18168
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/errors.py",
+    "scheme": "purelib",
+    "sha256": "117cc4bc1e23181f81ece16a799965ad6d2e171204292e0545afbe5e452e022d",
+    "size": 2007
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/pool.py",
+    "scheme": "purelib",
+    "sha256": "8662c77f0a32515a24bb2e748da67be80946073300f1d82bf2cbc08196b90355",
+    "size": 10343
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/profile.py",
+    "scheme": "purelib",
+    "sha256": "3e0b15834da1e733c12983d1d93490ce315992e912aa3f2879d43e7988c796e0",
+    "size": 5347
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/progress_notifier.py",
+    "scheme": "purelib",
+    "sha256": "7850a79dce998797dad20dd6441048df17e82b4dede2ac92a5722ee21f40444d",
+    "size": 4020
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/client/trace_stitcher.py",
+    "scheme": "purelib",
+    "sha256": "83638327988133cd125bd2958258190425a45b888a4fac1d68cfe8d66c2a6641",
+    "size": 4489
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/conformance.py",
+    "scheme": "purelib",
+    "sha256": "4f870430d6a5f256f2550a93ee73a064a333a115b0d74a2304c0a4e1d638eb7e",
+    "size": 15133
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/consult_tool.py",
+    "scheme": "purelib",
+    "sha256": "e93eccc40419d9d34da72890788ba18df612b852567b2209885a5f015fe60bbb",
+    "size": 13704
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/consult_validation.py",
+    "scheme": "purelib",
+    "sha256": "9e7847b7c2ab4ef685ae31721d2018c947431e8c955c5bc97c1e698baa7c7b8c",
+    "size": 28276
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/contained_env.py",
+    "scheme": "purelib",
+    "sha256": "64904fa112ce763d32c43d9627f5b0ead35d6730126d243585f836508d7bc10f",
+    "size": 1512
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/conversation_validation.py",
+    "scheme": "purelib",
+    "sha256": "1384069f449a21470fab0646a2377e84e8352396cf12310e404d59152fc39750",
+    "size": 8419
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/conversation_validation_managed.py",
+    "scheme": "purelib",
+    "sha256": "1787dad23020d15b3ac986e3d016084613cd5c2a20be66ee9888a8c575f4eb17",
+    "size": 2281
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/cost_status.py",
+    "scheme": "purelib",
+    "sha256": "af6c7576e9a5e48ad3fcab7a47538aa523037007f530b16e6852f7369a4598aa",
+    "size": 3348
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/evaluation/__init__.py",
+    "scheme": "purelib",
+    "sha256": "7901ed27a4c0809f92e2353f6b96428bd284949c56d568e1323a26bae8c89c23",
+    "size": 725
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/evaluation/metrics.py",
+    "scheme": "purelib",
+    "sha256": "8e210638dfed3ca23c81bfecfdd253ce97f04612d40f111ebc8ba9528d6c3200",
+    "size": 12482
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_conversation.py",
+    "scheme": "purelib",
+    "sha256": "d3c35fc5662fc72bd9d1c9d61efc34d1dff26437214db00a92b39928d24862d0",
+    "size": 18697
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_handoff.py",
+    "scheme": "purelib",
+    "sha256": "57d7578ff030786662e6e325917954d121d0f65b4588f22d639f9e734a890a3a",
+    "size": 2853
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_loop_status.py",
+    "scheme": "purelib",
+    "sha256": "ca1ddd187f4f2ac333f8b258f77ea288a2853ac0e1e6ffe83464839ef09da1ec",
+    "size": 2337
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_reads.py",
+    "scheme": "purelib",
+    "sha256": "1e797abe1b329cf35531d3d18a504d0b0242dc2dc4d70208b0251ea4804e850f",
+    "size": 421
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_semantic_recall.py",
+    "scheme": "purelib",
+    "sha256": "b434fd37e26afe88f9446ba5d1b232bd546e142e21565eb61db69a94ff78c012",
+    "size": 2661
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/expert_temporal_edges.py",
+    "scheme": "purelib",
+    "sha256": "b0d090eda347f46bbbce1ead2604b486271e170300be0640afe59fcd71aee3fe",
+    "size": 1822
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/host_install.py",
+    "scheme": "purelib",
+    "sha256": "6c3aba2668311fc401c7b84ee1d10abf8a30dd591678fc71ef2cdecdaf603c79",
+    "size": 12643
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/host_profile.py",
+    "scheme": "purelib",
+    "sha256": "daeea34aa458a51e535807e96360359c9dc40179791b59802193ffaa18693940",
+    "size": 22702
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/http_client_policy.py",
+    "scheme": "purelib",
+    "sha256": "61c7094dc7e6df3be9380eca2a6f603b867305237db20f53aee801e356a2241e",
+    "size": 3402
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/http_server.py",
+    "scheme": "purelib",
+    "sha256": "70da4db7287d8978fb84d1db91b67ffbe59644fd94780f2fed524e186eb666af",
+    "size": 4556
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/metered_contract.py",
+    "scheme": "purelib",
+    "sha256": "beb7ddbddbb876b1895510aa02fef40de7eace45f4d041683c6d8bf53cc356e2",
+    "size": 5717
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/output_contracts.py",
+    "scheme": "purelib",
+    "sha256": "45d8b22024f2d37dabc796d46656bfe4002c042bf9687e3bed2c2e670ad8aa4a",
+    "size": 2977
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/protocol_compat.py",
+    "scheme": "purelib",
+    "sha256": "bf46d6d619ae61d556e18d690cfc5f56d3b2a776b0a01ad5451cf9a5cd6ca994",
+    "size": 2760
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/protocol_dispatch.py",
+    "scheme": "purelib",
+    "sha256": "d21627c4ec93da73fa93451edd08522c830f85abbba512f2fca1bb8c6eca4c73",
+    "size": 5174
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/protocol_modern.py",
+    "scheme": "purelib",
+    "sha256": "8b6e8adb9b63c59db9cba8cfd3196c3ebda03088f54269118534f8acfea234c6",
+    "size": 9182
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/provider/__init__.py",
+    "scheme": "purelib",
+    "sha256": "23d137e1031fc0133327815280df0910ea9edf6f25893906c1e768e355cb8ea1",
+    "size": 457
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/provider/prompts.py",
+    "scheme": "purelib",
+    "sha256": "a2c332e50a51bb9fd9d101f55d5c6c40d3b75f922755e6a438b8bdfb20f6d50d",
+    "size": 4252
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/provider/resources.py",
+    "scheme": "purelib",
+    "sha256": "016703aeeb28ecc7be1639ec1f1109eb34be8f8fc7ffdeb1ab18b12b33945fc4",
+    "size": 5636
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/provider/sampling.py",
+    "scheme": "purelib",
+    "sha256": "98b44a7eb3f8bd14e9c23c0f703833959cfdb010fbf43bb4e62e37481aa0d090",
+    "size": 3577
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/query_expert_tool.py",
+    "scheme": "purelib",
+    "sha256": "26d7485e3fc6a71f4a61c39ae5823af6ab03661fda86650f08bbc747daf25d0d",
+    "size": 14042
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/request_context.py",
+    "scheme": "purelib",
+    "sha256": "eab03272a1e34b5435b1f2196d8e2773fc80992a7e23c7fa543b178ebe5844d5",
+    "size": 4167
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/research_result_view.py",
+    "scheme": "purelib",
+    "sha256": "63348e921be6c18b2a2de310641058ac883a5af5323b18389372e2e0e8db966f",
+    "size": 2524
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/runtime_registry.py",
+    "scheme": "purelib",
+    "sha256": "1a0cff43456c4f23163b476e8fcbde895a6b0bf0ce2cc5ed11f0e3decc7a8026",
+    "size": 2996
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/search/__init__.py",
+    "scheme": "purelib",
+    "sha256": "49d028e50f7a7dcabc11e44b2bdb52ce42f30decabe84943f5892aa626219b4b",
+    "size": 366
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/search/gateway.py",
+    "scheme": "purelib",
+    "sha256": "c46c4094afe9c147d473407ca7772c217553f78e371dd56a35dba66ea3a8557c",
+    "size": 5292
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/search/registry.py",
+    "scheme": "purelib",
+    "sha256": "f4735f222e7e4a5dabe71776c490dff0af7a344643e00573c06868353dae0f78",
+    "size": 39368
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/__init__.py",
+    "scheme": "purelib",
+    "sha256": "783bc5a0ee9d83046fd5209ffe85383f6f6da1c9b00db00ab4c916d354c73325",
+    "size": 2615
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/instruction_signing.py",
+    "scheme": "purelib",
+    "sha256": "7406f9ef80e0811963796ac294fd13912fbe2a7f85b99434ebb0f68cca3f89b4",
+    "size": 11025
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/network.py",
+    "scheme": "purelib",
+    "sha256": "858b3f4a28fc1328c32069772cc8683f742ca5e077e9c114e31bc4eaa58bef3f",
+    "size": 4066
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/output_verification.py",
+    "scheme": "purelib",
+    "sha256": "ab9cef3c3595647aad3e8719efd62b5b6441e8343b3987194532eed2ef2f5255",
+    "size": 17951
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/sampling.py",
+    "scheme": "purelib",
+    "sha256": "d3587a04c070c0c43e301f207f76f64d988ef1dc59367f8c75f44e135757732c",
+    "size": 4091
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/scoped_admission.py",
+    "scheme": "purelib",
+    "sha256": "290da84fe51c02a6b42a4fdf4ac1a231f8e2b8cc07460286a6518537e8367f03",
+    "size": 12047
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/scoped_audit.py",
+    "scheme": "purelib",
+    "sha256": "e3e66cf956f1f1737d8c7add4630e09dcadc8f2a1d51bb597bd667bc7f1d338f",
+    "size": 3440
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/scoped_keys.py",
+    "scheme": "purelib",
+    "sha256": "718b7d4d302d070ec9c0f7b8347d2030655bbf6fd703ed9ec5be66823d90295c",
+    "size": 30989
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/security/tool_allowlist.py",
+    "scheme": "purelib",
+    "sha256": "948afbdb7fd3dd4e123f69edb80fa2997eb93b03c25fab5f34a26e0335d26539",
+    "size": 28942
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/server.py",
+    "scheme": "purelib",
+    "sha256": "f28229e892d197bb02d221ecaa16fa24552aaa4245b4f1a569a8a48b6ad2bff3",
+    "size": 86995
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/smoke.py",
+    "scheme": "purelib",
+    "sha256": "2686e66303d1b3fcffeef463ea40c21dee6e4b08ea10a5de1d019025d7e5b371",
+    "size": 4618
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/__init__.py",
+    "scheme": "purelib",
+    "sha256": "dce8fac82868e617bae2eaa539c8532805110d0fe6095d3910bec8f03ae88501",
+    "size": 2003
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/async_dispatcher.py",
+    "scheme": "purelib",
+    "sha256": "97788ccd85761c57e9ea342ffe98b0ed630274630be32a8f77cad19cc632045b",
+    "size": 23697
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/credential_manager.py",
+    "scheme": "purelib",
+    "sha256": "7929351eca58586e21f1e25cfe3704613a2d372598903b1b18491623ab6132d0",
+    "size": 19324
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/elicitation.py",
+    "scheme": "purelib",
+    "sha256": "dddcd22a5f056041156766d94b908a5f2fdd9cf6b0931758468c60ef0d815bb0",
+    "size": 17706
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/elicitation_router.py",
+    "scheme": "purelib",
+    "sha256": "24af5841899b2435d015e0a593983fb555dbf8e06baf6716323a6bb7b504ed2e",
+    "size": 11444
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/expert_resources.py",
+    "scheme": "purelib",
+    "sha256": "a1663052b7298a706228d8f0dbbbde770559a3b39e4bc3bb340a9f4fed55ad67",
+    "size": 10219
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/job_manager.py",
+    "scheme": "purelib",
+    "sha256": "b92d2ee6ee22b2d91b8f525220ad038ec2afe8b17d0d04ab1aa92e654f05baf1",
+    "size": 18299
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/persistence.py",
+    "scheme": "purelib",
+    "sha256": "2fd777f42f5b590745a813ecc6258469ad4cd2de1467dc3e95778b4266eb9445",
+    "size": 13745
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/resource_handler.py",
+    "scheme": "purelib",
+    "sha256": "f906d9d50af7da4d8ebc02685eae23888dbc4f1357c360578998e91618e0d8d6",
+    "size": 19022
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/sandbox.py",
+    "scheme": "purelib",
+    "sha256": "bcb0932941b0ce136155cbd8210dd3c5c210f3268f7601f37993e53b70140bdb",
+    "size": 17570
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/subscriptions.py",
+    "scheme": "purelib",
+    "sha256": "88943d5282ec9ec8b40198a9ffbf7bd0f69ca17b163d22ac037e5c6ba719a328",
+    "size": 10608
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/state/task_durability.py",
+    "scheme": "purelib",
+    "sha256": "b723a3f5a1ffd23b924df0b33a3db3b5dc34715d15523cf9bd619a8e73fe06a8",
+    "size": 21354
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/subscriptions_listen.py",
+    "scheme": "purelib",
+    "sha256": "4aed1c6b6c879a0021e720de44db3003a58956fd088c9b972a7c72c37f7310ec",
+    "size": 8716
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/tool_errors.py",
+    "scheme": "purelib",
+    "sha256": "c6fca2621cf942bf806aadfcb3f1e1e4602f80a449869a28cd032f695c9d4068",
+    "size": 2747
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/tool_surface.py",
+    "scheme": "purelib",
+    "sha256": "6e1fd1e05d971ccd08dcb0e7978c3d87717b1213a9ccd4f8614b16aad88d02e1",
+    "size": 6026
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/__init__.py",
+    "scheme": "purelib",
+    "sha256": "5432586ed096ae4b9831dda080ea8aaa50a037e1e3262242a4b5fbd5c0c4a1d4",
+    "size": 1097
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/http.py",
+    "scheme": "purelib",
+    "sha256": "8cbc797d3dd13a30f5185a129296521c505a3bcb1182933edf995ef4d23df6d0",
+    "size": 39125
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/http_client.py",
+    "scheme": "purelib",
+    "sha256": "19e6cd0f0ab201068a2c16d7b37de7d9d0b234ada7e23782f8e970a78bb82054",
+    "size": 3555
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/http_scoped.py",
+    "scheme": "purelib",
+    "sha256": "b74ba1f5c24de1f68f7f98b15bad39cef45c2770e9caf7284de11b286b75ce43",
+    "size": 4170
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/http_sse.py",
+    "scheme": "purelib",
+    "sha256": "b51d2af4ddd8a66367ac29939e3e7bb0d2d1c7b588e029c2dfb2e232eac32e71",
+    "size": 5594
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/http_validation.py",
+    "scheme": "purelib",
+    "sha256": "2e66a90ac6d658306403b66afc597e257e08daa15c3e922d687276971d2d7f32",
+    "size": 8173
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/mcp/transport/stdio.py",
+    "scheme": "purelib",
+    "sha256": "8bdf4af53be2baac2c2087831158d33dda3bd3db6841821d0d56bc479e2797a2",
+    "size": 22748
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/__init__.py",
+    "scheme": "purelib",
+    "sha256": "6a48dc8e3a6fcb7409dfadd396d50338201dd88edc84b37fc5649e71ed9f1e28",
+    "size": 1589
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/circuit_breaker.py",
+    "scheme": "purelib",
+    "sha256": "a3649d26b1439255977a8100359e9f1e1b77865291923ad503674c0dd775c542",
+    "size": 12083
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/cost_attribution.py",
+    "scheme": "purelib",
+    "sha256": "3d7425947ca8c3404faf73a0ad23085c556826de8f5084660d17bb7a0f9fde68",
+    "size": 7075
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/cost_authority.py",
+    "scheme": "purelib",
+    "sha256": "1d8a9cd13011f7c3456bd36ebea9096ee63e62cb2256fed08d29fb11bb949a88",
+    "size": 44020
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/cost_ledger.py",
+    "scheme": "purelib",
+    "sha256": "29518a8a24d9978fcdcf9371f6fc332af412d88ff816532ff93c51618d1917c1",
+    "size": 32983
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/costs.py",
+    "scheme": "purelib",
+    "sha256": "a31fc7de5cb64a488e34e1036115f7075fb95d51037289cc6192e691baad5474",
+    "size": 40319
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/information_gain.py",
+    "scheme": "purelib",
+    "sha256": "f70807f53c583ddb07de4e4e1bb5cea542e8372205a570df24355cc5a5bc7382",
+    "size": 15948
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/metadata.py",
+    "scheme": "purelib",
+    "sha256": "694489e094db454d6b2d6a9935a62ff12b11ff9cb4a7702ba9d9bb37f4676daa",
+    "size": 16608
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/provider_account_controls.py",
+    "scheme": "purelib",
+    "sha256": "8dc5f49436dc7536588bc6a1ce1f5e7ad9404785d9357a00f5e14fa810e03eb8",
+    "size": 25628
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/provider_billing.py",
+    "scheme": "purelib",
+    "sha256": "51d52cbc06c285165d071785c8e88e3c7b3d77cfe30cecb3d9f6116da0d28458",
+    "size": 38065
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/provider_router.py",
+    "scheme": "purelib",
+    "sha256": "ca4fb7deceab377d15f70758c41c1fb71fa1146588b9131e6f6ca62a1d66419f",
+    "size": 36224
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/quality_metrics.py",
+    "scheme": "purelib",
+    "sha256": "57fd885a29994d20827d890cd86c92bb1338147886e3c3c2e94f5898ea2f4672",
+    "size": 14716
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/routing_log.py",
+    "scheme": "purelib",
+    "sha256": "c2da853ccae5b726d92db9474ffeb93ca68607d57655d986ad31d4b2df654c8a",
+    "size": 10122
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/spend_dispositions.py",
+    "scheme": "purelib",
+    "sha256": "e728494e1429838640945f7f70d55d0b3bd92dd344049e9c725973f405a2a355",
+    "size": 16766
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/stopping_criteria.py",
+    "scheme": "purelib",
+    "sha256": "3b83c4ea8d3a38729e11c21428032149d5a677ae4f87f09e260b0da7ac844584",
+    "size": 13690
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/strict_json.py",
+    "scheme": "purelib",
+    "sha256": "7e8fba58a2e74d15113c5bc35275b3f6cdb16033426f317fff3fd8aac179b353",
+    "size": 955
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/temporal_tracker.py",
+    "scheme": "purelib",
+    "sha256": "481c4aceaa5dc704daadb11386702cca286acda8b2812b2859c3febfe6e15607",
+    "size": 18671
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/timeline_renderer.py",
+    "scheme": "purelib",
+    "sha256": "d9fca2bce7af6a2d65bfa49f4ad0b4610aa40d43ff9cac8a3ede643faef6cf36",
+    "size": 17581
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/observability/traces.py",
+    "scheme": "purelib",
+    "sha256": "a65573c76f3934db464f6b7b7d7dbcf8930569f6f18a08a357a3a04f8814dbd3",
+    "size": 12141
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/__init__.py",
+    "scheme": "purelib",
+    "sha256": "65ce1074ea32a1a65e86bfe8117580bfb9a14cb4433e29cde2ab14154f8eb8c6",
+    "size": 4876
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/anthropic_provider.py",
+    "scheme": "purelib",
+    "sha256": "60fb6691b1e9a42d734d9e217486ac7461109febdc6f2b14658443a3e1c3154d",
+    "size": 29693
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/azure_foundry_provider.py",
+    "scheme": "purelib",
+    "sha256": "568e71c31e2ad64c8cf8473453af6dcaaf4f0811ad1e68d7699a9540f011ad0e",
+    "size": 29778
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/azure_provider.py",
+    "scheme": "purelib",
+    "sha256": "a1d1465b1e5833eccdb410f01f029d77e39fd6a347df591ec99593639a90bea1",
+    "size": 18626
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/base.py",
+    "scheme": "purelib",
+    "sha256": "268f15b3097cc92a30f22cab1224ded8c96e2d022919eb759ca3be6aae23d920",
+    "size": 17373
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/dispatch_authority.py",
+    "scheme": "purelib",
+    "sha256": "62321d91a8471bdc9f14d690499193e5f4e4d2ba2f9e95efe33c39cd85e76273",
+    "size": 28365
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/gemini_provider.py",
+    "scheme": "purelib",
+    "sha256": "91887ddb83cc79ab048bb246ddb76e48418168709cbaac1c44f7a9a96c0ae25d",
+    "size": 40335
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/grok_provider.py",
+    "scheme": "purelib",
+    "sha256": "8bc706b3a8978271c256385cf4ca2fde8e34172f40be463bb8c7acddf9e322af",
+    "size": 35711
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/grounding_redirect.py",
+    "scheme": "purelib",
+    "sha256": "0fd0050037dad87964b764e9fbcc203b3e02973c74341feb27c103a4b803782e",
+    "size": 2338
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/lazy.py",
+    "scheme": "purelib",
+    "sha256": "69f27f772186b0e3394090f09eb80bd9e0166a68462fb2a306718a2b368c0e59",
+    "size": 1548
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/model_capability.py",
+    "scheme": "purelib",
+    "sha256": "eae944cabbede707cd6719e052067999c41531071ae0a6c62127afda758da360",
+    "size": 693
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/openai_provider.py",
+    "scheme": "purelib",
+    "sha256": "98eb4e3a70d9881cec587f7ee7618bf25262aea939d75ab0f22b8124f4487378",
+    "size": 17953
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/openrouter_catalog.py",
+    "scheme": "purelib",
+    "sha256": "84bbea8c5d6c3c884da9b2fb1ec815080badb3b3b3c9dff7f829fea883900649",
+    "size": 6830
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/openrouter_catalog_check.py",
+    "scheme": "purelib",
+    "sha256": "79cdcfc34ecaa6cbbeb228f41704c9c31e28a30450c1400d09df082774e2a97a",
+    "size": 33368
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/openrouter_key_controls.py",
+    "scheme": "purelib",
+    "sha256": "5ac6b797be8ab03ea6eb34c49b7583232b686f3753b80e309ae81cc5cf26cc27",
+    "size": 19472
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/registry.py",
+    "scheme": "purelib",
+    "sha256": "dab4ed2667e8d55b2f36d690a539eab62c9de62284188ba57de272a0e5b0c4a9",
+    "size": 52171
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/providers/registry_pricing.py",
+    "scheme": "purelib",
+    "sha256": "693c92914400160e326a1b3a2cf518079da2bc5cd0e8c56f0e412870709b56a8",
+    "size": 10473
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/py.typed",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/queue/__init__.py",
+    "scheme": "purelib",
+    "sha256": "449576c27b8260b9c656863d855cc3816ad23bc8ae9f3e205533839906c5c781",
+    "size": 1005
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/queue/azure_queue.py",
+    "scheme": "purelib",
+    "sha256": "f2dee208678204dd2bb1d499b8e36cef3247a290b9cff40bc021713a30c5ccec",
+    "size": 2112
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/queue/base.py",
+    "scheme": "purelib",
+    "sha256": "669dc986c85d7ce35cb2befd46dec4359f00d8337ed307c949d757cf4b59060c",
+    "size": 7953
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/queue/diagnostics.py",
+    "scheme": "purelib",
+    "sha256": "5093b04d15ab131aac82eb0d456a37fe804920da76f8be5746cccee9008dcf4d",
+    "size": 3557
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/queue/local_queue.py",
+    "scheme": "purelib",
+    "sha256": "63ec02c44f71dcb7249de137f0109bd9236985aad2a301c6d059503ecadc8403",
+    "size": 31286
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/research_agent/__init__.py",
+    "scheme": "purelib",
+    "sha256": "8c77b6261df5f457380c72725a360ce5a90618b93a449315f3f1cf5035cff2fb",
+    "size": 111
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/research_agent/poller.py",
+    "scheme": "purelib",
+    "sha256": "09bcce808b984cde176df26df3fe5c41c0cb82fda9f53ffccd499fbca1dd8ad5",
+    "size": 249
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/routing/__init__.py",
+    "scheme": "purelib",
+    "sha256": "dbcc99d9f0109019dd26008556a2b64da8672c2316d72f7a684ea5f38c81c4d6",
+    "size": 790
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/routing/auto_mode.py",
+    "scheme": "purelib",
+    "sha256": "1636f863042d19034ec41013981acf62af657522ff6a826a060a1c37b7c68ca1",
+    "size": 37528
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/routing/deprecation.py",
+    "scheme": "purelib",
+    "sha256": "63be4cebb3f781b81c1c1da99bf120b38be43d24ffb7d51d0fcd4e9fa28fcccd",
+    "size": 8003
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/routing/quality_priors.py",
+    "scheme": "purelib",
+    "sha256": "23608837812dc622c4ec924359df9ff97d32f6bd0efc06ac415f5d55e7c80a6b",
+    "size": 4912
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/__init__.py",
+    "scheme": "purelib",
+    "sha256": "b4e06f5c0813e6ff253158c90c4d8a0ee059a70c17c6c0573fec18b911661a91",
+    "size": 95
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/audit.py",
+    "scheme": "purelib",
+    "sha256": "fa67eeda42a29efa69351961f72bab5b97109805e2a869901f7c47825e15e506",
+    "size": 6979
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/http_auth.py",
+    "scheme": "purelib",
+    "sha256": "78853e1e8dd1e6af51c2ee7f673c66a291d7a8fe1e709bc076fba901af6e6f3d",
+    "size": 2745
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/key_quarantine.py",
+    "scheme": "purelib",
+    "sha256": "0945645dfd453887ee8392d8b11b4f29aebbcac33de279e5cf5cb8cdc1db2e8a",
+    "size": 6706
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/metered_consent.py",
+    "scheme": "purelib",
+    "sha256": "de1efc4258efdf495c230a19589631aca4bdda84c112336eedde201b06bae88f",
+    "size": 902
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/output_safety.py",
+    "scheme": "purelib",
+    "sha256": "ab7167123f9ee37410d15ace404667560048264d78a9846f89f1158ee4de511d",
+    "size": 7432
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/permissions.py",
+    "scheme": "purelib",
+    "sha256": "038559100191e7d1064b1f3d4ed28fa248ba261655edf84ef9f70db71fcf5afe",
+    "size": 9356
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/security/red_team.py",
+    "scheme": "purelib",
+    "sha256": "f8d5c96b45978ce56d8afa8a24ab207078603348812a651abcf80c9c1a26a11a",
+    "size": 16579
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/batch_auto.py",
+    "scheme": "purelib",
+    "sha256": "6851635cf92e77392d25924f5d5076762751a6c69ea557b83b417eda3f704f50",
+    "size": 19499
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/batch_executor.py",
+    "scheme": "purelib",
+    "sha256": "b15987719dcc911e9250169e7faa73e8122cdabbacfaab551042fe0eb8737d29",
+    "size": 23335
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/context_builder.py",
+    "scheme": "purelib",
+    "sha256": "28dee5f1d1eb90b00fa9536847c3f8ff2eabd096d524f581b0126c6ed4e14f58",
+    "size": 10838
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/context_chainer.py",
+    "scheme": "purelib",
+    "sha256": "9d449b4aec23b66010d523eaeac84ecfa3ce4bd4d33197bc094d2077c50244f1",
+    "size": 19317
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/context_index.py",
+    "scheme": "purelib",
+    "sha256": "635f9eca1a0e3e0de089bf8fe541d7bdfaf9baf020ec1a5c5014497cf6ed846b",
+    "size": 32614
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/context_pruner.py",
+    "scheme": "purelib",
+    "sha256": "6dae1878084950df94a99474198d2a43b88f6c8d26898ce9f03ca5d2804bfa2c",
+    "size": 14156
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/doc_reviewer.py",
+    "scheme": "purelib",
+    "sha256": "e27e570906f40f419517a622a6ceebaa0b285727bc4a7c4bb8205b777494a6f0",
+    "size": 13705
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/expert_validator.py",
+    "scheme": "purelib",
+    "sha256": "d187e1fad84ac79190a4cd17400ffda114cab7a3e4d9ccd7e2b07bb12cea16be",
+    "size": 14716
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/job_provider.py",
+    "scheme": "purelib",
+    "sha256": "dec318b1f1e4314613d6b897839077be5d0dbe43847b4dc5defb0bcdf8b00147",
+    "size": 1622
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/metered_call.py",
+    "scheme": "purelib",
+    "sha256": "d7ef5257d0a832fd3ff91b88e0c0d232019e62dc75e27e6c8c5db449f4db0dc4",
+    "size": 35762
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/metered_envelope.py",
+    "scheme": "purelib",
+    "sha256": "a0bc48623b1d33e1868a057b8d84abdac8b836974bba207c7a866b7cd0e837ce",
+    "size": 4418
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/prompt_refiner.py",
+    "scheme": "purelib",
+    "sha256": "6b0226663c813a6dfe7f1ea9512f1a0716eff748ec66403c6512f7d77b5e5208",
+    "size": 6716
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/provider_completion.py",
+    "scheme": "purelib",
+    "sha256": "940ee0b1a59147b10f355a4275fdc96f94a0e56b81a1ddc7725c0dbe1d748c48",
+    "size": 16863
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/provider_receipts.py",
+    "scheme": "purelib",
+    "sha256": "6def9ef005fc2a3b32e11234b74e1db98f10a49c8b3091f4cb03f3c9844433f1",
+    "size": 5042
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/provider_router.py",
+    "scheme": "purelib",
+    "sha256": "fa7f63e4bcfda1b6d484872eb0ee9f61749c4099d1fc8dd458826d5f6213daf6",
+    "size": 8658
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/provider_status.py",
+    "scheme": "purelib",
+    "sha256": "87c068595e86caef26432a7f3eeb4631f7aa10d60c14a9f7afe90b61aa1bfdd6",
+    "size": 1569
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_api.py",
+    "scheme": "purelib",
+    "sha256": "4866a5c174320d281d00b4673d230f6808256bfe27ab3709f2cb8e0872b01bb6",
+    "size": 3050
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_bounds.py",
+    "scheme": "purelib",
+    "sha256": "1576b07cd8a075ea847058da51a3077d22c6becf90dbc953e5cd24eb81f44875",
+    "size": 17732
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_cancellation.py",
+    "scheme": "purelib",
+    "sha256": "39d39e10141ba0caec06026b319d657813d68f2c2b72b1d6f0157ee54c92f139",
+    "size": 8129
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_cost_reconciliation.py",
+    "scheme": "purelib",
+    "sha256": "f960a8ab0abd3534ef090a85cc2e19af4f1421c02233b4cf0f3e41fbf9e6b06b",
+    "size": 5529
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_planner.py",
+    "scheme": "purelib",
+    "sha256": "fb9c4734e535b9bf32bca81c44d19c3211d7b693b3a89ce776db12d508f46303",
+    "size": 14580
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_reviewer.py",
+    "scheme": "purelib",
+    "sha256": "4ca44505237880b9799d9b982b21211e4408d21cdd1036b40c0599786367b18d",
+    "size": 7936
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/research_submission.py",
+    "scheme": "purelib",
+    "sha256": "e2370c573e46a05ff5136ea3e41f21e22c686bfd4d03e089afcadf07b532e97a",
+    "size": 24590
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/team_architect.py",
+    "scheme": "purelib",
+    "sha256": "ee0a5772c719ec5444e7f0c2d94bdc94b20f652821cd6798d5645cdfbac41b06",
+    "size": 21704
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/services/token_budget.py",
+    "scheme": "purelib",
+    "sha256": "ccbbfc785dc783b6efcbfa3de2d12df16a60346e6b177e555ce0dea66b64cdb2",
+    "size": 14432
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/__init__.py",
+    "scheme": "purelib",
+    "sha256": "d21a56307af0ca656eda914bd9b86b8d3d2559ac7485734f5dd5ba3901546a4d",
+    "size": 385
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/agent_plugin.py",
+    "scheme": "purelib",
+    "sha256": "b5a1605cfa724ff7520ecfca90995c19b9748bd6b223a2bf604de8bca9d603a5",
+    "size": 13291
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/code-analysis/prompt.md",
+    "scheme": "purelib",
+    "sha256": "2746405ed7dd4bf026eb503b95c6e98940549c42faecd1223cfcea451589a0cb",
+    "size": 659
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/code-analysis/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "1ff6455c2254c03cd471c04bbcc084aab7793249e1bb648bea9ff0234da3cee6",
+    "size": 1762
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/code-analysis/tools/__init__.py",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/code-analysis/tools/complexity.py",
+    "scheme": "purelib",
+    "sha256": "21bf4f34298fdf788004eac896e9d08135a3307364fcaac163cdd54702a18f32",
+    "size": 4631
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/code-analysis/tools/deps.py",
+    "scheme": "purelib",
+    "sha256": "c68d150ec196fa334ca82280a7fdf2e6b285ce04e84dee3b402495713370281f",
+    "size": 3336
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/contract.py",
+    "scheme": "purelib",
+    "sha256": "51f15f93e43d81e309ee34a530104b0e20bd4f10684b3aaff95b1150ac79c009",
+    "size": 5846
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/data-visualization/prompt.md",
+    "scheme": "purelib",
+    "sha256": "2a0123c80e1df4db7bd0d7634d84511dfec9d5e070fc108579ade8dbc8b36b70",
+    "size": 596
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/data-visualization/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "42e00b993fc996925e987359bde9bbb676337355438f5a01d5ab54d0af92557f",
+    "size": 2338
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/data-visualization/tools/__init__.py",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/data-visualization/tools/charts.py",
+    "scheme": "purelib",
+    "sha256": "dccc1ff735e06d239ae33c627c1a5f4e12e68eb33824e155535c73c675b0629b",
+    "size": 1343
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/data-visualization/tools/tables.py",
+    "scheme": "purelib",
+    "sha256": "f049c02d5dccae3443886c9f4dd7daf11af5d6ea186ca3217ad5b6e1b6145f9a",
+    "size": 2390
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/distillr/prompt.md",
+    "scheme": "purelib",
+    "sha256": "ccb9b498e4de9d454fa150815ef0b4749ea3d0fb77e9603f1b931344ac54688f",
+    "size": 3409
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/distillr/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "9f96fe9268bc8c2cd5417dc71aa94576739cbaa2ac6c52dada5a4b96ce4a014d",
+    "size": 4892
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/expert_skill.py",
+    "scheme": "purelib",
+    "sha256": "80bf72c3770e80bff01b57683e33151ad1e356b9ebe8eade6bad7f2ec59e57a3",
+    "size": 8358
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/financial-data/prompt.md",
+    "scheme": "purelib",
+    "sha256": "842dda3d7ee92756838904a9419c5a4e92c6ed2bcef1594b6eadf922e7a80ffd",
+    "size": 590
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/financial-data/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "164f042ac6a810e080a82265348643d09b17c63f98f5ce0669e2940ffa461d82",
+    "size": 1285
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/financial-data/tools/__init__.py",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/financial-data/tools/ratios.py",
+    "scheme": "purelib",
+    "sha256": "b4fe01a43e055d3ebbb608601acf44bb1be655175f9b0c90d358339c6354890c",
+    "size": 4017
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/packager.py",
+    "scheme": "purelib",
+    "sha256": "ea8c70befacfad51d6b832dcfcb4d6425dc457e0bc21c8987bde83265a81bfb6",
+    "size": 6227
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/primr/prompt.md",
+    "scheme": "purelib",
+    "sha256": "7737f47a2bb20cf202372ff0a92121225cf1d561fc640eff426f462b19ee5a43",
+    "size": 3457
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/primr/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "5c05a97e4f0e37e181a2d9ef32f222f89cd6c4ac7e84bf1845046f36fa96867f",
+    "size": 3973
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/recon/prompt.md",
+    "scheme": "purelib",
+    "sha256": "1c8de9e66e7cd7d85dccd5e17bb2f22c3ff3c34b513db3b0e5e1eec8b35af518",
+    "size": 2711
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/recon/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "60346ea1d4fbf8583f3d2d3aca5139abc3d20c7a823e3abbba3c4ea206b85137",
+    "size": 2912
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/templates.py",
+    "scheme": "purelib",
+    "sha256": "fc368ec133a1c534a1993e5dfee25d12112579ad592da8ec06f1c290b776b8a0",
+    "size": 1865
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/web-search-enhanced/prompt.md",
+    "scheme": "purelib",
+    "sha256": "f9df29abec096242782998d6722b211476afd21446a749bfb55eb360b84b6989",
+    "size": 568
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/web-search-enhanced/skill.yaml",
+    "scheme": "purelib",
+    "sha256": "04c4579f042f3e5500ba3f964eaa90b3668f8453240a610b3cea12e24a23bbd3",
+    "size": 1152
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/web-search-enhanced/tools/__init__.py",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/skills/web-search-enhanced/tools/extract.py",
+    "scheme": "purelib",
+    "sha256": "12008b2218676665b4e40b2da34c40f0a8b08c4d173ab8609abc632ac9c3551f",
+    "size": 3758
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/storage/__init__.py",
+    "scheme": "purelib",
+    "sha256": "ff7df5e0bf6d93d782e44ac9c2a7df49ace40e4d38edae8913f31ab891360d92",
+    "size": 1514
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/storage/base.py",
+    "scheme": "purelib",
+    "sha256": "6a3cde2d769b508dbbbfb593976ff04d2b31082f63a7c497c2059836420ece16",
+    "size": 4937
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/storage/blob.py",
+    "scheme": "purelib",
+    "sha256": "d3b89e0e331240d74466ff6a0bdc7d53278bae18bc8356395cddebfb878cf822",
+    "size": 13989
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/storage/findings_store.py",
+    "scheme": "purelib",
+    "sha256": "2802c110af6b7a9da63938a170ad351ebbdbf156e4cb774f815b6473e873fa6d",
+    "size": 17004
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/storage/local.py",
+    "scheme": "purelib",
+    "sha256": "74cc8c33fad7b3d1afd092d5d762cea1200683ab7dde837ec7c1f82c63552f8d",
+    "size": 21780
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/templates/documentation_research.md",
+    "scheme": "purelib",
+    "sha256": "64ac8a1651a76a9bd2e9c31d32a57135233906d180a618a1c4225c13974cd9d3",
+    "size": 3918
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/__init__.py",
+    "scheme": "purelib",
+    "sha256": "85a947b52a510885d661c47d49d002c979d4268b293196c748c88a1df298146c",
+    "size": 369
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/base.py",
+    "scheme": "purelib",
+    "sha256": "5aec5748d43ae139d44945a7a70d25e894328d2463bfc644bcc367563687f891",
+    "size": 3735
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/browser_backend.py",
+    "scheme": "purelib",
+    "sha256": "bcd98044ed8b4b6f22519071c99e4cd5826067589de884ec6038b75a4e11a111",
+    "size": 6183
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/registry.py",
+    "scheme": "purelib",
+    "sha256": "ebe78109c83e9d1945fb72b8f72d65609c627c23432c3402cfb72c8591969187",
+    "size": 1373
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/search_backend.py",
+    "scheme": "purelib",
+    "sha256": "105f1586fe855c90ca0929b8b5e8ba6c2de29570d68907cec5461d5bd84d34b5",
+    "size": 5933
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/tools/web_search.py",
+    "scheme": "purelib",
+    "sha256": "19eefe5e454f07a93c91efabacaf7322a4a3471763cb8169910efaf7986cfd1e",
+    "size": 9871
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/async_runner.py",
+    "scheme": "purelib",
+    "sha256": "6636237c80986d6314f7bd893e921ce76b992c1ef2b0d0fb7459bbbc4b0db426",
+    "size": 1557
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/atomic_io.py",
+    "scheme": "purelib",
+    "sha256": "0c1c63cfc7981d4d56ad52d5d83f657a44964c87eee9501a722a0d84e2a4d849",
+    "size": 5725
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/check_expert_status.py",
+    "scheme": "purelib",
+    "sha256": "1c57feb404352863edc343caf399dcf06dcd9a69780d5a291969c44402331984",
+    "size": 368
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/download_expert_reports.py",
+    "scheme": "purelib",
+    "sha256": "6e151c35e2ee34384f1aba80e7001c9709aebe266ad514530a338d73a7574b8d",
+    "size": 333
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/integrate_pending_research.py",
+    "scheme": "purelib",
+    "sha256": "ba6dba884c368abdbcc73a4634fc8f95e4b60ae6089e483f44ab69dce1544d14",
+    "size": 337
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/paths.py",
+    "scheme": "purelib",
+    "sha256": "e39848664ddb3306d69c7cf7b802cd5990f4f0dcd9bc2f0679dccac9de2361b1",
+    "size": 11316
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/pinned_http.py",
+    "scheme": "purelib",
+    "sha256": "406d5fa63ac9fb6ce6913b00ca24ecb39588ba000b7d47555d52fad792be485e",
+    "size": 5517
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/prompt_security.py",
+    "scheme": "purelib",
+    "sha256": "850b5524cebb6b0d1e2d219d971fcef024bff0a006237af757d3008214690f77",
+    "size": 12645
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/retrieve_expert_reports.py",
+    "scheme": "purelib",
+    "sha256": "f70c6247fc1c319480ee4504e1bfdefc73344b6fb075b0a6abb5c146f1e7c22e",
+    "size": 327
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/__init__.py",
+    "scheme": "purelib",
+    "sha256": "fdd608d38ef2e08d5290b664ce99e7070bbf2e28dc908eb6e211a2c8c80ad316",
+    "size": 918
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/config.py",
+    "scheme": "purelib",
+    "sha256": "d2a0dcea9e3b50f8cc1083740db636d6f2cd177cc16cd46a78b47ce2ecb2912f",
+    "size": 5690
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/extractor.py",
+    "scheme": "purelib",
+    "sha256": "c72085edba060b23bff53db96466de7017b52b3459532534a4db21909b0c3aed",
+    "size": 9014
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/fetcher.py",
+    "scheme": "purelib",
+    "sha256": "5b11997ef83534c8c4b0d4bb2966451b99c334aa5b83880c67752177db37b16f",
+    "size": 30074
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/filter.py",
+    "scheme": "purelib",
+    "sha256": "33aa460c0ce9655675d6c8e412f892b4b16b4bf4f505d680cc8d7b229f855c99",
+    "size": 13798
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/scraper.py",
+    "scheme": "purelib",
+    "sha256": "6b1958bdabff71235065087bffa01da6a4a3bbe77d5da2a6b8e50704f375e8a5",
+    "size": 7391
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/scrape/synthesizer.py",
+    "scheme": "purelib",
+    "sha256": "1d47edffd070324f2fe514ac79e54f2daf5d31c01bd475d83711dec642227aa1",
+    "size": 10075
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/utils/security.py",
+    "scheme": "purelib",
+    "sha256": "0c443c83964767f224acae2d1f1bee64e7d5fece449d75ccae7c114db352b303",
+    "size": 19398
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/action_safety.py",
+    "scheme": "purelib",
+    "sha256": "e18d5ce32172789464b528499cd2f1f4701c9dc71f91f654ba9615c3fe7f234d",
+    "size": 3277
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/app.py",
+    "scheme": "purelib",
+    "sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+    "size": 138704
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/council_api.py",
+    "scheme": "purelib",
+    "sha256": "20a34168ad0c20a2e689519b7ca379cac39a065f2ab6b4c57b6cbf28e1e9e359",
+    "size": 1791
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/demo_seed.py",
+    "scheme": "purelib",
+    "sha256": "57f1b54b0159c1267209b6741d14430da8a3151133340f1964a6a20ea68d45e7",
+    "size": 34292
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/expert_chat_contract.py",
+    "scheme": "purelib",
+    "sha256": "9ac13fd14ed7e22f1f6713c1fcf35934379db810df9ece784a94b9f06f68eb9f",
+    "size": 4596
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/expert_chat_rest.py",
+    "scheme": "purelib",
+    "sha256": "10d9061c40a087331571910284996e45cf8a226f66741b400e29fb3fb348953c",
+    "size": 8201
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/expert_handoff_api.py",
+    "scheme": "purelib",
+    "sha256": "6a4e8305a383ae939e7503570b36135a405cebdd157b66927937a192b0d4770f",
+    "size": 2234
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/expert_loop_status_api.py",
+    "scheme": "purelib",
+    "sha256": "799cbd1cdbdfdc4a10445a55394f8571a19659daeaba5ec98b37ea3d97b4f224",
+    "size": 2639
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/expert_v2_api.py",
+    "scheme": "purelib",
+    "sha256": "ea644b5d4958f673046efa7bce06c986dbfc360279d206573a4d3d3a3019d96b",
+    "size": 20324
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/AreaChart-Cho8qyIY.js",
+    "scheme": "purelib",
+    "sha256": "db95cc001836fe9dc4de9689045a454af32682149d503765727c7280f3955d38",
+    "size": 14103
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/CartesianChart-CbqRBtiA.js",
+    "scheme": "purelib",
+    "sha256": "e1b199964a0c5d659a38f8a383995d87b2f2a0eb8d0b61896120c5ebeaaaed83",
+    "size": 275236
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/PolarChart-D6KgKqY1.js",
+    "scheme": "purelib",
+    "sha256": "c20c7e42510367a07bc086487d51003560886449204b19af05c281a0f7ef5360",
+    "size": 74120
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/arrow-left-J7Uif3ot.js",
+    "scheme": "purelib",
+    "sha256": "4123ea58b2e48b4cbffefbec3706f2118f5b799122b42a63a3a81c66b2d204d3",
+    "size": 155
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/benchmarks-DGeRmtKv.js",
+    "scheme": "purelib",
+    "sha256": "dee1f38a5c9b8e3dcbe6485418b795b1905e2949b259bb87a64878400de5c9e8",
+    "size": 76143
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/book-open-CNtSE_Pk.js",
+    "scheme": "purelib",
+    "sha256": "a774c894122a0fca8726ca314251b625330676ea25ebee86855775e42a5a17c6",
+    "size": 279
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/button-BCkLJ7KG.js",
+    "scheme": "purelib",
+    "sha256": "42c3a23947dacc84e1ae7abb3570e6571e0ddb41d86b0777a282cdd67848a90b",
+    "size": 4796
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/check-CubXnqdy.js",
+    "scheme": "purelib",
+    "sha256": "f32619cf41f35dba55cc5d267f80e631cbfec6e1d821fc6751c1ef53229f05a7",
+    "size": 114
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/chevron-down-CGUpcWlo.js",
+    "scheme": "purelib",
+    "sha256": "85675c1633963e90a6b33916ca527efba2d1240ddfd62d1b28f7e37b8f94dc96",
+    "size": 118
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/chevron-right-0FpwlvEx.js",
+    "scheme": "purelib",
+    "sha256": "08b6327e5f78cd913c322fec50386634a3de4c173692c877ccdebb38bc6b5040",
+    "size": 120
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/chevron-up-VXUNmwtM.js",
+    "scheme": "purelib",
+    "sha256": "39014d2651bc86ed98b8137efaf1767d1875039ec583eef9b0c713c19d4bdb0e",
+    "size": 118
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/circle-check-BRWSD3cv.js",
+    "scheme": "purelib",
+    "sha256": "9433e17a91e128f0648a5bc7fc8701efcbddb66b34aed55818072e682cc08c67",
+    "size": 168
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/circle-check-big-DQODTjLy.js",
+    "scheme": "purelib",
+    "sha256": "ed857404d314015472dd2e9b39116d03395c08f6a490d7cade5062d3ff3455b6",
+    "size": 184
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/circle-x-CRl3rxAe.js",
+    "scheme": "purelib",
+    "sha256": "b8ce251c366507158e0f58e03d333cb205392b2ba82397392f370b6bc2b96c17",
+    "size": 197
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/client-B-8lRKKK.js",
+    "scheme": "purelib",
+    "sha256": "c21e332772da86231cbce698797034dbfddb6f4dc435fb59a856d3364423e86c",
+    "size": 111243
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/clock-DXZkes-q.js",
+    "scheme": "purelib",
+    "sha256": "c6cad7fda671ce4927e4a5b7562d5936fa0be43a5d638b91bdc9633f48998bf2",
+    "size": 159
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/config-CZyAPDe3.js",
+    "scheme": "purelib",
+    "sha256": "e3ef865699ec71432cbd5f5609555036bd12d07840368ee812d204af92ec64e5",
+    "size": 461
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/constants-b5aZEyYV.js",
+    "scheme": "purelib",
+    "sha256": "c1dada9bca4885b48d054b129fc22578d14cd298d3e37a6552aef7da901c3a97",
+    "size": 4146
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/cost-intelligence-BFhkg2St.js",
+    "scheme": "purelib",
+    "sha256": "adc316888a5da1ddfe40645b291be6769c77e48d7e95d6b12cd5663a4a4228d7",
+    "size": 29600
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/dist-QWjTWK3D.js",
+    "scheme": "purelib",
+    "sha256": "871f5cde9000f70a667e9471a6a3b48e5d6503808a4244322620dffbcd2fb164",
+    "size": 7832
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/es2015-DEb8i1od.js",
+    "scheme": "purelib",
+    "sha256": "c61f9f736aa50dd3420543fd7967f673ce9566feceb9ab3d7e8b80a36626f3ce",
+    "size": 22743
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/expert-hub-CCH2o2wG.js",
+    "scheme": "purelib",
+    "sha256": "a4af4fc7682a9e5388438c5f58b5321538e33f523b52b39794b27efedf28cf1c",
+    "size": 8759
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/expert-portrait-B5KyHu0i.js",
+    "scheme": "purelib",
+    "sha256": "00fdc5cf3c0f22d8f39c22f53819e7f7ecd5e9755951a5f4f292647bf24f4d4f",
+    "size": 2292
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/expert-profile-CauUEt86.js",
+    "scheme": "purelib",
+    "sha256": "139df55c41a39f90d78ceb7c7366a17c2fac7876e84723c65c9a1bd4757d7d0f",
+    "size": 48647
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/external-link-DxsL3_iQ.js",
+    "scheme": "purelib",
+    "sha256": "305aca8091d0fd9fd75920649e999537f8767af4386ca96709b74cfa4d28507c",
+    "size": 241
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/globe-0twa73tN.js",
+    "scheme": "purelib",
+    "sha256": "9840f402cdd56aca6c14f8dbb04943a89157d1c6cf8134a605a4146369bdb171",
+    "size": 232
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/hash-H8J0rjFI.js",
+    "scheme": "purelib",
+    "sha256": "48d1052588e0e38240d51cd4e9cc6a9be048a81bd3ab20a8e3fa0701513e6044",
+    "size": 286
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/help-7XFl0CGH.js",
+    "scheme": "purelib",
+    "sha256": "07e2c14e95f5f0a419045477282027774a0e59e4d6be34596c8acc539460a3cb",
+    "size": 13119
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-400-normal-BTotfTJu.woff",
+    "scheme": "purelib",
+    "sha256": "89b819d4fef67eda2ce2c12f2f2b3978141fb73faebeb23ec895a3d7f8e66964",
+    "size": 13512
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-400-normal-DZqxrq2p.woff2",
+    "scheme": "purelib",
+    "sha256": "69afad88a0740b6e5647f1104c9176a261f1ad9d60202f605456a983799752e9",
+    "size": 14800
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-500-normal-ByOcLdNv.woff",
+    "scheme": "purelib",
+    "sha256": "b9d946b2b727115f06753e92054d272861a8265468bdb267bc279d1447fac20f",
+    "size": 13856
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-500-normal-CocWQlwt.woff2",
+    "scheme": "purelib",
+    "sha256": "200be3a2a6b1789fb8824a4a74c7cccb7137e83fde6200ea78d8829f99d43546",
+    "size": 15000
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-600-normal-71GNu3SW.woff2",
+    "scheme": "purelib",
+    "sha256": "730becc6f005c18c31440f14d34677f2704a85e6afffd4bee6a64d5c95f45a55",
+    "size": 15040
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-600-normal-BGq0mW3O.woff",
+    "scheme": "purelib",
+    "sha256": "dc111b4254f64561fe50a3645f75bb66e4daa6b026c40d9e55de27f2671b8de0",
+    "size": 13888
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-700-normal-D_uavGvn.woff2",
+    "scheme": "purelib",
+    "sha256": "40540598b4c9eb2cd2562f1017e71f2697adb43e76f49079030dfd7f00b4b786",
+    "size": 14572
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-700-normal-RFb1v-CK.woff",
+    "scheme": "purelib",
+    "sha256": "ecdff3a50fa1058d7a1887e5f5edcb4dd36a748df57c5d623ab1662aebc8f10b",
+    "size": 13328
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-400-normal-Dsrv2Tcn.woff",
+    "scheme": "purelib",
+    "sha256": "e60c70b37422d621549800db28c60764e16ccce7403a2d2957a8ac079818b28a",
+    "size": 10288
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-400-normal-g30qAdWV.woff2",
+    "scheme": "purelib",
+    "sha256": "e2580ad78906551e1f9ad621f608cd16ce4d5a992e53c651dd6b3504547576f2",
+    "size": 12148
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-500-normal-Cs5J6C77.woff2",
+    "scheme": "purelib",
+    "sha256": "08578d906af6d986d12d966d91bf9e76a00ebb74288d5c0eb6fe27dbebe1975a",
+    "size": 12308
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-500-normal-DB5PtV2g.woff",
+    "scheme": "purelib",
+    "sha256": "19928f2f784c679937745ed3949cd9ff4c3af792e2c6b26670e0741c68610400",
+    "size": 10592
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-600-normal-Bz0x94Yp.woff",
+    "scheme": "purelib",
+    "sha256": "d3fc6b34ef8f2968cf6b1b548e3d49e8ad3b26ebe60eb01172621b059b7133e5",
+    "size": 10616
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-600-normal-DUMzJB7m.woff2",
+    "scheme": "purelib",
+    "sha256": "d60d3d0b182753d5640e372c57669f508b79172ac4ff6b460d987ddd34cac199",
+    "size": 12304
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-700-normal-BmRLXWpJ.woff2",
+    "scheme": "purelib",
+    "sha256": "d07dd536424800975fd408fbb8076857c1590121ef65a8885a7b5946a5812bdf",
+    "size": 12056
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-cyrillic-ext-700-normal-DCQwxkRk.woff",
+    "scheme": "purelib",
+    "sha256": "1f73b4722839a2c937226e0093a27cb742e4e921a9499acd63834745b6f8ff83",
+    "size": 10160
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-400-normal-D9ESIMu3.woff",
+    "scheme": "purelib",
+    "sha256": "8d899d62a1e18740c6f9d8c1a760be8e511ef222e54ab68d3bc88c94d0d104b0",
+    "size": 8760
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-400-normal-_efipK4i.woff2",
+    "scheme": "purelib",
+    "sha256": "02296067bc904d2ad19b49445bdaf6586cc44704e668e16e248f708e5005a290",
+    "size": 9940
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-500-normal-CuWXN6rf.woff",
+    "scheme": "purelib",
+    "sha256": "38489276f6e67e4f00fbea894417af635dac8368ccdf14655dd71b5b3de269e0",
+    "size": 9148
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-500-normal-JMMifIXV.woff2",
+    "scheme": "purelib",
+    "sha256": "8cb6e20b4dbbaa5f7b479d4a68cc91d3d6b370eebcd888cae9ab01052e5483f2",
+    "size": 10376
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-600-normal-D-CqTdkO.woff",
+    "scheme": "purelib",
+    "sha256": "b080df76b8210429debab3f7fadf5975af7d9e43b1b0e51912ba4fde56e87865",
+    "size": 9220
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-600-normal-DzTrcv_p.woff2",
+    "scheme": "purelib",
+    "sha256": "0a9ebd9019415ee9f161b38fb24b5ee7736e2c8b85bf1e79e1e4c7c0010d55cb",
+    "size": 10368
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-700-normal-CkZN0sRy.woff",
+    "scheme": "purelib",
+    "sha256": "1f689ec0fa036813a9c1de6269f793530db71a9f817c51be0b4ae900e0fdf639",
+    "size": 8740
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-greek-700-normal-wyJ6jzdA.woff2",
+    "scheme": "purelib",
+    "sha256": "c949641d10a3bebcb7073edd5b6a8f2e0eccb2147f27c875a03ac522f04c209e",
+    "size": 9928
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-400-normal-CDDApCn2.woff2",
+    "scheme": "purelib",
+    "sha256": "3b646991d30055a93a4ecc499713d4347953a74a947ecab435ab72070cbdab0e",
+    "size": 22588
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-400-normal-CYLoc0-x.woff",
+    "scheme": "purelib",
+    "sha256": "828907bfd14855c880789878bd2b38ffd284a6c27c8b80f6069900f70dae3901",
+    "size": 22104
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-500-normal-6ng42L7E.woff2",
+    "scheme": "purelib",
+    "sha256": "0717336fb31fcdcde4b8deb3675bb4a0f7f6d484864afcd6751ac29975962203",
+    "size": 24184
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-500-normal-BgVn5rGT.woff",
+    "scheme": "purelib",
+    "sha256": "8d2c7b2eca91869d447851a9c8bd07edf629b26025eacb882291e03b384b4e35",
+    "size": 23916
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-600-normal-Cu4Hd6ag.woff",
+    "scheme": "purelib",
+    "sha256": "7861a349af1e925a80d56547c2c9e0b1e9f6a9002a9a6867351da2f05122ad21",
+    "size": 23876
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-600-normal-CuJfVYMP.woff2",
+    "scheme": "purelib",
+    "sha256": "8960851d691c054ed38e259bdcf1a6190d157b4203ed5bb32c632a863fb8ec2f",
+    "size": 24252
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-700-normal-Bth3BMcD.woff",
+    "scheme": "purelib",
+    "sha256": "973b42f17d4dbb83000847469e7777abe95c303f547d7503c934227e697a0516",
+    "size": 22280
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-700-normal-Bxkt5Cjx.woff2",
+    "scheme": "purelib",
+    "sha256": "42e7b0c143c19df9d99fd896e76b48f846edf0902d200bc29796b34d12c33aa7",
+    "size": 22832
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-400-normal-C5H60-Va.woff2",
+    "scheme": "purelib",
+    "sha256": "c93d2a12aaa280f68b9ab7b726ff8dfedda67c99ef9abed047c1847a1cc6d583",
+    "size": 15980
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-400-normal-RBey6euL.woff",
+    "scheme": "purelib",
+    "sha256": "85db75b89e3c0bee23ea75ede70c73024f62516ccdb6be55eb0c5c7a7866433a",
+    "size": 14360
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-500-normal-D0aIdm-b.woff",
+    "scheme": "purelib",
+    "sha256": "6aa470ebf8dd5592084d0452b5c3a355d93b04e7eb0f5ca030d9d3a54a48fb5c",
+    "size": 14736
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-500-normal-DakdToA3.woff2",
+    "scheme": "purelib",
+    "sha256": "2846035d85100f84c79393f80f1442d4ee720129ab8b3ffa8969aae281db8c6c",
+    "size": 16456
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-600-normal-DIrixKbi.woff",
+    "scheme": "purelib",
+    "sha256": "ba265b263be35814d27c13d42c6b9a36a0ec5b3a565d38011109bfa556a8d775",
+    "size": 14772
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-600-normal-DOrvGEcy.woff2",
+    "scheme": "purelib",
+    "sha256": "b25dfd4f979e442ae1e25cd0894463434cf01ba21ac1a35d39f4a82bd4cc060e",
+    "size": 16448
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-700-normal-DZH6Xh-4.woff",
+    "scheme": "purelib",
+    "sha256": "2cf7d29e5008330d097869f893808c4a4a98210ce122416d54dcd9237f5c02cb",
+    "size": 14424
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-latin-ext-700-normal-aMgXseD4.woff2",
+    "scheme": "purelib",
+    "sha256": "92f0392bd74fa3955bfa92f6ec747e7246d3567b6f46b32ddbaf271104836ab8",
+    "size": 16188
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-400-normal-DG4YqDda.woff2",
+    "scheme": "purelib",
+    "sha256": "771538f7f26551bd13ab97d585de6ce7ebe3b432837999d5b743391b48f4946a",
+    "size": 8204
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-400-normal-fK1oJ5dG.woff",
+    "scheme": "purelib",
+    "sha256": "aa3bd4c4c493c3110ca5f5ac3f0cd688482982b40e4cf9cb601f931df2a8ccf5",
+    "size": 6392
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-500-normal-BEb3_waV.woff",
+    "scheme": "purelib",
+    "sha256": "156142eef15bc3ea0983949aa2ccc2c4fcb8c97e5507ca019c5b1a23046a3268",
+    "size": 6588
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-500-normal-e4dixQRQ.woff2",
+    "scheme": "purelib",
+    "sha256": "85ba3d9c2488a813bbf1d60da3a848bce4a97ac8c8a539289d8524aef6c471f9",
+    "size": 8416
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-600-normal-DgdngZtN.woff",
+    "scheme": "purelib",
+    "sha256": "ae433d3b3cdfc7d2b2ecb4173442cca23b58448cf05c21f7f589cf67f67b2dde",
+    "size": 6584
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-600-normal-DpPYBSTl.woff2",
+    "scheme": "purelib",
+    "sha256": "5d34b803637befe3714d55d383d9149692c39838c8deb45c8cbdd43b0fd09b98",
+    "size": 8460
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-700-normal-BV5B8Are.woff",
+    "scheme": "purelib",
+    "sha256": "bb307d06c782ffb721a1443e0bde0bac43e4dadef9ec11a70d38465cc160fcb6",
+    "size": 6424
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/ibm-plex-sans-vietnamese-700-normal-CkEo6LDy.woff2",
+    "scheme": "purelib",
+    "sha256": "b79d0c4b68b850071e071d7e496144a30d7f91651efdc1079ca9779079d648ba",
+    "size": 8220
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/index-B6MDnHbQ.js",
+    "scheme": "purelib",
+    "sha256": "add85d2e2abf6c3e505c69437e17864ab039d36fdf58ff03710011ccc2980b0e",
+    "size": 402474
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/index-DQixnjQS.css",
+    "scheme": "purelib",
+    "sha256": "dcd02b45310a9c70eeb1c0a5ca6898c184ee900214c08033726ba36aae19621e",
+    "size": 132228
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-cyrillic-400-normal-BEIGL1Tu.woff2",
+    "scheme": "purelib",
+    "sha256": "522f5827308102a9c0ea7860b5a11306043610ecf03d150ba32056a06e8c56e2",
+    "size": 5328
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-cyrillic-400-normal-ugxPyKxw.woff",
+    "scheme": "purelib",
+    "sha256": "67c9cc7864b4940dbfb246c7b452c1de8e96f140f334d363fcdd87dbfeadab72",
+    "size": 6976
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-cyrillic-500-normal-DJqRU3vO.woff",
+    "scheme": "purelib",
+    "sha256": "d408a664dc721f614e6346e09f3f32b2837005db28f5e4797ce8dd19da07e4ea",
+    "size": 7024
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-cyrillic-500-normal-DmUKJPL_.woff2",
+    "scheme": "purelib",
+    "sha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4",
+    "size": 5356
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-greek-400-normal-B9oWc5Lo.woff",
+    "scheme": "purelib",
+    "sha256": "09f89e8369d7745ac5fe92e62a9ea13f66f40fd95b5495fac014c54b3a1ca6cc",
+    "size": 5664
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-greek-400-normal-C190GLew.woff2",
+    "scheme": "purelib",
+    "sha256": "365b7a8eaff022b13ed0561fde3890a04a30507d773ecd5adb3aca8e766a285c",
+    "size": 4228
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-greek-500-normal-D7SFKleX.woff",
+    "scheme": "purelib",
+    "sha256": "89656e472646bf4d52c23d499fa2e467ad3ee73447fda24eefb96e176b1312d6",
+    "size": 5720
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-greek-500-normal-JpySY46c.woff2",
+    "scheme": "purelib",
+    "sha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc",
+    "size": 4284
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+    "scheme": "purelib",
+    "sha256": "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
+    "size": 27496
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+    "scheme": "purelib",
+    "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+    "size": 21168
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+    "scheme": "purelib",
+    "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+    "size": 21832
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff",
+    "scheme": "purelib",
+    "sha256": "a270dd0bf13d91053b8999b7c120ffadb59680cfd63fe1a6b388a13bf2809fe1",
+    "size": 28208
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2",
+    "scheme": "purelib",
+    "sha256": "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
+    "size": 7336
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff",
+    "scheme": "purelib",
+    "sha256": "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
+    "size": 10128
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-ext-500-normal-Cut-4mMH.woff2",
+    "scheme": "purelib",
+    "sha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027",
+    "size": 7528
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-latin-ext-500-normal-ckzbgY84.woff",
+    "scheme": "purelib",
+    "sha256": "8006c29f8ec53d12d281774d669a02a70b599590d110ff1a4b4a40a6fd975676",
+    "size": 10336
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-vietnamese-400-normal-CqNFfHCs.woff",
+    "scheme": "purelib",
+    "sha256": "1dfe0f740fa86409034058e49474b01126ae9ea8c1ecda905917b90d57f03b00",
+    "size": 5372
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/jetbrains-mono-vietnamese-500-normal-DNRqzVM1.woff",
+    "scheme": "purelib",
+    "sha256": "6b14186bc983291a126aa8d6d9c3044415c968262279eecbb9bb194f1daf7800",
+    "size": 5476
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/key-Bx2dug32.js",
+    "scheme": "purelib",
+    "sha256": "f625902dd8d96d70fd6e7d687f406c642c6646a3e426030e36e53b9694ac7f3d",
+    "size": 254
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/label-flz0qVby.js",
+    "scheme": "purelib",
+    "sha256": "d2a763446022c0853b44a742f81150815e895b4bdc0917c64d692a987701009c",
+    "size": 681
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/lightbulb-DV4HYZZg.js",
+    "scheme": "purelib",
+    "sha256": "fb6016148837388879ed775ac7e9eeae6747ab6ac1f0a9dcfa34672986466e5a",
+    "size": 452
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/loader-circle-F-jAgWol.js",
+    "scheme": "purelib",
+    "sha256": "1e3b05c60ad9307d9bc475fcc668478c36caba251df030c8139c03d2be43572d",
+    "size": 134
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/markdown-message-DQLbLKs1.js",
+    "scheme": "purelib",
+    "sha256": "fa59fa6af2efe550ab895bbe3d907c741e227503624229f74c53b49392f3a9b6",
+    "size": 1058666
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/overview-CEv2LClz.js",
+    "scheme": "purelib",
+    "sha256": "64bfa1540ee47755ac68d59628b024ce89d50d687431195ca2c9c064ebf3104f",
+    "size": 19732
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/partial-query-error-BCF816rZ.js",
+    "scheme": "purelib",
+    "sha256": "d5049015058f190c1a280bd69093b36aea7cc9b7e1a0cf4aaee7e8dd5eefa4a1",
+    "size": 712
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/play--9dpwHns.js",
+    "scheme": "purelib",
+    "sha256": "e165c8e9059cc2639006e8e98857bf60668d71a7bd21f714c393dd85dcba1f48",
+    "size": 180
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/react-dom-aw48DzX9.js",
+    "scheme": "purelib",
+    "sha256": "6dc8a29a3f74cfc11902feb4515598af2f9b7f8a6e210db993a5763a5a806455",
+    "size": 3541
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/research-live-DcajCnfD.js",
+    "scheme": "purelib",
+    "sha256": "4a922cc78d32f8c63efda7d0d79bc144304eb9da892f93e02f16d467ef1ada4d",
+    "size": 15767
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/research-studio-LF-W07G7.js",
+    "scheme": "purelib",
+    "sha256": "b7f66130ab41ec7bf2b58979483e0daa1c8ef86d8b0c9269110686154c092013",
+    "size": 18775
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/result-detail-gqArdtB4.js",
+    "scheme": "purelib",
+    "sha256": "ec4d0d4c3d47774711a3dfe2894dad8b632cf9bac9c5394c470201e9b2b8a6d3",
+    "size": 11477
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/results-DHmeF0LC.js",
+    "scheme": "purelib",
+    "sha256": "03da2b58f2469f47845380c041e0d83934651a52d6a2931d620bbabd17210bd8",
+    "size": 403
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/results-library-CmNmHtPO.js",
+    "scheme": "purelib",
+    "sha256": "53d353deccdc3384efc75a556b3a76566ac7b8e18d0caefda843980a3716bde5",
+    "size": 7586
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/select-adsF0eTb.js",
+    "scheme": "purelib",
+    "sha256": "6bcca7562247fdbaf35d6912c0e3823ef16edd3e9dd0ecd906ad37f0ce6dfb69",
+    "size": 29271
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/settings-B3AlalgB.js",
+    "scheme": "purelib",
+    "sha256": "79deb1e4b3abb3bee4a5fa189c3ada452adbcb1c72de3f3a0fd6da48a3819f2d",
+    "size": 18414
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/shield-Db9_D7KY.js",
+    "scheme": "purelib",
+    "sha256": "0c240f00e0e79dda34ab6ac41b614de9b0f3a75b2f25782baf13af8063345a3c",
+    "size": 385
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/skeleton-CUWjZejh.js",
+    "scheme": "purelib",
+    "sha256": "b5c8547f3362021a925265102b8966081fa4a6910a3a5cf5a13b5fa2a52ef1e1",
+    "size": 2142
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/square-BSC8XjSZ.js",
+    "scheme": "purelib",
+    "sha256": "f4ac25fef61989b32d75b58f76de22c2b7c83c4fa2ae25f5c7f74ae30c1eccaf",
+    "size": 214
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/trace-explorer-BsoMIAhf.js",
+    "scheme": "purelib",
+    "sha256": "e21d53363468f248cd8ca60ab2c5ae7615d666cb78682faef6f41c55c11f4967",
+    "size": 12620
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/useMutation-CDs7aim_.js",
+    "scheme": "purelib",
+    "sha256": "e2f9d7f207657de796accf5f2160282ac3a2529a6c4acb02734b64722f56ae4b",
+    "size": 2245
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/assets/zap-Drz9aKoI.js",
+    "scheme": "purelib",
+    "sha256": "59b9a6010a9169458492d1bd813aa01244bd4f2ca09ca2d58437152b2811668b",
+    "size": 263
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/deepr.svg",
+    "scheme": "purelib",
+    "sha256": "4ec5979f84122bae8fb20628d4bde26e96d4265aa8a7ee55ac0e338aa278048f",
+    "size": 412
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/frontend/dist/index.html",
+    "scheme": "purelib",
+    "sha256": "925cff0f9145d6e77d57c7605a36a85d062491a42540ef993bd21327f9ea5f65",
+    "size": 2378
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/metered_expert_gate.py",
+    "scheme": "purelib",
+    "sha256": "27a20da747e5888921cfb3d7f187dc89e0d0f3683980ab85c76fe66e536bc59a",
+    "size": 918
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/portrait_api.py",
+    "scheme": "purelib",
+    "sha256": "d5991b3e86948e653e5e477ba5337f2b28cfb00fd56aa7071ca1d7c71e26f0fd",
+    "size": 6331
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/portrait_cost_gate.py",
+    "scheme": "purelib",
+    "sha256": "810ed7c300c741b34d1d616d2935a1436004a0fc0bd10d0534c844fc9f34bd1f",
+    "size": 407
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/research_cost_api.py",
+    "scheme": "purelib",
+    "sha256": "1f642f55d88a56ce567c90e1d811775cb391f43af6b7dcfea19aec591aac4164",
+    "size": 17563
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/web/spend_truth.py",
+    "scheme": "purelib",
+    "sha256": "86b77bb589ee2debc7ef2f178b25a4f59aa4463e06b60076254823d2114c2f95",
+    "size": 11240
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/webhooks/__init__.py",
+    "scheme": "purelib",
+    "sha256": "62efee80a61b5f513b0787a0191188942cad78e37ed0ac0fb994c0398d01bde4",
+    "size": 198
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/webhooks/server.py",
+    "scheme": "purelib",
+    "sha256": "216e098607627f07908a1b8fa92c6afe86de89a0141b124ab46777490402fedb",
+    "size": 6177
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/webhooks/tunnel.py",
+    "scheme": "purelib",
+    "sha256": "03f20724ebfd8ba25ca10ddc7212d1c0c334ef714ebd201aa011e96cbb62f8f0",
+    "size": 1516
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/worker/__init__.py",
+    "scheme": "purelib",
+    "sha256": "757c9af9c4a624665bc48ffe0fcc7c4380bd714fa505c0a1d3ea83d79395f40c",
+    "size": 146
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr/worker/poller.py",
+    "scheme": "purelib",
+    "sha256": "6bda43f2e6114c93e6a4b617464ce7f00aa2e1e59ff6d24c088816b879afcc02",
+    "size": 24555
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/METADATA",
+    "scheme": "purelib",
+    "sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+    "size": 12770
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/RECORD",
+    "scheme": "purelib",
+    "sha256": "95f65496efa2dfe1e80d45365e5279397fe13957b48a04eded2272075e9e011b",
+    "size": 79099
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/WHEEL",
+    "scheme": "purelib",
+    "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+    "size": 91
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+    "scheme": "purelib",
+    "sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+    "size": 80
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/licenses/LICENSE",
+    "scheme": "purelib",
+    "sha256": "450097a4758411e2dad346aa520ceadc7576ae0c9c450b2e5c24d654ba5a8977",
+    "size": 10816
+  },
+  {
+    "executable": false,
+    "relative_path": "deepr_research-2.50.11.dist-info/top_level.txt",
+    "scheme": "purelib",
+    "sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+    "size": 6
+  },
+  {
+    "executable": true,
+    "relative_path": "deepr",
+    "scheme": "scripts",
+    "sha256": "b5979b613608d397a049da3acc829f8e89db2b244fdf79ae11c3b8120295043b",
+    "size": 213
+  },
+  {
+    "executable": true,
+    "relative_path": "deepr-mcp",
+    "scheme": "scripts",
+    "sha256": "4cd1e3a9273f3703a0fa7af29a1573d9ce42d6b6fa652886df430449059f73bc",
+    "size": 215
+  }
+]

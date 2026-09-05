@@ -1,0 +1,1061 @@
+{
+  "artifacts": [
+    {
+      "bounded": [
+        {
+          "path": "deepr/__init__.py",
+          "sha256": "d27202c03a9b8a21e4d43b8d9c006a6b946070ff651affba713c6cb546b85cdd",
+          "size": 1277
+        },
+        {
+          "path": "deepr/a2a/__init__.py",
+          "sha256": "81eebd2bfcd15d26ba92c43ccc9b3914e58b7bbd08600165775e7f1116ae6dea",
+          "size": 352
+        },
+        {
+          "path": "deepr/a2a/agent_card.py",
+          "sha256": "1cf0d628a55f9764a97b0973f1f284accc58836a06f4ad02e50922ccdd693de5",
+          "size": 3409
+        },
+        {
+          "path": "deepr/a2a/constants.py",
+          "sha256": "cdde36a080c1d7ddfb0af78d6ddd5a459d013f88ab57d84cc001b1c04c78a173",
+          "size": 254
+        },
+        {
+          "path": "deepr/a2a/consult_tasks.py",
+          "sha256": "87790aed6861afd6db071ef7b965bbf7005fc8ded311f2dc0287f0bdff76419e",
+          "size": 10137
+        },
+        {
+          "path": "deepr/a2a/models.py",
+          "sha256": "0b29092ad7e7de3574408a64badf77139ff438e3e9788f90baacc82e065bdaf5",
+          "size": 4238
+        },
+        {
+          "path": "deepr/a2a/output_contracts.py",
+          "sha256": "59693ba6746c7e1777902038e414acdd8b62aba1b3a85b05046eae101d159caa",
+          "size": 2896
+        },
+        {
+          "path": "deepr/a2a/server.py",
+          "sha256": "3fd9e33afafa1499d0b7a2285a2f79991c3a39d814d03d74aeb86073c7a5f33b",
+          "size": 18723
+        },
+        {
+          "path": "deepr/a2a/task_manager.py",
+          "sha256": "e33dffd8463eaacda98ae2a7303ebcc28f7efb9359dcc1de4f2bb370084705df",
+          "size": 8558
+        },
+        {
+          "path": "deepr/a2a/validation.py",
+          "sha256": "1d420a1795b998118238d453a3c699b682bd72ee0b80f3917511a0c6bf27f238",
+          "size": 24391
+        },
+        {
+          "path": "deepr/agents/__init__.py",
+          "sha256": "f31f92297fe93ef9b6c8e19ed5386e9de4382daa07b526f1930f4de20fd21b63",
+          "size": 888
+        },
+        {
+          "path": "deepr/agents/agent_tool.py",
+          "sha256": "40fbe07126769d2df8f2904bd7c7bd12301a807adfed800a000ae9045f4c05ca",
+          "size": 4960
+        },
+        {
+          "path": "deepr/agents/circuit_breaker.py",
+          "sha256": "0dbd09a1151ed879dc60614b8ff93c9c00dd9d679a186161bf7d1650f67fce63",
+          "size": 3708
+        },
+        {
+          "path": "deepr/agents/contract.py",
+          "sha256": "5edf3e64a18e5617d008081d176b80c6a87f0c35f5b790c80c69f393ff80e940",
+          "size": 7212
+        },
+        {
+          "path": "deepr/agents/handoff.py",
+          "sha256": "daa561be843cec4778ecce097a0a3689fbc32e1d9eff2494f0e32103f0ea39aa",
+          "size": 2738
+        },
+        {
+          "path": "deepr/agents/orchestrator.py",
+          "sha256": "f5938be25c73354d8aa6eb1f645863bbf4f5dfc7f1b813fe367364f1863c0673",
+          "size": 8236
+        },
+        {
+          "path": "deepr/agents/runtime.py",
+          "sha256": "89b59d29154af1c79620acb825796b225707777148ebc029bec8f30780c1e837",
+          "size": 10314
+        },
+        {
+          "path": "deepr/api/__init__.py",
+          "sha256": "7ac04b5324e579f53a8d6c72b048da9064f1eaece6285e684660df16fae500bb",
+          "size": 136
+        },
+        {
+          "path": "deepr/api/app.py",
+          "sha256": "e12c065d6015c9b7fb8b314047330eacf91e624edeac4a37e1d7cf2a2bbec21c",
+          "size": 36208
+        },
+        {
+          "path": "deepr/api/job_cancellation.py",
+          "sha256": "1485c6ef454c6c8359901009f2d52fbfb2a9d95e099cb278941953bc2e76a694",
+          "size": 941
+        },
+        {
+          "path": "deepr/api/middleware/__init__.py",
+          "sha256": "35e0fd8cf8283c9498ba300063aada6bfa5fc60661061043fe47c45e0c09536c",
+          "size": 109
+        },
+        {
+          "path": "deepr/api/middleware/errors.py",
+          "sha256": "59a5cfe295f0ff30eab0d7918bb1e9c5193d47380063913e908096e80fbd516c",
+          "size": 4638
+        },
+        {
+          "path": "deepr/api/middleware/rate_limiter.py",
+          "sha256": "8f5204b9f0f4486a587c5ee5208e1d1973c7bcd1a92d18d0cf730e55652d956a",
+          "size": 3994
+        },
+        {
+          "path": "deepr/api/research_cost.py",
+          "sha256": "eb4e77ab612c515d02eeba9bd9c6ade5cfdca7c1ba238d43b074851fb7a327b1",
+          "size": 2933
+        },
+        {
+          "path": "deepr/api/websockets/__init__.py",
+          "sha256": "34b224601f131cbf808781597d90f382f01820906813dd338f866f541e3be663",
+          "size": 122
+        },
+        {
+          "path": "deepr/api/websockets/events.py",
+          "sha256": "051bc6d9d203f85b50665e8b2c3141a5f55086107fb03b3ac045dd243257dc74",
+          "size": 39089
+        },
+        {
+          "path": "deepr/backends/__init__.py",
+          "sha256": "526604a14dcde3855005d5ef8aca91a4ae648fb947124c554761d6752a33f2da",
+          "size": 2658
+        },
+        {
+          "path": "deepr/backends/admission.py",
+          "sha256": "e46df72a1410ac7ed242eae4d7d778ff648683fa288ed215640c0b6d06f18c45",
+          "size": 16246
+        },
+        {
+          "path": "deepr/backends/capacity.py",
+          "sha256": "b3c1ff4d24dfc014b639ee42e0d659e3fc622777a4fd0aff1d1b344a30361b21",
+          "size": 13934
+        },
+        {
+          "path": "deepr/backends/capacity_actions.py",
+          "sha256": "70fce894edbf87b8475d0b1296052ef96dcc65511dccdf9091bcb108dac9411f",
+          "size": 13017
+        },
+        {
+          "path": "deepr/backends/context_building.py",
+          "sha256": "a5e1944d34bb9b6051dd913243fea01ef61bcdf11ee7f9376c7bf0bdad1c7552",
+          "size": 4189
+        },
+        {
+          "path": "deepr/backends/eligibility.py",
+          "sha256": "b79e1d7157d6f4cf60fcd1e902d4d784bd2c7a9c34c4820b7b56056e612c6b36",
+          "size": 7559
+        },
+        {
+          "path": "deepr/backends/fresh_context.py",
+          "sha256": "48816569b112aa9eecd4e44a962b3058b528929c70ee89837eb7f7c713840962",
+          "size": 28839
+        },
+        {
+          "path": "deepr/backends/local.py",
+          "sha256": "2f78fb52d2e87df0a3eaa820d2bc9fced41e27ae495b404ab4517ad0fe39596a",
+          "size": 18651
+        },
+        {
+          "path": "deepr/backends/local_capacity.py",
+          "sha256": "555c706f4846832855122f40c0a3c98b05b2e36cef6389c76949bd28e46ec8fb",
+          "size": 5399
+        },
+        {
+          "path": "deepr/backends/local_fit.py",
+          "sha256": "97bfd5fbb2c53b7dd4dd0d16f1db8ec8b9f15476895d615902ecd9b3090db1f7",
+          "size": 8600
+        },
+        {
+          "path": "deepr/backends/plan_quota/__init__.py",
+          "sha256": "fe579f68edb4afbae13876269cf9bf6ebe0ecec14f940ec550643506e2771984",
+          "size": 2456
+        },
+        {
+          "path": "deepr/backends/plan_quota/adapters.py",
+          "sha256": "36af3a54c18d1fc27c97d01af27d40c04ffc2a46e95f6b468579a5a07aa0dfba",
+          "size": 23763
+        },
+        {
+          "path": "deepr/backends/plan_quota/antigravity_transcript.py",
+          "sha256": "c8ab279a0d09bebad2dcf806f6896a5b4dc6b3160960d21324fee9194baa42c7",
+          "size": 10073
+        },
+        {
+          "path": "deepr/backends/plan_quota/attempt_accounting.py",
+          "sha256": "819ae4028e7b68ebd93cfcdd3dd0756d198137444dfc3b53c9a9739265cee888",
+          "size": 6592
+        },
+        {
+          "path": "deepr/backends/plan_quota/cli_runner.py",
+          "sha256": "92daf605d3b4e4644fdbc92673fab61b26efaf7a7931434f89c5271ab345c8c2",
+          "size": 36848
+        },
+        {
+          "path": "deepr/backends/plan_quota/client.py",
+          "sha256": "a66dc6920e59b0abc9636ecf2e6f416535362573317ff88c63a26d044e1b4c1a",
+          "size": 39185
+        },
+        {
+          "path": "deepr/backends/plan_quota/dispatch_boundary.py",
+          "sha256": "3a3e2638445a9f226abe6bd673ee7b0383e246b733ab5d8261c2783713e47479",
+          "size": 4436
+        },
+        {
+          "path": "deepr/backends/plan_quota/errors.py",
+          "sha256": "685f166a204113c5161a0c32fad2b656700e3cfe0708a75a13fc0836c8b9e0e3",
+          "size": 1280
+        },
+        {
+          "path": "deepr/backends/plan_quota/fleet.py",
+          "sha256": "0f34831db8a4052af37972002f36b761a79b24350be2bdb5b14f2fb23e215947",
+          "size": 4459
+        },
+        {
+          "path": "deepr/backends/plan_quota/output_safety.py",
+          "sha256": "8fae7d73a83e9a143059150cf38e8c0e894dc1763b4e2b513187134e2b51075c",
+          "size": 6708
+        },
+        {
+          "path": "deepr/backends/plan_quota/overage_guard.py",
+          "sha256": "434bfd17e981c228aa9209f917e187d05ebb7e12578ffaaf04e0a26242b5ee2e",
+          "size": 3844
+        },
+        {
+          "path": "deepr/backends/plan_quota/posix_supervisor.py",
+          "sha256": "67fea3b50098fa82c3f126a13e8b5606b85b1a7963d4301c5a92af99764b6570",
+          "size": 7446
+        },
+        {
+          "path": "deepr/backends/plan_quota/probe_support.py",
+          "sha256": "90a7e65275728b3c803210571e7b91ae56827409c4619feb3572f5cb68827e91",
+          "size": 10538
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_cleanup.py",
+          "sha256": "5a0596df05d490f0fa17829047359a0e0440b4b7de56ee4d6eb7c10bbd9fa3fc",
+          "size": 3665
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_control.py",
+          "sha256": "5faade375d997190a3b5616da04abf671b561d01cf5339d0a65dec0a02c287a7",
+          "size": 1631
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_launch.py",
+          "sha256": "989f8d21a5d52222cfdeadb2277b3aaa0edc35015ea89293d73ea62be671ee46",
+          "size": 6190
+        },
+        {
+          "path": "deepr/backends/plan_quota/prompt_delivery.py",
+          "sha256": "930cff28a9bf5a9c21a185467bf02efcff4a98f0c46c193b277071f88cf6e1a4",
+          "size": 1889
+        },
+        {
+          "path": "deepr/backends/plan_quota/quota_probes.py",
+          "sha256": "cbe458dfaeb4724b34a37f278474d7b46180bbbd14da0d372cbd9c09d646d20f",
+          "size": 25049
+        },
+        {
+          "path": "deepr/backends/plan_quota/research.py",
+          "sha256": "c7ddd513601418fb363c8e462d40385a8a7f5e66c164810a09512d6ffec32ff7",
+          "size": 4734
+        },
+        {
+          "path": "deepr/backends/plan_quota/response.py",
+          "sha256": "5ee47de9fd4780248292dcf0684884b8430be51c707989f52388a8e5f94a81a7",
+          "size": 552
+        },
+        {
+          "path": "deepr/backends/plan_quota/safety.py",
+          "sha256": "f08b4c6a74c470a85b2cf92f777a488451b6d8da83813c17c1d9280a38db3f4f",
+          "size": 8441
+        },
+        {
+          "path": "deepr/backends/plan_quota/transcript_dispatch.py",
+          "sha256": "0179d75c250f155cffd9db87e3cd5f857ab47a8fc52c3e9578dfb94c0b836043",
+          "size": 8102
+        },
+        {
+          "path": "deepr/backends/plan_quota/windows_job.py",
+          "sha256": "c86dbb47ee6c7549dbb827baa68b601e084dacdb05e3cb4ac810fefb1f9adb34",
+          "size": 9628
+        },
+        {
+          "path": "deepr/backends/quota_headroom.py",
+          "sha256": "cd4b683f4286c2df33e0a6923950ed48e21cf9d8d75bf347f9bc38bdb811e7ec",
+          "size": 8095
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/METADATA",
+          "sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+          "size": 12770
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/RECORD",
+          "sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+          "size": 78951
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/WHEEL",
+          "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+          "size": 91
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+          "size": 80
+        }
+      ],
+      "filename": "deepr_research-2.50.11-py3-none-any.whl",
+      "inventory_sha256": "75c7ee81cc84df9ef8407392f35a0b53bf4c4b8aa5eb1e47dc793c4e445385fb",
+      "project": "deepr",
+      "regular_members": 832,
+      "semantic": [
+        {
+          "path": "deepr_research-2.50.11.dist-info/METADATA",
+          "sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+          "size": 12770
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/RECORD",
+          "sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+          "size": 78951
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/WHEEL",
+          "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+          "size": 91
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+          "size": 80
+        }
+      ],
+      "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1"
+    },
+    {
+      "bounded": [
+        {
+          "path": "primr-1.39.13.dist-info/METADATA",
+          "sha256": "f84e067c0298e8ec9dfaf1380421ca935fd87fdd53dcadf5d17ea8ecec78c6bd",
+          "size": 13036
+        },
+        {
+          "path": "primr-1.39.13.dist-info/RECORD",
+          "sha256": "88b1f542299e8eefe1c3a75d974ea729b6f6c00d01d4c7a25940c9b6a2911b1c",
+          "size": 48136
+        },
+        {
+          "path": "primr-1.39.13.dist-info/WHEEL",
+          "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+          "size": 91
+        },
+        {
+          "path": "primr-1.39.13.dist-info/entry_points.txt",
+          "sha256": "52c67a9336ed4ed1beabc39d2ee924ccc43c4770bd549e3503ff68321987e3e7",
+          "size": 116
+        },
+        {
+          "path": "primr-1.39.13.dist-info/licenses/LICENSE",
+          "sha256": "50274808d765ab66c436295d1735b81453c3e09bd198ddadb1d2fd6782645ce2",
+          "size": 11404
+        },
+        {
+          "path": "primr-1.39.13.dist-info/top_level.txt",
+          "sha256": "b88288c8749c77c9038a9af99f190513c4383e37b555e9ff269b0aba2c745d87",
+          "size": 6
+        },
+        {
+          "path": "primr/__init__.py",
+          "sha256": "f9046fb7ef66e6c1b74d3f2db6970754b344816e4a48f563f0edc878200b482b",
+          "size": 1234
+        },
+        {
+          "path": "primr/__main__.py",
+          "sha256": "321e53c886fec23a56c4f700049dffce56dd508f34d03b0c486f3b1f25435334",
+          "size": 168
+        },
+        {
+          "path": "primr/a2a/__init__.py",
+          "sha256": "e534d4ac6b3b7156fbe98296af1e7769f9e8ef7d8f5173efeed1cfc00de95081",
+          "size": 1322
+        },
+        {
+          "path": "primr/a2a/agent_card.py",
+          "sha256": "8bf4e1993fa3368f8817c397781dbc1119bd42ad2276e08d458cb03a833e5155",
+          "size": 15596
+        },
+        {
+          "path": "primr/a2a/authz.py",
+          "sha256": "08d0daccacf0da674309848901795c3a9a48a71709436937be1f34976f567b00",
+          "size": 3664
+        },
+        {
+          "path": "primr/a2a/call_context.py",
+          "sha256": "fe92a48013e5da661380cfbfd74a4aa626636d0a8951eac05bd2812e3023e1d5",
+          "size": 2502
+        },
+        {
+          "path": "primr/a2a/cancellation.py",
+          "sha256": "999c0ced7987334176f96f9f5ed786e361d613bedcbb8b5dccca255cc6d1a345",
+          "size": 4301
+        },
+        {
+          "path": "primr/a2a/cli.py",
+          "sha256": "5622d3fa3a72e90c4e11521460227474b8f97f990fc99c7fe440bea34d38fd4e",
+          "size": 4481
+        },
+        {
+          "path": "primr/a2a/client.py",
+          "sha256": "9661a8e76cedcc889f525e6fdd7d8f9a1bcf33a9a1c6e4cee43b2a9340fa0905",
+          "size": 12287
+        },
+        {
+          "path": "primr/a2a/executor.py",
+          "sha256": "d04cc8eb1c49e467fe19e7f21e5456e468f4a4b011300349c1c41521a7c33ec3",
+          "size": 34405
+        },
+        {
+          "path": "primr/a2a/hooks.py",
+          "sha256": "b7a6a5dd773009d8a7093664184914eaa96e8e78e2f6f81ce18ac4131e69e670",
+          "size": 7010
+        },
+        {
+          "path": "primr/a2a/input_parsing.py",
+          "sha256": "8cdcb33e928ed27f77a292f6c955b9ae9aa2aa5fd829c11a4145779696d98cfd",
+          "size": 4527
+        },
+        {
+          "path": "primr/a2a/lifecycle_events.py",
+          "sha256": "5ff28350118e0740f39a89c72a6443140e9e9cb352a8c9ffe4830461c4e62783",
+          "size": 3097
+        },
+        {
+          "path": "primr/a2a/prelaunch.py",
+          "sha256": "cd0af0db1ad2b6b4043ab29c91580668bbd13874000c7ba84d7f789f86c08b89",
+          "size": 2849
+        },
+        {
+          "path": "primr/a2a/resource_reads.py",
+          "sha256": "895b2a2a29516519254b05110c060fb8fc48503fcf1684b05cab188e8beed152",
+          "size": 8475
+        },
+        {
+          "path": "primr/a2a/server.py",
+          "sha256": "54ebdb971395a331774237185967fe731ba948f975f0b15209a3057193554b23",
+          "size": 5471
+        },
+        {
+          "path": "primr/a2a/skill_ids.py",
+          "sha256": "9ff4e3e8e64dc90124002bd4c35ef78477bec9eee60c7fe4471255bf1ed3662c",
+          "size": 891
+        },
+        {
+          "path": "primr/a2a/status_events.py",
+          "sha256": "cb02d6920687b9402b0553348ba10d05f01d212efd300347b3ca86859e1b88d3",
+          "size": 811
+        },
+        {
+          "path": "primr/a2a/task_store.py",
+          "sha256": "c8694d82d5c81542374232fbd0a3d63dd3505bcb90810b9eee1d7d290de5e177",
+          "size": 5033
+        },
+        {
+          "path": "primr/a2a/types.py",
+          "sha256": "67e4f6dea7778743caee08bb255a3c7adaaaec65fa69d79179a4b842603e616f",
+          "size": 1583
+        },
+        {
+          "path": "primr/agentic/__init__.py",
+          "sha256": "0a98985d82ad34709a9a4cfc5c771ae57aba767e92f1bcc1af53e17d0cf8c02a",
+          "size": 3702
+        },
+        {
+          "path": "primr/agentic/company_profiles.py",
+          "sha256": "8cc013b666a72e52f4b710d6ed00162975d553404ee7f2f0debbc7c650734644",
+          "size": 16795
+        },
+        {
+          "path": "primr/agentic/cost_guard.py",
+          "sha256": "54540d2937547595609ee225cc8cc948b5297457af0f5af351df1ef1e701102a",
+          "size": 4406
+        },
+        {
+          "path": "primr/agentic/errors.py",
+          "sha256": "858096338c98035dfeac160bbc6a39692d83793f7fd469c3acad81cd54e33a8e",
+          "size": 8856
+        },
+        {
+          "path": "primr/agentic/hooks.py",
+          "sha256": "0b39459ebd9f272b49223f8496682950c70c2f67f44033a7849d8a5ecf238e3d",
+          "size": 33827
+        },
+        {
+          "path": "primr/agentic/integration.py",
+          "sha256": "e271de07909d5a5f6c661fffbb6e99755af732e8a7267a09102f651fb5e4068f",
+          "size": 16801
+        },
+        {
+          "path": "primr/agentic/memory.py",
+          "sha256": "1a180d89a24d0f9b6e36e2b756f33b33edf2f0a5dd2647b286bcf84e1449e650",
+          "size": 21360
+        },
+        {
+          "path": "primr/agentic/models.py",
+          "sha256": "90c7291624625cfcf11efbd61edba62ddb3441273fe5b1e0a42973561939b43f",
+          "size": 10755
+        },
+        {
+          "path": "primr/agentic/orchestrator.py",
+          "sha256": "ca0104fdd769cdfcd9851638e64a0f3a41c80a08637ee8adf4ca2aa30d2debc6",
+          "size": 31839
+        },
+        {
+          "path": "primr/agentic/roadmap_api.py",
+          "sha256": "bcc9019ce5be5d09309bc3054b918d1ef9665bca14651dd90a23c58e2abe519d",
+          "size": 15204
+        },
+        {
+          "path": "primr/agentic/subagents/__init__.py",
+          "sha256": "d3c4908f0741b36c6bd22027db3e4cb04d3dd86173abe0cb23ca229f9dfe3801",
+          "size": 2251
+        },
+        {
+          "path": "primr/agentic/subagents/analyst.py",
+          "sha256": "05c9a822468072d954b7c65d7adb626d1edc994acf52aec178f828ec82767e52",
+          "size": 15095
+        },
+        {
+          "path": "primr/agentic/subagents/base.py",
+          "sha256": "7128271d62cbe3106cb70021ba3c0113fc636fa2f3970c39fa82d825fad2b718",
+          "size": 10406
+        },
+        {
+          "path": "primr/agentic/subagents/qa.py",
+          "sha256": "7815abde98b957c083ac935276e40fd7bffe693ff7604b296cc90843f7aa617c",
+          "size": 16028
+        },
+        {
+          "path": "primr/agentic/subagents/scraper.py",
+          "sha256": "2098a3ea6bd44b5719199e0db3cb6983bb3e27e3dd7d4cd57ebe9e4bff901c17",
+          "size": 8996
+        },
+        {
+          "path": "primr/agentic/subagents/verifier.py",
+          "sha256": "2196a8ccdf99b7a4f0716dbe836037f6d74c0ed9298de31658430ba1156514df",
+          "size": 26101
+        },
+        {
+          "path": "primr/agentic/subagents/writer.py",
+          "sha256": "e760cab3bb624f6dfe2f2edee1982388e6d4098bcd3b12895355d6fa0a4d6785",
+          "size": 9635
+        },
+        {
+          "path": "primr/ai/__init__.py",
+          "sha256": "5fa9fc8622bf769ffffae9e00be601f2b4dd8d5068724827b97b5809c46f7d03",
+          "size": 9452
+        },
+        {
+          "path": "primr/ai/accordion_test.py",
+          "sha256": "962f8d9dfb0a4fe597e1ed8596fe2b626a2e5af78dcf4d0b5fbc304de4369de3",
+          "size": 31842
+        },
+        {
+          "path": "primr/ai/ai_strategy.py",
+          "sha256": "89d92273c52822516ca6dcb5a7b1ab389f37741262cd939d6b2e8f7c7cc48e63",
+          "size": 19375
+        },
+        {
+          "path": "primr/ai/async_client.py",
+          "sha256": "4255ac85a7295296288c90cc1a7b4102c37e806f989c96115d97140f8649e8e3",
+          "size": 16477
+        },
+        {
+          "path": "primr/ai/availability_sanitize.py",
+          "sha256": "c9cbc3e5fc58c4e648cf1889e41aa9041688d190bfc5c413fc5aa6830a4ab6eb",
+          "size": 4692
+        },
+        {
+          "path": "primr/ai/capability_routing.py",
+          "sha256": "71f1b096fecc1602e8d48f6ee3e1a951713e043da7b028aa94ba4900459fa33b",
+          "size": 25575
+        },
+        {
+          "path": "primr/ai/citation_resolution.py",
+          "sha256": "51d478a8927bc5741e6efa0d3c9c114234a135e5dfa38fc54f11217e3be713bc",
+          "size": 5784
+        },
+        {
+          "path": "primr/ai/client.py",
+          "sha256": "a326b029c519b34df270ad21b805be1b639a63ec8f103bb6eca9ea67bd5e91da",
+          "size": 26394
+        },
+        {
+          "path": "primr/ai/competitive.py",
+          "sha256": "e0e4252704e7f493cf5af05467b860a18581f029080e13e0a2053957d1c39384",
+          "size": 22846
+        },
+        {
+          "path": "primr/ai/deep_research.py",
+          "sha256": "a4e3decb0b085f41dcda0ff33ea58d81adc8de3a52895a32235c7373653f73f4",
+          "size": 152683
+        },
+        {
+          "path": "primr/ai/deep_research_execution.py",
+          "sha256": "111e7a9269e107a4edc4a7a7b7f449ea3d2c18d06f4e2ef2599a6f282edd6ac9",
+          "size": 4193
+        },
+        {
+          "path": "primr/ai/deep_research_parsing.py",
+          "sha256": "24953259d5205de402783278b58528ce771d31b917bec327e4661e72e9ccc0a2",
+          "size": 7517
+        },
+        {
+          "path": "primr/ai/deep_research_polling.py",
+          "sha256": "aa1c87f916ad022a964ad3cfdef37767ce605cd2e8893410c213944bdb1a3335",
+          "size": 1137
+        },
+        {
+          "path": "primr/ai/error_policy.py",
+          "sha256": "5390bd47981e45e88cba2181e5a88ead03e6ede8daeedc178204c2771dff4836",
+          "size": 3707
+        },
+        {
+          "path": "primr/ai/file_search_resources.py",
+          "sha256": "77d2c81d969b11054aab68eb3659eceaaf23c73073775210ebbf08d6a7c528be",
+          "size": 9883
+        },
+        {
+          "path": "primr/ai/gemini_usage.py",
+          "sha256": "df09940c0c883da0b9dd7409bd75e463f885252ce67fa8d94eef34fc4d6be3b1",
+          "size": 1577
+        },
+        {
+          "path": "primr/ai/genai_factory.py",
+          "sha256": "6f116eda847a56a2af8daade4fec4ed0d2ea5f9463c6cdcbf41aa36fbe7d7cbb",
+          "size": 3661
+        },
+        {
+          "path": "primr/ai/grading_agent.py",
+          "sha256": "672620a34de9b12eb0ebc37296912d572dc6d5a3afd1f552f614d53bcc4c8856",
+          "size": 2630
+        },
+        {
+          "path": "primr/ai/grok_client.py",
+          "sha256": "85ef33c316fe9d27e40c61dd42ed58933d2912739c068974a27a395550d4f15a",
+          "size": 21544
+        },
+        {
+          "path": "primr/ai/host_agent_cli.py",
+          "sha256": "bcb5c51bbf402692aca0549e1338fe0f83dac24fd79b742056ee6bf7f1e12965",
+          "size": 8795
+        },
+        {
+          "path": "primr/ai/host_agent_runner.py",
+          "sha256": "6222d7e9f50c0c0caf84851c067aa648d44fd2e0d3cae378ae773a4e61b9b1be",
+          "size": 6070
+        }
+      ],
+      "filename": "primr-1.39.13-py3-none-any.whl",
+      "inventory_sha256": "827eea11c2e27a37b10509d3ff1eab850b94457edebe01c293cdf32be5b89d6b",
+      "project": "primr",
+      "regular_members": 546,
+      "semantic": [
+        {
+          "path": "primr-1.39.13.dist-info/METADATA",
+          "sha256": "f84e067c0298e8ec9dfaf1380421ca935fd87fdd53dcadf5d17ea8ecec78c6bd",
+          "size": 13036
+        },
+        {
+          "path": "primr-1.39.13.dist-info/RECORD",
+          "sha256": "88b1f542299e8eefe1c3a75d974ea729b6f6c00d01d4c7a25940c9b6a2911b1c",
+          "size": 48136
+        },
+        {
+          "path": "primr-1.39.13.dist-info/WHEEL",
+          "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+          "size": 91
+        },
+        {
+          "path": "primr-1.39.13.dist-info/entry_points.txt",
+          "sha256": "52c67a9336ed4ed1beabc39d2ee924ccc43c4770bd549e3503ff68321987e3e7",
+          "size": 116
+        }
+      ],
+      "source_sha256": "2a3b7c7318782a2a039566d375fd0a6ea660b9e1bb861137115c6796d3c1da6e"
+    },
+    {
+      "bounded": [
+        {
+          "path": "recon_tool-2.18.4.dist-info/METADATA",
+          "sha256": "aa0a429a54d985db4bdacdb44df7d9bfcc9c7b1107884319bb1ad81a9fff1ce3",
+          "size": 22151
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/RECORD",
+          "sha256": "4c8d3fad1cf0d34aeb390480ec18ecd10c6bc352edcb14cdfffe02894130fb6c",
+          "size": 16996
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/WHEEL",
+          "sha256": "942926c567d0b1273d09f20295879abd37507845f6b683eab9f87d808df91100",
+          "size": 87
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/entry_points.txt",
+          "sha256": "6a64e0e4e4d769d507d8e551fb6dcd932013ddfd651144925f42ddfb527d97d9",
+          "size": 45
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/licenses/LICENSE",
+          "sha256": "7a72b76d630972f6b739c637fe946ed295537b9588257bf16c7d154f127be0c3",
+          "size": 11380
+        },
+        {
+          "path": "recon_tool/__init__.py",
+          "sha256": "97e0bb6d2134a3e62c791533b3536c1fa8b02ebf7601039ff33482ef93b482aa",
+          "size": 1662
+        },
+        {
+          "path": "recon_tool/__main__.py",
+          "sha256": "395a8ee190abc2b410c3b7a949e52e2b8b4af685193c611c6e8a0d51c59838de",
+          "size": 174
+        },
+        {
+          "path": "recon_tool/absence.py",
+          "sha256": "42dd9a17adfc3a823439cb0416da252bc42a1ef2f3a5ef239fcb029aa7a586f2",
+          "size": 6282
+        },
+        {
+          "path": "recon_tool/bayesian.py",
+          "sha256": "c2fb00b979a4f9106e9011550145a805ec19ca44021474a168932c8bccfdc50e",
+          "size": 38911
+        },
+        {
+          "path": "recon_tool/bayesian_dag.py",
+          "sha256": "f84632064ada09bb319b973dff371ead3de71a3f3cdb7c0efd0ee405b07a2486",
+          "size": 16676
+        },
+        {
+          "path": "recon_tool/bayesian_interval.py",
+          "sha256": "237e4b9200de21a95b8622d07fae7c94c2c5a0cd4d8a23cc5e1a429806372182",
+          "size": 4718
+        },
+        {
+          "path": "recon_tool/bayesian_loader.py",
+          "sha256": "fb466ea46172a3dde90683ba05b0dd907d9478db78d15693a6864be8f8c14bc6",
+          "size": 15428
+        },
+        {
+          "path": "recon_tool/bayesian_models.py",
+          "sha256": "367f7ad37754e9e0e3e186807e033cff0898171296390f42bf9aecf80a40e5c6",
+          "size": 9869
+        },
+        {
+          "path": "recon_tool/bayesian_observations.py",
+          "sha256": "cbd239bf611bc26244c723df1087bfdf884f4d618ad6b6b3cd91686d873dbc07",
+          "size": 3945
+        },
+        {
+          "path": "recon_tool/cache.py",
+          "sha256": "f513017b4340ff1a9b64baac2433bd315a65f7028315c4eeb25e01f6a9fc24dd",
+          "size": 43748
+        },
+        {
+          "path": "recon_tool/cache_catalog.py",
+          "sha256": "e61866c6696c7645bae18244809e66ceabc470721da21cfb26e63b58f39c9c56",
+          "size": 4487
+        },
+        {
+          "path": "recon_tool/cache_contract.py",
+          "sha256": "91e4552e1dfc4d026a900385d41e461ca3b895a0ad667d783aa8401818b95a6a",
+          "size": 188
+        },
+        {
+          "path": "recon_tool/cache_insights.py",
+          "sha256": "90f588ee8c0596a954ad98ab2ef0d72fd2b17132f92444e1bd9da44c8435a1d0",
+          "size": 5876
+        },
+        {
+          "path": "recon_tool/cache_inspection.py",
+          "sha256": "f55ae754901481c1e097b96cd58ece1f3d7a00a1cf17af797bf82f917974234f",
+          "size": 4001
+        },
+        {
+          "path": "recon_tool/cache_paths.py",
+          "sha256": "aec90e5ac5586c16696e11455de84614b3f6d97762d639ffd83ce8e95b05e26f",
+          "size": 2634
+        },
+        {
+          "path": "recon_tool/cache_values.py",
+          "sha256": "5940e5e88f2d67cd538caf1c92107ead2f5e7a711d929715ae790994663a33ff",
+          "size": 8563
+        },
+        {
+          "path": "recon_tool/capsule.py",
+          "sha256": "0f2d4876ffeab888a5d6ed8be1ef90cb5b6dde3ae907a1628a524684ea6afc5c",
+          "size": 36065
+        },
+        {
+          "path": "recon_tool/catalog_discovery.py",
+          "sha256": "630c51321559da58295c5f88221c75dfa806acc98e8e8cbaabb46cb2b451d64e",
+          "size": 560
+        },
+        {
+          "path": "recon_tool/chain.py",
+          "sha256": "70381b3331979f747089f87d7603475fbff6703e25b0afb54a3459bd0cbce1a5",
+          "size": 8614
+        },
+        {
+          "path": "recon_tool/claim_contract.py",
+          "sha256": "ef72040e035e80a63f8f19d51ed0ae8d83f857aaff6332086372a08ac7b19fa5",
+          "size": 31267
+        },
+        {
+          "path": "recon_tool/cli/__init__.py",
+          "sha256": "69f9c3c1fdb17a525190dae148018529e3d58c9d21ffc898d2a228eea2986a78",
+          "size": 36952
+        },
+        {
+          "path": "recon_tool/cli/batch.py",
+          "sha256": "f6782a74934f64b97e63f70fd7c33f66e5bb9c37f3f9c1d04afc24b150117240",
+          "size": 37764
+        },
+        {
+          "path": "recon_tool/cli/batch_summary.py",
+          "sha256": "639cd4b2807dc010513c591e625c84d2bc4d455287608207a5b39d32ef3f4c4d",
+          "size": 2252
+        },
+        {
+          "path": "recon_tool/cli/cache.py",
+          "sha256": "8749253d70c4f80296bec7fe6b7ae5f512fbf555fda3c4bfc4ddc11dd3ae20f1",
+          "size": 17079
+        },
+        {
+          "path": "recon_tool/cli/capsule.py",
+          "sha256": "e0dd8fc695ea4a2a8709b540898876cd4387d623b7cece32223c3d95a55d3af3",
+          "size": 8620
+        },
+        {
+          "path": "recon_tool/cli/catalog_rendering.py",
+          "sha256": "6c8d9cadc769d36fc3e54e20c6feb33f9dae03eaa94e46b0fdb03fa4cf8b3451",
+          "size": 2126
+        },
+        {
+          "path": "recon_tool/cli/doctor.py",
+          "sha256": "15c8da062fea3ff34358232a8e8e268a0a9903a4b4418c765933aa72a51f0aaf",
+          "size": 30748
+        },
+        {
+          "path": "recon_tool/cli/fingerprints.py",
+          "sha256": "9229488f4b9d93cb747b187971eb3d0bef1fa517a19e4e4f1893a699d08afd65",
+          "size": 33015
+        },
+        {
+          "path": "recon_tool/cli/groups.py",
+          "sha256": "47cc25307bb17dddc8585f2fc5fee63e4d7408e77a32e6aee839d197dc89febc",
+          "size": 1016
+        },
+        {
+          "path": "recon_tool/cli/lookup.py",
+          "sha256": "b6b7a9e75b26937ef4603e1c7896754e889a8d946f9f948e45e7b37154a4b8f3",
+          "size": 31671
+        },
+        {
+          "path": "recon_tool/cli/mcp.py",
+          "sha256": "1b6a53baaa785cf3517d03e075154834d1c70fc4bacf276f0451df34c4f301c6",
+          "size": 8804
+        },
+        {
+          "path": "recon_tool/cli/options.py",
+          "sha256": "0e6abecf180eb08cea5bae280b7a784460e16dfc0f759509973b34263e589aca",
+          "size": 10500
+        },
+        {
+          "path": "recon_tool/cli/review.py",
+          "sha256": "bfe81f0bd89f0e78001711530ef3d0722e8ea0fb86e88ff7c0d2b241ff9e2c46",
+          "size": 4990
+        },
+        {
+          "path": "recon_tool/cli/shared.py",
+          "sha256": "4fa2ccae78cd0d970568d6642f89abe0ba09a3a9563026bb8710ea8dc982678a",
+          "size": 10515
+        },
+        {
+          "path": "recon_tool/cli/signals.py",
+          "sha256": "81411271dec05ff52501448abf8a386fba9a439c87df248776ca0216f530a278",
+          "size": 9546
+        },
+        {
+          "path": "recon_tool/cli_batch.py",
+          "sha256": "82ac688c09a2435553d31a420a3255aea5ccab2d1b0b6fbb45a80a54f377bc8e",
+          "size": 474
+        },
+        {
+          "path": "recon_tool/cli_cache.py",
+          "sha256": "d43c515e2099582c2194c3584e9f18752c0cb29a2f56603b01018c6fcaa0f218",
+          "size": 474
+        },
+        {
+          "path": "recon_tool/cli_doctor.py",
+          "sha256": "0f17ed83319ec3d848730dfa1b2a420064c116069b653b7207607967df2be07a",
+          "size": 476
+        },
+        {
+          "path": "recon_tool/cli_fingerprints.py",
+          "sha256": "7a2cf6b8d939b3fa9844393fd983f50b464542bf0c082e09bf342a9990986d85",
+          "size": 488
+        },
+        {
+          "path": "recon_tool/cli_lookup.py",
+          "sha256": "99167cc7009379961511a2c3a04552090f80986a094051e255023d549e206755",
+          "size": 476
+        },
+        {
+          "path": "recon_tool/cli_mcp.py",
+          "sha256": "c13e0087539a1841b6c67d69845e92e06cbd92849e37219e76644a4f9d77e534",
+          "size": 470
+        },
+        {
+          "path": "recon_tool/cli_shared.py",
+          "sha256": "7b2ac2cf6aed5626a49c857e6824d2c21c8a4ee43a1435b589aa4f1c4240ec11",
+          "size": 469
+        },
+        {
+          "path": "recon_tool/cli_signals.py",
+          "sha256": "a8f1a798304389a072c1697cc4d99ec17c844f38eb27626e86b49094ae0f4f6c",
+          "size": 478
+        },
+        {
+          "path": "recon_tool/client_doctor.py",
+          "sha256": "cdcd2d2bc5a23a406c2b5edb5b24ec45cd8c7de54b4196665b4ef5e97c6a324e",
+          "size": 485
+        },
+        {
+          "path": "recon_tool/clustering.py",
+          "sha256": "4ac3425ae4560fecabf6e6524a64243235a61ba7c6b9a8079e687e8ae89e63e2",
+          "size": 11913
+        },
+        {
+          "path": "recon_tool/cohort_summary.py",
+          "sha256": "086c9cb885e57dcceaaec9ad1fec98c8b77a50538517316aab4de1aba369193e",
+          "size": 22425
+        },
+        {
+          "path": "recon_tool/collection_view.py",
+          "sha256": "eae0464bebea3f2d65e577293a1ea678c050cca63114ca87ff814521a4528c34",
+          "size": 40239
+        },
+        {
+          "path": "recon_tool/confidence.py",
+          "sha256": "26ffe0190eaf7380234463512c52e274d1ac8023021dbfb54ec32c9a6119ec7a",
+          "size": 9075
+        },
+        {
+          "path": "recon_tool/constants.py",
+          "sha256": "6017d29cd7233b6918390c39302673bb1fa23f9bb83c66054aeb83012714ea53",
+          "size": 3424
+        },
+        {
+          "path": "recon_tool/ct_cache.py",
+          "sha256": "206c19a95ab6aacae6302826ffb7de1e3dc41161458411b87a809848aa87f471",
+          "size": 13129
+        },
+        {
+          "path": "recon_tool/data/bayesian_network.yaml",
+          "sha256": "adaaa9d7e669ec0e9f3c0e5700070080d21b0b9fca20af8fa94ea75c985e5d0a",
+          "size": 14923
+        },
+        {
+          "path": "recon_tool/data/motifs.yaml",
+          "sha256": "d5a0e81c5507a21cfd746a72332ba4d6e7c9eba97244e38741d37f5f8ef25559",
+          "size": 13010
+        },
+        {
+          "path": "recon_tool/data/observation-capsule-schema.json",
+          "sha256": "bc78e84300b1f5ea481f5388b3b5e248a97b38af257700004a03bf045e9e510d",
+          "size": 15642
+        },
+        {
+          "path": "recon_tool/data/posture.yaml",
+          "sha256": "49a961abdedc734a900f727cd4b1675982a12032b5c27721a3111cae59e33c5f",
+          "size": 10212
+        },
+        {
+          "path": "recon_tool/data/profiles/fintech.yaml",
+          "sha256": "8031e157eca4c3dbff939e1a5f8578c1cd0c0bb1f064071d3ac382b1b91fce72",
+          "size": 1511
+        },
+        {
+          "path": "recon_tool/data/profiles/healthcare.yaml",
+          "sha256": "8792bad41da9f0e27f9928109ab17a57b9cc370b4e889e0f97c9c704cb27e1ff",
+          "size": 1140
+        },
+        {
+          "path": "recon_tool/data/profiles/high-value-target.yaml",
+          "sha256": "d84966ba0ac88e04fe3eb29d477f82404324f086ae750f671d932db42e6f6c93",
+          "size": 1516
+        },
+        {
+          "path": "recon_tool/data/profiles/higher-ed.yaml",
+          "sha256": "c72613056c6af2c1d433f53af3c495db2fef5da28146c3833a19ffce4e052aaa",
+          "size": 1088
+        },
+        {
+          "path": "recon_tool/data/profiles/public-sector.yaml",
+          "sha256": "69c385acdd8fef3ad25903d8d397b70f6f4b5005f50d0fc9a6377dc78ded8bc1",
+          "size": 991
+        }
+      ],
+      "filename": "recon_tool-2.18.4-py3-none-any.whl",
+      "inventory_sha256": "2d2cecf5cf61b478247fbdb0fa672a7ddc9cd1d908109788b8eee2fdc7d80aad",
+      "project": "recon",
+      "regular_members": 198,
+      "semantic": [
+        {
+          "path": "recon_tool-2.18.4.dist-info/METADATA",
+          "sha256": "aa0a429a54d985db4bdacdb44df7d9bfcc9c7b1107884319bb1ad81a9fff1ce3",
+          "size": 22151
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/RECORD",
+          "sha256": "4c8d3fad1cf0d34aeb390480ec18ecd10c6bc352edcb14cdfffe02894130fb6c",
+          "size": 16996
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/WHEEL",
+          "sha256": "942926c567d0b1273d09f20295879abd37507845f6b683eab9f87d808df91100",
+          "size": 87
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/entry_points.txt",
+          "sha256": "6a64e0e4e4d769d507d8e551fb6dcd932013ddfd651144925f42ddfb527d97d9",
+          "size": 45
+        }
+      ],
+      "source_sha256": "9ab15ed5bd6edcea9cd0599736d978dfa99096f669e16009ca5bfc95c06ce1b5"
+    }
+  ],
+  "max_member_bytes": 262144,
+  "max_paths": 64,
+  "max_total_bytes": 1048576,
+  "schema": "sealr.retention-path-pins.v1"
+}

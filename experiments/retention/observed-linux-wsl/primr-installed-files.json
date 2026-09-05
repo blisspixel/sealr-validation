@@ -1,0 +1,3845 @@
+[
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/METADATA",
+    "scheme": "purelib",
+    "sha256": "f84e067c0298e8ec9dfaf1380421ca935fd87fdd53dcadf5d17ea8ecec78c6bd",
+    "size": 13036
+  },
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/RECORD",
+    "scheme": "purelib",
+    "sha256": "7eb2e19ad854cb8158ca03f4571c38ea20f8bdea12939485b0a10a26e72b349f",
+    "size": 48360
+  },
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/WHEEL",
+    "scheme": "purelib",
+    "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+    "size": 91
+  },
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/entry_points.txt",
+    "scheme": "purelib",
+    "sha256": "52c67a9336ed4ed1beabc39d2ee924ccc43c4770bd549e3503ff68321987e3e7",
+    "size": 116
+  },
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/licenses/LICENSE",
+    "scheme": "purelib",
+    "sha256": "50274808d765ab66c436295d1735b81453c3e09bd198ddadb1d2fd6782645ce2",
+    "size": 11404
+  },
+  {
+    "executable": false,
+    "relative_path": "primr-1.39.13.dist-info/top_level.txt",
+    "scheme": "purelib",
+    "sha256": "b88288c8749c77c9038a9af99f190513c4383e37b555e9ff269b0aba2c745d87",
+    "size": 6
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/__init__.py",
+    "scheme": "purelib",
+    "sha256": "f9046fb7ef66e6c1b74d3f2db6970754b344816e4a48f563f0edc878200b482b",
+    "size": 1234
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/__main__.py",
+    "scheme": "purelib",
+    "sha256": "321e53c886fec23a56c4f700049dffce56dd508f34d03b0c486f3b1f25435334",
+    "size": 168
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/__init__.py",
+    "scheme": "purelib",
+    "sha256": "e534d4ac6b3b7156fbe98296af1e7769f9e8ef7d8f5173efeed1cfc00de95081",
+    "size": 1322
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/agent_card.py",
+    "scheme": "purelib",
+    "sha256": "8bf4e1993fa3368f8817c397781dbc1119bd42ad2276e08d458cb03a833e5155",
+    "size": 15596
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/authz.py",
+    "scheme": "purelib",
+    "sha256": "08d0daccacf0da674309848901795c3a9a48a71709436937be1f34976f567b00",
+    "size": 3664
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/call_context.py",
+    "scheme": "purelib",
+    "sha256": "fe92a48013e5da661380cfbfd74a4aa626636d0a8951eac05bd2812e3023e1d5",
+    "size": 2502
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/cancellation.py",
+    "scheme": "purelib",
+    "sha256": "999c0ced7987334176f96f9f5ed786e361d613bedcbb8b5dccca255cc6d1a345",
+    "size": 4301
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/cli.py",
+    "scheme": "purelib",
+    "sha256": "5622d3fa3a72e90c4e11521460227474b8f97f990fc99c7fe440bea34d38fd4e",
+    "size": 4481
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/client.py",
+    "scheme": "purelib",
+    "sha256": "9661a8e76cedcc889f525e6fdd7d8f9a1bcf33a9a1c6e4cee43b2a9340fa0905",
+    "size": 12287
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/executor.py",
+    "scheme": "purelib",
+    "sha256": "d04cc8eb1c49e467fe19e7f21e5456e468f4a4b011300349c1c41521a7c33ec3",
+    "size": 34405
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/hooks.py",
+    "scheme": "purelib",
+    "sha256": "b7a6a5dd773009d8a7093664184914eaa96e8e78e2f6f81ce18ac4131e69e670",
+    "size": 7010
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/input_parsing.py",
+    "scheme": "purelib",
+    "sha256": "8cdcb33e928ed27f77a292f6c955b9ae9aa2aa5fd829c11a4145779696d98cfd",
+    "size": 4527
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/lifecycle_events.py",
+    "scheme": "purelib",
+    "sha256": "5ff28350118e0740f39a89c72a6443140e9e9cb352a8c9ffe4830461c4e62783",
+    "size": 3097
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/prelaunch.py",
+    "scheme": "purelib",
+    "sha256": "cd0af0db1ad2b6b4043ab29c91580668bbd13874000c7ba84d7f789f86c08b89",
+    "size": 2849
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/resource_reads.py",
+    "scheme": "purelib",
+    "sha256": "895b2a2a29516519254b05110c060fb8fc48503fcf1684b05cab188e8beed152",
+    "size": 8475
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/server.py",
+    "scheme": "purelib",
+    "sha256": "54ebdb971395a331774237185967fe731ba948f975f0b15209a3057193554b23",
+    "size": 5471
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/skill_ids.py",
+    "scheme": "purelib",
+    "sha256": "9ff4e3e8e64dc90124002bd4c35ef78477bec9eee60c7fe4471255bf1ed3662c",
+    "size": 891
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/status_events.py",
+    "scheme": "purelib",
+    "sha256": "cb02d6920687b9402b0553348ba10d05f01d212efd300347b3ca86859e1b88d3",
+    "size": 811
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/task_store.py",
+    "scheme": "purelib",
+    "sha256": "c8694d82d5c81542374232fbd0a3d63dd3505bcb90810b9eee1d7d290de5e177",
+    "size": 5033
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/a2a/types.py",
+    "scheme": "purelib",
+    "sha256": "67e4f6dea7778743caee08bb255a3c7adaaaec65fa69d79179a4b842603e616f",
+    "size": 1583
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/__init__.py",
+    "scheme": "purelib",
+    "sha256": "0a98985d82ad34709a9a4cfc5c771ae57aba767e92f1bcc1af53e17d0cf8c02a",
+    "size": 3702
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/company_profiles.py",
+    "scheme": "purelib",
+    "sha256": "8cc013b666a72e52f4b710d6ed00162975d553404ee7f2f0debbc7c650734644",
+    "size": 16795
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/cost_guard.py",
+    "scheme": "purelib",
+    "sha256": "54540d2937547595609ee225cc8cc948b5297457af0f5af351df1ef1e701102a",
+    "size": 4406
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/errors.py",
+    "scheme": "purelib",
+    "sha256": "858096338c98035dfeac160bbc6a39692d83793f7fd469c3acad81cd54e33a8e",
+    "size": 8856
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/hooks.py",
+    "scheme": "purelib",
+    "sha256": "0b39459ebd9f272b49223f8496682950c70c2f67f44033a7849d8a5ecf238e3d",
+    "size": 33827
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/integration.py",
+    "scheme": "purelib",
+    "sha256": "e271de07909d5a5f6c661fffbb6e99755af732e8a7267a09102f651fb5e4068f",
+    "size": 16801
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/memory.py",
+    "scheme": "purelib",
+    "sha256": "1a180d89a24d0f9b6e36e2b756f33b33edf2f0a5dd2647b286bcf84e1449e650",
+    "size": 21360
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/models.py",
+    "scheme": "purelib",
+    "sha256": "90c7291624625cfcf11efbd61edba62ddb3441273fe5b1e0a42973561939b43f",
+    "size": 10755
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/orchestrator.py",
+    "scheme": "purelib",
+    "sha256": "ca0104fdd769cdfcd9851638e64a0f3a41c80a08637ee8adf4ca2aa30d2debc6",
+    "size": 31839
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/roadmap_api.py",
+    "scheme": "purelib",
+    "sha256": "bcc9019ce5be5d09309bc3054b918d1ef9665bca14651dd90a23c58e2abe519d",
+    "size": 15204
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/__init__.py",
+    "scheme": "purelib",
+    "sha256": "d3c4908f0741b36c6bd22027db3e4cb04d3dd86173abe0cb23ca229f9dfe3801",
+    "size": 2251
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/analyst.py",
+    "scheme": "purelib",
+    "sha256": "05c9a822468072d954b7c65d7adb626d1edc994acf52aec178f828ec82767e52",
+    "size": 15095
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/base.py",
+    "scheme": "purelib",
+    "sha256": "7128271d62cbe3106cb70021ba3c0113fc636fa2f3970c39fa82d825fad2b718",
+    "size": 10406
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/qa.py",
+    "scheme": "purelib",
+    "sha256": "7815abde98b957c083ac935276e40fd7bffe693ff7604b296cc90843f7aa617c",
+    "size": 16028
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/scraper.py",
+    "scheme": "purelib",
+    "sha256": "2098a3ea6bd44b5719199e0db3cb6983bb3e27e3dd7d4cd57ebe9e4bff901c17",
+    "size": 8996
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/verifier.py",
+    "scheme": "purelib",
+    "sha256": "2196a8ccdf99b7a4f0716dbe836037f6d74c0ed9298de31658430ba1156514df",
+    "size": 26101
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/agentic/subagents/writer.py",
+    "scheme": "purelib",
+    "sha256": "e760cab3bb624f6dfe2f2edee1982388e6d4098bcd3b12895355d6fa0a4d6785",
+    "size": 9635
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/__init__.py",
+    "scheme": "purelib",
+    "sha256": "5fa9fc8622bf769ffffae9e00be601f2b4dd8d5068724827b97b5809c46f7d03",
+    "size": 9452
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/accordion_test.py",
+    "scheme": "purelib",
+    "sha256": "962f8d9dfb0a4fe597e1ed8596fe2b626a2e5af78dcf4d0b5fbc304de4369de3",
+    "size": 31842
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/ai_strategy.py",
+    "scheme": "purelib",
+    "sha256": "89d92273c52822516ca6dcb5a7b1ab389f37741262cd939d6b2e8f7c7cc48e63",
+    "size": 19375
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/async_client.py",
+    "scheme": "purelib",
+    "sha256": "4255ac85a7295296288c90cc1a7b4102c37e806f989c96115d97140f8649e8e3",
+    "size": 16477
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/availability_sanitize.py",
+    "scheme": "purelib",
+    "sha256": "c9cbc3e5fc58c4e648cf1889e41aa9041688d190bfc5c413fc5aa6830a4ab6eb",
+    "size": 4692
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/capability_routing.py",
+    "scheme": "purelib",
+    "sha256": "71f1b096fecc1602e8d48f6ee3e1a951713e043da7b028aa94ba4900459fa33b",
+    "size": 25575
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/citation_resolution.py",
+    "scheme": "purelib",
+    "sha256": "51d478a8927bc5741e6efa0d3c9c114234a135e5dfa38fc54f11217e3be713bc",
+    "size": 5784
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/client.py",
+    "scheme": "purelib",
+    "sha256": "a326b029c519b34df270ad21b805be1b639a63ec8f103bb6eca9ea67bd5e91da",
+    "size": 26394
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/competitive.py",
+    "scheme": "purelib",
+    "sha256": "e0e4252704e7f493cf5af05467b860a18581f029080e13e0a2053957d1c39384",
+    "size": 22846
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/deep_research.py",
+    "scheme": "purelib",
+    "sha256": "a4e3decb0b085f41dcda0ff33ea58d81adc8de3a52895a32235c7373653f73f4",
+    "size": 152683
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/deep_research_execution.py",
+    "scheme": "purelib",
+    "sha256": "111e7a9269e107a4edc4a7a7b7f449ea3d2c18d06f4e2ef2599a6f282edd6ac9",
+    "size": 4193
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/deep_research_parsing.py",
+    "scheme": "purelib",
+    "sha256": "24953259d5205de402783278b58528ce771d31b917bec327e4661e72e9ccc0a2",
+    "size": 7517
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/deep_research_polling.py",
+    "scheme": "purelib",
+    "sha256": "aa1c87f916ad022a964ad3cfdef37767ce605cd2e8893410c213944bdb1a3335",
+    "size": 1137
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/error_policy.py",
+    "scheme": "purelib",
+    "sha256": "5390bd47981e45e88cba2181e5a88ead03e6ede8daeedc178204c2771dff4836",
+    "size": 3707
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/file_search_resources.py",
+    "scheme": "purelib",
+    "sha256": "77d2c81d969b11054aab68eb3659eceaaf23c73073775210ebbf08d6a7c528be",
+    "size": 9883
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/gemini_usage.py",
+    "scheme": "purelib",
+    "sha256": "df09940c0c883da0b9dd7409bd75e463f885252ce67fa8d94eef34fc4d6be3b1",
+    "size": 1577
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/genai_factory.py",
+    "scheme": "purelib",
+    "sha256": "6f116eda847a56a2af8daade4fec4ed0d2ea5f9463c6cdcbf41aa36fbe7d7cbb",
+    "size": 3661
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/grading_agent.py",
+    "scheme": "purelib",
+    "sha256": "672620a34de9b12eb0ebc37296912d572dc6d5a3afd1f552f614d53bcc4c8856",
+    "size": 2630
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/grok_client.py",
+    "scheme": "purelib",
+    "sha256": "85ef33c316fe9d27e40c61dd42ed58933d2912739c068974a27a395550d4f15a",
+    "size": 21544
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/host_agent_cli.py",
+    "scheme": "purelib",
+    "sha256": "bcb5c51bbf402692aca0549e1338fe0f83dac24fd79b742056ee6bf7f1e12965",
+    "size": 8795
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/host_agent_runner.py",
+    "scheme": "purelib",
+    "sha256": "6222d7e9f50c0c0caf84851c067aa648d44fd2e0d3cae378ae773a4e61b9b1be",
+    "size": 6070
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/insight_engine.py",
+    "scheme": "purelib",
+    "sha256": "2535b533640710a110277db3e759f07f7a5a1b76e516dec707f687d33f8cea63",
+    "size": 21641
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/insights.py",
+    "scheme": "purelib",
+    "sha256": "fd653e501828ce1fa30d5922ac0ff743a2c418ad2579570de2ba6e7e7b423caa",
+    "size": 21042
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/job_persistence.py",
+    "scheme": "purelib",
+    "sha256": "53aa308782a8e2e5ab721999d9796d99ee189aecf1ed937b3d1e6dd696796ede",
+    "size": 15442
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/llm.py",
+    "scheme": "purelib",
+    "sha256": "0651e994d0fe015d04f04024a9bb40867a159035613b86fc67813cd0cdb19b30",
+    "size": 11880
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/local_inference.py",
+    "scheme": "purelib",
+    "sha256": "89b1c3c13c167ef5ce6f8f9f6e1fd87fb9c3dc2ae21a08acfbeb8f736be19c3c",
+    "size": 7641
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/openai_compatible_client.py",
+    "scheme": "purelib",
+    "sha256": "43093a70abe49aeab4fac3b46784a026e87b38b032b0211be5c61a9c1c2fee48",
+    "size": 5083
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/preflight.py",
+    "scheme": "purelib",
+    "sha256": "b383d9e8f1b5451e63c8f0fb3a4188f6ac80f58aa0152f9a0a776bda7a658226",
+    "size": 17424
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/provider_availability.py",
+    "scheme": "purelib",
+    "sha256": "a0a3b32e8fcc20794e05be33062236ae1472dfa682bc990239f9a9aafe8af065",
+    "size": 16010
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/provider_availability_collectors.py",
+    "scheme": "purelib",
+    "sha256": "216bae836684e34ff98cfae1ece6e8a2f7a60ae88f052374f52afa7e49bb864e",
+    "size": 9205
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/__init__.py",
+    "scheme": "purelib",
+    "sha256": "11dc696568d63f79c9a689ac9622c6ed81bb862a12981f21bd025b5d340b4eb0",
+    "size": 2356
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/anthropic.py",
+    "scheme": "purelib",
+    "sha256": "26779407d4c710f95b3fc5ccb30a64c7f00d75a819d62133090bf9b660b77942",
+    "size": 21744
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/azure_foundry.py",
+    "scheme": "purelib",
+    "sha256": "35049a052a9daa14ad625b51264b7a7559b4f3b9b8b918a544b9ab7d931061f7",
+    "size": 3195
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/base.py",
+    "scheme": "purelib",
+    "sha256": "6f7ffd74107a4fe238acf509af1f7db70f1c35f6e8acb3123503933a4edf975f",
+    "size": 7478
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/bedrock.py",
+    "scheme": "purelib",
+    "sha256": "11fb55f673f4ee6fd347577ac44f7f80033b9be53dd94263b65e0d2a549d41d1",
+    "size": 10791
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/gemini.py",
+    "scheme": "purelib",
+    "sha256": "4771c8cb5e6ec898a4722a207fc8e8b5595e6edaac31066ec44e31778aa44a33",
+    "size": 18428
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/openai_compatible.py",
+    "scheme": "purelib",
+    "sha256": "cd1beb603482515613b776d2685086d85cd95a08bcc586be0562e5ed4f717a3c",
+    "size": 20805
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/openrouter.py",
+    "scheme": "purelib",
+    "sha256": "92d8390cdbda76706e981ae3f7387e996670a1891bafab5fcfffcd1ae54fa7c9",
+    "size": 5128
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/registry.py",
+    "scheme": "purelib",
+    "sha256": "09aacbbf781d485cb86420f367d6ac86422b892598a6db207480c89f7c594a02",
+    "size": 7267
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/providers/xai.py",
+    "scheme": "purelib",
+    "sha256": "7b53f7f65ac69fa8b8431c508b42c5c761f767c01bd3cff7199541b90eb5c47b",
+    "size": 11181
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/quality_grader.py",
+    "scheme": "purelib",
+    "sha256": "69cb80603fbfc7d0cc37af07c0b76616d5cb04742df8047a037ac095b0ca076d",
+    "size": 11325
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/report_aggregator.py",
+    "scheme": "purelib",
+    "sha256": "32ccea68ca40011ab26f48e300236499796d38cb8c6892de644444193c31abcd",
+    "size": 11884
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/report_architect.py",
+    "scheme": "purelib",
+    "sha256": "6bbaed91dd23a00393a93852f755d862542106c2f71070e7e7d7b8dd384a1474",
+    "size": 15263
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/research_executor.py",
+    "scheme": "purelib",
+    "sha256": "ffc0cfc15ce5f09352b2fafe28f939e2a31772eb601229b0578877f38c3ef7a5",
+    "size": 19189
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/result_normalizer.py",
+    "scheme": "purelib",
+    "sha256": "73ad151eed7873ee16ee08328e3e8df50fafed82fa9da0971570892eda1dd9c9",
+    "size": 9929
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/routing.py",
+    "scheme": "purelib",
+    "sha256": "e58b5f6f0bffbe7c1865381c5f1cb24173ba7d32561894f6faaa4bf2e46d8394",
+    "size": 16977
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/stage_routing.py",
+    "scheme": "purelib",
+    "sha256": "5a19c86f48cf449e337ce5258ceeb10f0d3bfded3429cab16ece260a1be7843d",
+    "size": 27575
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/ai/summarize.py",
+    "scheme": "purelib",
+    "sha256": "231b20fe78f4208f7cba7e285c3c26346ddbc5bbeaea452ce143f8420f311c0e",
+    "size": 18308
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/__init__.py",
+    "scheme": "purelib",
+    "sha256": "07250ed25993047042e329ccbc45d5b6e181b9aa7811eb64db1f9070c4b977ea",
+    "size": 1841
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/auth.py",
+    "scheme": "purelib",
+    "sha256": "adf44523d4a6622b980d24908a4d77e76c64a714fee977e68febfbf89f9045e2",
+    "size": 14843
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/metrics.py",
+    "scheme": "purelib",
+    "sha256": "e24967f0bc1927135df2b9a95f87e49cb58d7d20393910d9acb3cce25358059c",
+    "size": 13571
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/rate_limit.py",
+    "scheme": "purelib",
+    "sha256": "2a97e7e8b84ae29af88c1be4e552c085af7703834579e446ac82ccf097dad509",
+    "size": 6708
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/service.py",
+    "scheme": "purelib",
+    "sha256": "fb69284824e1720d618dc318c91326bbddaf0dacc28f8b357b5c7354aaf39a21",
+    "size": 18321
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/api/tenancy.py",
+    "scheme": "purelib",
+    "sha256": "bed894e4f101ee9fe2c0d890c2ea75d77eb0bacfd34bd9a5fe447accf585210b",
+    "size": 26587
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/cli_entry.py",
+    "scheme": "purelib",
+    "sha256": "714dddf2b5b3302fc6fff68e02beca28c887418fdfb31495438b11f83fa32ffc",
+    "size": 805
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/cli_help.py",
+    "scheme": "purelib",
+    "sha256": "afd272908c16c690ecbada199d454143936e86621bc74e2872738505b8ad8ab6",
+    "size": 7082
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/cli_prep.py",
+    "scheme": "purelib",
+    "sha256": "9007e5ee743a5b3fbc3332a36b039327b7373ea2b41e74e12de6196593922475",
+    "size": 8205
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/__init__.py",
+    "scheme": "purelib",
+    "sha256": "a443e51a528ffdf7d768c1efcb01541c045afcbf0dec10df28fb4f73dd810ba4",
+    "size": 1507
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/config.py",
+    "scheme": "purelib",
+    "sha256": "3638adedf6939e62ffa505065556cb8b56b1d39f4840d1d849a7f00368d747eb",
+    "size": 10168
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/env.py",
+    "scheme": "purelib",
+    "sha256": "4482d6d5640e17335e39bcbd3e8b95b4a0341260ce9c4a525496b285b5868055",
+    "size": 18450
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/eval_profiles.py",
+    "scheme": "purelib",
+    "sha256": "ca593c5ec87bb353aac72929e9e47c4ffe8149da2fcf77bd5efd1cb82ff70cd2",
+    "size": 16553
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/inference.py",
+    "scheme": "purelib",
+    "sha256": "8fc30881d3c12dc49fc19eb7f8b5876ef381de7ae273be843c3f45ddf30b4196",
+    "size": 1959
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/local_eval_models.py",
+    "scheme": "purelib",
+    "sha256": "b002b074eec75d467b1bc45f57bd3718d11983eb7316177170b631eb11113368",
+    "size": 1721
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/model_registry.py",
+    "scheme": "purelib",
+    "sha256": "757cbf54b9d651ff79616c77e6e8506ba84b54f5abeddda394971f4aac1f6375",
+    "size": 41709
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/models.py",
+    "scheme": "purelib",
+    "sha256": "e8351aa7c4e4db8e3c3a36c94287c3fe41bee31b902c266eeba14c780c0d96ec",
+    "size": 37494
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/openrouter_models.py",
+    "scheme": "purelib",
+    "sha256": "42e97d14a49fa764e294794fbf01fe0d46cc267c53c36b356bbd071598bed217",
+    "size": 1908
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/prompts.json",
+    "scheme": "purelib",
+    "sha256": "94f2ab1a5b615a93bc6ecb9f5d38d6421b719055d69f43df68f22931c5ffb405",
+    "size": 13516
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/prompts.py",
+    "scheme": "purelib",
+    "sha256": "9202ea4b3bdaed174a96c213cc12820c4f22ee5f72261b73f5356cdc84f10068",
+    "size": 5000
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/sections_config.py",
+    "scheme": "purelib",
+    "sha256": "7771099dc5b4ebdaba3c4354c38d775f3dc84340e735d44ab4188e093018e162",
+    "size": 1108
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/config/settings.py",
+    "scheme": "purelib",
+    "sha256": "5cd6761eced47a56225fb2c1bbf46922141b2b78b758c4fac93fef2aebd19078",
+    "size": 20126
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/__init__.py",
+    "scheme": "purelib",
+    "sha256": "17b1a544609d4d004d39df8bd1524123a06c1d0852ce5c8387338a891f1fb0ab",
+    "size": 929
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/ai_strategy.py",
+    "scheme": "purelib",
+    "sha256": "f02e028f874743e84252368f02fe6e49a37218d7a7ae80a43faa8169146cae52",
+    "size": 28385
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/ai_strategy_runtime.py",
+    "scheme": "purelib",
+    "sha256": "61457629032c472fa836b8a9267732c7d959cc894c7d10ef1d3469995bc7fe1e",
+    "size": 13213
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/budget_policy.py",
+    "scheme": "purelib",
+    "sha256": "292cb323ebbe861318aeb2fde27345796733646769c4cbe8c3a8747f8702cc99",
+    "size": 3070
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli.py",
+    "scheme": "purelib",
+    "sha256": "4423f5b5760774f8b15f7a71b84759389c3d18f2b1070e76fa5f918923346f1c",
+    "size": 94678
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_accordion.py",
+    "scheme": "purelib",
+    "sha256": "6bdbee0ea46225234acf607ccf67fd39722499dd1cced2a288f2aee2c8f91a5b",
+    "size": 3898
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "3882004dd53f238de74711b96dbb3e8ef1f6e0f4de577dbc485513cfaab9c9ac",
+    "size": 6499
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_batch.py",
+    "scheme": "purelib",
+    "sha256": "ec8d0fd1cfdca16e89036374dfaf835b1f8b52e109618be122fcfa16a1983d99",
+    "size": 7148
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_batch_runtime.py",
+    "scheme": "purelib",
+    "sha256": "0742bd9dbe144280ef5ce393c6646c451c985fcc8554598bd8b3d85c2024004b",
+    "size": 37585
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_budget.py",
+    "scheme": "purelib",
+    "sha256": "aed2da82f14773b4896e047125a4a9e6b452faa004fd7610e7f37edd80f3446d",
+    "size": 9084
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_calibration_args.py",
+    "scheme": "purelib",
+    "sha256": "55f05fdd5b8c2599f8665bc2d0eea18ead51c187056d333cc73764a186e1f76f",
+    "size": 5619
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_command_output.py",
+    "scheme": "purelib",
+    "sha256": "edf3fdf43afbe8374702682d64f1f89def7f65ccd232530369116517fdedb5b8",
+    "size": 1552
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_contract.py",
+    "scheme": "purelib",
+    "sha256": "565178f71eccd5a456eb79c8123e649e422ffd45bc3687494a0cee9e69fff38a",
+    "size": 7113
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_dispatch.py",
+    "scheme": "purelib",
+    "sha256": "283ca5d0735721cf0b26618ab5aab96bfffcd5e47e8dddfb2e6d873ad7a45849",
+    "size": 3055
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_doctor.py",
+    "scheme": "purelib",
+    "sha256": "cc6ed8794ea8c260964e5044b5e1de57a0376c4443663c828307808592fe6a56",
+    "size": 25733
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_dryrun.py",
+    "scheme": "purelib",
+    "sha256": "75765896ec942c064690731d85d84f6ff70229cdaa85a50995ff612c45f5de00",
+    "size": 11719
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_errors.py",
+    "scheme": "purelib",
+    "sha256": "3cccc4d188e4363a0ade40dcf4d11e40117a544d46856c8eb45796d7eb7819d5",
+    "size": 3928
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_eval_args.py",
+    "scheme": "purelib",
+    "sha256": "79ddf1874f5f8ec54b2261da60155aebb18f9e23f9317a9310e068c6eb6f1bcf",
+    "size": 8208
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_eval_spend.py",
+    "scheme": "purelib",
+    "sha256": "6e4dcac1aa9fb765e48476da1977782e868b82c91046d1698fb24269b0aa6696",
+    "size": 7415
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_help.py",
+    "scheme": "purelib",
+    "sha256": "3c1ca8d4eedf1b33de6a9fa3ac6a397b45bed89063237ec0874abc300f2d41c3",
+    "size": 391
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_inference.py",
+    "scheme": "purelib",
+    "sha256": "2c5a88d5465cc40425e5da180d260d32b1eb038ae12164712aa6eff6f55ebbec",
+    "size": 4456
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_init.py",
+    "scheme": "purelib",
+    "sha256": "6f0b3f6a772ab0673351a2515a7115321c5d99434e060810bd5c37a60dcb3e6b",
+    "size": 13960
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_job_cleanup.py",
+    "scheme": "purelib",
+    "sha256": "216b760527cd4479d10fb8dfc2d15a89a8349483002e7067cb447c3229ff482c",
+    "size": 1762
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_keys.py",
+    "scheme": "purelib",
+    "sha256": "e6b038bda68ed54c690aba0ba774c60952c6f6402ebbddca2465e3f368343f37",
+    "size": 7243
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_labels.py",
+    "scheme": "purelib",
+    "sha256": "ea0ce79edafee200c034a6c3463df54f605f442aa2c0a31befa1040795ea8670",
+    "size": 2790
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_local_stage_eval.py",
+    "scheme": "purelib",
+    "sha256": "dc9bbac91101b8cfbaf3849282b8547ff4efca16e8de7e0ff88b444a9740be16",
+    "size": 17359
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_memory.py",
+    "scheme": "purelib",
+    "sha256": "f06f048889d12c134c40b4de1bfceba7e52d24542d536293a71ad646064e2e3b",
+    "size": 8184
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_ollama_helpers.py",
+    "scheme": "purelib",
+    "sha256": "55165fed2a2d1140c34b1aa73ca5b5cca1772393f362d250a36db63db7f613a8",
+    "size": 1729
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_orchestrate.py",
+    "scheme": "purelib",
+    "sha256": "33ccfd170ca4a47dbb6c3db7e5ec9b86d410b6f1fbc58dd647aa27c259fbf5a4",
+    "size": 7447
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_output.py",
+    "scheme": "purelib",
+    "sha256": "8fa47628a5d2c6b0f6912fa71cef0cdf16f338f9bc02b57718eef01875c58030",
+    "size": 3507
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_parser.py",
+    "scheme": "purelib",
+    "sha256": "89cf8ad96fcdbaedcf979cbd853d2edcaff95ba0b6c55336963b17e4324fe0ab",
+    "size": 13345
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_plan.py",
+    "scheme": "purelib",
+    "sha256": "3c1d52a611023e1c2bd422bcecef34c7ba06674a8cfea3899aa4a6c065ebd299",
+    "size": 5361
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_preflight.py",
+    "scheme": "purelib",
+    "sha256": "25527e6e1b51fddf7f295c4353c18064f39e0b6ea9a1049676ff58ae12d7696e",
+    "size": 11575
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_prep.py",
+    "scheme": "purelib",
+    "sha256": "f2f2cc76329dc5ff219f23d5f3706d544e2ac99ce5a1208b108e5c8b564e559a",
+    "size": 174
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_recovery.py",
+    "scheme": "purelib",
+    "sha256": "c906a558498a79f40dd04f2136480857baf768038bdcd0ccaba657ed26a8ceaa",
+    "size": 26477
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_render.py",
+    "scheme": "purelib",
+    "sha256": "a361122dd1da8f79930f979ab3dbad25f108f9fbe8d8952dbec773e24741eb00",
+    "size": 4088
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_research_request.py",
+    "scheme": "purelib",
+    "sha256": "5aef471de82192da10ab9c53c11822c1b4cbd49e7bba6ac6c2dfd196ef7e32fd",
+    "size": 8201
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_research_result.py",
+    "scheme": "purelib",
+    "sha256": "53f039584893638863299b5481ee1a46c796ea3ce1400754df5a2358c6881fbe",
+    "size": 6344
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_strategy.py",
+    "scheme": "purelib",
+    "sha256": "247c2501d3f9169f67325f526411a14e15488d0db48641da95c4d93026d13dce",
+    "size": 18508
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_update.py",
+    "scheme": "purelib",
+    "sha256": "2ba072b06d5b329e0c9f3e98e78ac9b7879f63fd89ea6fb13bba02aaa07d76cd",
+    "size": 4771
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_validation_policy.py",
+    "scheme": "purelib",
+    "sha256": "7d3d02e84ae86c701233715e4b4a551ee5c5cff71988f1696989fb9f0d0ac661",
+    "size": 1848
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/cli_vendor.py",
+    "scheme": "purelib",
+    "sha256": "5d343accbc1ca400fd0b3196905c4df2583fe7d2d6ee476c68a1776a84b64ae8",
+    "size": 10135
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/container.py",
+    "scheme": "purelib",
+    "sha256": "5c6a421c71570e1fe0d75847e30122e0f592d8c719e1cbdbd1b17ada7e649f8f",
+    "size": 7897
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/context_curation.py",
+    "scheme": "purelib",
+    "sha256": "c08a0deb78bbf2296be1a11b141030ecd1101e37991fe4f50cf05a9ce273663b",
+    "size": 4134
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/deep_budget.py",
+    "scheme": "purelib",
+    "sha256": "129125ec649390e57c89cba2c9525a02db2284d0fdf1a12cb6f8948871969ae7",
+    "size": 2622
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/deep_research_runner.py",
+    "scheme": "purelib",
+    "sha256": "21d9d4cba245eb2c4fde401919351dea5b17203a95d0192aed725272f8de9414",
+    "size": 21991
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/deep_run_summary.py",
+    "scheme": "purelib",
+    "sha256": "9138ad29f5237c84a6142dca33167abca9e5c4d27e6a55061928b4bca2cbdee3",
+    "size": 10000
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/deep_run_trust.py",
+    "scheme": "purelib",
+    "sha256": "f5c2d107b9f0e0aa2930c91c371a71694324aef66cae29226e49bd6060826b0c",
+    "size": 1915
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/deep_vendor_refresh.py",
+    "scheme": "purelib",
+    "sha256": "ac4847c7fc5acd6cf79362998efb568ef241db06888408429536abf98065a819",
+    "size": 3843
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/eval_calibration.py",
+    "scheme": "purelib",
+    "sha256": "cec553a20c65e905282988d5ef556d290e4e4367e23c5c0e110c38fed9a6a85e",
+    "size": 10513
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/evidence_bundle.py",
+    "scheme": "purelib",
+    "sha256": "57f9fd7ab7b315b09da650b43dd645d3deed1dfc5999c094d75f09f97a5eed50",
+    "size": 25223
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_mode_helpers.py",
+    "scheme": "purelib",
+    "sha256": "a4607d17d5f8254da07566b3a956576844d3ee8df3f203d12e46a35f07ec8bd8",
+    "size": 7567
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_collection.py",
+    "scheme": "purelib",
+    "sha256": "1a7d30f972d0643e500358ed8aa85f1bf0ec4e7a9cc510a550e5bca052e191c2",
+    "size": 21536
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_gaps.py",
+    "scheme": "purelib",
+    "sha256": "f0279aeb847176ba8904241bdd29bb05f94dd569b8e2de1257c65db28372d91d",
+    "size": 21196
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_hiring.py",
+    "scheme": "purelib",
+    "sha256": "3aaea88cf4ae2366e38314a4d8d31910fc5d9fe277751dc8092f1687a45092ae",
+    "size": 7096
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_sections.py",
+    "scheme": "purelib",
+    "sha256": "c6fc1adc267144e77e30866f458a35c2ad9db6011bb1dfe5057934ad297d9868",
+    "size": 18621
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_setup.py",
+    "scheme": "purelib",
+    "sha256": "ba424b055be6da00cfc5ab540c2c29064ff70c54d155282e217a69d4e9f3cf61",
+    "size": 7595
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_strategy.py",
+    "scheme": "purelib",
+    "sha256": "3c430119fb4843fc94109ed99fd34f8b1cc0d5a3340d79401ed16b545544ece0",
+    "size": 35170
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_summary.py",
+    "scheme": "purelib",
+    "sha256": "8f88aba1c1333a7d46526eb4520843704e944fcc4cb65d9727130350d07e0b21",
+    "size": 10433
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_trust.py",
+    "scheme": "purelib",
+    "sha256": "e0766a665163dc21215f7370c407694ce55bfed557a1ebc39e8fe1b032b56510",
+    "size": 13387
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_validation.py",
+    "scheme": "purelib",
+    "sha256": "ab8f7b0e6184c203fea1afc1663bed1d9da36682f318d6f77f310460c16626d1",
+    "size": 22105
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/fast_run_workbook.py",
+    "scheme": "purelib",
+    "sha256": "37741e496db6ea9b5187f0901ea4694f1c4757be4a079670e782d0e907840fea",
+    "size": 13407
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/hypothesis_tree.py",
+    "scheme": "purelib",
+    "sha256": "abe88d9312348affc5305f076d78f635545383b6f7cd4163a067d0e21fcb10cb",
+    "size": 13756
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/improvement_governance.py",
+    "scheme": "purelib",
+    "sha256": "135a8dc5209d11ac5c1aa72dbab8de5b0461743654c3428a765856145aa3d343",
+    "size": 26955
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/insights_assembly.py",
+    "scheme": "purelib",
+    "sha256": "da2f231da83c29d45ac8ff99002fb4b7cbd05d2281ea07826b691fe87a8aa6d1",
+    "size": 3366
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/local_stage_eval.py",
+    "scheme": "purelib",
+    "sha256": "ceb699156233e089f2280d02855697d7064ed902f83c07c22e884dcf6979011f",
+    "size": 28014
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/model_eval.py",
+    "scheme": "purelib",
+    "sha256": "d00ef81293181b05addddce842da7b4943de6ed0a2b1a6b371d76a3bb7a8169f",
+    "size": 66856
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/platform_mapper.py",
+    "scheme": "purelib",
+    "sha256": "e33c6add5990ae7105cd0949884b2c146ba10248ab73ff42359f8c7bf9d976f8",
+    "size": 4640
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/premium_deep_research_stage.py",
+    "scheme": "purelib",
+    "sha256": "ceb8c613af0826c4cb2145f96a801dd03bdc111369e7fa2535ba95d3e7ca7ba7",
+    "size": 7723
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/recon_context.py",
+    "scheme": "purelib",
+    "sha256": "f01a824f008fbac8f2ee14156a88ef1485ebe6ac16cd92f5bba34482fba0ec77",
+    "size": 16433
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/refine.py",
+    "scheme": "purelib",
+    "sha256": "6a327558272e7b950f28d0d5e16b7b72da76d7dda9981038fe9e481c4475f1cf",
+    "size": 17665
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/report_cleanup.py",
+    "scheme": "purelib",
+    "sha256": "be499866f01aa165b3ea7afe649515a59550f96383c2d925d3796ffc10d831d4",
+    "size": 11698
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/report_models.py",
+    "scheme": "purelib",
+    "sha256": "2808a39f3cabb4b7fa45f6c5917ba79e39859653fc0cbdfa5a8c650378bd7e5d",
+    "size": 8559
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_agent.py",
+    "scheme": "purelib",
+    "sha256": "467887b433daa46de7edba450083a94342a809c2c259fa626702e4e63fa1c6a4",
+    "size": 169916
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_artifact_binding.py",
+    "scheme": "purelib",
+    "sha256": "037ea0af05c1f16aa6d4d78e9469f0fb6a086d08704c75392f435e2d6250effb",
+    "size": 3384
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_framing.py",
+    "scheme": "purelib",
+    "sha256": "7f7f624109b166f53a9628c3a06563c2606049132c96af6ad8e3860712a3a0f5",
+    "size": 9208
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_orchestrator.py",
+    "scheme": "purelib",
+    "sha256": "e43a7a4d65299a46f5bfe88b2e87d773841f42ee7facb02b6fda0cd45d2ca5da",
+    "size": 34807
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_runtime_plan.py",
+    "scheme": "purelib",
+    "sha256": "28b2c2aaf9d94c5910d2f998247d87fb5e185cb44234aa053d975482ac4a71d3",
+    "size": 5976
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/research_types.py",
+    "scheme": "purelib",
+    "sha256": "62acee55d647dd9095e0395a9717f0bfadb2ed2164d85950272accbb972f8e8e",
+    "size": 2252
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/resilience_listeners.py",
+    "scheme": "purelib",
+    "sha256": "79a275a84be0ed6583f514c7e5374f080faf6dabfd92761abde18a0ca2131da7",
+    "size": 1857
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/run_state_io.py",
+    "scheme": "purelib",
+    "sha256": "9511b301978c43f494bdad4868c47c8707a6c8af21cc0895646e81e38ead8b41",
+    "size": 7762
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/section_parsing.py",
+    "scheme": "purelib",
+    "sha256": "7568bfe29fe275b224c8655a57fed5ec1bdf79e741e4eef16938ce2efef81359",
+    "size": 5939
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/section_planning.py",
+    "scheme": "purelib",
+    "sha256": "1ddb515ea898792f0de8be665342b7383fa6f6dc5f279d1da7aa35e63c85b4e7",
+    "size": 3372
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/section_prompts.py",
+    "scheme": "purelib",
+    "sha256": "3e73d8a8811cd7bd66a9b29b28a948602f047061d719d5ce2ec420d384577865",
+    "size": 25373
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/section_regeneration.py",
+    "scheme": "purelib",
+    "sha256": "0f2521beb76db1d98f9f26875491834c1607241e88aa6b4bc9dfaa6d8d47c147",
+    "size": 7781
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/source_relevance.py",
+    "scheme": "purelib",
+    "sha256": "5d9a7e3788d2bc96753a07dd0c0abf906f6b9bc8375947c1a5c41f23e9c5c11e",
+    "size": 9654
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/source_relevance_eval.py",
+    "scheme": "purelib",
+    "sha256": "f1b84449c2653533a2dc81627bb46838e456f85090749271484b69b65592f67c",
+    "size": 28279
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/stage_eval_scorecard.py",
+    "scheme": "purelib",
+    "sha256": "4e24f55e3b0add4fbdfe6920346b791bc4c1cba366a366e553968cc513a1edd5",
+    "size": 8764
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/stage_eval_scorecard_cli.py",
+    "scheme": "purelib",
+    "sha256": "4edafe2f6a52e452cc68df76514b041633aa5cc3860dba98d121afb9782d90fa",
+    "size": 2283
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/stage_inventory.py",
+    "scheme": "purelib",
+    "sha256": "c6d94b150e2e9c07d5ba0ebcd54a211a977d32a0cce4ddb4923813e61718eb82",
+    "size": 18241
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/stage_route_comparison.py",
+    "scheme": "purelib",
+    "sha256": "811d17d31310b4efbca95e958fbacb8fdbf96d6c278583f6ba4b0a51ceb3142a",
+    "size": 7454
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/standard_run_summary.py",
+    "scheme": "purelib",
+    "sha256": "8be774ec4d97ecc64cec244eaf52869678b36f62167d4ab84a2db53cf00bceea",
+    "size": 3319
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/standard_strategy.py",
+    "scheme": "purelib",
+    "sha256": "8af9e51b7729e1162391f4d4d6cddff14a3cfd0ac5cb9ce3ca1b8d792048b80e",
+    "size": 4995
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "02c2142d723561d81f0fc538eab1aca0ae2a74f3ad741f732e7cc09c8ff71620",
+    "size": 15216
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_context.py",
+    "scheme": "purelib",
+    "sha256": "759baeeac9fb900fa5daf78978531470286f09b5a531a9a3143f94c98f7daf5f",
+    "size": 5654
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_enrichment_contract.py",
+    "scheme": "purelib",
+    "sha256": "c74fa4ed1d0fab1b772780bb399f582e9adebf08bffd7b5b27d88ce30a3b3d73",
+    "size": 580
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_estimate.py",
+    "scheme": "purelib",
+    "sha256": "1211392b4813602f9f00aecc280b15c850a728781d62897bc9fe517f7dfb59ba",
+    "size": 7146
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_generation.py",
+    "scheme": "purelib",
+    "sha256": "691e997868702f3e867a44708bf79794f00047f9bb17b78f36c60fcbadb54314",
+    "size": 13732
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_loop.py",
+    "scheme": "purelib",
+    "sha256": "df4571ae1e04a7ff6350086b31e21da365ae46f05ae8347d7ea3c2b3e8201b26",
+    "size": 1963
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_outcome.py",
+    "scheme": "purelib",
+    "sha256": "25fe2c7f286f8bb09a431e3d1a52b109c87ad8acd7877dcbac4c72a258d4d42a",
+    "size": 7801
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/strategy_prompt_parts.py",
+    "scheme": "purelib",
+    "sha256": "5f34c664dfacb829d7903d3a7940f0f4ce60a7af862c1f330dea08a01acd0a74",
+    "size": 7146
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/structured_research.py",
+    "scheme": "purelib",
+    "sha256": "ae05d9504666dd88b7c2ed4e7cc25f6db72bedca24c2bf5658d0d0bb399b6459",
+    "size": 19157
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/temporary_files.py",
+    "scheme": "purelib",
+    "sha256": "2d299538695ed4a1450a8abe9c555c98b4cce2fb4bfa0163aaa29b873f3adb95",
+    "size": 2092
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/trusted_report.py",
+    "scheme": "purelib",
+    "sha256": "8a9096f34206cac679002c6f0d49e36b74271c29d7efbc3817a6902a6e02075d",
+    "size": 9070
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/vendor_refresh_outcome.py",
+    "scheme": "purelib",
+    "sha256": "1086244afab2bbd1e801ccc52ed71bc8de5866b4c0c7308762939f689ca51b93",
+    "size": 7171
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/vendor_research.py",
+    "scheme": "purelib",
+    "sha256": "839ce2b44be161c66063000947779fc3816491b865064c5a28c10da0cb9f26da",
+    "size": 34609
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/verification_summary.py",
+    "scheme": "purelib",
+    "sha256": "dad817c1abaa00f2b8a9531d96f22d4c36bfa7ec1f5c0fb86dce50c154a9194c",
+    "size": 1638
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/core/workspace.py",
+    "scheme": "purelib",
+    "sha256": "2b57aab7b519d9d55dd3cc709afb8b7061f834b1dda3039f8ebb479acc0e747b",
+    "size": 28097
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/__init__.py",
+    "scheme": "purelib",
+    "sha256": "00df5607d0b1ed7af9c0f3ee1eb813b8bf33e9c0d0de1bf295bc80525d6c2a1c",
+    "size": 5668
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/adaptive_scraper.py",
+    "scheme": "purelib",
+    "sha256": "374cda1ad5e6f7194eeb0504542c67ca06477139d0a236dd0885905afaa9610d",
+    "size": 17367
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/cache.py",
+    "scheme": "purelib",
+    "sha256": "6d7f541921b523c1b72d2f8d492ce5a178ec499d0571ef4bcba56d8981bacdc5",
+    "size": 15170
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/content_extractor.py",
+    "scheme": "purelib",
+    "sha256": "5c0f0bf0348032cff4ffaf667f51297200fec7627b427be6b2e8dfde60f76eb9",
+    "size": 15258
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/fallback_sources.py",
+    "scheme": "purelib",
+    "sha256": "dac02e731f2625d8982fc6cb682882e16559575688547a0ffc6f7ddc90bf9102",
+    "size": 38496
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/first_party_pdf.py",
+    "scheme": "purelib",
+    "sha256": "074c0ead99759bd1f0decd227168cf19e51ed7dffdb1e94f5e57caf88aff7f6d",
+    "size": 10422
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/first_party_structured_data.py",
+    "scheme": "purelib",
+    "sha256": "7b7d777b5a753d5f26b08d65c58d071693f525dd7c666fe762d7a90746575a2b",
+    "size": 12645
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/first_party_url.py",
+    "scheme": "purelib",
+    "sha256": "02eb804d055533877166bd9d4f10f3d648d0298a0e174a134769b6da94233f92",
+    "size": 475
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_career_urls.py",
+    "scheme": "purelib",
+    "sha256": "0199ece5421883e7e8c2a10c4f5afa58d199870ea2ecb05897a4caf4d21a31ca",
+    "size": 4768
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_extraction.py",
+    "scheme": "purelib",
+    "sha256": "5ca9a31bbf88182f97adfc8507c328ce2c33a9e58a2d3196f82c28bd88a516ba",
+    "size": 7546
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_public_boards.py",
+    "scheme": "purelib",
+    "sha256": "a5bcff4ab1fba1c4138399e197467a3034d99c5edfa18f8c3a3cbbda76699e9e",
+    "size": 5621
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_redirects.py",
+    "scheme": "purelib",
+    "sha256": "f89e2759e1e91e1a1c51f46bc56881ffc84e2c39af480459c7375ff823dfd009",
+    "size": 2306
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_signal_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "7fa93f85cbb77e5eb9c58bff1c8a9816cafcc0b333e6753462d68c7fd5203206",
+    "size": 8016
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_signal_routing.py",
+    "scheme": "purelib",
+    "sha256": "2fb031f07af516be5aef6474cd40f36f1221b60a5394d917f1efc28c6cb91de9",
+    "size": 1888
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_signal_selection.py",
+    "scheme": "purelib",
+    "sha256": "b222815f0906af4b48a5e806cb8873c562d7190fefc01d16753e702065ee423e",
+    "size": 6000
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/hiring_signals.py",
+    "scheme": "purelib",
+    "sha256": "b5397f52c45577ebbfa07a6beac7484bff8b5a09c1bac722505c95edbadadbf6",
+    "size": 56805
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/http_client.py",
+    "scheme": "purelib",
+    "sha256": "82f88a6efcb3ba312997479cbd2cfe6f8ae8df073b5febe007849b85a0dbb394",
+    "size": 16415
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/insights_extractor.py",
+    "scheme": "purelib",
+    "sha256": "d880f9fb153a7ad1a1702f31dcb8b6e21b419cba4872b569c30293de3fca0654",
+    "size": 4188
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/knowledge_graph.py",
+    "scheme": "purelib",
+    "sha256": "697ab8a27bd96037e7b7294e88640326e7101e762d0d47bc3248e0ee8f19b2ff",
+    "size": 23484
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/link_scorer.py",
+    "scheme": "purelib",
+    "sha256": "379577056bb219c27a48fb7b4b444d525d551a6e8c0cf1d092be6c077365c0a8",
+    "size": 14078
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/link_selection.py",
+    "scheme": "purelib",
+    "sha256": "cee3ece1866bf66d2432e38a9e505a655315b7fd210a569a8ab126fd18610027",
+    "size": 4173
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/monitoring.py",
+    "scheme": "purelib",
+    "sha256": "303fca62ec397b550c684020c2b3631c991f2c27094cb1929d57285249e21ba9",
+    "size": 24487
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/pagination.py",
+    "scheme": "purelib",
+    "sha256": "008e6eb46cd33aa7ac47ca254dd5f1f41f6de207bc36b7993e7858fdc4cb540e",
+    "size": 18376
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/parallel_scraper.py",
+    "scheme": "purelib",
+    "sha256": "a2ef8f68174b3c2641d07e1175690356b19b365c37b233781eea4064d696480f",
+    "size": 14332
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/pinned_requests.py",
+    "scheme": "purelib",
+    "sha256": "126863b3b009ca6f39a00db3145ed0c6db7d4265035ce35730375f468becc1fa",
+    "size": 3070
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/safe_http.py",
+    "scheme": "purelib",
+    "sha256": "ef6802f544c36f5823177475a13808e21274f4cb86e429d882933811ba8bd7c8",
+    "size": 7754
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scrape.py",
+    "scheme": "purelib",
+    "sha256": "20c97a1021cff3fabe12a7cfbd0fb199a343ace16993ae79f481fa92cf451135",
+    "size": 68835
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/__init__.py",
+    "scheme": "purelib",
+    "sha256": "1ddd7d031c7bac8d2c4ec8059b97be302098ea326bb7b344d6c5bd997f1d96e5",
+    "size": 8429
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/blocked_summary.py",
+    "scheme": "purelib",
+    "sha256": "1073e20d12434f666911949f1cd4a5c60596690eb1f498219c8f4e0632647674",
+    "size": 2807
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/browser_egress.py",
+    "scheme": "purelib",
+    "sha256": "3d4e34b096fd662b1ebbde07a10b42244c2fe97e19e6c1c7d8ba66e8f73d829e",
+    "size": 4637
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/browser_proxy.py",
+    "scheme": "purelib",
+    "sha256": "7c03872eff9dd7f5ea8a926a6dbafc51e468360db777e40b185d157ce12b0951",
+    "size": 9363
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/browsers.py",
+    "scheme": "purelib",
+    "sha256": "34d657fd41c3cdf3e71f9506d82834c2e6c12b7bd3bd7c21cd9b57ecb2bd6613",
+    "size": 64197
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/cache.py",
+    "scheme": "purelib",
+    "sha256": "1d798b637ce7b3f710ecde569cb8701176f216da1158e57456a30182dc7d6215",
+    "size": 12742
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/chromium_config.py",
+    "scheme": "purelib",
+    "sha256": "1f00eeddeaa71f496670383ce058de67a12770ad47cdf6f7910fb346d84b9292",
+    "size": 1535
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/config.py",
+    "scheme": "purelib",
+    "sha256": "b2386b14288eaad3766f19b16dfaa208edaac7f926214a30abebe01ea263e691",
+    "size": 7668
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/content.py",
+    "scheme": "purelib",
+    "sha256": "e7f195673694e0d349654dd305eee94096c205feca23b2882df1009b99c689f1",
+    "size": 24728
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/detection.py",
+    "scheme": "purelib",
+    "sha256": "c0cdb54074540312994c7bd4d345544b090eca21f2868c8a7a0ad7ad2c57d1f9",
+    "size": 13181
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/discovery.py",
+    "scheme": "purelib",
+    "sha256": "9086c70733ca7466c86277ce455592e8e1f5db274103292dd04863220428614e",
+    "size": 32191
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/headed_budget.py",
+    "scheme": "purelib",
+    "sha256": "68ddbeacfcf493dec415c3903b9f61d0070d38c25ffc258cc1215ddd230d5724",
+    "size": 1772
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/host_markers.py",
+    "scheme": "purelib",
+    "sha256": "a1599967f662e2472163841815eb01a7fcbf19c0e7dc516cb74aa567f073e3d6",
+    "size": 6652
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/http_clients.py",
+    "scheme": "purelib",
+    "sha256": "ef829e678c2031ae3e5c064845ada85d6bc0f8c8e8d6f1c314d6b109bcffdc4c",
+    "size": 20842
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/models.py",
+    "scheme": "purelib",
+    "sha256": "96b9133276fe0ca86e02f508d5a30ee18157aee4cc20f0a97293abff88d204a1",
+    "size": 6652
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/net.py",
+    "scheme": "purelib",
+    "sha256": "ef705de459d2602c6d9b5a3f4f8bd9acbdfa7c276da7c40d5d591a21c13867a5",
+    "size": 8448
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/orchestrator.py",
+    "scheme": "purelib",
+    "sha256": "780133116099c3814a08473cee7f7ae66f02449e22699f21bf04770fd863fa3c",
+    "size": 42101
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/org_profile.py",
+    "scheme": "purelib",
+    "sha256": "4fe20a61416da31f12125481c740ea9abf18f77f1d7b36eb513e47ccc5d29fcb",
+    "size": 5591
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/page_access.py",
+    "scheme": "purelib",
+    "sha256": "2544e226cf8a0fb9772e2b4882f3f5186ab80dce53dc7ef9c67531f2f4bebea5",
+    "size": 12033
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/page_access_eval.py",
+    "scheme": "purelib",
+    "sha256": "5f6930c35a011e0a2ed652d5a42619fa35fd18deffbaa6d19354f61638f97717",
+    "size": 16249
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/page_snapshots.py",
+    "scheme": "purelib",
+    "sha256": "0823e27c6ff035498c964e44010bc4c506d42132743419139542147481b98ef0",
+    "size": 4020
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/playwright_compat.py",
+    "scheme": "purelib",
+    "sha256": "e90a9ce9a0d649a4647778436ece50981cfbb42f7a2c771754ab11ee3881bb16",
+    "size": 1806
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/profiles.py",
+    "scheme": "purelib",
+    "sha256": "b9d6a821468e051fb9b9f93d2e138cbfa49c8905554d900044c5654dd86307cc",
+    "size": 14177
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/rate_limit_state.py",
+    "scheme": "purelib",
+    "sha256": "07ae9e497ab21587974aee64d8c8ad96537f3212e1602aae724dfa587bd59ee5",
+    "size": 6651
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/rate_limiter.py",
+    "scheme": "purelib",
+    "sha256": "5b7d2f83fdfcd493a951a85cfe839ea88f0b2e1f41cf5ddd7d96c9fc241e1c79",
+    "size": 5897
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/stealth_browser.py",
+    "scheme": "purelib",
+    "sha256": "722621f0c42173620f77b150f770a48eeab0e606da580fbf4d90996f634e3dac",
+    "size": 27454
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/structured_content.py",
+    "scheme": "purelib",
+    "sha256": "6cb392089b5ce748d1d15151e877f1f8b000dfe91078096b5a381c7eaad5840d",
+    "size": 32666
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/tier_registry.py",
+    "scheme": "purelib",
+    "sha256": "2f64c6934da0d173079789b170b293391d0d7ac8afa5abd5f0c7ea90bae84cae",
+    "size": 5996
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/trace.py",
+    "scheme": "purelib",
+    "sha256": "86b7c80b8ea3ede028a34fa114e68654bc5a5efe27365befabd0a289b77f0b10",
+    "size": 7959
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/trace_stats.py",
+    "scheme": "purelib",
+    "sha256": "7ffdbb0c80111659c4cc09f7b4607305bcde7ed219868b2f43b73b6301b003d9",
+    "size": 6884
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/validation.py",
+    "scheme": "purelib",
+    "sha256": "098eb2dbddbbd6cb110f52b997071af18af09e6f445b591f6e63816134deacc3",
+    "size": 8835
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/vertical_slice.py",
+    "scheme": "purelib",
+    "sha256": "4342af2fee121a9f8d89bcc1d9da998fe8dcf7186fd30de989f525d0c2465d5e",
+    "size": 6432
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/vision_browser.py",
+    "scheme": "purelib",
+    "sha256": "28df14adb2dd53abee245aa72f97eebee7d5ae6fe0219a1bb1a80883d5afd439",
+    "size": 7972
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/scraping/wayback.py",
+    "scheme": "purelib",
+    "sha256": "2c0c74129a34808287f62f40364ff68219a373e719d555aa4b4847a82c69986b",
+    "size": 8614
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/search_utils.py",
+    "scheme": "purelib",
+    "sha256": "72ff7c0c3f81b9dbff73fea076ab84b55cea4960e74a53a02ce365291b41785c",
+    "size": 20936
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/sentiment.py",
+    "scheme": "purelib",
+    "sha256": "84dc8fc26450960ce98e197ac22d92af3cdb7cb2b1a3c2cf970b09ff9856aec1",
+    "size": 18781
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/data/validator.py",
+    "scheme": "purelib",
+    "sha256": "316f22200c4046201d50df4b9c5b0274212129ed90b6294ed3fbe07967bf635e",
+    "size": 19068
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/job_status.py",
+    "scheme": "purelib",
+    "sha256": "712ab87f0eaa7b824b65e01a553497a4055c8bc6d08a75e8e1d4e47041a5983a",
+    "size": 4028
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/__init__.py",
+    "scheme": "purelib",
+    "sha256": "338a35e993769aaa0d9d8e0c9a6a998c296a737644acd30589dd0da551a87327",
+    "size": 1938
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/agentic_resources.py",
+    "scheme": "purelib",
+    "sha256": "3ae05d9fd731540acaf3f70e43b9d1a559c64d49a24e9f3cef3837fae0075de3",
+    "size": 7612
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/agentic_tools.py",
+    "scheme": "purelib",
+    "sha256": "72a96488ee2b12d891e0a0330337f0e77018cbfd9f31991d19db7a781b79b995",
+    "size": 16636
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/approval_tokens.py",
+    "scheme": "purelib",
+    "sha256": "694e7eaf8f0770b1b89914bf92efbc5c380cc171966b610df316e3150d0af29d",
+    "size": 10887
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/artifact_resources.py",
+    "scheme": "purelib",
+    "sha256": "f63cbfbee9395de1130a1af988334c229647fdcc53e864e19eb97427978ebeeb",
+    "size": 18058
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/audit_log.py",
+    "scheme": "purelib",
+    "sha256": "3e0bda77f7d00e5be328af416ced92d5de2f2802c43608e46b5839034feb3cfa",
+    "size": 31139
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/audit_schema.py",
+    "scheme": "purelib",
+    "sha256": "4db42fb95553c73691d0d4d00946d6c13e9a98d04e148411a4027230161e17b8",
+    "size": 11329
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/auth.py",
+    "scheme": "purelib",
+    "sha256": "6f3df666b4efc846ab729a70817c72264510705c8a7165fc086e78e65973a0f7",
+    "size": 27481
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/calibration_resources.py",
+    "scheme": "purelib",
+    "sha256": "b5db8b7eca554af9bf9ac8010d1c21109f5fb1fe0ed495895bc084e08cf501df",
+    "size": 2792
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/calibration_summary.py",
+    "scheme": "purelib",
+    "sha256": "8046d104302ce8012cbf916fa0b5b6b1256b1cb0843894fc6075c54287f6d245",
+    "size": 10218
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/cli.py",
+    "scheme": "purelib",
+    "sha256": "c5b24b6b3b79bb10e69075a930230a0182d43a7f2172e219e863919eac653d86",
+    "size": 4602
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/cloud_detect.py",
+    "scheme": "purelib",
+    "sha256": "c603ac84c8a5ad9697d9a57aa1a78950e427c30f92446b88a7a6da82033f3e7c",
+    "size": 776
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/cloud_diagnostics.py",
+    "scheme": "purelib",
+    "sha256": "2433d5569e862ad02ade3063ca78b37d38f2960c4be9780e19a40180399e8f31",
+    "size": 3507
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/cost_caps.py",
+    "scheme": "purelib",
+    "sha256": "9e8da01291f273915a7441719a559ff98a0fa99386383f7417e53e18a8582b73",
+    "size": 1570
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/doctor_status.py",
+    "scheme": "purelib",
+    "sha256": "9d9307aeb2c6f90d249f0b951838c1557812a04770214172a69487b3cde806a9",
+    "size": 5124
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_process.py",
+    "scheme": "purelib",
+    "sha256": "c9689b2edf270597af49b725c90333a795568d9eef12740f60a7b11deed2bed1",
+    "size": 35239
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_process_types.py",
+    "scheme": "purelib",
+    "sha256": "303fcbf207649f5797d0d6b376761f497356124ddd7f74d7f658cf2b040ebcac",
+    "size": 2149
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_progress.py",
+    "scheme": "purelib",
+    "sha256": "8822ceb4b726b9167a03cb020b1508b0d5a0a06e6de92f55197cb44b5426a646",
+    "size": 2345
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_responses.py",
+    "scheme": "purelib",
+    "sha256": "8f465a703bd290a5abe2f53c4064f485d62268bd6e9a21c3367919c8599c22bc",
+    "size": 9305
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_store.py",
+    "scheme": "purelib",
+    "sha256": "4883adde67ed5bf80fc640d04ce2ff66dd48a09311b6de6cbc752fd1cb175298",
+    "size": 32696
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_terminal_manifest.py",
+    "scheme": "purelib",
+    "sha256": "16aee8fd61bd9745d89109c50f3eedf1b15ffabc67f333e4035bd5bac54e10f6",
+    "size": 3399
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_tools.py",
+    "scheme": "purelib",
+    "sha256": "d49eaf1a9a8f48b0289877f226d738ec221c9ecb287eba05bf8c9538289de5c3",
+    "size": 4396
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/job_worker.py",
+    "scheme": "purelib",
+    "sha256": "8b7139b1360e73c756c3c10a3996dca733650acf7e65a38fff186fe6e0a1efdd",
+    "size": 15069
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/logging_config.py",
+    "scheme": "purelib",
+    "sha256": "e8e2096e219c575db53897fe641625e22108f4c8238ae4ea54b9058a5127650a",
+    "size": 3746
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/pipeline_runner.py",
+    "scheme": "purelib",
+    "sha256": "0ff6bfff8dbe1f28cbfa37a3cbde22e58985dfb24c79e75490438b87cc115313",
+    "size": 37878
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/platforms.py",
+    "scheme": "purelib",
+    "sha256": "5b612449766202f302bb528f927f763e605c813b2a91fc56ca48b1edbf150df6",
+    "size": 1128
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/prompts.py",
+    "scheme": "purelib",
+    "sha256": "55bfacd8d9a63334857bb574ea83178db273d6b5c2bc20440677f22499c0bad3",
+    "size": 11859
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/qa_operations.py",
+    "scheme": "purelib",
+    "sha256": "ab198722ed45ec94a79350ec1acebc0a9fd09f65e34ca59cddd3f48c97450eab",
+    "size": 1074
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/readiness.py",
+    "scheme": "purelib",
+    "sha256": "f08f2d2b8d91555df15bbede08f95d62d2fbf31c86d1af4d1a9d0f3d93a60ed0",
+    "size": 3634
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/report_resources.py",
+    "scheme": "purelib",
+    "sha256": "c9adb8a0b015b06a3fa04fdcc9c5ffea594f4f40fd468582e750323c045c0b7c",
+    "size": 11974
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/research_policy.py",
+    "scheme": "purelib",
+    "sha256": "f46f5cb9b4d6d0bd8c36926bdb5e169953fd9819d672d217a9bdbe0a1af973b2",
+    "size": 6494
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/research_validation.py",
+    "scheme": "purelib",
+    "sha256": "b758ba7d40b704f8c04f51b70af774acb723d0c6c385c4e94d54fa669fd76dc0",
+    "size": 6762
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/resource_auth.py",
+    "scheme": "purelib",
+    "sha256": "f32f319991699d72265f5c59dacf787ec260ba31744c11f54e6bfa76df282274",
+    "size": 4472
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/resource_summary_utils.py",
+    "scheme": "purelib",
+    "sha256": "c76d09dc54172b7a7e98e7b332ae79a80e8ee08f13b0809fcaa8c7b114c8b4f8",
+    "size": 1025
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/resources.py",
+    "scheme": "purelib",
+    "sha256": "a5aa7c8ab2e94e24b58d753eaf447f883d3cb6d35194f27fd83e0be6ab4bd6eb",
+    "size": 33500
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/security.py",
+    "scheme": "purelib",
+    "sha256": "dfbb8acc75580eb74f5c0f00c1cccfc7e7453b1ea1e79e989af0d96d061a3308",
+    "size": 17215
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/server.py",
+    "scheme": "purelib",
+    "sha256": "3cb814b28f859eab21cb7d5cf43ef09d207254da1aa5e57e18b66710e2d38bec",
+    "size": 28976
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/server_context.py",
+    "scheme": "purelib",
+    "sha256": "bf436abf2613255f988a75197c68679689b9fb89f0db205378b93b316e706895",
+    "size": 987
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/skill_pack_tools.py",
+    "scheme": "purelib",
+    "sha256": "a5e6e909453f49942ac5f2f249e4c09db5cbd4363cd51391a1ce54c1e4b6c9ac",
+    "size": 37677
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/source_summary.py",
+    "scheme": "purelib",
+    "sha256": "3a6bb14344926a0e7875ac6bf2bb268bf14486a4e831b30e9844a1e3acc6062d",
+    "size": 9434
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/spike.py",
+    "scheme": "purelib",
+    "sha256": "90ce54d32a7967dd1370ea17d7cc0f7ede80a6b7bff416f6be17397bf1f5a7b1",
+    "size": 5111
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/stage_scorecard_summary.py",
+    "scheme": "purelib",
+    "sha256": "3a63127ab6eeedcb68bcc51daaaa2e7bbf64bd85bb952b474d208289d2655cf7",
+    "size": 9016
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/strategy_catalog.py",
+    "scheme": "purelib",
+    "sha256": "aed6d6ef131ba6593ebe9a42eba33a8077b55e68e3e5fb891e00627310f19277",
+    "size": 2505
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/strategy_operations.py",
+    "scheme": "purelib",
+    "sha256": "7a18604905f9bba966003f327381ac874457b624ce49e5aa3f5b5a3e58670e47",
+    "size": 4136
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/strategy_responses.py",
+    "scheme": "purelib",
+    "sha256": "b908d482bfdb0c1b07505c8b9e4c1b8c376c413e5e1a497fd7078094c0304468",
+    "size": 3996
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/strategy_tool_handler.py",
+    "scheme": "purelib",
+    "sha256": "a7ff54031629dd728dc93c69841a7c5481b7c9f5e7fa47e436933807ebb2f7dc",
+    "size": 3831
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/tool_authz.py",
+    "scheme": "purelib",
+    "sha256": "603ba53731964101f3ef382bdf23ea150c0b036a0bda0f126f4febf87a1694be",
+    "size": 4918
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/tool_catalog.py",
+    "scheme": "purelib",
+    "sha256": "b4a52b1e65cbd664ca213fe0c33a77fe99776d234f5d8942a87016fdda4efabf",
+    "size": 16140
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/tools.py",
+    "scheme": "purelib",
+    "sha256": "f8fac6922d9e0652a229a68b5aef70bbc17d4862656a4aafe07bd27a7143d078",
+    "size": 33775
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/trace_summary.py",
+    "scheme": "purelib",
+    "sha256": "a5aeb9a0f282d068dd91be9088b279b2ed31734bd05d893ba47d8b8097d9e0e9",
+    "size": 7829
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/types.py",
+    "scheme": "purelib",
+    "sha256": "91f42f78dd0b8a619388b46a1dbf49f0f9409b3beee44f8a18606f7e332c6484",
+    "size": 6985
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/verification_summary.py",
+    "scheme": "purelib",
+    "sha256": "2ae3e6e2459d1e81fb679e5242a1f347647d2ba3a48435d0a31182986977f2d9",
+    "size": 5946
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/versioning.py",
+    "scheme": "purelib",
+    "sha256": "987be3978158a2dd4adfbcd5e17b380ad9ee7083a03d02b407b76c665e29a3a1",
+    "size": 14418
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/windows_job.py",
+    "scheme": "purelib",
+    "sha256": "6a3b0e8a5dc335ad0e8c3c6d4f3f6feaac2fe05c487c2431df20001677a0e652",
+    "size": 9252
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/worker_environment.py",
+    "scheme": "purelib",
+    "sha256": "dbd3c6f0549c95dcb3f5940b5308c5486ed6003d9b8526d6a5dbb686fa10c6f1",
+    "size": 711
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/worker_process_control.py",
+    "scheme": "purelib",
+    "sha256": "8a70842984701cfd3fb040662a4aab9f5142bfbb9cd87f7e4aa625f476e98c90",
+    "size": 3512
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/worker_protocol.py",
+    "scheme": "purelib",
+    "sha256": "a662d619eb00b23be423ba852b5dd6095f71afe0ace8ea38e2ce76f77b1b2738",
+    "size": 16063
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/mcp_server/worker_terminal_policy.py",
+    "scheme": "purelib",
+    "sha256": "812cc42d19c12ac5474e5dd24c0cf4594309056b5a5b75050b11dae3360ac7f4",
+    "size": 2414
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/__init__.py",
+    "scheme": "purelib",
+    "sha256": "b23016a1a6f19848380136b860db5cb7d7848c8d2cc3173f6f4face29f8ee86c",
+    "size": 3471
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/artifact_inventory.py",
+    "scheme": "purelib",
+    "sha256": "7a12f1e90351605eabd6966a6f22f8f93e842598a7caae9c12c7e52c67c76a01",
+    "size": 9813
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/artifact_validation.py",
+    "scheme": "purelib",
+    "sha256": "473dba3ff63a50ff8856059cffcc9ba655614b0081db4b472a8a6ca69dda0c43",
+    "size": 16710
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/chapter_config.py",
+    "scheme": "purelib",
+    "sha256": "38b0de93fd9b9ee32a2720c942d6d26be097e0b5379bf2718ec46a0d4bfb5ab0",
+    "size": 5022
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/citation_processor.py",
+    "scheme": "purelib",
+    "sha256": "a758c09f58bac13d465aaee1d0c19e39d15f24d5b11930a7e9e5226de33f0423",
+    "size": 10061
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/content_pattern_detector.py",
+    "scheme": "purelib",
+    "sha256": "bdd444170e28acc30c06b974b72e9bcd5084217fe74c8ba8f41993ec2ff8cb98",
+    "size": 7804
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/document_builder.py",
+    "scheme": "purelib",
+    "sha256": "2636d7c462e11636d6f630d0245b0fb01d21871225e5f2c0ef2429d577909a63",
+    "size": 24604
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/executive_summary.py",
+    "scheme": "purelib",
+    "sha256": "7d6b28b05385e4e93f9a32d861edcd7ec9a7754c9f968bb70cec3772ff71c884",
+    "size": 26369
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/executive_summary_generator.py",
+    "scheme": "purelib",
+    "sha256": "f0779f34a8ed5827207822b7846f7740862a5251cbd3ebd2b9936fb8c595bec5",
+    "size": 10159
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/final_artifact.py",
+    "scheme": "purelib",
+    "sha256": "601708d15c22020045738141f7efff2f206fd86c52bab81e9607a34483fc3f3e",
+    "size": 8779
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/markdown_converter.py",
+    "scheme": "purelib",
+    "sha256": "a2a8bf583b52dd83bb73951784f84c55b5548cdb529ee7ee9afdb3eab253d067",
+    "size": 15376
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/markdown_parser.py",
+    "scheme": "purelib",
+    "sha256": "7d0e507e27a7c63be00a1a87554680437f75575326976ae748d9cf164cae559b",
+    "size": 15365
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/models.py",
+    "scheme": "purelib",
+    "sha256": "2cc33102e738abb6dde3d232a3c07674230d0557fe7561f30b0257822f76e218",
+    "size": 4497
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/output_utils.py",
+    "scheme": "purelib",
+    "sha256": "56d5fe83eda84d09f252501b8b4ecf28c3f50af69fa0a5fddb8affe6152efcc9",
+    "size": 21949
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/polish_elements.py",
+    "scheme": "purelib",
+    "sha256": "2f71e58aec3aec81be225ad09afcd70011c96239f303dc8104668bf3419b7940",
+    "size": 11532
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/qa_report_generator.py",
+    "scheme": "purelib",
+    "sha256": "548cf0072973cc14078086fd3ce3cbdf04109d5c8fbd76fcefff7b3cbb064dbf",
+    "size": 8876
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/report_assembler.py",
+    "scheme": "purelib",
+    "sha256": "72c21e9228106586d88eaf1e9320d97104f828d43a288204237996db54d02081",
+    "size": 12493
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/section_writer.py",
+    "scheme": "purelib",
+    "sha256": "0da85a716a9b043d772255d62232eb60c8702c279358622da29bf25480ade787",
+    "size": 9922
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/skills_generator.py",
+    "scheme": "purelib",
+    "sha256": "cc4c18cfb94a5deda15c7fc53d3f372196f6b94260697cceda9d69030ae4e268",
+    "size": 10298
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/style_engine.py",
+    "scheme": "purelib",
+    "sha256": "c6062f917dd5d8fb7141766499e32f55ce542861ebf512bcf54be21aaa395d63",
+    "size": 14447
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/table_builder.py",
+    "scheme": "purelib",
+    "sha256": "fd88664d9a7216e3a95a6b193d9dbb8e379f5107db6905eba9544647dffd3ac7",
+    "size": 9713
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/templates.py",
+    "scheme": "purelib",
+    "sha256": "3315fae12ca76e7f632ce9b7f835946b2adb38f4520532483daa44ca267cc882",
+    "size": 19410
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/output/working_brief.py",
+    "scheme": "purelib",
+    "sha256": "b91f54a46401d364e161cd07d6cbfe1dd2b19353c96015bfca3837c96d9c43a4",
+    "size": 12194
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/__init__.py",
+    "scheme": "purelib",
+    "sha256": "f8dd3bbd4a04fd0895db75ca85f5661631f3f489608800f6508df99e9327b1dc",
+    "size": 1803
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/diminishing_returns.py",
+    "scheme": "purelib",
+    "sha256": "4b6585fc038fcef285ffae470eeaa3ce2cda4d9f157ff899d8419ec663713257",
+    "size": 5083
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/errors.py",
+    "scheme": "purelib",
+    "sha256": "660e2698761ddeebdc114329615d8673fa20a804d37f47267d8b9b413df5db85",
+    "size": 4077
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/executor.py",
+    "scheme": "purelib",
+    "sha256": "d0638164fea55b8145ef6b13b6d40f1f6302eee283030c7da0d7857e38e9cc66",
+    "size": 11943
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/integration.py",
+    "scheme": "purelib",
+    "sha256": "95e7881f978d50472779bf82cb8e4a21daca69c72bba429e81f121c79d12cae9",
+    "size": 6534
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/llm_failover.py",
+    "scheme": "purelib",
+    "sha256": "a27a9d2296733823b4637c9b238ac9fac435618eee2278fcee4abedd2ead8223",
+    "size": 6308
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/model_breaker.py",
+    "scheme": "purelib",
+    "sha256": "6d4159becbf27b3d99715d956bd60507b1edf1698c49c1d4a99ef38ec0f2e80f",
+    "size": 14116
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/recovery.py",
+    "scheme": "purelib",
+    "sha256": "6999c16e294f104bfe4f6de76c9eff7f406e6f1448d5aca95bc05001163ad9cf",
+    "size": 8204
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/pipeline/stages.py",
+    "scheme": "purelib",
+    "sha256": "092a6e8fd96f87db84a91fbc863878e8c0ca4d59a329ececb1b1f620e1b54a19",
+    "size": 2565
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/primr_cli.py",
+    "scheme": "purelib",
+    "sha256": "e1328b7971997562e82e89e6a7de5fae1cea055878ffa3ecf34bb83cc72452d3",
+    "size": 174
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/__init__.py",
+    "scheme": "purelib",
+    "sha256": "1fcb58469b042c0008e31a5ea8c8be2d2fb928b51a784d94f75dec3891a7afd3",
+    "size": 2041
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/company_overview.yaml",
+    "scheme": "purelib",
+    "sha256": "fcab83450b7cd54bdc102944d999a7f0d08005901eaa6ca835c72844577a5e64",
+    "size": 33539
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/composer.py",
+    "scheme": "purelib",
+    "sha256": "47561e35283c6817e77e7294799d9700826afdc4e14d1745ab0c0ce95ccce756",
+    "size": 24037
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/exceptions.py",
+    "scheme": "purelib",
+    "sha256": "27f3ee805536baf68a81a6982e66f3d27dd4e941e957219c79505f20001faf7f",
+    "size": 3727
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/loader.py",
+    "scheme": "purelib",
+    "sha256": "230f89a717e60ad96afdb80244a736c8468df60f5780e85f81bc57b0c9465bd0",
+    "size": 6839
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/migration.py",
+    "scheme": "purelib",
+    "sha256": "56e5753c6a614f34949606122ffd0434577e122d237a72c2173f187844bf6fc7",
+    "size": 13159
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/registry.py",
+    "scheme": "purelib",
+    "sha256": "c281538933a67b167f11e65830c03fd4c0f75eb6fc5f2ee8685d56b06a69d2b8",
+    "size": 6989
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/schema.py",
+    "scheme": "purelib",
+    "sha256": "2a979542cbc9f482bf840c5da37582e5174ebd2696996c4054744e190dc9ec21",
+    "size": 9034
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/shared/epistemic_rules.yaml",
+    "scheme": "purelib",
+    "sha256": "4674f5fbd24bfb2695c1f289d4acd6f02a78a747fdbbe4cfe195af900187ba75",
+    "size": 8766
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/shared/formatting.yaml",
+    "scheme": "purelib",
+    "sha256": "b78e13623c10b875951af51613487f917ea67b71b9f9bce99e271c2931bd330d",
+    "size": 2933
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/shared/personas.yaml",
+    "scheme": "purelib",
+    "sha256": "8a2afa8e25a514ff3ae9a6cd9a94fddf2c5f25ffb5a7aeeca979a8eaa0c4a9a8",
+    "size": 3991
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/shared_loader.py",
+    "scheme": "purelib",
+    "sha256": "0b1d34a9cffe21e80cd406f42de96ce2bcd79dc845f167916b4702cc72ff5fdc",
+    "size": 5530
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/__init__.py",
+    "scheme": "purelib",
+    "sha256": "1b91ca944fae04ec996d0aa48233aabc0099f2867c7db5032218d660eec3deff",
+    "size": 111
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/author_skill.yaml",
+    "scheme": "purelib",
+    "sha256": "ac5b4898c6ce2115da8a689af858d6267bcf55905ded6bfcf2245ae4eb05d446",
+    "size": 22863
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/discover_roles.yaml",
+    "scheme": "purelib",
+    "sha256": "934902b9eb56b4edf705c6eb22cf7c167bb0f24a7e2706876c7611d03ea4edb0",
+    "size": 3354
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/gen_skill_evals.yaml",
+    "scheme": "purelib",
+    "sha256": "4f16122e3d4ac4e35f85c2e9a7d30a2a27345eaad73daed21eab566eb99fbae7",
+    "size": 1951
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/gen_trigger_evals.yaml",
+    "scheme": "purelib",
+    "sha256": "6f94320224983d23fe4e9a864ac5607fe3b49afb0f72b6cbf60952d2c90f4b73",
+    "size": 1769
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/grade_skill_output.yaml",
+    "scheme": "purelib",
+    "sha256": "664a4070fe6e0fcd6c6dfb2a45ee6f48c39b978a238ea513b342b8b1480fdded",
+    "size": 933
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/optimize_description.yaml",
+    "scheme": "purelib",
+    "sha256": "f92332118c60cb5bb645e1801056345830ac659b6047758f1d0c712be84a8c4e",
+    "size": 1911
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/pack_coherence.yaml",
+    "scheme": "purelib",
+    "sha256": "085965c6b2a700b8b94eba95fc9d7598f5b14b3f7d7d1dd5283d0386b8eb76d9",
+    "size": 2158
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/plan_observed_roles.yaml",
+    "scheme": "purelib",
+    "sha256": "b5757bd7792e4f66896bc79d864380da817c5b4633d410efbafdcad29136545a",
+    "size": 3607
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/plan_plausible_roles.yaml",
+    "scheme": "purelib",
+    "sha256": "1a590f36730f342bca3a8ebb982f0d9367b34f3892d4dcee366882a7ea089a3b",
+    "size": 6668
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/refine_skill.yaml",
+    "scheme": "purelib",
+    "sha256": "0d3166cb80e0d0866efcb8c1609b3648e3e62ebad84b264e07bae82a38ea3632",
+    "size": 2764
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/skill_pack/score_triggers.yaml",
+    "scheme": "purelib",
+    "sha256": "5808d2859fe79dd80d9d586666ecb47551a36576ef1bce72bb33158a044349df",
+    "size": 1271
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategic_layer.yaml",
+    "scheme": "purelib",
+    "sha256": "7d18280fe0180c77b07c6a15ebd25d046b7b5683ec392f7534b9d28ff385b472",
+    "size": 8802
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/ai_first_transformation.yaml",
+    "scheme": "purelib",
+    "sha256": "6afaf03ee505b2d717ef8d4de572137e619ae63a9261224ba936634b9ba0009a",
+    "size": 29633
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/ai_strategy.yaml",
+    "scheme": "purelib",
+    "sha256": "c0fab8a065726e4bb23593f7e7a00ae5b2497a1d0ab88d138afaa2819c906c0f",
+    "size": 45487
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/cloud_migration.yaml",
+    "scheme": "purelib",
+    "sha256": "7905b47d70902d511ef93b49e84f0824b49b1b7bf0e785f4400df9daf82d81c7",
+    "size": 3524
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/customer_experience.yaml",
+    "scheme": "purelib",
+    "sha256": "92cd9cf2879958193431b4be4dcf3f81711cd8a25df18d7b8c658f8f27163c66",
+    "size": 24785
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/data_fabric_strategy.yaml",
+    "scheme": "purelib",
+    "sha256": "afe0a0b09e8e28051006a2bd452dd8359db9c2af0468b69f6bb4bf2a44a746c0",
+    "size": 23601
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/data_strategy.yaml",
+    "scheme": "purelib",
+    "sha256": "cf69defd2a64d36ee0e30c728986c5344b8a0a559bffe377a2956d21b5de93a8",
+    "size": 3493
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/modern_security_compliance.yaml",
+    "scheme": "purelib",
+    "sha256": "067b51377d08f98ffb398364da69071d20288eefc216ebc515cd3e88c74ee9ad",
+    "size": 24650
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/strategies/skills.yaml",
+    "scheme": "purelib",
+    "sha256": "b3998cf283e8dbaa3e0bc7a2535fceeb5ba183b7ffb65ae63013c0096910d1ba",
+    "size": 4382
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/validation.py",
+    "scheme": "purelib",
+    "sha256": "697aed96679480b4cc372b20783f41080034f9ed1ce3e91c29048622a560ea60",
+    "size": 8444
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/prompts/verification.yaml",
+    "scheme": "purelib",
+    "sha256": "c77bf539ed9616bfa539c9e49c0cafcea1f8d3c9153b64174bc114bc121d4baf",
+    "size": 2935
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/py.typed",
+    "scheme": "purelib",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/__init__.py",
+    "scheme": "purelib",
+    "sha256": "c038bd6a0feae29fc3e6afb43776b59e73dbe8eb9da54aa797d0a5cb88160d0b",
+    "size": 616
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/analyzer.py",
+    "scheme": "purelib",
+    "sha256": "18162102b10c7b924ce443f65732ce49e1b43bec3e0eb45c621df907b600011d",
+    "size": 16859
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/artifact_fingerprints.py",
+    "scheme": "purelib",
+    "sha256": "1e54c72b021f8cb78d1672040458914806a2a094de73ffa3e0f25a3d58bc99da",
+    "size": 767
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline.py",
+    "scheme": "purelib",
+    "sha256": "541f2fba7934475ac29f6a51f4f96ba195f398364202ac3c6eb650af53f96ca6",
+    "size": 40557
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline_actions.py",
+    "scheme": "purelib",
+    "sha256": "bee1694875e5e10deb84e4abb606d8d9d7ae78e0cd1e13efa2c8af211c8747f5",
+    "size": 11230
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline_decision.py",
+    "scheme": "purelib",
+    "sha256": "e66599d0bafc48b014618834361e7339fb86cf8d9369e1379eff471634635997",
+    "size": 16499
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline_gate.py",
+    "scheme": "purelib",
+    "sha256": "5b93a512752d36d0610738e5d566422857fcc550f52df297a1c675b7daea5e8d",
+    "size": 7776
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline_integrity.py",
+    "scheme": "purelib",
+    "sha256": "1e1a00316631e2326bc321354eb54f44620a4e4b2f3d67a2f34217ca831a456d",
+    "size": 3903
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_baseline_review.py",
+    "scheme": "purelib",
+    "sha256": "3c5f6e7f66e7190b61346427d108e5b9bf1911df42b426499bf10a7c07135eea",
+    "size": 16745
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_cli.py",
+    "scheme": "purelib",
+    "sha256": "87b9a47dcf1cec83c231f8d2a5ee931ef62aff3355267a96c9fe1b90b5498287",
+    "size": 24180
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_judge_agreement.py",
+    "scheme": "purelib",
+    "sha256": "b5b240ecb8e749ed729ca79be93a48d4746fb27f2bb898af4bd8c7f96c38171d",
+    "size": 1081
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_runner.py",
+    "scheme": "purelib",
+    "sha256": "1c4db979d545663bcba6dbb3f3c643df397bc494557fb39da1273bf6f1501d36",
+    "size": 29953
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_selection.py",
+    "scheme": "purelib",
+    "sha256": "88135b9919b88edaccc2ec162ac1c84d2f71f14e8fea55fc1abee58a636dddff",
+    "size": 9195
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/calibration_sidecars.py",
+    "scheme": "purelib",
+    "sha256": "aac0e8aec7f3c01679a546f18bb1f3d83ecba014b057df9919152b79b5e599d6",
+    "size": 2141
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/command.py",
+    "scheme": "purelib",
+    "sha256": "5722cd408df01689e0b63fc7f0a112d44936bc5e53ba0adc3d39c420c040ef46",
+    "size": 10654
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/config.py",
+    "scheme": "purelib",
+    "sha256": "d7085d922fc22b03669d539462ad43c7b1fadd1209b86199fa49381e96aa4cf8",
+    "size": 10509
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/error_handler.py",
+    "scheme": "purelib",
+    "sha256": "e4e311c74b6001d8bffea972572b4471abbb23652f939bb78691b7eb5099b1c4",
+    "size": 8191
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/integration.py",
+    "scheme": "purelib",
+    "sha256": "fd553389316ab44444b17a620951c1cc7f5c78191854b7457c2e50bd4b295efb",
+    "size": 16628
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/issue_classifier.py",
+    "scheme": "purelib",
+    "sha256": "e1de41b1dd9d681097c74074f281dab66d8966cacbc007c9194f1a4579342a67",
+    "size": 8537
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/json_parser.py",
+    "scheme": "purelib",
+    "sha256": "140fddd952bb3d9704aa3c7d8c37321972850b60ce7318d01a6e9de6b2789d81",
+    "size": 12245
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/label_calibration.py",
+    "scheme": "purelib",
+    "sha256": "f4e8969bd6e5fb6017e3bb273a1ed342b53da3fd27cf2dd13ef6aa2e443d8287",
+    "size": 28241
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/label_honesty.py",
+    "scheme": "purelib",
+    "sha256": "a92a7171d52590b8c259809d4f877edcf031d41b4cba4e2c9f4ff39bc274f424",
+    "size": 7529
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/models.py",
+    "scheme": "purelib",
+    "sha256": "07b26bbe390a9daac2b71c13042a4529724175c27f0dc16362a5a2e4450b7822",
+    "size": 3357
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/monitor.py",
+    "scheme": "purelib",
+    "sha256": "23b6cb516b3c4d6f4d2d0fe5739ae583c9372f5b2b442b8f5742c0121e1e942d",
+    "size": 13172
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/report_analyzer.py",
+    "scheme": "purelib",
+    "sha256": "2927e2e8ca61379a5d0c040007a841d16dd824051386d8d605c3493cf8563463",
+    "size": 37093
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/report_loader.py",
+    "scheme": "purelib",
+    "sha256": "5a0f73a8894d2c87645a183395f7f3b7aba245dcb4e9c4ae23039f811706836c",
+    "size": 13529
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/qa/simple_analyzer.py",
+    "scheme": "purelib",
+    "sha256": "9361f53903a276fd00a3cf39876f5a6b25bc781f6141bc0b48859a7fe45432c0",
+    "size": 22042
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/eval/source_relevance_standing_v1.json",
+    "scheme": "purelib",
+    "sha256": "69cf92f484bd11743e0d2d710f4421c39218244304b40dfc25b5732ca70ae9c5",
+    "size": 2787
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/SKILL.md",
+    "scheme": "purelib",
+    "sha256": "5ee719ecc23db8c13ef7e27b23516376f6f89ce8b3688465c5d6e2dd1b63652b",
+    "size": 11531
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/agents/openai.yaml",
+    "scheme": "purelib",
+    "sha256": "38432ab95fe2111634f8cef4e3a1c717aa7f0e5bbfa0d296fe68e7348365953a",
+    "size": 294
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/references/host-capabilities.md",
+    "scheme": "purelib",
+    "sha256": "c42664f0dcc385e1947cb84d91cc902bf65dc5da65390770e4405f05efbaf4a0",
+    "size": 2794
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/references/local-capacity.md",
+    "scheme": "purelib",
+    "sha256": "502784d5df7300320946497a37af113e4d3cf617c7dacbcb891f742a616b3553",
+    "size": 1562
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/references/report-contract.md",
+    "scheme": "purelib",
+    "sha256": "1392e41e11a2dce8156cea836b54aef7d9aadd6094bea33b04814ff33b149d66",
+    "size": 3189
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/resources/skills/primr-zero/references/subscription-boundaries.md",
+    "scheme": "purelib",
+    "sha256": "396a0cc6e386b3e7a8aea9fa2bed173446dada304e0e168c9928e9c9486b600e",
+    "size": 967
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/__init__.py",
+    "scheme": "purelib",
+    "sha256": "749787085cace9455d2f8c69928d160a2690d7b8612bb0675c5edf0666a63710",
+    "size": 831
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes.py",
+    "scheme": "purelib",
+    "sha256": "d5da3ec0ff738122e80e29c556c26ceca8b0bbaf64a7e060b517ede268b64fb8",
+    "size": 8547
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/account-executive.yaml",
+    "scheme": "purelib",
+    "sha256": "3cad430afa6bb611ed3db80d5c1cdfde7df7b83ec9c8b2acb2cc773c0a95f786",
+    "size": 2160
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/aws-solutions-architect.yaml",
+    "scheme": "purelib",
+    "sha256": "89df0df865799d50f5bc1d31f72d8875b254ae6190b41a2620fa0456c941f442",
+    "size": 2158
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/azure-cloud-engineer.yaml",
+    "scheme": "purelib",
+    "sha256": "13e984a03c40d0b7f90c67470c710406c941c82850344e2527d59d5a14edc89a",
+    "size": 2232
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/customer-success-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "b68f3f1662a4ed2fa825e5afbd7281f2f8025b1e21f07df7a28977d70f900b4e",
+    "size": 2104
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/data-engineer.yaml",
+    "scheme": "purelib",
+    "sha256": "d093e8ecab01cfc9bc9bbd7871cb5808d395b44b556be661c8e34e21476800e6",
+    "size": 2172
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/devops-engineer.yaml",
+    "scheme": "purelib",
+    "sha256": "920e18e0f0936a898f57231dcf42279ef3e79b31489ccf41c3326fecedd09a45",
+    "size": 2093
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/finance-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "6e29acad24e45758c433be77a680020ed71a65ce98d092d07902679793ff5efe",
+    "size": 1904
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/generic-knowledge-worker.yaml",
+    "scheme": "purelib",
+    "sha256": "5db9b49138d068f573431667ecad572a2d4f18fb086e92f9d599d1d631ccf562",
+    "size": 2092
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/legal-compliance-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "2b70c5ab90556ca0f2e3c1194d3520e7f049f0786c7ebafaf4e20d78ecc00167",
+    "size": 1877
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/m365-admin.yaml",
+    "scheme": "purelib",
+    "sha256": "bc1e3e4e309ea99680e29592d12fcaae493f132af49383527647610113f9cbc3",
+    "size": 2135
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/marketing-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "6da013c48e5d0b4fd393f75331eacedb9f5b042c4b46cfee75e333023eb69274",
+    "size": 1890
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/ml-engineer.yaml",
+    "scheme": "purelib",
+    "sha256": "80993688e607ba33298f3b4fbf27d75adbf48f3c9a45d4390b8bdc3cddc4d0c6",
+    "size": 2207
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/operations-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "7424173875115648c64b115a7e0c41acccc91d093f4867d7188a7de87167e32e",
+    "size": 1904
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/people-operations-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "ee374d74565e054967da2044d71413a61093783aedc87efa0c6020a688403f43",
+    "size": 1900
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/product-manager.yaml",
+    "scheme": "purelib",
+    "sha256": "e69d7e47f21e3735e1e9c9c412f6ef5aad84e810f9b3904249456f03f4c1d1d5",
+    "size": 2204
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/salesforce-admin.yaml",
+    "scheme": "purelib",
+    "sha256": "ac623bffc0ce9ca560e13cae9b5cef7c0f6bb679fb7e0c569d32768e8a70ee27",
+    "size": 2304
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/security-engineer.yaml",
+    "scheme": "purelib",
+    "sha256": "8ff80d8c0b8c500543615c4d75527bb058254ae81e8be522b7064aee220888fb",
+    "size": 2281
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/archetypes/sre.yaml",
+    "scheme": "purelib",
+    "sha256": "7c7edcd416c887e1349be0b2cc886f2f2edb21c1737fe05733f6ff0b06d46f04",
+    "size": 2122
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/authoring.py",
+    "scheme": "purelib",
+    "sha256": "a333a519ab592b2e9c2e0da4279722bd584521b93a33a11e274f32a053cd9c31",
+    "size": 16047
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/behavioral_eval.py",
+    "scheme": "purelib",
+    "sha256": "abd916f451720cf7ada5b077dca8f7f9358c376dcf2e7e4eceb422e25869c503",
+    "size": 13283
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/body_quality.py",
+    "scheme": "purelib",
+    "sha256": "952779912b616e83058d1682f4b856c7ab1f7ebae314be4616b7fe002ad9dfdd",
+    "size": 4523
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/cli.py",
+    "scheme": "purelib",
+    "sha256": "d1ac10a49f8fc823e01583047f45315d709d696410a0389aeed540df8b28f547",
+    "size": 23906
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/code_comment_projection.py",
+    "scheme": "purelib",
+    "sha256": "a24cbe046f5298468668c89f3a989a99e5439644f6e37534f30ec3f4d3900b68",
+    "size": 22774
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/code_fragment_safety.py",
+    "scheme": "purelib",
+    "sha256": "7acf89091173527d1262fe0cb185218cce2cb18e5fdbb8460e04bffc4844bc35",
+    "size": 4280
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/command_grammar.py",
+    "scheme": "purelib",
+    "sha256": "d0cd81a6dee2e4e3ca3e46df3386547c07ae28f9ea0f1baf394a2207941b0fb3",
+    "size": 20734
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/config.py",
+    "scheme": "purelib",
+    "sha256": "1b8b801f4ab5e1fe2863eac4ef2c0bbcd52c3c90a6cc2d8925af1a5b21927a74",
+    "size": 12780
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/curation.py",
+    "scheme": "purelib",
+    "sha256": "c8211c37c5ec89255f78d8ce42d4259064aea93bf32f03bab012ef80d10d7fb1",
+    "size": 7381
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/discovery.py",
+    "scheme": "purelib",
+    "sha256": "4a033ddf9950db4525929be08fe5aaff0ae946e22db031dedd0c29edecf2471f",
+    "size": 11817
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/eval_validation.py",
+    "scheme": "purelib",
+    "sha256": "d4194d0534ae0efc6ac6e045001de812223b413a438f7f47f54378c086f40462",
+    "size": 15710
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/evidence.py",
+    "scheme": "purelib",
+    "sha256": "a5bb85ba9bfdb95b970b30dbd090bef3f8093eb7ebcc3c960b2a62f1d1fe52a4",
+    "size": 5286
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/execution_dataflow.py",
+    "scheme": "purelib",
+    "sha256": "98529e17bfcb62d99388820da6fb4873d82134e55a067207a2d5c8bb6b4cf93e",
+    "size": 14757
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/icons.py",
+    "scheme": "purelib",
+    "sha256": "a10e793152db8f43ad83687bfdd338a7a49b28681e7e6f6365029ac93a5c59af",
+    "size": 9332
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/image_generation.py",
+    "scheme": "purelib",
+    "sha256": "bd658e27a9000a05867dd56209feb3f5814e201cfb9c1df6066b38b4e09c43c3",
+    "size": 15879
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/industry.py",
+    "scheme": "purelib",
+    "sha256": "9f49b5628032b2bce2bbe7d696cc641ec7a15f65c76ceb520c3404ab9add7936",
+    "size": 9120
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/markdown_safety.py",
+    "scheme": "purelib",
+    "sha256": "009f0a3bbfdbbf2ccce3650ac378ea62f14ebdd0801bdd36cf21489754538525",
+    "size": 15310
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/materialization_safety.py",
+    "scheme": "purelib",
+    "sha256": "b86058672a1933e832635712b18af589a247d9532b049382ec26a818304dd3b8",
+    "size": 7851
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/packager.py",
+    "scheme": "purelib",
+    "sha256": "e0358787ac5c1ab0b4e011a6f5d99a2f50cb5a06676a7ed4f270caaaf0332a90",
+    "size": 40628
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/pipeline.py",
+    "scheme": "purelib",
+    "sha256": "d2476763aefc286710f033307e0a524268b2dd7ae2bb13eb78b96265934bc98e",
+    "size": 17562
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/plan_artifacts.py",
+    "scheme": "purelib",
+    "sha256": "cd341583cf36c30756858fb529204db3d3441814160f30bcb8839ef4615fe4f6",
+    "size": 7486
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/planner.py",
+    "scheme": "purelib",
+    "sha256": "01c9e2cc983087e30e27cdca927bea766166f24624bb4ccc5bf06a67b673028b",
+    "size": 20734
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/posting_coverage.py",
+    "scheme": "purelib",
+    "sha256": "89b278f1ff05d1d61bbbdde154680af0ebfd5f8ee1779dfb83e6c25806c2987d",
+    "size": 7359
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/process_spec_safety.py",
+    "scheme": "purelib",
+    "sha256": "364b607e364ec03fbefca063a9e0760695e241845b8508d85d2cfa2f195879d9",
+    "size": 14735
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/prompts_loader.py",
+    "scheme": "purelib",
+    "sha256": "7ecd491949d7a15d6a60b34106fd4ac9da90af48d3cdd793c80a02bf901365f5",
+    "size": 3291
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/publication.py",
+    "scheme": "purelib",
+    "sha256": "eea604ee9249dada4c2792dc264419765675fa2115c7b04a345c996292c9c7cb",
+    "size": 13109
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/refiner.py",
+    "scheme": "purelib",
+    "sha256": "59745aafca8358bddbd7b1212657fe349d8d2424f4d901dd9b8ed07a2659b2fe",
+    "size": 17103
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/role_brief.py",
+    "scheme": "purelib",
+    "sha256": "a2657cf018199367f7728e6a3c7ef7715f034cf39b78c093a910bd5077f9cfcc",
+    "size": 3646
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/role_references.py",
+    "scheme": "purelib",
+    "sha256": "b97b46b1b9ebb3e936be4d09a5bcc4f2ba6d765fed9f947236c8bc3103759fcd",
+    "size": 7626
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/saved_plan.py",
+    "scheme": "purelib",
+    "sha256": "d22352740640adeb3fe6eea035307a75115909c68042f858b060998da42ecbdd",
+    "size": 12782
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/schema.py",
+    "scheme": "purelib",
+    "sha256": "68ccfee7c445500486de4de56e31b177802423f0e905afaca37a02d5f4689982",
+    "size": 12608
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/script_safety.py",
+    "scheme": "purelib",
+    "sha256": "bd40dfe10d573cf2b5b16813ea33a33fff40ef2644114eb3d6146f9eb18edcac",
+    "size": 31535
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/trigger_eval.py",
+    "scheme": "purelib",
+    "sha256": "da2b611d0c30e5890d234de7a95b251dc088cc8675038d79d1271abe5ee71c06",
+    "size": 12190
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/validator.py",
+    "scheme": "purelib",
+    "sha256": "9f44740b0b7b96296a59b920751029b531c0b9bf3f60f125f81d9170d4ff5731",
+    "size": 35497
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/skill_pack/verifier_asset.py",
+    "scheme": "purelib",
+    "sha256": "4e2c9e2f5dcfc896a8247aeb5faf66b54985d7ade4ed2a6e374631c870e71689",
+    "size": 10734
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/types.py",
+    "scheme": "purelib",
+    "sha256": "c8034f98ddd42548548404cf1e20738fe8def30ec331e3381e3fe1c96db78957",
+    "size": 11535
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/__init__.py",
+    "scheme": "purelib",
+    "sha256": "eaa113990ff67e204d8c9c82ad638a35ee0079d4863a70ef946aa8a59ae02a1f",
+    "size": 6039
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/async_utils.py",
+    "scheme": "purelib",
+    "sha256": "416c258fb76ed63509120eafba7ba135420471277c7905d1300d1ef2a99e496d",
+    "size": 15161
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/atomic_io.py",
+    "scheme": "purelib",
+    "sha256": "8296859a995dc2e3aa4d336895ff945af17f472a0f0a46a2869833d0f8656a7b",
+    "size": 2903
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/banner.py",
+    "scheme": "purelib",
+    "sha256": "791158a1770e653f6b97941c4e81939bdfaac141ec678bec7a667ffd33015c0c",
+    "size": 14340
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/benchmarks.py",
+    "scheme": "purelib",
+    "sha256": "a3945f7a144e161f4502f5a67a02dca6378acc7e626197c1b86d1e422bb406a3",
+    "size": 19510
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/chat_logger.py",
+    "scheme": "purelib",
+    "sha256": "15c90e885898efc72477a135cfeb99b5d4ece4c535cc539a29df6e2c05f387b5",
+    "size": 5414
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/circuit_breaker.py",
+    "scheme": "purelib",
+    "sha256": "162193d048047c9c113c06f2fcb2aacc675950f9d3474601ffb2ea457ac2cace",
+    "size": 26466
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/config_validation.py",
+    "scheme": "purelib",
+    "sha256": "f43474e4d8b28b834078280956a93fad1859e3d5c162d07ed7ce7acf7171c4f3",
+    "size": 24392
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/console.py",
+    "scheme": "purelib",
+    "sha256": "ae4e86b1a0a2cf77fb899861859f1f5a5b23cf49707a08832f3b811f8292e746",
+    "size": 22631
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/content_sanitizer.py",
+    "scheme": "purelib",
+    "sha256": "f210ea23ba034e3aa645be2f9af4b9c47bfd244044adfe21059bdc1ff112560e",
+    "size": 26987
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/cost_display.py",
+    "scheme": "purelib",
+    "sha256": "d468dff3b5bc6a6f73f1c723db35ba4ec91f688d60c412f6dc346a4617867a80",
+    "size": 4959
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/cost_estimate_policy.py",
+    "scheme": "purelib",
+    "sha256": "80f66693fb728125599b8050ef27a3bda93486a93cf6d7334cc2770000936638",
+    "size": 1815
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/cost_estimator.py",
+    "scheme": "purelib",
+    "sha256": "8fadc164c305935f4b20c650ec6e25111d18470cbc56b05e3588cfc295bc8c09",
+    "size": 40735
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/__init__.py",
+    "scheme": "purelib",
+    "sha256": "23849ea515367b99aff192e80b6d013ecec947fb552fad3476ed94d1bffda45d",
+    "size": 2713
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/base.py",
+    "scheme": "purelib",
+    "sha256": "3cea1a2da65d92010485963254f1da13a613ba4a13acf35e6d76733418984e44",
+    "size": 6215
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/decorators.py",
+    "scheme": "purelib",
+    "sha256": "d9c9b411a13dd93d7d621fc034bd84c3a9590addca5e385fcb4e05973d016433",
+    "size": 7045
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/formatting.py",
+    "scheme": "purelib",
+    "sha256": "b9dc5eaaffebf391b61d0e19bc2073cf50d0b5cbdb5cd0426656f7ac1336405e",
+    "size": 2290
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/retry.py",
+    "scheme": "purelib",
+    "sha256": "e2d10e78cd2944a21327461a7530e0d92655f3cea55e74f80fdb890fa4071bfe",
+    "size": 5692
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/errors/typed.py",
+    "scheme": "purelib",
+    "sha256": "46e93ba629cd6c44c59a14ab2f8295349c9dce283e9220511c8d922e77d560c6",
+    "size": 12857
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/files.py",
+    "scheme": "purelib",
+    "sha256": "4625413def9a9a528cad072be3e40f7631000ba738ea8031a4a90cadbeb0fbfd",
+    "size": 10644
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/formatting.py",
+    "scheme": "purelib",
+    "sha256": "cccdac4bda814b6ce19a6ce0fd13d1f1e14c3d07495fd44884b8bfe88c6ace1c",
+    "size": 11314
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/fs_safety.py",
+    "scheme": "purelib",
+    "sha256": "238bfe0847b144f54c0d198586d4ad53844b90796e8ca2167cb1c1aac2b79a7a",
+    "size": 6265
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/logging_config.py",
+    "scheme": "purelib",
+    "sha256": "2ff97d33856ad849711d11cbd92afea5dd6db11276c2dd78290bf11345363560",
+    "size": 9218
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/model_policy.py",
+    "scheme": "purelib",
+    "sha256": "d612c8387bdbee66ec53b948aa2f7c4100749ad377f8bf261061e1d0618ea900",
+    "size": 3019
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/observability.py",
+    "scheme": "purelib",
+    "sha256": "de134ec59f2c6b2ca36c1deca050a2056187248aba0103a413d9c518a94a68bb",
+    "size": 21492
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/resources.py",
+    "scheme": "purelib",
+    "sha256": "f9cdc20af0973203c77ff18bb959b01d87210fbb2459bbcc2fde320c3d4057d1",
+    "size": 21380
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/retry.py",
+    "scheme": "purelib",
+    "sha256": "4c62572992e33bd6a0da7e0a07e83ccf6397d71efbebf82729d4e9d9c0bb2f59",
+    "size": 15686
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/run_budget.py",
+    "scheme": "purelib",
+    "sha256": "a4233f55355d50e950b4d4658ae7a250d902753091deeef72b1ca3d9532c12ed",
+    "size": 7278
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/security.py",
+    "scheme": "purelib",
+    "sha256": "fe2e857533a4149bb50e057a9e275af5c5413d64b7d030de7bb0da86f801bca1",
+    "size": 21544
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/sensitive_instruction_safety.py",
+    "scheme": "purelib",
+    "sha256": "72b2a44cae1c565a12df504ee8fb550efb0588ee11055e714e8d9126fe3d96f2",
+    "size": 19908
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/state_machine.py",
+    "scheme": "purelib",
+    "sha256": "8543d23d50052fdef4ef33da64553676c8ec8f3563448785557561d924c6e463",
+    "size": 15556
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/telemetry.py",
+    "scheme": "purelib",
+    "sha256": "289f9faa82dd3bea591582de44d1bd892b03c235cf0d901382b76040cc9e2ce8",
+    "size": 29082
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/terminal.py",
+    "scheme": "purelib",
+    "sha256": "197f51bcff0b6bb0ef2ba7f269e7e45e8dca6c38924879e30495667e65cdc517",
+    "size": 7349
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/theme.py",
+    "scheme": "purelib",
+    "sha256": "61d210e7e4a7e8aafea976c5077eaec5aa6e64b44ab3091a203801b080e8991c",
+    "size": 6287
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/timeutils.py",
+    "scheme": "purelib",
+    "sha256": "1b26a0258293ad7df10a1dc91eaeefaebd39cdb995dd18aeb0c3c83a05743375",
+    "size": 1481
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/type_guards.py",
+    "scheme": "purelib",
+    "sha256": "adb50241e9eacec8b43d2e1e6b722196709ad2ba31444370cf67ca4b7e41eecd",
+    "size": 27730
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/url_helpers.py",
+    "scheme": "purelib",
+    "sha256": "dc6e1e7ee69ef7a91ba20afb66164ed1d3d1edda6ca8b0886731091b56040b5d",
+    "size": 4905
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/url_security.py",
+    "scheme": "purelib",
+    "sha256": "7b43c66de2e590aeef0503672d91d5b3b84170fdef714eae1a278780fb2b6f72",
+    "size": 15106
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/usage_tracker.py",
+    "scheme": "purelib",
+    "sha256": "ce8668b1a7ba0b40c661c769e34f990a2ff0ee2f141fb6b393509e2b2c0451ef",
+    "size": 26123
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/user_cache.py",
+    "scheme": "purelib",
+    "sha256": "3afd0aeeb8be9a8d46cedb2bb21331082cd2bd0538114f5dcc181e34db8dd8f8",
+    "size": 3871
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/validators.py",
+    "scheme": "purelib",
+    "sha256": "3315292c7960b609c2bf96044bf10a7ba9ceb9f0295fbd6b30e53f041bd05034",
+    "size": 28098
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/version_check.py",
+    "scheme": "purelib",
+    "sha256": "445bc7e4593d5640bdb3cc4479f70954ce5bb720a46cf80ff9a41cd97e1db16d",
+    "size": 7355
+  },
+  {
+    "executable": false,
+    "relative_path": "primr/utils/write_guard.py",
+    "scheme": "purelib",
+    "sha256": "3fd9ba33581ac2332284f834b81c78fd18344be345edb7de29d52b82715dbf0e",
+    "size": 3530
+  },
+  {
+    "executable": true,
+    "relative_path": "primr",
+    "scheme": "scripts",
+    "sha256": "124d12986cb309d6e5d8798d42be59d8e02b81104e4d6b0ce935fe67e96ca715",
+    "size": 214
+  },
+  {
+    "executable": true,
+    "relative_path": "primr-a2a",
+    "scheme": "scripts",
+    "sha256": "c2772bc8dddd8ee39fc604b540af0534b3a773acd4723013fe8c16613582fabd",
+    "size": 212
+  },
+  {
+    "executable": true,
+    "relative_path": "primr-mcp",
+    "scheme": "scripts",
+    "sha256": "20f1579dd94604b263b38e335492dcf2873c2928229dafb8b6d55949ed9b472e",
+    "size": 219
+  }
+]
