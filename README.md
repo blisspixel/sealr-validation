@@ -93,6 +93,14 @@ download cache remains available for deliberate reruns.
 
 ## What comes next
 
+The [bounded retention experiment](experiments/retention/README.md) compares
+nine full installations with no retention, a semantic working set, and up to
+64 explicitly selected members. It keeps the copied handoff unchanged and
+requires exact evidence and installed-output parity. Its phase times are
+single-run integration observations, not controlled benchmark results.
+The [observed Linux run](experiments/retention/observed-linux-wsl/README.md)
+passed all nine installations and three native-manifest refusals.
+
 Deepr's wheel-content checks are the clearest real integration seam; Primr's
 publication workflow is another candidate. A future integration must make the
 consumer's real acceptance decision depend on the capability and checked evidence,

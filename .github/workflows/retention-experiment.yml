@@ -1,0 +1,67 @@
+name: Retention experiment
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  attestations: read
+
+concurrency:
+  group: retention-experiment-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  experiment:
+    name: Nine complete installations with bounded retention
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install exact Rust
+        run: rustup toolchain install 1.98.0 --profile minimal
+      - name: Acquire exact project wheels and authenticated native release
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/acquire.py
+          python3 scripts/acquire_release.py --destination /tmp/sealr-retention-native
+      - name: Verify source, inventory pins, and timing-only staging changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo build --locked --release --bin retention-experiment
+          cargo metadata --locked --format-version 1 > /tmp/sealr-retention-metadata.json
+          python3 scripts/verify_source.py /tmp/sealr-retention-metadata.json
+          python3 scripts/prepare_experiment_stage.py
+          python3 scripts/verify_retention_pins.py --binary target/release/retention-experiment
+      - name: Acquire the exact installer
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          mkdir /tmp/sealr-retention-installer-download /tmp/sealr-retention-installer
+          python3 -m pip download --disable-pip-version-check --no-deps --only-binary=:all: \
+            --require-hashes --requirement handoff/requirements.txt \
+            --dest /tmp/sealr-retention-installer-download
+          python3 -m zipfile -e \
+            /tmp/sealr-retention-installer-download/installer-1.0.1-py3-none-any.whl \
+            /tmp/sealr-retention-installer
+      - name: Compare all three strategies and preserve refusal behavior
+        shell: bash
+        run: |
+          set -euo pipefail
+          package="$(python3 -c 'import json; print(json.load(open("sealr-release.json"))["native"]["filename"].removesuffix(".tar.gz"))')"
+          python3 scripts/retention_experiment.py \
+            --native "/tmp/sealr-retention-native/${package}" \
+            --installer-root /tmp/sealr-retention-installer
+      - name: Preserve single-run evidence, including an incomplete failure report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: retention-experiment-${{ github.sha }}
+          path: results/retention-experiment/
+          if-no-files-found: warn
+          retention-days: 30

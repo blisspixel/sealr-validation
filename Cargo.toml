@@ -18,3 +18,7 @@ libc = "=0.2.175"
 [[bin]]
 name = "sealr-validation"
 path = "handoff/main.rs"
+
+[[bin]]
+name = "retention-experiment"
+path = "experiments/retention/main.rs"

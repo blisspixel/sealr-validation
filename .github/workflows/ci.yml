@@ -36,6 +36,13 @@ jobs:
         run: cargo clippy --locked --all-targets -- -D warnings
       - name: Delete sources and evaluate real wheels through public APIs
         run: cargo test --locked -- --nocapture
+      - name: Verify experimental instrumentation and public inventory pins
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/prepare_experiment_stage.py
+          cargo build --locked --bin retention-experiment
+          python3 scripts/verify_retention_pins.py
 
   linux-handoff:
     name: Complete ${{ matrix.project }} wheel installation

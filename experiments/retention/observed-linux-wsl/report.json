@@ -1,0 +1,1350 @@
+{
+  "cases": [
+    {
+      "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+      "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+      "canonical_receipt_sha256": "5fd9d16ea4434bfd7600f1ac00e47b3f6679eeef67e91d926db02b6931710e14",
+      "canonical_view_sha256": "40977ad44dd662a1c6b9f12b0ca71b5f88faed3291f19b5c1db850ab0124c9b0",
+      "elapsed_seconds": 225.60706786799994,
+      "filename": "deepr_research-2.50.11-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+      "installed_file_count": 834,
+      "installed_files_sha256": "e03bb068de7e37b56d37459d9e45c72cb6a1b009a4f7f56bbe2219cd095fc339",
+      "phase_seconds": {
+        "admission": 0.257577717,
+        "evaluation": 1.028271163,
+        "evidence": 0.028633671,
+        "installation": 14.944772747,
+        "output_audit": 0.022755083,
+        "staging": 209.285561001
+      },
+      "project": "deepr",
+      "realization_sha256": "0586a90dbc21406c99072946b8bff5a8a006566afc0f03d1a660553ccabaacdb",
+      "requested_bytes": 0,
+      "requested_paths": 0,
+      "retained_bytes": 0,
+      "retained_members": 0,
+      "retention_outcomes": [],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+      "strategy": "baseline"
+    },
+    {
+      "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+      "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+      "canonical_receipt_sha256": "5fd9d16ea4434bfd7600f1ac00e47b3f6679eeef67e91d926db02b6931710e14",
+      "canonical_view_sha256": "40977ad44dd662a1c6b9f12b0ca71b5f88faed3291f19b5c1db850ab0124c9b0",
+      "elapsed_seconds": 224.12819892300013,
+      "filename": "deepr_research-2.50.11-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+      "installed_file_count": 834,
+      "installed_files_sha256": "e03bb068de7e37b56d37459d9e45c72cb6a1b009a4f7f56bbe2219cd095fc339",
+      "phase_seconds": {
+        "admission": 0.260106237,
+        "evaluation": 0.014659366,
+        "evidence": 0.028571294,
+        "installation": 14.511392705,
+        "output_audit": 0.02079862,
+        "staging": 209.261383516
+      },
+      "project": "deepr",
+      "realization_sha256": "0586a90dbc21406c99072946b8bff5a8a006566afc0f03d1a660553ccabaacdb",
+      "requested_bytes": 91892,
+      "requested_paths": 4,
+      "retained_bytes": 91892,
+      "retained_members": 4,
+      "retention_outcomes": [
+        {
+          "path": "deepr_research-2.50.11.dist-info/METADATA",
+          "retained_bytes": 12770,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/RECORD",
+          "retained_bytes": 78951,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/WHEEL",
+          "retained_bytes": 91,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "retained_bytes": 80,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+      "strategy": "semantic"
+    },
+    {
+      "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+      "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+      "canonical_receipt_sha256": "5fd9d16ea4434bfd7600f1ac00e47b3f6679eeef67e91d926db02b6931710e14",
+      "canonical_view_sha256": "40977ad44dd662a1c6b9f12b0ca71b5f88faed3291f19b5c1db850ab0124c9b0",
+      "elapsed_seconds": 215.49269936999985,
+      "filename": "deepr_research-2.50.11-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+      "installed_file_count": 834,
+      "installed_files_sha256": "e03bb068de7e37b56d37459d9e45c72cb6a1b009a4f7f56bbe2219cd095fc339",
+      "phase_seconds": {
+        "admission": 0.256089149,
+        "evaluation": 0.011349223,
+        "evidence": 0.028789583,
+        "installation": 16.955794877,
+        "output_audit": 0.021732311,
+        "staging": 198.187614282
+      },
+      "project": "deepr",
+      "realization_sha256": "0586a90dbc21406c99072946b8bff5a8a006566afc0f03d1a660553ccabaacdb",
+      "requested_bytes": 647049,
+      "requested_paths": 64,
+      "retained_bytes": 647049,
+      "retained_members": 64,
+      "retention_outcomes": [
+        {
+          "path": "deepr/__init__.py",
+          "retained_bytes": 1277,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/__init__.py",
+          "retained_bytes": 352,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/agent_card.py",
+          "retained_bytes": 3409,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/constants.py",
+          "retained_bytes": 254,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/consult_tasks.py",
+          "retained_bytes": 10137,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/models.py",
+          "retained_bytes": 4238,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/output_contracts.py",
+          "retained_bytes": 2896,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/server.py",
+          "retained_bytes": 18723,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/task_manager.py",
+          "retained_bytes": 8558,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/a2a/validation.py",
+          "retained_bytes": 24391,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/__init__.py",
+          "retained_bytes": 888,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/agent_tool.py",
+          "retained_bytes": 4960,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/circuit_breaker.py",
+          "retained_bytes": 3708,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/contract.py",
+          "retained_bytes": 7212,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/handoff.py",
+          "retained_bytes": 2738,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/orchestrator.py",
+          "retained_bytes": 8236,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/agents/runtime.py",
+          "retained_bytes": 10314,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/__init__.py",
+          "retained_bytes": 136,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/app.py",
+          "retained_bytes": 36208,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/job_cancellation.py",
+          "retained_bytes": 941,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/middleware/__init__.py",
+          "retained_bytes": 109,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/middleware/errors.py",
+          "retained_bytes": 4638,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/middleware/rate_limiter.py",
+          "retained_bytes": 3994,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/research_cost.py",
+          "retained_bytes": 2933,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/websockets/__init__.py",
+          "retained_bytes": 122,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/api/websockets/events.py",
+          "retained_bytes": 39089,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/__init__.py",
+          "retained_bytes": 2658,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/admission.py",
+          "retained_bytes": 16246,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/capacity.py",
+          "retained_bytes": 13934,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/capacity_actions.py",
+          "retained_bytes": 13017,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/context_building.py",
+          "retained_bytes": 4189,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/eligibility.py",
+          "retained_bytes": 7559,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/fresh_context.py",
+          "retained_bytes": 28839,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/local.py",
+          "retained_bytes": 18651,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/local_capacity.py",
+          "retained_bytes": 5399,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/local_fit.py",
+          "retained_bytes": 8600,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/__init__.py",
+          "retained_bytes": 2456,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/adapters.py",
+          "retained_bytes": 23763,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/antigravity_transcript.py",
+          "retained_bytes": 10073,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/attempt_accounting.py",
+          "retained_bytes": 6592,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/cli_runner.py",
+          "retained_bytes": 36848,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/client.py",
+          "retained_bytes": 39185,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/dispatch_boundary.py",
+          "retained_bytes": 4436,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/errors.py",
+          "retained_bytes": 1280,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/fleet.py",
+          "retained_bytes": 4459,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/output_safety.py",
+          "retained_bytes": 6708,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/overage_guard.py",
+          "retained_bytes": 3844,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/posix_supervisor.py",
+          "retained_bytes": 7446,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/probe_support.py",
+          "retained_bytes": 10538,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_cleanup.py",
+          "retained_bytes": 3665,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_control.py",
+          "retained_bytes": 1631,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/process_launch.py",
+          "retained_bytes": 6190,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/prompt_delivery.py",
+          "retained_bytes": 1889,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/quota_probes.py",
+          "retained_bytes": 25049,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/research.py",
+          "retained_bytes": 4734,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/response.py",
+          "retained_bytes": 552,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/safety.py",
+          "retained_bytes": 8441,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/transcript_dispatch.py",
+          "retained_bytes": 8102,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/plan_quota/windows_job.py",
+          "retained_bytes": 9628,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr/backends/quota_headroom.py",
+          "retained_bytes": 8095,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/METADATA",
+          "retained_bytes": 12770,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/RECORD",
+          "retained_bytes": 78951,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/WHEEL",
+          "retained_bytes": 91,
+          "status": "Retained"
+        },
+        {
+          "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "retained_bytes": 80,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+      "strategy": "bounded"
+    },
+    {
+      "archive_tree_sha256": "e20d08dcc0fb5a507731d3ea48dbfeb9bac8f3e5eee786dbae3bf2e6abbe5927",
+      "artifact_sha256": "6fc19bbebc667d673439cce543dacef26775674daf6454db26643586b8cabab2",
+      "canonical_receipt_sha256": "0b2f22ef1461cf45d8c1be9480f76965a2e2ac231d27a2abad19b68d9784a30c",
+      "canonical_view_sha256": "60e1d5367529a24af08012890c75d3b55a8cb707d31690868c4c1b955c86cb85",
+      "elapsed_seconds": 86.89091182199991,
+      "filename": "primr-1.39.13-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "0706728c25bf7d03cb01de796d3817ecc8959c7a69b73ad2b935f4be043ed209",
+      "installed_file_count": 549,
+      "installed_files_sha256": "f4d09897fe670bd8b54618d1966b546f61d7400d47732b21fe0ddfac5c0c0a27",
+      "phase_seconds": {
+        "admission": 0.151034572,
+        "evaluation": 0.621351095,
+        "evidence": 0.028406808,
+        "installation": 6.819340629,
+        "output_audit": 0.01389374,
+        "staging": 79.238967635
+      },
+      "project": "primr",
+      "realization_sha256": "f94837d1be40e32c99ab3730169ed2aac5f4f32126b96acd2665bf8969b99977",
+      "requested_bytes": 0,
+      "requested_paths": 0,
+      "retained_bytes": 0,
+      "retained_members": 0,
+      "retention_outcomes": [],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "2a3b7c7318782a2a039566d375fd0a6ea660b9e1bb861137115c6796d3c1da6e",
+      "strategy": "baseline"
+    },
+    {
+      "archive_tree_sha256": "e20d08dcc0fb5a507731d3ea48dbfeb9bac8f3e5eee786dbae3bf2e6abbe5927",
+      "artifact_sha256": "6fc19bbebc667d673439cce543dacef26775674daf6454db26643586b8cabab2",
+      "canonical_receipt_sha256": "0b2f22ef1461cf45d8c1be9480f76965a2e2ac231d27a2abad19b68d9784a30c",
+      "canonical_view_sha256": "60e1d5367529a24af08012890c75d3b55a8cb707d31690868c4c1b955c86cb85",
+      "elapsed_seconds": 81.82009265600004,
+      "filename": "primr-1.39.13-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "0706728c25bf7d03cb01de796d3817ecc8959c7a69b73ad2b935f4be043ed209",
+      "installed_file_count": 549,
+      "installed_files_sha256": "f4d09897fe670bd8b54618d1966b546f61d7400d47732b21fe0ddfac5c0c0a27",
+      "phase_seconds": {
+        "admission": 0.147866635,
+        "evaluation": 0.006489656,
+        "evidence": 0.027193337,
+        "installation": 6.202983842,
+        "output_audit": 0.012393401,
+        "staging": 75.402411851
+      },
+      "project": "primr",
+      "realization_sha256": "f94837d1be40e32c99ab3730169ed2aac5f4f32126b96acd2665bf8969b99977",
+      "requested_bytes": 61379,
+      "requested_paths": 4,
+      "retained_bytes": 61379,
+      "retained_members": 4,
+      "retention_outcomes": [
+        {
+          "path": "primr-1.39.13.dist-info/METADATA",
+          "retained_bytes": 13036,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/RECORD",
+          "retained_bytes": 48136,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/WHEEL",
+          "retained_bytes": 91,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/entry_points.txt",
+          "retained_bytes": 116,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "2a3b7c7318782a2a039566d375fd0a6ea660b9e1bb861137115c6796d3c1da6e",
+      "strategy": "semantic"
+    },
+    {
+      "archive_tree_sha256": "e20d08dcc0fb5a507731d3ea48dbfeb9bac8f3e5eee786dbae3bf2e6abbe5927",
+      "artifact_sha256": "6fc19bbebc667d673439cce543dacef26775674daf6454db26643586b8cabab2",
+      "canonical_receipt_sha256": "0b2f22ef1461cf45d8c1be9480f76965a2e2ac231d27a2abad19b68d9784a30c",
+      "canonical_view_sha256": "60e1d5367529a24af08012890c75d3b55a8cb707d31690868c4c1b955c86cb85",
+      "elapsed_seconds": 70.09558325600005,
+      "filename": "primr-1.39.13-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "0706728c25bf7d03cb01de796d3817ecc8959c7a69b73ad2b935f4be043ed209",
+      "installed_file_count": 549,
+      "installed_files_sha256": "f4d09897fe670bd8b54618d1966b546f61d7400d47732b21fe0ddfac5c0c0a27",
+      "phase_seconds": {
+        "admission": 0.157299747,
+        "evaluation": 0.006719729,
+        "evidence": 0.028466146,
+        "installation": 6.094890215,
+        "output_audit": 0.013509078,
+        "staging": 63.774301961
+      },
+      "project": "primr",
+      "realization_sha256": "f94837d1be40e32c99ab3730169ed2aac5f4f32126b96acd2665bf8969b99977",
+      "requested_bytes": 830387,
+      "requested_paths": 64,
+      "retained_bytes": 830387,
+      "retained_members": 64,
+      "retention_outcomes": [
+        {
+          "path": "primr-1.39.13.dist-info/METADATA",
+          "retained_bytes": 13036,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/RECORD",
+          "retained_bytes": 48136,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/WHEEL",
+          "retained_bytes": 91,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/entry_points.txt",
+          "retained_bytes": 116,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/licenses/LICENSE",
+          "retained_bytes": 11404,
+          "status": "Retained"
+        },
+        {
+          "path": "primr-1.39.13.dist-info/top_level.txt",
+          "retained_bytes": 6,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/__init__.py",
+          "retained_bytes": 1234,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/__main__.py",
+          "retained_bytes": 168,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/__init__.py",
+          "retained_bytes": 1322,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/agent_card.py",
+          "retained_bytes": 15596,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/authz.py",
+          "retained_bytes": 3664,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/call_context.py",
+          "retained_bytes": 2502,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/cancellation.py",
+          "retained_bytes": 4301,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/cli.py",
+          "retained_bytes": 4481,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/client.py",
+          "retained_bytes": 12287,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/executor.py",
+          "retained_bytes": 34405,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/hooks.py",
+          "retained_bytes": 7010,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/input_parsing.py",
+          "retained_bytes": 4527,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/lifecycle_events.py",
+          "retained_bytes": 3097,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/prelaunch.py",
+          "retained_bytes": 2849,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/resource_reads.py",
+          "retained_bytes": 8475,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/server.py",
+          "retained_bytes": 5471,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/skill_ids.py",
+          "retained_bytes": 891,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/status_events.py",
+          "retained_bytes": 811,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/task_store.py",
+          "retained_bytes": 5033,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/a2a/types.py",
+          "retained_bytes": 1583,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/__init__.py",
+          "retained_bytes": 3702,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/company_profiles.py",
+          "retained_bytes": 16795,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/cost_guard.py",
+          "retained_bytes": 4406,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/errors.py",
+          "retained_bytes": 8856,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/hooks.py",
+          "retained_bytes": 33827,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/integration.py",
+          "retained_bytes": 16801,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/memory.py",
+          "retained_bytes": 21360,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/models.py",
+          "retained_bytes": 10755,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/orchestrator.py",
+          "retained_bytes": 31839,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/roadmap_api.py",
+          "retained_bytes": 15204,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/__init__.py",
+          "retained_bytes": 2251,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/analyst.py",
+          "retained_bytes": 15095,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/base.py",
+          "retained_bytes": 10406,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/qa.py",
+          "retained_bytes": 16028,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/scraper.py",
+          "retained_bytes": 8996,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/verifier.py",
+          "retained_bytes": 26101,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/agentic/subagents/writer.py",
+          "retained_bytes": 9635,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/__init__.py",
+          "retained_bytes": 9452,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/accordion_test.py",
+          "retained_bytes": 31842,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/ai_strategy.py",
+          "retained_bytes": 19375,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/async_client.py",
+          "retained_bytes": 16477,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/availability_sanitize.py",
+          "retained_bytes": 4692,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/capability_routing.py",
+          "retained_bytes": 25575,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/citation_resolution.py",
+          "retained_bytes": 5784,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/client.py",
+          "retained_bytes": 26394,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/competitive.py",
+          "retained_bytes": 22846,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/deep_research.py",
+          "retained_bytes": 152683,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/deep_research_execution.py",
+          "retained_bytes": 4193,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/deep_research_parsing.py",
+          "retained_bytes": 7517,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/deep_research_polling.py",
+          "retained_bytes": 1137,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/error_policy.py",
+          "retained_bytes": 3707,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/file_search_resources.py",
+          "retained_bytes": 9883,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/gemini_usage.py",
+          "retained_bytes": 1577,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/genai_factory.py",
+          "retained_bytes": 3661,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/grading_agent.py",
+          "retained_bytes": 2630,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/grok_client.py",
+          "retained_bytes": 21544,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/host_agent_cli.py",
+          "retained_bytes": 8795,
+          "status": "Retained"
+        },
+        {
+          "path": "primr/ai/host_agent_runner.py",
+          "retained_bytes": 6070,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "2a3b7c7318782a2a039566d375fd0a6ea660b9e1bb861137115c6796d3c1da6e",
+      "strategy": "bounded"
+    },
+    {
+      "archive_tree_sha256": "cee949a716b57cab660fc468866887f5d0058916fd5c46d050eec91e39dc25fa",
+      "artifact_sha256": "527caeccd1c094eb86c8e3cc6837fc89892b2068bb282425957011cb04893fa8",
+      "canonical_receipt_sha256": "41ec5b35e217166772fc3fd545255fff3b117d0a4b43ba19389bacde34c7db5e",
+      "canonical_view_sha256": "1ca4b4af203f1b72525dd264bb0edb708225186e83b2523f26626e917e9ca3bb",
+      "elapsed_seconds": 8.246427647000019,
+      "filename": "recon_tool-2.18.4-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "480fc2020d0791010a7fcc1ad26e982c4771a16ab7fa939c160b5dbacc8df5e0",
+      "installed_file_count": 199,
+      "installed_files_sha256": "c90e7078fce8a3d0884cde20a1926d496eba76506ca090a93cf35098c5fc649d",
+      "phase_seconds": {
+        "admission": 0.04860507,
+        "evaluation": 0.141523554,
+        "evidence": 0.026918031,
+        "installation": 0.883801119,
+        "output_audit": 0.005367927,
+        "staging": 7.128680453
+      },
+      "project": "recon",
+      "realization_sha256": "e6f177bdb1b1b588ff26143d7b1d091b1149d060d09f3649387a1feb90f4f2a9",
+      "requested_bytes": 0,
+      "requested_paths": 0,
+      "retained_bytes": 0,
+      "retained_members": 0,
+      "retention_outcomes": [],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "9ab15ed5bd6edcea9cd0599736d978dfa99096f669e16009ca5bfc95c06ce1b5",
+      "strategy": "baseline"
+    },
+    {
+      "archive_tree_sha256": "cee949a716b57cab660fc468866887f5d0058916fd5c46d050eec91e39dc25fa",
+      "artifact_sha256": "527caeccd1c094eb86c8e3cc6837fc89892b2068bb282425957011cb04893fa8",
+      "canonical_receipt_sha256": "41ec5b35e217166772fc3fd545255fff3b117d0a4b43ba19389bacde34c7db5e",
+      "canonical_view_sha256": "1ca4b4af203f1b72525dd264bb0edb708225186e83b2523f26626e917e9ca3bb",
+      "elapsed_seconds": 8.124240694000036,
+      "filename": "recon_tool-2.18.4-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "480fc2020d0791010a7fcc1ad26e982c4771a16ab7fa939c160b5dbacc8df5e0",
+      "installed_file_count": 199,
+      "installed_files_sha256": "c90e7078fce8a3d0884cde20a1926d496eba76506ca090a93cf35098c5fc649d",
+      "phase_seconds": {
+        "admission": 0.05633421,
+        "evaluation": 0.002041858,
+        "evidence": 0.027005921,
+        "installation": 0.911798697,
+        "output_audit": 0.005569305,
+        "staging": 7.110861134
+      },
+      "project": "recon",
+      "realization_sha256": "e6f177bdb1b1b588ff26143d7b1d091b1149d060d09f3649387a1feb90f4f2a9",
+      "requested_bytes": 39279,
+      "requested_paths": 4,
+      "retained_bytes": 39279,
+      "retained_members": 4,
+      "retention_outcomes": [
+        {
+          "path": "recon_tool-2.18.4.dist-info/METADATA",
+          "retained_bytes": 22151,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/RECORD",
+          "retained_bytes": 16996,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/WHEEL",
+          "retained_bytes": 87,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/entry_points.txt",
+          "retained_bytes": 45,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "9ab15ed5bd6edcea9cd0599736d978dfa99096f669e16009ca5bfc95c06ce1b5",
+      "strategy": "semantic"
+    },
+    {
+      "archive_tree_sha256": "cee949a716b57cab660fc468866887f5d0058916fd5c46d050eec91e39dc25fa",
+      "artifact_sha256": "527caeccd1c094eb86c8e3cc6837fc89892b2068bb282425957011cb04893fa8",
+      "canonical_receipt_sha256": "41ec5b35e217166772fc3fd545255fff3b117d0a4b43ba19389bacde34c7db5e",
+      "canonical_view_sha256": "1ca4b4af203f1b72525dd264bb0edb708225186e83b2523f26626e917e9ca3bb",
+      "elapsed_seconds": 6.097479674000169,
+      "filename": "recon_tool-2.18.4-py3-none-any.whl",
+      "independent_evidence_verified": true,
+      "install_plan_sha256": "480fc2020d0791010a7fcc1ad26e982c4771a16ab7fa939c160b5dbacc8df5e0",
+      "installed_file_count": 199,
+      "installed_files_sha256": "c90e7078fce8a3d0884cde20a1926d496eba76506ca090a93cf35098c5fc649d",
+      "phase_seconds": {
+        "admission": 0.056085809,
+        "evaluation": 0.002008264,
+        "evidence": 0.026780134,
+        "installation": 0.935659773,
+        "output_audit": 0.006856895,
+        "staging": 5.060644296
+      },
+      "project": "recon",
+      "realization_sha256": "e6f177bdb1b1b588ff26143d7b1d091b1149d060d09f3649387a1feb90f4f2a9",
+      "requested_bytes": 704453,
+      "requested_paths": 64,
+      "retained_bytes": 704453,
+      "retained_members": 64,
+      "retention_outcomes": [
+        {
+          "path": "recon_tool-2.18.4.dist-info/METADATA",
+          "retained_bytes": 22151,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/RECORD",
+          "retained_bytes": 16996,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/WHEEL",
+          "retained_bytes": 87,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/entry_points.txt",
+          "retained_bytes": 45,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool-2.18.4.dist-info/licenses/LICENSE",
+          "retained_bytes": 11380,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/__init__.py",
+          "retained_bytes": 1662,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/__main__.py",
+          "retained_bytes": 174,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/absence.py",
+          "retained_bytes": 6282,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian.py",
+          "retained_bytes": 38911,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian_dag.py",
+          "retained_bytes": 16676,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian_interval.py",
+          "retained_bytes": 4718,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian_loader.py",
+          "retained_bytes": 15428,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian_models.py",
+          "retained_bytes": 9869,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/bayesian_observations.py",
+          "retained_bytes": 3945,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache.py",
+          "retained_bytes": 43748,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_catalog.py",
+          "retained_bytes": 4487,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_contract.py",
+          "retained_bytes": 188,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_insights.py",
+          "retained_bytes": 5876,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_inspection.py",
+          "retained_bytes": 4001,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_paths.py",
+          "retained_bytes": 2634,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cache_values.py",
+          "retained_bytes": 8563,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/capsule.py",
+          "retained_bytes": 36065,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/catalog_discovery.py",
+          "retained_bytes": 560,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/chain.py",
+          "retained_bytes": 8614,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/claim_contract.py",
+          "retained_bytes": 31267,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/__init__.py",
+          "retained_bytes": 36952,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/batch.py",
+          "retained_bytes": 37764,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/batch_summary.py",
+          "retained_bytes": 2252,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/cache.py",
+          "retained_bytes": 17079,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/capsule.py",
+          "retained_bytes": 8620,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/catalog_rendering.py",
+          "retained_bytes": 2126,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/doctor.py",
+          "retained_bytes": 30748,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/fingerprints.py",
+          "retained_bytes": 33015,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/groups.py",
+          "retained_bytes": 1016,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/lookup.py",
+          "retained_bytes": 31671,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/mcp.py",
+          "retained_bytes": 8804,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/options.py",
+          "retained_bytes": 10500,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/review.py",
+          "retained_bytes": 4990,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/shared.py",
+          "retained_bytes": 10515,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli/signals.py",
+          "retained_bytes": 9546,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_batch.py",
+          "retained_bytes": 474,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_cache.py",
+          "retained_bytes": 474,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_doctor.py",
+          "retained_bytes": 476,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_fingerprints.py",
+          "retained_bytes": 488,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_lookup.py",
+          "retained_bytes": 476,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_mcp.py",
+          "retained_bytes": 470,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_shared.py",
+          "retained_bytes": 469,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cli_signals.py",
+          "retained_bytes": 478,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/client_doctor.py",
+          "retained_bytes": 485,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/clustering.py",
+          "retained_bytes": 11913,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/cohort_summary.py",
+          "retained_bytes": 22425,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/collection_view.py",
+          "retained_bytes": 40239,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/confidence.py",
+          "retained_bytes": 9075,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/constants.py",
+          "retained_bytes": 3424,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/ct_cache.py",
+          "retained_bytes": 13129,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/bayesian_network.yaml",
+          "retained_bytes": 14923,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/motifs.yaml",
+          "retained_bytes": 13010,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/observation-capsule-schema.json",
+          "retained_bytes": 15642,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/posture.yaml",
+          "retained_bytes": 10212,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/profiles/fintech.yaml",
+          "retained_bytes": 1511,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/profiles/healthcare.yaml",
+          "retained_bytes": 1140,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/profiles/high-value-target.yaml",
+          "retained_bytes": 1516,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/profiles/higher-ed.yaml",
+          "retained_bytes": 1088,
+          "status": "Retained"
+        },
+        {
+          "path": "recon_tool/data/profiles/public-sector.yaml",
+          "retained_bytes": 991,
+          "status": "Retained"
+        }
+      ],
+      "schema": "sealr.retention-experiment-case.v1",
+      "source_deleted_before_evaluation": true,
+      "source_deleted_before_member_consumption": true,
+      "source_sha256": "9ab15ed5bd6edcea9cd0599736d978dfa99096f669e16009ca5bfc95c06ce1b5",
+      "strategy": "bounded"
+    }
+  ],
+  "complete": true,
+  "environment": {
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "system": "Linux"
+  },
+  "evidence_class": "single sequential run, not a controlled benchmark",
+  "path_pins_sha256": "d5dcf909e37d57eaa66a81ab5e9df44321225091543caa2535708056f4e0773f",
+  "refusals": [
+    "worker-version",
+    "worker-target",
+    "worker-abi"
+  ],
+  "release": {
+    "commit": "91972c9aea1555680579758685dbc152908c1ce5",
+    "native": {
+      "bytes": 3036154,
+      "filename": "sealr-0.1.0-alpha.14-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "3acead61e7ce8a510d64a773c41816dadc93d2d9d07069a2ddb656385b14a7ee",
+      "url": "https://github.com/blisspixel/sealr/releases/download/v0.1.0-alpha.14/sealr-0.1.0-alpha.14-x86_64-unknown-linux-gnu.tar.gz"
+    },
+    "schema": "sealr.immutable-release-pin.v1",
+    "tag": "v0.1.0-alpha.14",
+    "version": "0.1.0-alpha.14"
+  },
+  "schema": "sealr.retention-experiment.v1",
+  "strategy_order": [
+    "baseline",
+    "semantic",
+    "bounded"
+  ]
+}
