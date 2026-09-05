@@ -1,0 +1,20 @@
+[package]
+name = "sealr-validation"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.98"
+license = "Apache-2.0"
+publish = false
+
+[dependencies]
+sealr = { git = "https://github.com/blisspixel/sealr", rev = "91972c9aea1555680579758685dbc152908c1ce5", version = "=0.1.0-alpha.14" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.11"
+
+[target.'cfg(unix)'.dependencies]
+libc = "=0.2.175"
+
+[[bin]]
+name = "sealr-validation"
+path = "handoff/main.rs"

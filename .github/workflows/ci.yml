@@ -1,0 +1,102 @@
+name: Downstream validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  attestations: read
+
+concurrency:
+  group: validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  portable:
+    name: Public API on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2022, macos-15]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install exact Rust
+        run: rustup toolchain install 1.98.0 --profile minimal --component clippy,rustfmt
+      - name: Acquire exact released project wheels
+        run: python3 scripts/acquire.py
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+      - name: Check public dependency graph and lint
+        run: cargo clippy --locked --all-targets -- -D warnings
+      - name: Delete sources and evaluate real wheels through public APIs
+        run: cargo test --locked -- --nocapture
+
+  linux-handoff:
+    name: Authenticated release and complete wheel installation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install exact Rust
+        run: rustup toolchain install 1.98.0 --profile minimal
+      - name: Acquire exact released project wheels
+        run: python3 scripts/acquire.py
+      - name: Authenticate native release before extraction
+        run: python3 scripts/acquire_release.py --destination /tmp/sealr-validation-native
+      - name: Build immutable public source dependency
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo build --locked --release
+          cargo metadata --locked --format-version 1 > /tmp/sealr-validation-metadata.json
+          python3 scripts/verify_source.py /tmp/sealr-validation-metadata.json
+      - name: Acquire the exact installer
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          mkdir /tmp/sealr-validation-installer-download /tmp/sealr-validation-installer
+          python3 -m pip download --disable-pip-version-check --no-deps --only-binary=:all: \
+            --require-hashes --requirement handoff/requirements.txt \
+            --dest /tmp/sealr-validation-installer-download
+          python3 -m zipfile -e \
+            /tmp/sealr-validation-installer-download/installer-1.0.1-py3-none-any.whl \
+            /tmp/sealr-validation-installer
+      - name: Install after source deletion from both supervised origins
+        shell: bash
+        run: |
+          set -euo pipefail
+          package="$(python3 -c 'import json; print(json.load(open("sealr-release.json"))["native"]["filename"].removesuffix(".tar.gz"))')"
+          python3 scripts/validate.py \
+            --native "/tmp/sealr-validation-native/${package}" \
+            --installer-root /tmp/sealr-validation-installer
+      - name: Preserve the measured report
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: downstream-report-${{ github.sha }}
+          path: results/report.json
+          if-no-files-found: error
+          retention-days: 30
+
+  required:
+    name: Required validation
+    if: ${{ always() }}
+    needs: [portable, linux-handoff]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Require every platform and complete handoff
+        env:
+          PORTABLE_RESULT: ${{ needs.portable.result }}
+          HANDOFF_RESULT: ${{ needs.linux-handoff.result }}
+        run: |
+          test "${PORTABLE_RESULT}" = success
+          test "${HANDOFF_RESULT}" = success

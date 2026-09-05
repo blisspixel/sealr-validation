@@ -1,0 +1,44 @@
+{
+  "schema": "sealr.downstream-artifacts.v1",
+  "artifacts": [
+    {
+      "project": "deepr",
+      "filename": "deepr_research-2.50.11-py3-none-any.whl",
+      "url": "https://github.com/blisspixel/deepr/releases/download/v2.50.11/deepr_research-2.50.11-py3-none-any.whl",
+      "bytes": 4126292,
+      "sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+      "provenance": "https://github.com/blisspixel/deepr/releases/tag/v2.50.11",
+      "expected": {
+        "members": 832,
+        "plan_entries": 833,
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80"
+      }
+    },
+    {
+      "project": "primr",
+      "filename": "primr-1.39.13-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/84/7b/156b173bd7c50fb2a5f86a73173344f52f7ae7275bfcc8f0e509d345cb13/primr-1.39.13-py3-none-any.whl",
+      "bytes": 1928156,
+      "sha256": "2a3b7c7318782a2a039566d375fd0a6ea660b9e1bb861137115c6796d3c1da6e",
+      "provenance": "https://pypi.org/project/primr/1.39.13/",
+      "expected": {
+        "members": 546,
+        "plan_entries": 548,
+        "artifact_sha256": "6fc19bbebc667d673439cce543dacef26775674daf6454db26643586b8cabab2"
+      }
+    },
+    {
+      "project": "recon",
+      "filename": "recon_tool-2.18.4-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/3e/21/8cee05dcaa1575baab9bed377d493dcb433f076217231f93f9350d2cac48/recon_tool-2.18.4-py3-none-any.whl",
+      "bytes": 840034,
+      "sha256": "9ab15ed5bd6edcea9cd0599736d978dfa99096f669e16009ca5bfc95c06ce1b5",
+      "provenance": "https://pypi.org/project/recon-tool/2.18.4/",
+      "expected": {
+        "members": 198,
+        "plan_entries": 198,
+        "artifact_sha256": "527caeccd1c094eb86c8e3cc6837fc89892b2068bb282425957011cb04893fa8"
+      }
+    }
+  ]
+}
