@@ -1,0 +1,338 @@
+{
+  "schema": "sealr.downstream-publisher-report.v1",
+  "release": {
+    "schema": "sealr.immutable-release-pin.v1",
+    "version": "0.1.0-alpha.17",
+    "tag": "v0.1.0-alpha.17",
+    "commit": "fd158e06bb25287adf93977f4a9b86c48b3723aa",
+    "native": {
+      "filename": "sealr-0.1.0-alpha.17-x86_64-unknown-linux-gnu.tar.gz",
+      "url": "https://github.com/blisspixel/sealr/releases/download/v0.1.0-alpha.17/sealr-0.1.0-alpha.17-x86_64-unknown-linux-gnu.tar.gz",
+      "bytes": 3023161,
+      "sha256": "c4c5cc996b2ea40ebfe732aa6d8e4fccd8693c46f9d92e2175a9feb64118bd01"
+    }
+  },
+  "publisher_origin": {
+    "schema": "sealr.adapted-public-publisher.v1",
+    "repository": "https://github.com/blisspixel/sealr",
+    "release_commit": "fd158e06bb25287adf93977f4a9b86c48b3723aa",
+    "released_baseline": {
+      "crates/sealr/examples/deepr_content_gate/main.rs": "ff9d7ba0af2d3de1a3aeb04d5140357c775f3b0bd7f33ba8f036db45c6677059",
+      "scripts/verify_deepr_content_gate.py": "7f4e3cffee2911d0832067f119d96db899742f0a0a48e9f06459bcadad1774eb"
+    },
+    "adaptation_input": {
+      "commit": "fd158e06bb25287adf93977f4a9b86c48b3723aa",
+      "publication": "released",
+      "files": {
+        "crates/sealr/examples/deepr_content_gate/main.rs": "ff9d7ba0af2d3de1a3aeb04d5140357c775f3b0bd7f33ba8f036db45c6677059",
+        "scripts/verify_deepr_content_gate.py": "7f4e3cffee2911d0832067f119d96db899742f0a0a48e9f06459bcadad1774eb"
+      }
+    },
+    "changes": [
+      "Typed admission, verification and effect checks plus structured failure reports come from the published Alpha.17 example.",
+      "The Rust stage include uses the exact tagged handoff copy; upstream repository test modules are omitted.",
+      "The smoke uses downstream artifact and source contracts and records release and consumer provenance.",
+      "A required bounded merged strace observes source opens and private deletion; offline hostile trace fixtures reject missing, truncated, escaped and overlapping evidence."
+    ],
+    "adapted_files": {
+      "publisher/main.rs": "f712f2d64ae84a2640315e7e9ac1e4794c99cd85d2d0007b3f1433181bbcfa21",
+      "scripts/validate_publisher.py": "edf2241565c56ed559038afe785c77999fa6135fe882ceae7a7d985cf27ae5f6",
+      "scripts/publisher_trace.py": "bc0b74d26bb9cc77c391785d88b4bbb0f3824185de16c7d74e5f91d2f8a47533"
+    }
+  },
+  "tracer_version": "strace -- version 6.8",
+  "source": {
+    "filename": "deepr_research-2.50.11-py3-none-any.whl",
+    "url": "https://github.com/blisspixel/deepr/releases/download/v2.50.11/deepr_research-2.50.11-py3-none-any.whl",
+    "bytes": 4126292,
+    "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+    "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+    "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+    "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671"
+  },
+  "native_release_version": "0.1.0-alpha.17",
+  "accepted": {
+    "baseline": {
+      "example_report": {
+        "schema": "sealr.deepr-content-gate.v1",
+        "accepted": true,
+        "private_source_deleted_before_evaluation": true,
+        "installed_files": 0,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "canonical_view_sha256": "1afc7f7c9cc46a2a3599179a3d8d744c414bb2e87e4876d6902cdd5c05a18b75",
+        "canonical_receipt_sha256": "59c689831511ffa885737ba8972feb950aea86f49696830581509e8937edb0cd",
+        "content": {
+          "required_files": 5,
+          "javascript_files": 51,
+          "css_files": 1
+        },
+        "retention": [],
+        "retained_bytes": 0,
+        "admission_seconds": 2.417607158,
+        "evidence_seconds": 0.081957789,
+        "evaluation_seconds": 11.304433532000001,
+        "content_gate_seconds": 0.000138147
+      },
+      "independent_verifier_successes": 1,
+      "caller_source_preserved": true,
+      "source_open_trace": {
+        "schema": "sealr.publisher-source-open-trace.v1",
+        "trace_bytes": 21705,
+        "trace_sha256": "e69f6b6cea33964897531892dea8ebc763e094382810824a3eb05ad5040f35ae",
+        "processes": 8,
+        "publisher_pid": 484,
+        "private_source": "/tmp/sealr-wheel-source-484-1789323658756883556-0/deepr_research-2.50.11-py3-none-any.whl",
+        "private_source_unlink_line": 74,
+        "wheel_opens_before_deletion": 4,
+        "wheel_open_attempts_after_deletion": 0,
+        "all_processes_terminated": true,
+        "claim": "No observed wheel pathname or wheel FD-annotation open after private source deletion in this traced process tree.",
+        "nonclaim": "No claim about unobserved processes or aliases absent from pathname and FD annotations; verified snapshot FD reads remain allowed.",
+        "artifact": "publisher-traces/baseline.strace"
+      }
+    },
+    "semantic-retention": {
+      "example_report": {
+        "schema": "sealr.deepr-content-gate.v1",
+        "accepted": true,
+        "private_source_deleted_before_evaluation": true,
+        "installed_files": 0,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "canonical_view_sha256": "2b7a93b4e69efff36d94af531f604c3239d928d637378532b365c802bd5b473f",
+        "canonical_receipt_sha256": "9f5f177ba374b26ff475410f21f0d15b14ff1c71ac6158e786bd52269c7c1f4d",
+        "content": {
+          "required_files": 5,
+          "javascript_files": 51,
+          "css_files": 1
+        },
+        "retention": [
+          {
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "status": "Retained"
+          },
+          {
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "status": "Retained"
+          },
+          {
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "status": "Retained"
+          },
+          {
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "status": "Retained"
+          }
+        ],
+        "retained_bytes": 91892,
+        "admission_seconds": 2.249198113,
+        "evidence_seconds": 0.055990039,
+        "evaluation_seconds": 0.011981039,
+        "content_gate_seconds": 0.000227971
+      },
+      "independent_verifier_successes": 1,
+      "caller_source_preserved": true,
+      "source_open_trace": {
+        "schema": "sealr.publisher-source-open-trace.v1",
+        "trace_bytes": 13635,
+        "trace_sha256": "62b37d79964490b701acd44c5014900d95320943bf6ba59a6e00473f96682967",
+        "processes": 4,
+        "publisher_pid": 501,
+        "private_source": "/tmp/sealr-wheel-source-501-1789323672638696675-0/deepr_research-2.50.11-py3-none-any.whl",
+        "private_source_unlink_line": 75,
+        "wheel_opens_before_deletion": 4,
+        "wheel_open_attempts_after_deletion": 0,
+        "all_processes_terminated": true,
+        "claim": "No observed wheel pathname or wheel FD-annotation open after private source deletion in this traced process tree.",
+        "nonclaim": "No claim about unobserved processes or aliases absent from pathname and FD annotations; verified snapshot FD reads remain allowed.",
+        "artifact": "publisher-traces/semantic-retention.strace"
+      }
+    }
+  },
+  "refused": [
+    {
+      "case": "worker-version",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "setup",
+        "code": "worker-artifact",
+        "detail": "worker artifact rejected: worker manifest release version does not match 0.1.0-alpha.17",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "worker-target",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "setup",
+        "code": "worker-artifact",
+        "detail": "worker artifact rejected: worker manifest does not select the supported x86_64 Linux helper target",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "worker-abi",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "setup",
+        "code": "worker-artifact",
+        "detail": "worker artifact rejected: worker manifest bootstrap ABI is unsupported",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "verifier-refusal",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "evidence",
+        "code": "verifier-refusal",
+        "detail": "independent evidence verifier did not accept: exit status: 1",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "verifier-unexpected-exit",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "evidence",
+        "code": "verifier-exit",
+        "detail": "independent evidence verifier did not accept: exit status: 23",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "verifier-signal",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "evidence",
+        "code": "verifier-exit",
+        "detail": "independent evidence verifier did not accept: signal: 15 (SIGTERM)",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "duplicate-argument",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "setup",
+        "code": "invalid-arguments",
+        "detail": "duplicate argument: --wheel",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "missing-source",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "acquisition",
+        "code": "source-copy",
+        "detail": "No such file or directory (os error 2)",
+        "finding_codes": [],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "malformed-archive",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "admission",
+        "code": "archive-not-admitted",
+        "detail": "archive inspection did not complete: [Finding { code: FormatUnsupported, severity: Error, member: None, detail: \"no EOCD with exact comment length\" }]",
+        "finding_codes": [
+          "format.unsupported"
+        ],
+        "private_source_deleted_before_evaluation": false,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 0,
+      "source_open_trace": null
+    },
+    {
+      "case": "wheel-filename-disagreement",
+      "failure_report": {
+        "schema": "sealr.deepr-content-gate-failure.v1",
+        "accepted": false,
+        "stage": "wheel-evaluation",
+        "code": "wheel-denied",
+        "detail": "wheel semantic evaluation failed: Denied { findings: [WheelFinding { stage: Selection, code: \"wheel.artifact-root-disagreement\", detail: \"deepr_research-2.50.11.dist-info is not the canonical normalized root for the outer filename\", path: None }] }",
+        "finding_codes": [
+          "wheel.artifact-root-disagreement"
+        ],
+        "private_source_deleted_before_evaluation": true,
+        "installed_files": 0
+      },
+      "caller_source_preserved": true,
+      "independent_verifier_successes": 1,
+      "source_open_trace": {
+        "schema": "sealr.publisher-source-open-trace.v1",
+        "trace_bytes": 13586,
+        "trace_sha256": "98022b7e29051beae419e19185174e62ff48ea72f3a95f9e21b3530112f4b9e8",
+        "processes": 4,
+        "publisher_pid": 523,
+        "private_source": "/tmp/sealr-wheel-source-523-1789323676052468625-0/other-2.50.11-py3-none-any.whl",
+        "private_source_unlink_line": 73,
+        "wheel_opens_before_deletion": 4,
+        "wheel_open_attempts_after_deletion": 0,
+        "all_processes_terminated": true,
+        "claim": "No observed wheel pathname or wheel FD-annotation open after private source deletion in this traced process tree.",
+        "nonclaim": "No claim about unobserved processes or aliases absent from pathname and FD annotations; verified snapshot FD reads remain allowed.",
+        "artifact": "publisher-traces/wheel-filename-disagreement.strace"
+      }
+    }
+  ],
+  "timing_claim": "Observed phase timings only; no performance threshold or speedup claim."
+}
