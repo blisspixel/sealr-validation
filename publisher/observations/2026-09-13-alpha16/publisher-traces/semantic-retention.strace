@@ -1,0 +1,84 @@
+670   execve("/root/sealr-validation-target/release/publisher-content-gate", ["/root/sealr-validation-target/release/publisher-content-gate", "--wheel", "/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/deepr_research-2.50.11-py3-none-any.whl", "--worker-manifest", "/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest", "--verifier", "/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/verify-evidence", "--retain-member", "deepr_research-2.50.11.dist-info/METADATA", "--retain-member", "deepr_research-2.50.11.dist-info/RECORD", "--retain-member", "deepr_research-2.50.11.dist-info/WHEEL", "--retain-member", "deepr_research-2.50.11.dist-info/entry_points.txt"], 0x7ffd7cd02990 /* 26 vars */) = 0
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcc_s.so.1>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3</proc/670/maps>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest", O_RDONLY|O_CLOEXEC) = 3</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest>
+670   open("/", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3</>
+670   openat2(3</>, "mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker", {flags=O_RDONLY|O_CLOEXEC|O_PATH, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_NO_SYMLINKS|RESOLVE_BENEATH}, 24) = 4</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker>
+670   open("/proc/self/fd/4", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 5</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker>
+670   open("/proc/self/fd/6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 7</memfd:sealr-worker-authenticated>(deleted)
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/deepr_research-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/deepr_research-2.50.11-py3-none-any.whl>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 4</tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4</tmp>
+670   openat2(4</tmp>, ".sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf", {flags=O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH|O_DIRECTORY, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>
+670   openat2(5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, "archive.snapshot", {flags=O_WRONLY|O_CREAT|O_EXCL|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, mode=0666, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 6</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf/archive.snapshot>
+670   openat2(5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, "archive.snapshot", {flags=O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 6</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf/archive.snapshot>
+670   unlinkat(5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, "archive.snapshot", 0) = 0
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/dev/null", O_WRONLY|O_CLOEXEC) = 9</dev/null<char 1:3>>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/dev/null", O_WRONLY|O_CLOEXEC) = 10</dev/null<char 1:3>>
+670   clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x767a7de0ba50) = 671
+671   execve("/proc/self/fd/7", ["/proc/self/fd/7"], 0x5d490d92cf50 /* 0 vars */) = 0
+670   open("/proc/671/exe", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_PATH) = 9</memfd:sealr-worker-authenticated>(deleted)
+671   clone3(NULL, 0)                   = -1 EPERM (Operation not permitted)
+671   clone(child_stack=NULL, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_PIDFD|CLONE_PTRACE|CLONE_VFORK|CLONE_PARENT|CLONE_THREAD|CLONE_NEWNS|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_UNTRACED|CLONE_CHILD_SETTID|CLONE_NEWCGROUP|CLONE_NEWUTS|CLONE_NEWIPC|CLONE_NEWUSER|CLONE_NEWPID|CLONE_NEWNET|CLONE_IO|0xffffffff00400000|255, parent_tid=NULL, tls=NULL, child_tidptr=NULL) = -1 EPERM (Operation not permitted)
+671   execve(NULL, NULL, NULL)          = -1 EPERM (Operation not permitted)
+671   unlinkat(-1, NULL, 0)             = -1 EPERM (Operation not permitted)
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/671/status", O_RDONLY|O_CLOEXEC) = 9</proc/671/status>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/671/task/671/children", O_RDONLY|O_CLOEXEC) = 9</proc/671/task/671/children>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/671/fd", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 9</proc/671/fd>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/671/fdinfo/0", O_RDONLY|O_CLOEXEC) = 9</proc/671/fdinfo/0>
+671   open("/etc/passwd", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 EACCES (Permission denied)
+670   wait4(671, 0x7fff88618b68, WNOHANG, NULL) = 0
+671   exit_group(0)                     = ?
+671   +++ exited with 0 +++
+670   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=671, si_uid=0, si_status=0, si_utime=8 /* 0.08 s */, si_stime=42 /* 0.42 s */} ---
+670   wait4(671, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 671
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/view.json", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/view.json>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/dev/null", O_RDONLY|O_CLOEXEC) = 3</dev/null<char 1:3>>
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/dev/null", O_WRONLY|O_CLOEXEC) = 8</dev/null<char 1:3>>
+670   clone3({flags=CLONE_VM|CLONE_VFORK|CLONE_CLEAR_SIGHAND, exit_signal=SIGCHLD, stack=0x767a7de02000, stack_size=0x9000}, 88 <unfinished ...>
+674   execve("/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/verify-evidence", ["/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/verify-evidence", "evidence", "--view", "/tmp/sealr-wheel-source-670-1789315723635048483-0/view.json", "--receipt", "/tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json", "--source", "/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl"], 0x7fff8861c248 /* 26 vars */ <unfinished ...>
+670   <... clone3 resumed>)             = 674
+674   <... execve resumed>)             = 0
+670   wait4(674, 0x7fff8861adc8, WNOHANG, NULL) = 0
+674   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+674   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+674   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/verify-evidence", O_RDONLY) = 3</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/verify-evidence>
+674   vfork( <unfinished ...>
+675   execve("/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/sealr-identity-verifier", ["/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/sealr-identity-verifier", "evidence", "--view", "/tmp/sealr-wheel-source-670-1789315723635048483-0/view.json", "--receipt", "/tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json", "--source", "/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl"], 0x600e6fdc1b38 /* 26 vars */ <unfinished ...>
+674   <... vfork resumed>)              = 675
+674   wait4(-1,  <unfinished ...>
+675   <... execve resumed>)             = 0
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcc_s.so.1>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3</proc/675/maps>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/view.json", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/view.json>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/receipt.json>
+675   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl>
+670   wait4(674, 0x7fff8861adc8, WNOHANG, NULL) = 0
+675   exit_group(0)                     = ?
+675   +++ exited with 0 +++
+674   <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 675
+674   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=675, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+674   wait4(-1, 0x7ffd6dc4de1c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+674   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/evidence-verified", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention/evidence-verified>
+674   exit_group(0)                     = ?
+674   +++ exited with 0 +++
+670   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=674, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+670   wait4(674, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 674
+670   unlink("/tmp/sealr-wheel-source-670-1789315723635048483-0/deepr_research-2.50.11-py3-none-any.whl") = 0
+670   openat(5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>
+670   openat(3</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 6</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>
+670   openat(5</tmp/.sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf>, "..", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp>
+670   openat(3</tmp>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 6</tmp>
+670   unlinkat(3</tmp>, ".sealr-source-9a8d3cde2c39c338b9a8deac21ec1bdf", AT_REMOVEDIR) = 0
+670   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp/sealr-wheel-source-670-1789315723635048483-0>
+670   unlinkat(3</tmp/sealr-wheel-source-670-1789315723635048483-0>, "receipt.json", 0) = 0
+670   unlinkat(3</tmp/sealr-wheel-source-670-1789315723635048483-0>, "view.json", 0) = 0
+670   unlinkat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/semantic-retention>, "/tmp/sealr-wheel-source-670-1789315723635048483-0", AT_REMOVEDIR) = 0
+670   exit_group(0)                     = ?
+670   +++ exited with 0 +++

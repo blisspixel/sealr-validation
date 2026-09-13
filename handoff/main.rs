@@ -12,7 +12,8 @@ use std::time::{Duration, Instant};
 
 use sealr::wheel::{evaluate_wheel, WheelEvaluation, WheelLimits};
 use sealr::{
-    apply_supervised, ApplyOptions, LinuxWorker, Policy, Request, Source, ZipInterpretationProfile,
+    apply_supervised, AdmissionStatus, ApplyOptions, EffectStatus, LinuxWorker, Outcome, Policy,
+    Request, Source, VerificationStatus, VerifiedArchive, ZipInterpretationProfile,
 };
 use serde::Serialize;
 
@@ -131,6 +132,33 @@ struct PreparedReport<'a> {
     install_plan_sha256: &'a str,
 }
 
+fn require_handoff_archive(
+    outcome: &Outcome,
+    materialization_requested: bool,
+) -> Result<&VerifiedArchive, Box<dyn std::error::Error>> {
+    if !matches!(outcome.admission, AdmissionStatus::Admitted) {
+        return Err(format!("wheel admission failed: {:?}", outcome.view.findings).into());
+    }
+    // An admitted archive can fail destination setup before verification, or
+    // fail publication after verification. Neither satisfies the requested write.
+    if materialization_requested && !matches!(outcome.effect, EffectStatus::Committed) {
+        return Err("raw materialization was requested but did not commit".into());
+    }
+    if !matches!(outcome.verification, VerificationStatus::Complete) {
+        return Err(format!(
+            "wheel verification did not complete: {:?}",
+            outcome.view.findings
+        )
+        .into());
+    }
+    if !materialization_requested && !matches!(outcome.effect, EffectStatus::NotRequested) {
+        return Err("wheel inspection unexpectedly reported a destination effect".into());
+    }
+    outcome
+        .verified_archive()
+        .ok_or_else(|| "admitted wheel did not expose verified authority".into())
+}
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     if !cfg!(target_os = "linux") {
         return Err("the first packaged WheelSource target requires Linux".into());
@@ -185,12 +213,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         &options,
         &worker,
     )?;
-    if outcome.rejected() {
-        return Err(format!("wheel admission failed: {:?}", outcome.view.findings).into());
-    }
-    if args.materialize_raw.is_some() && !outcome.wrote() {
-        return Err("raw materialization was requested but did not commit".into());
-    }
+    require_handoff_archive(&outcome, args.materialize_raw.is_some())?;
 
     let canonical = outcome
         .canonical_evidence()
@@ -426,4 +449,72 @@ fn write_new(path: &Path, bytes: &[u8]) -> Result<(), Box<dyn std::error::Error>
     output.write_all(bytes)?;
     output.flush()?;
     Ok(())
+}
+
+#[cfg(test)]
+mod outcome_migration_tests {
+    use super::*;
+
+    // A complete empty ZIP, sufficient to exercise the handoff's archive/effect
+    // boundary before its independent wheel-specific evaluation.
+    const EMPTY_ZIP: &[u8] = b"PK\x05\x06\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+
+    fn apply(dest: Option<&Path>) -> Outcome {
+        sealr::apply_with_options(
+            Request {
+                source: Source::Bytes {
+                    path: Some("empty.zip"),
+                    data: EMPTY_ZIP,
+                },
+                policy: &Policy::default_v1(),
+                dest,
+            },
+            &ApplyOptions::new()
+                .with_interpretation_profile(ZipInterpretationProfile::PortableUtf8V1),
+        )
+    }
+
+    #[test]
+    fn inspected_capability_does_not_satisfy_requested_materialization() {
+        let outcome = apply(None);
+        assert!(require_handoff_archive(&outcome, false).is_ok());
+        assert_eq!(
+            require_handoff_archive(&outcome, true)
+                .err()
+                .unwrap()
+                .to_string(),
+            "raw materialization was requested but did not commit"
+        );
+    }
+
+    #[test]
+    fn committed_materialization_supplies_the_handoff_capability() {
+        let private = PrivateRoot::create().unwrap();
+        let dest = private.path().join("committed");
+        let outcome = apply(Some(&dest));
+        assert_eq!(outcome.effect, EffectStatus::Committed);
+        assert!(require_handoff_archive(&outcome, true).is_ok());
+        assert!(require_handoff_archive(&outcome, false).is_err());
+        assert!(dest.is_dir());
+    }
+
+    #[test]
+    fn destination_setup_failure_is_an_effect_failure_without_a_capability() {
+        let private = PrivateRoot::create().unwrap();
+        let sentinel = private.path().join("keep.txt");
+        fs::write(&sentinel, b"keep").unwrap();
+        let outcome = apply(Some(private.path()));
+        assert_eq!(outcome.admission, AdmissionStatus::Admitted);
+        assert_eq!(outcome.verification, VerificationStatus::StructureOnly);
+        assert_eq!(outcome.effect, EffectStatus::Failed);
+        assert!(outcome.verified_archive().is_none());
+        assert_eq!(
+            require_handoff_archive(&outcome, true)
+                .err()
+                .unwrap()
+                .to_string(),
+            "raw materialization was requested but did not commit"
+        );
+        assert_eq!(fs::read(sentinel).unwrap(), b"keep");
+    }
 }

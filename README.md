@@ -70,7 +70,7 @@ to the release workflow, source commit, tag, and hosted runner before extraction
 
 The Rust dependency uses an exact Git revision and a committed Cargo lockfile.
 There is no local path patch, mutable branch dependency, private Sealr feature,
-or dependency on a workspace-only Sealr tool. Alpha.15 is a GitHub-only release,
+or dependency on a workspace-only Sealr tool. Alpha.16 is a GitHub-only release,
 so this deliberately tests immutable Git source acquisition. It is not evidence
 of a crates.io publication or completion of the registry pilot gate.
 
@@ -82,11 +82,12 @@ The copy check compares the files with the actual Cargo-resolved immutable Git
 checkout, in addition to the recorded hashes.
 
 [`publisher-origin.json`](publisher-origin.json) separately pins the released
-publisher baseline and the local adapted consumer. Its structured failures came
-from an explicitly unreleased source revision, then received downstream path,
-source-contract, and observation integration. They are not represented as
-released Alpha.15 example behavior. The library and native dependency remain the
-published Alpha.15 pair.
+publisher baseline and the adapted consumer. Its typed outcome checks and
+structured failures now come from the published Alpha.16 example. The downstream
+adaptation adjusts the stage include, omits repository-only tests, and adds
+source-contract and source-open observation integration. The released adaptation
+input must match the exact Cargo-resolved release baseline. The library and
+native dependency use the published Alpha.16 pair.
 
 ## Reproduce
 
@@ -116,10 +117,17 @@ download cache remains available for deliberate reruns.
 ## What comes next
 
 The publisher job now provides unattended, commit-bound decision and source-open
-evidence. The next work is to use those checked decisions in an actual publishing
-workflow and measure acquisition or capability-use costs exposed by that path.
-This validation repository remains maintained by Sealr's owner and does not
-establish independently maintained adoption or production publisher deployment.
+evidence. The next measurement should separate source hashing, plan validation,
+worker setup, and payload verification on repeated unretained reads. The
+[controlled Alpha.15 observation](experiments/repeated-reads/observed-linux-wsl-2026-09-13/README.md)
+found similar read times for six-byte and 138,704-byte members, while bounded
+retention avoided several costs together. Phase measurements are needed before
+attributing that difference or changing validation and cleanup behavior.
+
+Using the checked decisions in an actual publishing workflow remains the next
+deployment step. This validation repository remains maintained by Sealr's owner
+and does not establish independently maintained adoption or production publisher
+deployment.
 
 The [bounded retention experiment](experiments/retention/README.md) compares
 nine full installations with no retention, a semantic working set, and up to
@@ -129,8 +137,11 @@ single-run integration observations, not controlled benchmark results.
 The [observed Linux run](experiments/retention/observed-linux-wsl/README.md)
 passed all nine installations and three native-manifest refusals.
 
-The committed observed retention reports remain historical Alpha.14 evidence.
-New executions use the active Alpha.15 pins and must produce new reports; existing
-observations are not relabeled as results from the newer release.
+The committed retention reports remain historical Alpha.14 evidence, and the
+first publisher and controlled repeated-read observations remain Alpha.15
+evidence. New executions use the active Alpha.16 pins and produce new reports.
+The [Alpha.16 publisher observation](publisher/observations/2026-09-13-alpha16/README.md)
+records both retention choices, all ten refusals, and three source-open traces.
+Existing observations are not relabeled as results from the newer release.
 
 [Apache-2.0](LICENSE).

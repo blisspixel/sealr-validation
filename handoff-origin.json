@@ -1,10 +1,10 @@
 {
   "schema": "sealr.copied-public-handoff.v1",
   "repository": "https://github.com/blisspixel/sealr",
-  "commit": "8090a6bb6b0a6cc51461d2bce18966eb1a323434",
+  "commit": "711955645bcca4f0e50838e0ba7f7d4825abb81e",
   "path": "crates/sealr/examples/pypa_installer_handoff",
   "files": {
-    "main.rs": "e4f9390612f5acec21125691556b18a76562d8cedee2f46e602db5777cc11c95",
+    "main.rs": "3c3d23ddd5a09938baee5b8b27bf24545bb908c4f440cc8ccfee6fdf5b95b7f2",
     "requirements.txt": "3993a8e964d7d68716dc9c1fb1c165318c2cef00e44ba0c6eae8015120fa7463",
     "stage.rs": "5f1f3f0d6112e441955b9eca51a80ff158bc4b656bf4b720e538affb0f035fab",
     "wheel_source.py": "feaf1cd0daeabe5c2971fcd1514f64f51cafa9b7f391682ba0b11f7f966f4d7a"

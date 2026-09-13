@@ -6,7 +6,7 @@ and decides whether the admitted files satisfy the dashboard and runtime rules.
 It preserves the caller's original and creates no installation output.
 
 This is an owner-maintained downstream validation integration. It uses the
-published Alpha.15 Rust API through one exact Git revision and the matching
+published Alpha.16 Rust API through one exact Git revision and the matching
 authenticated native release. It is not installed in Deepr's production release
 workflow and does not establish independent adoption or crates.io distribution.
 
@@ -27,7 +27,7 @@ python3 scripts/test_source_contract.py target/publisher-metadata.json
 python3 scripts/test_publisher_trace.py
 python3 scripts/validate_publisher.py \
   --metadata target/publisher-metadata.json \
-  --native /tmp/sealr-publisher-native/sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu \
+  --native /tmp/sealr-publisher-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu \
   --report results/publisher-report.json
 ```
 
@@ -91,27 +91,32 @@ survives private pathname deletion; FD reads from that storage remain allowed.
 
 ## Copy and adaptation boundary
 
-`handoff/` stays an exact copy of the four public Alpha.15 handoff files. Source
+`handoff/` stays an exact copy of the four public Alpha.16 handoff files. Source
 verification compares each copy and its recorded hash with the actual
 Cargo-resolved Git source. It also requires exactly one resolved Sealr feature
 node with the release's exact empty feature set, an exact release/source match,
 and no local path patch.
 
-`publisher-origin.json` pins the released Alpha.15 example and smoke baselines.
-The typed report adaptation input is explicitly unreleased, whether held locally
-or available on a development branch. The
-downstream executable changes the stage include path and omits repository-only
-tests; its validation adds provenance checks and bounded source-open observation.
+`publisher-origin.json` pins the released Alpha.16 example and smoke baselines.
+The typed outcome checks and structured reports now use that published input;
+source verification requires its commit and hashes to match the resolved release.
+The downstream executable changes the stage include path and omits
+repository-only tests; its validation adds provenance checks and bounded
+source-open observation.
 The executable, smoke, and trace analyzer each have an exact checked local hash.
 CI verifies this boundary without reading a sibling Sealr checkout.
 
 Offline mutation checks reject missing or duplicate resolve evidence, private,
 unknown, or malformed features, source replacement, forged exact-copy provenance, unrecorded publisher
-edits, and incorrect release baselines. Trace counterexamples separately exercise
+edits, incorrect release baselines, and inconsistent adaptation publication
+claims. Trace counterexamples separately exercise
 the source-open analyzer and live resource limits.
 
-The historical Alpha.14 installation and retention reports remain unchanged.
-The new report is evidence for its explicit Alpha.15 inputs and adapted consumer;
-phase timings are observations, not controlled performance comparisons.
+Historical Alpha.14 installation and retention reports and Alpha.15 publisher
+reports remain unchanged. Each new report identifies its exact release and
+adapted consumer; phase timings are observations, not controlled performance
+comparisons.
 The [2026-09-13 local observation](observations/2026-09-13/README.md) preserves
 the first complete report and all three source-open traces from this integration.
+The [Alpha.16 local observation](observations/2026-09-13-alpha16/README.md) repeats
+the complete smoke with the published Alpha.16 source and native pair.

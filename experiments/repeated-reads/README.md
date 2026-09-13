@@ -1,7 +1,7 @@
 # Controlled repeated reads
 
 This Deepr-only experiment measures end-to-end `VerifiedArchive::read_member`
-calls through the immutable Alpha.15 Linux helper. It uses cached artifacts and
+calls through the active immutable Alpha.16 Linux helper. It uses cached artifacts and
 the existing public API. It does not install files or change retention limits,
 source validation, the worker protocol, or the supported copied handoff.
 
@@ -46,7 +46,7 @@ cargo build --offline --locked --release --bin repeated-read-probe
 python3 -m unittest discover -s experiments/repeated-reads -p 'test_*.py'
 python3 experiments/repeated-reads/run.py \
   --binary target/release/repeated-read-probe \
-  --native target/alpha15-native/sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu \
+  --native target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu \
   --output results/repeated-reads-new
 ```
 
@@ -62,4 +62,6 @@ native and consumer hashes, kernel, identity comparisons, and paired summaries.
 Historical retention-installation measurements remain in their original folder.
 
 The [first controlled Deepr observation](observed-linux-wsl-2026-09-13/README.md)
-completed all 14 cases and records the resulting next measurement question.
+completed all 14 cases using Alpha.15 and records the resulting next measurement
+question. That historical report remains unchanged; a new run uses the current
+pins and a new output directory.

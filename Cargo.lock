@@ -332,8 +332,8 @@ dependencies = [
 
 [[package]]
 name = "sealr"
-version = "0.1.0-alpha.15"
-source = "git+https://github.com/blisspixel/sealr?rev=8090a6bb6b0a6cc51461d2bce18966eb1a323434#8090a6bb6b0a6cc51461d2bce18966eb1a323434"
+version = "0.1.0-alpha.16"
+source = "git+https://github.com/blisspixel/sealr?rev=711955645bcca4f0e50838e0ba7f7d4825abb81e#711955645bcca4f0e50838e0ba7f7d4825abb81e"
 dependencies = [
  "bzip2",
  "cap-fs-ext",

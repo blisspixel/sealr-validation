@@ -70,10 +70,46 @@ def main():
         run(metadata, "Adapted publisher source changed")
         publisher.write_bytes(original)
         origin = json.loads((root / "publisher-origin.json").read_bytes())
+        release = json.loads((root / "sealr-release.json").read_bytes())
+        released = copy.deepcopy(origin)
+        released["adaptation_input"] = {
+            "commit": release["commit"],
+            "publication": "released",
+            "files": copy.deepcopy(origin["released_baseline"]),
+        }
+        origin_path = root / "publisher-origin.json"
+        origin_path.write_text(json.dumps(released), encoding="utf-8")
+        run(metadata)
+        unreleased = copy.deepcopy(released)
+        unreleased["adaptation_input"]["publication"] = "unreleased"
+        unreleased["adaptation_input"]["commit"] = "f" * 40
+        if unreleased["adaptation_input"]["commit"] == release["commit"]:
+            unreleased["adaptation_input"]["commit"] = "e" * 40
+        origin_path.write_text(json.dumps(unreleased), encoding="utf-8")
+        run(metadata)
+        for mode in ["wrong-commit", "wrong-baseline", "unknown-publication", "release-labeled-unreleased"]:
+            candidate = copy.deepcopy(released)
+            adaptation = candidate["adaptation_input"]
+            if mode == "wrong-commit":
+                adaptation["commit"] = "0" * 40
+            elif mode == "wrong-baseline":
+                adaptation["files"]["crates/sealr/examples/deepr_content_gate/main.rs"] = "0" * 64
+            elif mode == "unknown-publication":
+                adaptation["publication"] = "unverified"
+            else:
+                adaptation["publication"] = "unreleased"
+            origin_path.write_text(json.dumps(candidate), encoding="utf-8")
+            expected = {
+                "wrong-commit": "Released publisher adaptation must match",
+                "wrong-baseline": "Released publisher adaptation must match",
+                "unknown-publication": "Publisher adaptation must identify",
+                "release-labeled-unreleased": "cannot be labeled as unreleased",
+            }[mode]
+            run(metadata, expected)
         origin["released_baseline"]["crates/sealr/examples/deepr_content_gate/main.rs"] = "0" * 64
-        (root / "publisher-origin.json").write_text(json.dumps(origin), encoding="utf-8")
+        origin_path.write_text(json.dumps(origin), encoding="utf-8")
         run(metadata, "Publisher baseline differs from the resolved release")
-    print("Verified valid source contract and nine missing, forged, or drifted evidence refusals")
+    print("Verified valid source contracts and thirteen missing, forged, or drifted evidence refusals")
 
 
 if __name__ == "__main__":
