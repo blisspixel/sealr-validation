@@ -1,0 +1,84 @@
+694   execve("/root/sealr-validation-target/release/publisher-content-gate", ["/root/sealr-validation-target/release/publisher-content-gate", "--wheel", "/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/other-2.50.11-py3-none-any.whl", "--worker-manifest", "/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest", "--verifier", "/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/verify-evidence"], 0x7ffd958a57f0 /* 26 vars */) = 0
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcc_s.so.1>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3</proc/694/maps>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest", O_RDONLY|O_CLOEXEC) = 3</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker.manifest>
+694   open("/", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3</>
+694   openat2(3</>, "mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker", {flags=O_RDONLY|O_CLOEXEC|O_PATH, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_NO_SYMLINKS|RESOLVE_BENEATH}, 24) = 4</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker>
+694   open("/proc/self/fd/4", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 5</mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/libexec/sealr/sealr-worker>
+694   open("/proc/self/fd/6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 7</memfd:sealr-worker-authenticated>(deleted)
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/other-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/other-2.50.11-py3-none-any.whl>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 4</tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4</tmp>
+694   openat2(4</tmp>, ".sealr-source-6ebabd2dbbcb3978247c156ceaabadef", {flags=O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH|O_DIRECTORY, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>
+694   openat2(5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, "archive.snapshot", {flags=O_WRONLY|O_CREAT|O_EXCL|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, mode=0666, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 6</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef/archive.snapshot>
+694   openat2(5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, "archive.snapshot", {flags=O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, resolve=RESOLVE_NO_MAGICLINKS|RESOLVE_BENEATH}, 24) = 6</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef/archive.snapshot>
+694   unlinkat(5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, "archive.snapshot", 0) = 0
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/dev/null", O_WRONLY|O_CLOEXEC) = 9</dev/null<char 1:3>>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/dev/null", O_WRONLY|O_CLOEXEC) = 10</dev/null<char 1:3>>
+694   clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x79e8c4573a50) = 695
+695   execve("/proc/self/fd/7", ["/proc/self/fd/7"], 0x5b89fc1d5ca0 /* 0 vars */) = 0
+694   open("/proc/695/exe", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_PATH) = 9</memfd:sealr-worker-authenticated>(deleted)
+695   clone3(NULL, 0)                   = -1 EPERM (Operation not permitted)
+695   clone(child_stack=NULL, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_PIDFD|CLONE_PTRACE|CLONE_VFORK|CLONE_PARENT|CLONE_THREAD|CLONE_NEWNS|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_UNTRACED|CLONE_CHILD_SETTID|CLONE_NEWCGROUP|CLONE_NEWUTS|CLONE_NEWIPC|CLONE_NEWUSER|CLONE_NEWPID|CLONE_NEWNET|CLONE_IO|0xffffffff00400000|255, parent_tid=NULL, tls=NULL, child_tidptr=NULL) = -1 EPERM (Operation not permitted)
+695   execve(NULL, NULL, NULL)          = -1 EPERM (Operation not permitted)
+695   unlinkat(-1, NULL, 0)             = -1 EPERM (Operation not permitted)
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/695/status", O_RDONLY|O_CLOEXEC) = 9</proc/695/status>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/695/task/695/children", O_RDONLY|O_CLOEXEC) = 9</proc/695/task/695/children>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/695/fd", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 9</proc/695/fd>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/695/fdinfo/0", O_RDONLY|O_CLOEXEC) = 9</proc/695/fdinfo/0>
+695   open("/etc/passwd", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 EACCES (Permission denied)
+694   wait4(695, 0x7ffd7bca4458, WNOHANG, NULL) = 0
+695   exit_group(0)                     = ?
+695   +++ exited with 0 +++
+694   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=695, si_uid=0, si_status=0, si_utime=10 /* 0.10 s */, si_stime=37 /* 0.37 s */} ---
+694   wait4(695, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 695
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/view.json", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/view.json>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0666) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/dev/null", O_RDONLY|O_CLOEXEC) = 3</dev/null<char 1:3>>
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/dev/null", O_WRONLY|O_CLOEXEC) = 8</dev/null<char 1:3>>
+694   clone3({flags=CLONE_VM|CLONE_VFORK|CLONE_CLEAR_SIGHAND, exit_signal=SIGCHLD, stack=0x79e8c456a000, stack_size=0x9000}, 88 <unfinished ...>
+696   execve("/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/verify-evidence", ["/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/verify-evidence", "evidence", "--view", "/tmp/sealr-wheel-source-694-1789315726977830954-0/view.json", "--receipt", "/tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json", "--source", "/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl"], 0x7ffd7bca7af8 /* 26 vars */ <unfinished ...>
+694   <... clone3 resumed>)             = 696
+696   <... execve resumed>)             = 0
+694   wait4(696, 0x7ffd7bca66b8, WNOHANG, NULL) = 0
+696   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+696   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+696   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/verify-evidence", O_RDONLY) = 3</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/verify-evidence>
+696   vfork( <unfinished ...>
+697   execve("/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/sealr-identity-verifier", ["/mnt/c/GitHub/sealr-validation/target/alpha16-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu/sealr-identity-verifier", "evidence", "--view", "/tmp/sealr-wheel-source-694-1789315726977830954-0/view.json", "--receipt", "/tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json", "--source", "/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl"], 0x6150464e9b38 /* 26 vars */ <unfinished ...>
+696   <... vfork resumed>)              = 697
+696   wait4(-1,  <unfinished ...>
+697   <... execve resumed>)             = 0
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcc_s.so.1>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libc.so.6>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3</proc/697/maps>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/view.json", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/view.json>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/receipt.json>
+697   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl", O_RDONLY|O_CLOEXEC) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl>
+694   wait4(696, 0x7ffd7bca66b8, WNOHANG, NULL) = 0
+697   exit_group(0)                     = ?
+697   +++ exited with 0 +++
+696   <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 697
+696   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=697, si_uid=0, si_status=0, si_utime=0, si_stime=2 /* 0.02 s */} ---
+696   wait4(-1, 0x7fff34d73ddc, WNOHANG, NULL) = -1 ECHILD (No child processes)
+696   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/evidence-verified", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement/evidence-verified>
+696   exit_group(0)                     = ?
+696   +++ exited with 0 +++
+694   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=696, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+694   wait4(696, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 696
+694   unlink("/tmp/sealr-wheel-source-694-1789315726977830954-0/other-2.50.11-py3-none-any.whl") = 0
+694   openat(5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>
+694   openat(3</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 6</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>
+694   openat(5</tmp/.sealr-source-6ebabd2dbbcb3978247c156ceaabadef>, "..", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp>
+694   openat(3</tmp>, ".", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 6</tmp>
+694   unlinkat(3</tmp>, ".sealr-source-6ebabd2dbbcb3978247c156ceaabadef", AT_REMOVEDIR) = 0
+694   openat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_DIRECTORY) = 3</tmp/sealr-wheel-source-694-1789315726977830954-0>
+694   unlinkat(3</tmp/sealr-wheel-source-694-1789315726977830954-0>, "receipt.json", 0) = 0
+694   unlinkat(3</tmp/sealr-wheel-source-694-1789315726977830954-0>, "view.json", 0) = 0
+694   unlinkat(AT_FDCWD</tmp/sealr-deepr-content-gate-y27il6s5/wheel-filename-disagreement>, "/tmp/sealr-wheel-source-694-1789315726977830954-0", AT_REMOVEDIR) = 0
+694   exit_group(1)                     = ?
+694   +++ exited with 1 +++

@@ -22,11 +22,16 @@ def verify_publisher(root, upstream, release):
         if hashlib.sha256((upstream / name).read_bytes()).hexdigest() != expected:
             raise RuntimeError(f"Publisher baseline differs from the resolved release: {name}")
     adaptation = publisher["adaptation_input"]
-    if set(adaptation) != {"commit", "publication", "files"} or adaptation["publication"] != "unreleased" or not re.fullmatch(r"[0-9a-f]{40}", adaptation["commit"]) or set(adaptation["files"]) != BASELINES:
-        raise RuntimeError("Publisher adaptation must name its unreleased input separately")
+    if set(adaptation) != {"commit", "publication", "files"} or adaptation["publication"] not in {"unreleased", "released"} or not re.fullmatch(r"[0-9a-f]{40}", adaptation["commit"]) or set(adaptation["files"]) != BASELINES:
+        raise RuntimeError("Publisher adaptation must identify its input and publication state")
     for expected in adaptation["files"].values():
         if not re.fullmatch(r"[0-9a-f]{64}", expected):
             raise RuntimeError("Publisher adaptation input hashes must be exact")
+    if adaptation["publication"] == "released":
+        if adaptation["commit"] != release["commit"] or adaptation["files"] != publisher["released_baseline"]:
+            raise RuntimeError("Released publisher adaptation must match the resolved release baseline")
+    elif adaptation["commit"] == release["commit"]:
+        raise RuntimeError("The resolved release cannot be labeled as unreleased adaptation input")
     if not publisher["changes"] or not all(isinstance(change, str) and change for change in publisher["changes"]):
         raise RuntimeError("Publisher adaptation changes must be explicit")
     for name, expected in publisher["adapted_files"].items():

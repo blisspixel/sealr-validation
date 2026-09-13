@@ -17,9 +17,9 @@ use std::time::Instant;
 
 use sealr::wheel::{evaluate_wheel, WheelEvaluation, WheelIdentities, WheelLimits};
 use sealr::{
-    apply_supervised, ApplyOptions, LinuxWorker, MemberKind, Outcome, Policy, Request,
-    RetentionPlan, Source, SupervisionError, SupervisionErrorKind, VerifiedArchive,
-    ZipInterpretationProfile,
+    apply_supervised, AdmissionStatus, ApplyOptions, EffectStatus, LinuxWorker, MemberKind,
+    Outcome, Policy, Request, RetentionPlan, Source, SupervisionError, SupervisionErrorKind,
+    VerificationStatus, VerifiedArchive, ZipInterpretationProfile,
 };
 use serde::Serialize;
 
@@ -305,12 +305,17 @@ fn main() -> ExitCode {
     }
 }
 
-fn require_admitted(outcome: &Outcome) -> Result<(), GateFailure> {
-    if outcome.rejected() {
+fn require_admitted(outcome: &Outcome) -> Result<&VerifiedArchive, GateFailure> {
+    if !matches!(outcome.admission, AdmissionStatus::Admitted)
+        || !matches!(outcome.verification, VerificationStatus::Complete)
+    {
         return Err(GateFailure::new(
             FailureStage::Admission,
             "archive-not-admitted",
-            format!("archive admission failed: {:?}", outcome.view.findings),
+            format!(
+                "archive inspection did not complete: {:?}",
+                outcome.view.findings
+            ),
         )
         .with_findings(
             outcome
@@ -320,14 +325,20 @@ fn require_admitted(outcome: &Outcome) -> Result<(), GateFailure> {
                 .map(|finding| finding.code.as_str().to_owned()),
         ));
     }
-    if outcome.verified_archive().is_none() {
+    if !matches!(outcome.effect, EffectStatus::NotRequested) {
         return Err(GateFailure::new(
+            FailureStage::Admission,
+            "unexpected-effect",
+            "the publisher gate requires inspection without a destination effect",
+        ));
+    }
+    outcome.verified_archive().ok_or_else(|| {
+        GateFailure::new(
             FailureStage::Admission,
             "capability-unavailable",
             "verified capability unavailable",
-        ));
-    }
-    Ok(())
+        )
+    })
 }
 
 fn evaluate_for_gate(
