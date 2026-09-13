@@ -1,0 +1,3428 @@
+{
+  "binary_sha256": "b9b7ed47b1aeefc4fda3df806d890f5e3643d557e4de1466441d51293c4b3eb4",
+  "bounds": {
+    "case_seconds": 60,
+    "child_file_bytes": 4194304,
+    "child_output_bytes": 1048576,
+    "cleanup_reserve_seconds": 5,
+    "overall_seconds": 300
+  },
+  "cases": [
+    {
+      "elapsed_seconds": 4.706570525000004,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.229557443,
+          "evaluation": 0.890007161,
+          "evidence": 0.029527536
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 6.1799e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 0.21766147,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.003e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 1,
+            "read_seconds": 0.223980699,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.151e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 0.220538045,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.000451645,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 0.218298822,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.782e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 4,
+            "read_seconds": 0.217721849,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.529e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 5,
+            "read_seconds": 0.225912427,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.9602e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 0.220249629,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.75e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 7,
+            "read_seconds": 0.219600626,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.2469e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 0.219517364,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.0151e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 1,
+            "read_seconds": 0.222655657,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.281e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 0.219017319,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.3492e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 0.220456588,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.85e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 4,
+            "read_seconds": 0.21798828,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.412e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 5,
+            "read_seconds": 0.218104199,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.00027056,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 0.223425612,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.537e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 7,
+            "read_seconds": 0.218897771,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 0,
+        "member_order": [
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr/evals/__init__.py"
+        ],
+        "position": 0,
+        "strategy": "baseline",
+        "warmup": true
+      }
+    },
+    {
+      "elapsed_seconds": 0.3084042500000095,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.233994432,
+          "evaluation": 0.010845693,
+          "evidence": 0.029894181
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 5.818e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 2.3589e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.624e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 1,
+            "read_seconds": 2.205e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.212e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 4.81e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.0445e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 1.445e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.273e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 4,
+            "read_seconds": 2.2e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.062e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 5,
+            "read_seconds": 2.31e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.4551e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 7.375e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.152e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 7,
+            "read_seconds": 5.11e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.7439e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 9.119e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.554e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 1,
+            "read_seconds": 1.082e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.112e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 1.4e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.9824e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 6.113e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.182e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 4,
+            "read_seconds": 1.1e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.042e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 5,
+            "read_seconds": 1.51e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.4561e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 2.606e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.083e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 7,
+            "read_seconds": 9e-08,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 0,
+        "member_order": [
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr/evals/__init__.py"
+        ],
+        "position": 1,
+        "strategy": "retained",
+        "warmup": true
+      }
+    },
+    {
+      "elapsed_seconds": 0.3037473029999944,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.23017137,
+          "evaluation": 0.011170105,
+          "evidence": 0.02990785
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 3.6616e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 0,
+            "read_seconds": 1.5682e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.383e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 1,
+            "read_seconds": 7.11e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.403e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 2,
+            "read_seconds": 3.21e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.092e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 3,
+            "read_seconds": 6.82e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.804e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 2.766e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.0435e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 1.415e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.8271e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 6,
+            "read_seconds": 1.426e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.243e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 4.51e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.4732e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 0,
+            "read_seconds": 1.974e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.172e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 1,
+            "read_seconds": 1.7e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.082e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 2,
+            "read_seconds": 1.71e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.022e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 3,
+            "read_seconds": 1.5e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.533e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 4.61e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.0184e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 2.155e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.7759e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 6,
+            "read_seconds": 2.155e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.192e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 1.5e-07,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 1,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL"
+        ],
+        "position": 0,
+        "strategy": "retained",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 4.766637349999996,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.226436852,
+          "evaluation": 0.90081822,
+          "evidence": 0.029677163
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 3.7056e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 0,
+            "read_seconds": 0.222832795,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.287e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 1,
+            "read_seconds": 0.217972317,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.537e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 2,
+            "read_seconds": 0.218726938,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.395e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 3,
+            "read_seconds": 0.221596968,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.987e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.220146014,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.2349e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 0.225238563,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.0526e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 6,
+            "read_seconds": 0.220025445,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.655e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 0.217253459,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.7157e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 0,
+            "read_seconds": 0.219485478,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.806e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 1,
+            "read_seconds": 0.217628114,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.367e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 2,
+            "read_seconds": 0.221059745,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.435e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 3,
+            "read_seconds": 0.234896779,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 9.269e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.221094747,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.1848e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 0.221237664,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.5539e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 6,
+            "read_seconds": 0.236559452,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.31e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 0.2378853,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 1,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL"
+        ],
+        "position": 1,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 5.084782926000003,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.24398674,
+          "evaluation": 0.959359947,
+          "evidence": 0.031527533
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 6.319e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 0,
+            "read_seconds": 0.238880373,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.062e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 0.236536514,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.664e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 0.235255739,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.2721e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 3,
+            "read_seconds": 0.243565876,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.1446e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.235108724,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.5861e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 0.237028614,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.965e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 6,
+            "read_seconds": 0.240250288,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 8.5529e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 7,
+            "read_seconds": 0.234633511,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.029e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 0,
+            "read_seconds": 0.238878578,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.6815e-05,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 0.237086919,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.459e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 0.243490965,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.000287121,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 3,
+            "read_seconds": 0.242060316,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.1489e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.234937044,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 8.2885e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 0.237577566,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.815e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 6,
+            "read_seconds": 0.242112441,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.9096e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 7,
+            "read_seconds": 0.236699565,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 2,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/web/app.py"
+        ],
+        "position": 0,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 0.3330720860000014,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.253536992,
+          "evaluation": 0.01141735,
+          "evidence": 0.031536905
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 1.612e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 0,
+            "read_seconds": 1.192e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.193e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 3.76e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.322e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 3.12e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7627e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 3,
+            "read_seconds": 9.479e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.147e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 1.816e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2593e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 1.5004e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.301e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 6,
+            "read_seconds": 2.37e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.4937e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 7,
+            "read_seconds": 1.6078e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.107e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 0,
+            "read_seconds": 3.23e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.128e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 1.94e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.203e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 2,
+            "read_seconds": 1.72e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7466e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 3,
+            "read_seconds": 2.031e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.018e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 6.34e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2379e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 2.494e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.236e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 6,
+            "read_seconds": 1.5e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.4829e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 7,
+            "read_seconds": 2.225e-06,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 2,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/web/app.py"
+        ],
+        "position": 1,
+        "strategy": "retained",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 0.32793305699999564,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.246820912,
+          "evaluation": 0.011599348,
+          "evidence": 0.03239111
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 2.214e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 6.45e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.312e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 3.87e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7605e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 2,
+            "read_seconds": 7.663e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.44e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 3,
+            "read_seconds": 1.93e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.6033e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 4,
+            "read_seconds": 1.6099e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2852e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 1.5907e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.082e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 6,
+            "read_seconds": 1.418e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.215e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 7,
+            "read_seconds": 3.12e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.182e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 2.05e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.183e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 2.04e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7456e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 2,
+            "read_seconds": 1.945e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.322e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 3,
+            "read_seconds": 1.51e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.5507e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 4,
+            "read_seconds": 3.085e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2239e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 7.448e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.018e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 6,
+            "read_seconds": 4.95e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.096e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 7,
+            "read_seconds": 2.58e-07,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 3,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/web/app.py",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr_research-2.50.11.dist-info/top_level.txt"
+        ],
+        "position": 0,
+        "strategy": "retained",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 4.871032364000001,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.251205322,
+          "evaluation": 0.94001686,
+          "evidence": 0.032870633
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 4.629e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 0.222969429,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.534e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 0.223767193,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.7667e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 2,
+            "read_seconds": 0.227145875,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.278e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 3,
+            "read_seconds": 0.226955609,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.3566e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 4,
+            "read_seconds": 0.225150183,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.0856e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 0.227154907,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 9.129e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 6,
+            "read_seconds": 0.223297687,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.065e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 7,
+            "read_seconds": 0.226611717,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.077e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 0.227885902,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 2.731e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 1,
+            "read_seconds": 0.223715904,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.8248e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 2,
+            "read_seconds": 0.225955229,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.851e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 3,
+            "read_seconds": 0.221464314,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.4432e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 4,
+            "read_seconds": 0.223083961,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.1906e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 5,
+            "read_seconds": 0.230444596,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 9.709e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 6,
+            "read_seconds": 0.226866286,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.821e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 7,
+            "read_seconds": 0.223362272,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 3,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/web/app.py",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr_research-2.50.11.dist-info/top_level.txt"
+        ],
+        "position": 1,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 4.855487767,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.229573203,
+          "evaluation": 0.918603112,
+          "evidence": 0.030053532
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 4.432e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 0.225951938,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.4514e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 1,
+            "read_seconds": 0.22724754,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.6719e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 2,
+            "read_seconds": 0.22816298,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.942e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 0.223121395,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.0403e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.224703733,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.717e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 5,
+            "read_seconds": 0.23278283,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.16e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 0.227113908,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.555e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 0.227503488,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.37e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 0.228419914,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.323e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 1,
+            "read_seconds": 0.226098806,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.4951e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 2,
+            "read_seconds": 0.231839679,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.155e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 0.230189007,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.0657e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.227383414,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.31e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 5,
+            "read_seconds": 0.226905707,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 3.9185e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 0.22689836,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.798e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 0.226158124,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 4,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/WHEEL"
+        ],
+        "position": 0,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 0.31461121600000297,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.238022853,
+          "evaluation": 0.012105977,
+          "evidence": 0.031716404
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 1.997e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 2.062e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.3487e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 1,
+            "read_seconds": 2.5313e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.607e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 2,
+            "read_seconds": 1.7584e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.161e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 7.38e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.446e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 2.378e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.173e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 5,
+            "read_seconds": 9.66e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.786e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 8.771e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.335e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 2.38e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.248e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 0,
+            "read_seconds": 1.85e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2934e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 1,
+            "read_seconds": 3.224e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.5462e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 2,
+            "read_seconds": 2.789e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.14e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 2.28e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.099e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 7.27e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.183e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 5,
+            "read_seconds": 1.52e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7828e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 6,
+            "read_seconds": 1.704e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.237e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 7,
+            "read_seconds": 1.41e-07,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 4,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/WHEEL"
+        ],
+        "position": 1,
+        "strategy": "retained",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 0.3366817710000021,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.257110936,
+          "evaluation": 0.011552774,
+          "evidence": 0.03126329
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 6.3508e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 2.706e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.401e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 1,
+            "read_seconds": 4.99e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.466e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 2,
+            "read_seconds": 3.04e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.15e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 3.15e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.5e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 1.91e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.5657e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 1.7758e-05,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.325e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 2.28e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7665e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 7,
+            "read_seconds": 7.522e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2575e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 9.726e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.281e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 1,
+            "read_seconds": 1.95e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.129e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 2,
+            "read_seconds": 1.52e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.118e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 1.85e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 7.045e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 8.47e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.5104e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 7.533e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.324e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 1.74e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.7611e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 7,
+            "read_seconds": 2.627e-06,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 5,
+        "member_order": [
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/RECORD"
+        ],
+        "position": 0,
+        "strategy": "retained",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 5.350022412999991,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.244370133,
+          "evaluation": 0.979970834,
+          "evidence": 0.031948752
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 6.7134e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 0.241372252,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.35e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 1,
+            "read_seconds": 0.246790836,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.1125e-05,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 2,
+            "read_seconds": 0.240671951,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 8.879e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 0.245910701,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.1679e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.251108811,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.0716e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 0.249435616,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.5727e-05,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 0.260125024,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.00024508,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 7,
+            "read_seconds": 0.249571337,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.848e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 0,
+            "read_seconds": 0.248309488,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 8.293e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 1,
+            "read_seconds": 0.256673377,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.631e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 2,
+            "read_seconds": 0.276843649,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.587e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 3,
+            "read_seconds": 0.286592323,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.2504e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 4,
+            "read_seconds": 0.248980178,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.1183e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 5,
+            "read_seconds": 0.249363402,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.241e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 0.253993038,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.3906e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 7,
+            "read_seconds": 0.249202627,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 5,
+        "member_order": [
+          "deepr/cli/commands/semantic/experts.py",
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr_research-2.50.11.dist-info/RECORD"
+        ],
+        "position": 1,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 5.036404677999997,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.253505302,
+          "evaluation": 0.981329537,
+          "evidence": 0.030473898
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 5.276e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 0,
+            "read_seconds": 0.244675825,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.438e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 1,
+            "read_seconds": 0.238389251,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.2581e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 2,
+            "read_seconds": 0.241382922,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.873e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 0.244485439,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.244e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 4,
+            "read_seconds": 0.240391963,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.3418e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 5,
+            "read_seconds": 0.241690143,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.156e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 0.239311055,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.000430583,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 7,
+            "read_seconds": 0.223458641,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.168e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 0,
+            "read_seconds": 0.224106279,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 5.036e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 1,
+            "read_seconds": 0.222576362,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 1.001e-05,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 2,
+            "read_seconds": 0.230790139,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 7.3937e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 0.231745404,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 4.054e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 4,
+            "read_seconds": 0.225775037,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 0.000267956,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 5,
+            "read_seconds": 0.22967836,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.853e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 0.226362916,
+            "retention_status": "NotRequested"
+          },
+          {
+            "digest_check_seconds": 6.2272e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 7,
+            "read_seconds": 0.226025465,
+            "retention_status": "NotRequested"
+          }
+        ],
+        "retained_bytes": 0,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "baseline"
+      },
+      "schedule": {
+        "block": 6,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/cli/commands/semantic/experts.py"
+        ],
+        "position": 0,
+        "strategy": "baseline",
+        "warmup": false
+      }
+    },
+    {
+      "elapsed_seconds": 0.3119576219999942,
+      "report": {
+        "archive_tree_sha256": "7c201d810c3144d53e9fca7b92c145810ef3f4dd159872569ef22053aad4bc6d",
+        "artifact_sha256": "1b7e4dab651e034f53653d09ff3180ce26c13683dfc93c9582f40e91c2a6dc80",
+        "canonical_receipt_sha256": "a16b12ec5caaeb1f6fe980b3454455ac1155859fc1a148d5299458075c9890cb",
+        "canonical_view_sha256": "ef1e6832b3a55bf809c50d632dda1a5e1cda3a85cabf3233d6f9d27ee1686ac0",
+        "independent_evidence_verified": true,
+        "install_plan_sha256": "545f556f42408b5497fb9c626231660fea925faa6ab236d858bb1c2743eed671",
+        "phase_seconds": {
+          "admission": 0.240133332,
+          "evaluation": 0.010473808,
+          "evidence": 0.030065066
+        },
+        "reads": [
+          {
+            "digest_check_seconds": 1.655e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 0,
+            "read_seconds": 5.42e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.154e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 1,
+            "read_seconds": 3.47e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.771e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 2,
+            "read_seconds": 1.226e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.1987e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 0,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 6.905e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.205e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 0,
+            "path": "deepr/evals/__init__.py",
+            "position": 4,
+            "read_seconds": 3.48e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.5871e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 5,
+            "read_seconds": 2.891e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.318e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 0,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 1.84e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.9505e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 0,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 7,
+            "read_seconds": 6.108e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.185e-06,
+            "output_bytes": 91,
+            "output_sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/WHEEL",
+            "position": 0,
+            "read_seconds": 1.53e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.134e-06,
+            "output_bytes": 6,
+            "output_sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+            "position": 1,
+            "read_seconds": 2.04e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.69e-06,
+            "output_bytes": 12770,
+            "output_sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/METADATA",
+            "position": 2,
+            "read_seconds": 6.84e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 6.2028e-05,
+            "output_bytes": 138704,
+            "output_sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+            "pass": 1,
+            "path": "deepr/web/app.py",
+            "position": 3,
+            "read_seconds": 4.698e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.124e-06,
+            "output_bytes": 26,
+            "output_sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+            "pass": 1,
+            "path": "deepr/evals/__init__.py",
+            "position": 4,
+            "read_seconds": 1.02e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 3.6126e-05,
+            "output_bytes": 78951,
+            "output_sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/RECORD",
+            "position": 5,
+            "read_seconds": 2.053e-06,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 1.165e-06,
+            "output_bytes": 80,
+            "output_sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+            "pass": 1,
+            "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+            "position": 6,
+            "read_seconds": 1.84e-07,
+            "retention_status": "Retained"
+          },
+          {
+            "digest_check_seconds": 5.9474e-05,
+            "output_bytes": 132931,
+            "output_sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+            "pass": 1,
+            "path": "deepr/cli/commands/semantic/experts.py",
+            "position": 7,
+            "read_seconds": 5.852e-06,
+            "retention_status": "Retained"
+          }
+        ],
+        "retained_bytes": 363559,
+        "schema": "sealr.repeated-read-case.v1",
+        "source_deleted_before_evaluation": true,
+        "source_deleted_before_member_consumption": true,
+        "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1",
+        "strategy": "retained"
+      },
+      "schedule": {
+        "block": 6,
+        "member_order": [
+          "deepr_research-2.50.11.dist-info/WHEEL",
+          "deepr_research-2.50.11.dist-info/top_level.txt",
+          "deepr_research-2.50.11.dist-info/METADATA",
+          "deepr/web/app.py",
+          "deepr/evals/__init__.py",
+          "deepr_research-2.50.11.dist-info/RECORD",
+          "deepr_research-2.50.11.dist-info/entry_points.txt",
+          "deepr/cli/commands/semantic/experts.py"
+        ],
+        "position": 1,
+        "strategy": "retained",
+        "warmup": false
+      }
+    }
+  ],
+  "complete": true,
+  "consumer_sources": {
+    "Cargo.lock": "69375ee182b5c06fb56cfb6eb063741f26bb1ff232c6a9bd4cda61bb7db0e7ea",
+    "Cargo.toml": "0d428b6f85882c4e2f4b56da20df9a3b5f8fcf74198d02404b8a3dadbf834f78",
+    "experiments/repeated-reads/main.rs": "71a818fe8687577b2df020eebc733f5c1f9cc7980d324a14ede711b39ae2a29b",
+    "experiments/repeated-reads/run.py": "1e29ce11e9e9a7ff3ff9c643f82902d94ca6f4231cde0d433b8982f379bbad4d",
+    "handoff/stage.rs": "5f1f3f0d6112e441955b9eca51a80ff158bc4b656bf4b720e538affb0f035fab"
+  },
+  "design": {
+    "measured_pairs": 6,
+    "order_seed": 20260913,
+    "passes": 2,
+    "paths": 8,
+    "warmup_pairs": 1
+  },
+  "elapsed_seconds": 37.84632351500001,
+  "environment": {
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "machine": "x86_64",
+    "python": "3.12.3"
+  },
+  "native_files": {
+    "libexec/sealr/sealr-worker": "1a27b927e415edf41b4cb7cad68b23f2b7830210f6a517fc7da78e466b654c96",
+    "libexec/sealr/sealr-worker.manifest": "313fb8abc107f6555172542fbfed06522dbdff66a0e88f93871edcb73ab2bba2",
+    "sealr-identity-verifier": "5654f9f0f9fc6e4b5a8411cea85330d7c3d16c7b7172a2d2f26c721d0ab342b9"
+  },
+  "nonclaim": "Direct local warm-cache repeated-read observations. Retention avoids multiple costs; these timings do not isolate source hashing, decoding, process startup, or prove a performance guarantee.",
+  "observed_at": "2026-09-13T15:15:11.662683+00:00",
+  "pins": {
+    "inventory_sha256": "75c7ee81cc84df9ef8407392f35a0b53bf4c4b8aa5eb1e47dc793c4e445385fb",
+    "paths": [
+      {
+        "path": "deepr/cli/commands/semantic/experts.py",
+        "sha256": "2106aa76d12df5928a44818c364857fa876c6276d7c80e648fa23d566d7659a7",
+        "size": 132931
+      },
+      {
+        "path": "deepr/evals/__init__.py",
+        "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+        "size": 26
+      },
+      {
+        "path": "deepr/web/app.py",
+        "sha256": "2d9a41c4cd425521c5fd8089b281702ffefea49df5199859c2c257c76a7aaec5",
+        "size": 138704
+      },
+      {
+        "path": "deepr_research-2.50.11.dist-info/METADATA",
+        "sha256": "52e137ff7c9950e593c0f99013558f00890528f0fd23da6cf381a404e3dc601f",
+        "size": 12770
+      },
+      {
+        "path": "deepr_research-2.50.11.dist-info/RECORD",
+        "sha256": "2443f06f04dd4102bf524e48a9e359c706ddb8cfd13e8f28f617db7e56f75980",
+        "size": 78951
+      },
+      {
+        "path": "deepr_research-2.50.11.dist-info/WHEEL",
+        "sha256": "2b6eb4118ce7cd7b09601406aa623c553c4476265836f0d9c16f5c061f7efcc0",
+        "size": 91
+      },
+      {
+        "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "sha256": "50fa64598852244e24e586390278612df118a7c4d39bbc64a592001b47d0b996",
+        "size": 80
+      },
+      {
+        "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+        "sha256": "7ddb42d20e18ba9eec9157bc33fdba90c3e8179e866a98186f20fbca321f184e",
+        "size": 6
+      }
+    ],
+    "regular_members": 832,
+    "schema": "sealr.repeated-read-pins.v1",
+    "source_bytes": 4126292,
+    "source_sha256": "149377d4db9fa2a074dd213d155afd5cb1c0e145cbed2c80beff6f25a692f0a1"
+  },
+  "project": "deepr",
+  "release": {
+    "commit": "8090a6bb6b0a6cc51461d2bce18966eb1a323434",
+    "native": {
+      "bytes": 3020812,
+      "filename": "sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "c3f761fd52804485afed636ab5bec7c54098481b851df8bb80dc28deb2a2f6f4",
+      "url": "https://github.com/blisspixel/sealr/releases/download/v0.1.0-alpha.15/sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu.tar.gz"
+    },
+    "schema": "sealr.immutable-release-pin.v1",
+    "tag": "v0.1.0-alpha.15",
+    "version": "0.1.0-alpha.15"
+  },
+  "schedule": [
+    {
+      "block": 0,
+      "member_order": [
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr/evals/__init__.py"
+      ],
+      "position": 0,
+      "strategy": "baseline",
+      "warmup": true
+    },
+    {
+      "block": 0,
+      "member_order": [
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr/evals/__init__.py"
+      ],
+      "position": 1,
+      "strategy": "retained",
+      "warmup": true
+    },
+    {
+      "block": 1,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL"
+      ],
+      "position": 0,
+      "strategy": "retained",
+      "warmup": false
+    },
+    {
+      "block": 1,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL"
+      ],
+      "position": 1,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 2,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/web/app.py"
+      ],
+      "position": 0,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 2,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/web/app.py"
+      ],
+      "position": 1,
+      "strategy": "retained",
+      "warmup": false
+    },
+    {
+      "block": 3,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/web/app.py",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr_research-2.50.11.dist-info/top_level.txt"
+      ],
+      "position": 0,
+      "strategy": "retained",
+      "warmup": false
+    },
+    {
+      "block": 3,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/web/app.py",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr_research-2.50.11.dist-info/top_level.txt"
+      ],
+      "position": 1,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 4,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/WHEEL"
+      ],
+      "position": 0,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 4,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/WHEEL"
+      ],
+      "position": 1,
+      "strategy": "retained",
+      "warmup": false
+    },
+    {
+      "block": 5,
+      "member_order": [
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/RECORD"
+      ],
+      "position": 0,
+      "strategy": "retained",
+      "warmup": false
+    },
+    {
+      "block": 5,
+      "member_order": [
+        "deepr/cli/commands/semantic/experts.py",
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr_research-2.50.11.dist-info/RECORD"
+      ],
+      "position": 1,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 6,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/cli/commands/semantic/experts.py"
+      ],
+      "position": 0,
+      "strategy": "baseline",
+      "warmup": false
+    },
+    {
+      "block": 6,
+      "member_order": [
+        "deepr_research-2.50.11.dist-info/WHEEL",
+        "deepr_research-2.50.11.dist-info/top_level.txt",
+        "deepr_research-2.50.11.dist-info/METADATA",
+        "deepr/web/app.py",
+        "deepr/evals/__init__.py",
+        "deepr_research-2.50.11.dist-info/RECORD",
+        "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "deepr/cli/commands/semantic/experts.py"
+      ],
+      "position": 1,
+      "strategy": "retained",
+      "warmup": false
+    }
+  ],
+  "schema": "sealr.repeated-read-experiment.v1",
+  "summary": {
+    "median_paired_difference_seconds": 3.6856131715,
+    "member_passes": [
+      {
+        "baseline": {
+          "maximum_seconds": 0.249571337,
+          "median_seconds": 0.23441800899999998,
+          "minimum_seconds": 0.222832795,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr_research-2.50.11.dist-info/RECORD",
+        "retained": {
+          "maximum_seconds": 1.5682e-05,
+          "median_seconds": 8.217e-06,
+          "minimum_seconds": 2.891e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.249202627,
+          "median_seconds": 0.22828836,
+          "minimum_seconds": 0.219485478,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr_research-2.50.11.dist-info/RECORD",
+        "retained": {
+          "maximum_seconds": 2.627e-06,
+          "median_seconds": 2.0025e-06,
+          "minimum_seconds": 1.704e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.260125024,
+          "median_seconds": 0.2306038385,
+          "minimum_seconds": 0.217972317,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "retained": {
+          "maximum_seconds": 2.062e-06,
+          "median_seconds": 4.785e-07,
+          "minimum_seconds": 1.84e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.253993038,
+          "median_seconds": 0.228152908,
+          "minimum_seconds": 0.217628114,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr_research-2.50.11.dist-info/entry_points.txt",
+        "retained": {
+          "maximum_seconds": 2.05e-07,
+          "median_seconds": 1.79e-07,
+          "minimum_seconds": 1.7e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.245910701,
+          "median_seconds": 0.232500484,
+          "minimum_seconds": 0.218726938,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+        "retained": {
+          "maximum_seconds": 1.192e-06,
+          "median_seconds": 3.34e-07,
+          "minimum_seconds": 3.12e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.286592323,
+          "median_seconds": 0.22677563950000001,
+          "minimum_seconds": 0.221059745,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr_research-2.50.11.dist-info/top_level.txt",
+        "retained": {
+          "maximum_seconds": 3.23e-07,
+          "median_seconds": 2.16e-07,
+          "minimum_seconds": 1.71e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.240671951,
+          "median_seconds": 0.23465967199999999,
+          "minimum_seconds": 0.221596968,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr/evals/__init__.py",
+        "retained": {
+          "maximum_seconds": 9.66e-07,
+          "median_seconds": 3.8149999999999997e-07,
+          "minimum_seconds": 3.04e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.276843649,
+          "median_seconds": 0.230901243,
+          "minimum_seconds": 0.223715904,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr/evals/__init__.py",
+        "retained": {
+          "maximum_seconds": 2.04e-07,
+          "median_seconds": 1.52e-07,
+          "minimum_seconds": 1.02e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.251108811,
+          "median_seconds": 0.22990622849999998,
+          "minimum_seconds": 0.220146014,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr_research-2.50.11.dist-info/METADATA",
+        "retained": {
+          "maximum_seconds": 2.766e-06,
+          "median_seconds": 1.863e-06,
+          "minimum_seconds": 1.226e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.248980178,
+          "median_seconds": 0.2290867765,
+          "minimum_seconds": 0.221094747,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr_research-2.50.11.dist-info/METADATA",
+        "retained": {
+          "maximum_seconds": 8.47e-07,
+          "median_seconds": 6.59e-07,
+          "minimum_seconds": 4.61e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.249435616,
+          "median_seconds": 0.2313982455,
+          "minimum_seconds": 0.225150183,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr/web/app.py",
+        "retained": {
+          "maximum_seconds": 1.7758e-05,
+          "median_seconds": 1.60885e-05,
+          "minimum_seconds": 6.905e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.249363402,
+          "median_seconds": 0.2317925415,
+          "minimum_seconds": 0.221237664,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr/web/app.py",
+        "retained": {
+          "maximum_seconds": 7.533e-06,
+          "median_seconds": 2.937e-06,
+          "minimum_seconds": 2.155e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.241372252,
+          "median_seconds": 0.2272012235,
+          "minimum_seconds": 0.220025445,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr/cli/commands/semantic/experts.py",
+        "retained": {
+          "maximum_seconds": 2.706e-05,
+          "median_seconds": 1.54555e-05,
+          "minimum_seconds": 6.108e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.248309488,
+          "median_seconds": 0.233502024,
+          "minimum_seconds": 0.226025465,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr/cli/commands/semantic/experts.py",
+        "retained": {
+          "maximum_seconds": 9.726e-06,
+          "median_seconds": 4.538e-06,
+          "minimum_seconds": 2.155e-06,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.246790836,
+          "median_seconds": 0.233876888,
+          "minimum_seconds": 0.217253459,
+          "samples": 6
+        },
+        "pass": 0,
+        "path": "deepr_research-2.50.11.dist-info/WHEEL",
+        "retained": {
+          "maximum_seconds": 5.42e-07,
+          "median_seconds": 3.445e-07,
+          "minimum_seconds": 1.93e-07,
+          "samples": 6
+        }
+      },
+      {
+        "baseline": {
+          "maximum_seconds": 0.256673377,
+          "median_seconds": 0.232021712,
+          "minimum_seconds": 0.221464314,
+          "samples": 6
+        },
+        "pass": 1,
+        "path": "deepr_research-2.50.11.dist-info/WHEEL",
+        "retained": {
+          "maximum_seconds": 1.95e-07,
+          "median_seconds": 1.5049999999999998e-07,
+          "minimum_seconds": 1.41e-07,
+          "samples": 6
+        }
+      }
+    ],
+    "paired_blocks": [
+      {
+        "baseline_read_seconds": 3.573639778,
+        "block": 1,
+        "paired_difference_seconds": 3.573583369,
+        "retained_read_seconds": 5.6409e-05
+      },
+      {
+        "baseline_read_seconds": 3.814103033,
+        "block": 2,
+        "paired_difference_seconds": 3.814050316,
+        "retained_read_seconds": 5.2717000000000004e-05
+      },
+      {
+        "baseline_read_seconds": 3.605831064,
+        "block": 3,
+        "paired_difference_seconds": 3.605774649,
+        "retained_read_seconds": 5.6414999999999994e-05
+      },
+      {
+        "baseline_read_seconds": 3.640480823,
+        "block": 4,
+        "paired_difference_seconds": 3.6404136229999997,
+        "retained_read_seconds": 6.72e-05
+      },
+      {
+        "baseline_read_seconds": 4.05494461,
+        "block": 5,
+        "paired_difference_seconds": 4.054867574999999,
+        "retained_read_seconds": 7.7035e-05
+      },
+      {
+        "baseline_read_seconds": 3.730845201,
+        "block": 6,
+        "paired_difference_seconds": 3.7308127200000003,
+        "retained_read_seconds": 3.2481e-05
+      }
+    ]
+  }
+}

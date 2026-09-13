@@ -28,6 +28,9 @@ includes the complete report and three raw traces; it is not a remote CI result.
 | Primr 1.39.13 | PyPI | 546 | 548 |
 | Recon Tool 2.18.4 | PyPI | 198 | 198 |
 
+The [controlled repeated-read experiment](experiments/repeated-reads/README.md)
+measures a fixed working set through the released Linux helper.
+
 [`artifacts.json`](artifacts.json) pins each download URL, byte length, SHA-256,
 provenance URL, member count, plan count, and measured semantic artifact identity.
 Wheel bytes are acquired during validation and are not redistributed here.
@@ -80,7 +83,7 @@ checkout, in addition to the recorded hashes.
 
 [`publisher-origin.json`](publisher-origin.json) separately pins the released
 publisher baseline and the local adapted consumer. Its structured failures came
-from an explicitly unpublished source revision, then received downstream path,
+from an explicitly unreleased source revision, then received downstream path,
 source-contract, and observation integration. They are not represented as
 released Alpha.15 example behavior. The library and native dependency remain the
 published Alpha.15 pair.

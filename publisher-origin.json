@@ -8,14 +8,14 @@
   },
   "adaptation_input": {
     "commit": "bc364da763f1933ee0bd3b384b3e7a63c465e1f9",
-    "publication": "local-unpublished",
+    "publication": "unreleased",
     "files": {
       "crates/sealr/examples/deepr_content_gate/main.rs": "53cf2e899dbfc973823572de612b2a9c78111bf0eadc0e6deabc2078525b3bc9",
       "scripts/verify_deepr_content_gate.py": "7f4e3cffee2911d0832067f119d96db899742f0a0a48e9f06459bcadad1774eb"
     }
   },
   "changes": [
-    "Structured failure reports and executable refusal checks are unpublished downstream adaptation input, not released Alpha.15 behavior.",
+    "Structured failure reports and executable refusal checks are unreleased downstream adaptation input, not released Alpha.15 behavior.",
     "The Rust stage include uses the exact tagged handoff copy; upstream repository test modules are omitted.",
     "The smoke uses downstream artifact and source contracts and records release and consumer provenance.",
     "A required bounded merged strace observes source opens and private deletion; offline hostile trace fixtures reject missing, truncated, escaped and overlapping evidence."

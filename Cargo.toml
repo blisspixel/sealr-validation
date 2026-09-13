@@ -26,3 +26,7 @@ path = "experiments/retention/main.rs"
 [[bin]]
 name = "publisher-content-gate"
 path = "publisher/main.rs"
+
+[[bin]]
+name = "repeated-read-probe"
+path = "experiments/repeated-reads/main.rs"

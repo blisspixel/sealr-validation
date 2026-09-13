@@ -98,7 +98,8 @@ node with the release's exact empty feature set, an exact release/source match,
 and no local path patch.
 
 `publisher-origin.json` pins the released Alpha.15 example and smoke baselines.
-The typed report adaptation input is explicitly local and unpublished. The
+The typed report adaptation input is explicitly unreleased, whether held locally
+or available on a development branch. The
 downstream executable changes the stage include path and omits repository-only
 tests; its validation adds provenance checks and bounded source-open observation.
 The executable, smoke, and trace analyzer each have an exact checked local hash.
