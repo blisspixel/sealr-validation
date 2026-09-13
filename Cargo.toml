@@ -7,7 +7,7 @@ license = "Apache-2.0"
 publish = false
 
 [dependencies]
-sealr = { git = "https://github.com/blisspixel/sealr", rev = "711955645bcca4f0e50838e0ba7f7d4825abb81e", version = "=0.1.0-alpha.16" }
+sealr = { git = "https://github.com/blisspixel/sealr", rev = "fd158e06bb25287adf93977f4a9b86c48b3723aa", version = "=0.1.0-alpha.17" }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sha2 = "0.11"

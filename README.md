@@ -70,7 +70,7 @@ to the release workflow, source commit, tag, and hosted runner before extraction
 
 The Rust dependency uses an exact Git revision and a committed Cargo lockfile.
 There is no local path patch, mutable branch dependency, private Sealr feature,
-or dependency on a workspace-only Sealr tool. Alpha.16 is a GitHub-only release,
+or dependency on a workspace-only Sealr tool. Alpha.17 is a GitHub-only release,
 so this deliberately tests immutable Git source acquisition. It is not evidence
 of a crates.io publication or completion of the registry pilot gate.
 
@@ -83,11 +83,15 @@ checkout, in addition to the recorded hashes.
 
 [`publisher-origin.json`](publisher-origin.json) separately pins the released
 publisher baseline and the adapted consumer. Its typed outcome checks and
-structured failures now come from the published Alpha.16 example. The downstream
+structured failures now come from the published Alpha.17 example. The downstream
 adaptation adjusts the stage include, omits repository-only tests, and adds
 source-contract and source-open observation integration. The released adaptation
 input must match the exact Cargo-resolved release baseline. The library and
-native dependency use the published Alpha.16 pair.
+native dependency use the published Alpha.17 pair.
+
+Required CI checks author identity across the complete commit history and tags,
+and checks PR titles and bodies when they are created or edited. The local
+commit hook checks pending metadata before a commit is created.
 
 ## Reproduce
 
@@ -139,9 +143,13 @@ passed all nine installations and three native-manifest refusals.
 
 The committed retention reports remain historical Alpha.14 evidence, and the
 first publisher and controlled repeated-read observations remain Alpha.15
-evidence. New executions use the active Alpha.16 pins and produce new reports.
+evidence. New executions use the active Alpha.17 pins and produce new reports.
 The [Alpha.16 publisher observation](publisher/observations/2026-09-13-alpha16/README.md)
 records both retention choices, all ten refusals, and three source-open traces.
 Existing observations are not relabeled as results from the newer release.
+The [Alpha.17 publisher observation](publisher/observations/2026-09-13-alpha17/README.md)
+uses the current published source and authenticated native artifact. Earlier
+observations preserve their original hashes and URLs; retired upstream release
+URLs may no longer provide those historical inputs.
 
 [Apache-2.0](LICENSE).

@@ -6,7 +6,7 @@ and decides whether the admitted files satisfy the dashboard and runtime rules.
 It preserves the caller's original and creates no installation output.
 
 This is an owner-maintained downstream validation integration. It uses the
-published Alpha.16 Rust API through one exact Git revision and the matching
+published Alpha.17 Rust API through one exact Git revision and the matching
 authenticated native release. It is not installed in Deepr's production release
 workflow and does not establish independent adoption or crates.io distribution.
 
@@ -27,7 +27,7 @@ python3 scripts/test_source_contract.py target/publisher-metadata.json
 python3 scripts/test_publisher_trace.py
 python3 scripts/validate_publisher.py \
   --metadata target/publisher-metadata.json \
-  --native /tmp/sealr-publisher-native/sealr-0.1.0-alpha.16-x86_64-unknown-linux-gnu \
+  --native /tmp/sealr-publisher-native/sealr-0.1.0-alpha.17-x86_64-unknown-linux-gnu \
   --report results/publisher-report.json
 ```
 
@@ -91,13 +91,13 @@ survives private pathname deletion; FD reads from that storage remain allowed.
 
 ## Copy and adaptation boundary
 
-`handoff/` stays an exact copy of the four public Alpha.16 handoff files. Source
+`handoff/` stays an exact copy of the four public Alpha.17 handoff files. Source
 verification compares each copy and its recorded hash with the actual
 Cargo-resolved Git source. It also requires exactly one resolved Sealr feature
 node with the release's exact empty feature set, an exact release/source match,
 and no local path patch.
 
-`publisher-origin.json` pins the released Alpha.16 example and smoke baselines.
+`publisher-origin.json` pins the released Alpha.17 example and smoke baselines.
 The typed outcome checks and structured reports now use that published input;
 source verification requires its commit and hashes to match the resolved release.
 The downstream executable changes the stage include path and omits
@@ -120,3 +120,7 @@ The [2026-09-13 local observation](observations/2026-09-13/README.md) preserves
 the first complete report and all three source-open traces from this integration.
 The [Alpha.16 local observation](observations/2026-09-13-alpha16/README.md) repeats
 the complete smoke with the published Alpha.16 source and native pair.
+The [Alpha.17 local observation](observations/2026-09-13-alpha17/README.md) records
+the same bounded cases with the current published source and native pair.
+Earlier observations retain their original inputs and hashes even when retired
+upstream release URLs no longer serve those inputs.
