@@ -1,8 +1,12 @@
 # Bounded retention experiment
 
 This is a separately instrumented public-API consumer of immutable Sealr
-Alpha.14. It compares three working sets on the pinned Deepr, Primr, and Recon
+Alpha.15. It compares three working sets on the pinned Deepr, Primr, and Recon
 wheels. The four provenance-pinned files in `handoff/` remain unchanged.
+
+The committed `observed-linux-wsl/` results were produced with Alpha.14 and remain
+historical evidence for that exact release. Updating active pins does not change
+or relabel those observations.
 
 The question is whether retaining a small known set during initial verification
 avoids enough later member-read work to help a real consumer. An unretained

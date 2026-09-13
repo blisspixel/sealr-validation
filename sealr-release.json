@@ -1,12 +1,12 @@
 {
   "schema": "sealr.immutable-release-pin.v1",
-  "version": "0.1.0-alpha.14",
-  "tag": "v0.1.0-alpha.14",
-  "commit": "91972c9aea1555680579758685dbc152908c1ce5",
+  "version": "0.1.0-alpha.15",
+  "tag": "v0.1.0-alpha.15",
+  "commit": "8090a6bb6b0a6cc51461d2bce18966eb1a323434",
   "native": {
-    "filename": "sealr-0.1.0-alpha.14-x86_64-unknown-linux-gnu.tar.gz",
-    "url": "https://github.com/blisspixel/sealr/releases/download/v0.1.0-alpha.14/sealr-0.1.0-alpha.14-x86_64-unknown-linux-gnu.tar.gz",
-    "bytes": 3036154,
-    "sha256": "3acead61e7ce8a510d64a773c41816dadc93d2d9d07069a2ddb656385b14a7ee"
+    "filename": "sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu.tar.gz",
+    "url": "https://github.com/blisspixel/sealr/releases/download/v0.1.0-alpha.15/sealr-0.1.0-alpha.15-x86_64-unknown-linux-gnu.tar.gz",
+    "bytes": 3020812,
+    "sha256": "c3f761fd52804485afed636ab5bec7c54098481b851df8bb80dc28deb2a2f6f4"
   }
 }

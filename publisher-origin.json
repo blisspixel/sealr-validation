@@ -1,0 +1,28 @@
+{
+  "schema": "sealr.adapted-public-publisher.v1",
+  "repository": "https://github.com/blisspixel/sealr",
+  "release_commit": "8090a6bb6b0a6cc51461d2bce18966eb1a323434",
+  "released_baseline": {
+    "crates/sealr/examples/deepr_content_gate/main.rs": "4379801c86f3dc87e206f7061ed82dafa77cc2c11e6af3a44abb29b34d1f5ece",
+    "scripts/verify_deepr_content_gate.py": "e0c61017bc4dc5edc9afbe7177b0c7c6693b905be56bf101610ec2ad2b4de6ec"
+  },
+  "adaptation_input": {
+    "commit": "bc364da763f1933ee0bd3b384b3e7a63c465e1f9",
+    "publication": "unreleased",
+    "files": {
+      "crates/sealr/examples/deepr_content_gate/main.rs": "53cf2e899dbfc973823572de612b2a9c78111bf0eadc0e6deabc2078525b3bc9",
+      "scripts/verify_deepr_content_gate.py": "7f4e3cffee2911d0832067f119d96db899742f0a0a48e9f06459bcadad1774eb"
+    }
+  },
+  "changes": [
+    "Structured failure reports and executable refusal checks are unreleased downstream adaptation input, not released Alpha.15 behavior.",
+    "The Rust stage include uses the exact tagged handoff copy; upstream repository test modules are omitted.",
+    "The smoke uses downstream artifact and source contracts and records release and consumer provenance.",
+    "A required bounded merged strace observes source opens and private deletion; offline hostile trace fixtures reject missing, truncated, escaped and overlapping evidence."
+  ],
+  "adapted_files": {
+    "publisher/main.rs": "ccd250fa1e7a75183d1eeb7d75a441f24aff1a85e264fe823738463b017a21f6",
+    "scripts/validate_publisher.py": "edf2241565c56ed559038afe785c77999fa6135fe882ceae7a7d985cf27ae5f6",
+    "scripts/publisher_trace.py": "bc0b74d26bb9cc77c391785d88b4bbb0f3824185de16c7d74e5f91d2f8a47533"
+  }
+}

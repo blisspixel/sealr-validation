@@ -36,10 +36,19 @@ jobs:
         run: cargo clippy --locked --all-targets -- -D warnings
       - name: Delete sources and evaluate real wheels through public APIs
         run: cargo test --locked -- --nocapture
+      - name: Verify immutable source and consumer drift refusals
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo metadata --locked --format-version 1 > target/source-metadata.json
+          python3 scripts/verify_source.py target/source-metadata.json
+          python3 scripts/test_source_contract.py target/source-metadata.json
+          python3 scripts/test_publisher_trace.py
       - name: Verify experimental instrumentation and public inventory pins
         shell: bash
         run: |
           set -euo pipefail
+          python3 -m unittest discover -s experiments/repeated-reads -p 'test_*.py'
           python3 scripts/prepare_experiment_stage.py
           cargo build --locked --bin retention-experiment
           python3 scripts/verify_retention_pins.py
@@ -99,10 +108,55 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
+  publisher:
+    name: Capability-only publisher with source-open observation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install exact Rust and required syscall observer
+        run: |
+          rustup toolchain install 1.98.0 --profile minimal
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends strace
+      - name: Acquire exact wheels and authenticate the native release
+        run: |
+          python3 scripts/acquire.py
+          python3 scripts/acquire_release.py --destination /tmp/sealr-publisher-native
+      - name: Build and verify the ordinary immutable source dependency
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo build --locked --release --bin publisher-content-gate
+          cargo metadata --locked --format-version 1 > target/publisher-metadata.json
+          python3 scripts/verify_source.py target/publisher-metadata.json
+          python3 scripts/test_source_contract.py target/publisher-metadata.json
+          python3 scripts/test_publisher_trace.py
+      - name: Observe two publisher decisions and typed refusals
+        shell: bash
+        run: |
+          set -euo pipefail
+          package="$(python3 -c 'import json; print(json.load(open("sealr-release.json"))["native"]["filename"].removesuffix(".tar.gz"))')"
+          python3 scripts/validate_publisher.py \
+            --metadata target/publisher-metadata.json \
+            --native "/tmp/sealr-publisher-native/${package}" \
+            --report results/publisher-report.json
+      - name: Preserve publisher decisions and bounded source-open traces
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: publisher-report-${{ github.sha }}
+          path: |
+            results/publisher-report.json
+            results/publisher-traces/*.strace
+          if-no-files-found: error
+          retention-days: 30
+
   required:
     name: Required validation
     if: ${{ always() }}
-    needs: [portable, linux-handoff]
+    needs: [portable, linux-handoff, publisher]
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
@@ -110,6 +164,8 @@ jobs:
         env:
           PORTABLE_RESULT: ${{ needs.portable.result }}
           HANDOFF_RESULT: ${{ needs.linux-handoff.result }}
+          PUBLISHER_RESULT: ${{ needs.publisher.result }}
         run: |
           test "${PORTABLE_RESULT}" = success
           test "${HANDOFF_RESULT}" = success
+          test "${PUBLISHER_RESULT}" = success

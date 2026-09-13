@@ -3,8 +3,8 @@
 [![Downstream validation](https://github.com/blisspixel/sealr-validation/actions/workflows/ci.yml/badge.svg)](https://github.com/blisspixel/sealr-validation/actions/workflows/ci.yml)
 
 This project tests whether an ordinary downstream checkout can obtain an exact
-Sealr source revision and authenticated native release, then install real wheels
-after making the original source unavailable.
+Sealr source revision and authenticated native release, then make publisher
+decisions and install real wheels through the admitted capability.
 
 It is a validation project maintained by Sealr's owner. It does not establish
 independent external adoption, an independent security review, a stable API,
@@ -12,11 +12,24 @@ general package-manager support, or application runtime compatibility.
 
 ## What is tested
 
+The [publisher content gate](publisher/README.md) makes Deepr's concrete dashboard
+and runtime-content decision with no installation. Required Linux CI exercises
+both retention choices and ten machine-readable refusals. A bounded merged
+`strace` observes both successful cases and the late wheel-semantic refusal:
+the publisher deletes its private wheel copy after independent evidence
+verification, and no process in the observed tree opens a wheel pathname after
+that boundary. The caller's original is preserved byte for byte.
+The [first local Alpha.15 observation](publisher/observations/2026-09-13/README.md)
+includes the complete report and three raw traces; it is not a remote CI result.
+
 | Released wheel | Source | Members | Planned entries |
 |---|---|---:|---:|
 | Deepr Research 2.50.11 | GitHub release | 832 | 833 |
 | Primr 1.39.13 | PyPI | 546 | 548 |
 | Recon Tool 2.18.4 | PyPI | 198 | 198 |
+
+The [controlled repeated-read experiment](experiments/repeated-reads/README.md)
+measures a fixed working set through the released Linux helper.
 
 [`artifacts.json`](artifacts.json) pins each download URL, byte length, SHA-256,
 provenance URL, member count, plan count, and measured semantic artifact identity.
@@ -57,7 +70,7 @@ to the release workflow, source commit, tag, and hosted runner before extraction
 
 The Rust dependency uses an exact Git revision and a committed Cargo lockfile.
 There is no local path patch, mutable branch dependency, private Sealr feature,
-or dependency on a workspace-only Sealr tool. Alpha.14 is a GitHub-only release,
+or dependency on a workspace-only Sealr tool. Alpha.15 is a GitHub-only release,
 so this deliberately tests immutable Git source acquisition. It is not evidence
 of a crates.io publication or completion of the registry pilot gate.
 
@@ -65,6 +78,15 @@ The four files in `handoff/` are the public copyable handoff from the same Sealr
 release. [`handoff-origin.json`](handoff-origin.json) pins their exact hashes and
 source commit. CI rejects copied-source drift, a source/native version mismatch,
 path patches, or private features before transferring an input to the worker.
+The copy check compares the files with the actual Cargo-resolved immutable Git
+checkout, in addition to the recorded hashes.
+
+[`publisher-origin.json`](publisher-origin.json) separately pins the released
+publisher baseline and the local adapted consumer. Its structured failures came
+from an explicitly unreleased source revision, then received downstream path,
+source-contract, and observation integration. They are not represented as
+released Alpha.15 example behavior. The library and native dependency remain the
+published Alpha.15 pair.
 
 ## Reproduce
 
@@ -93,6 +115,12 @@ download cache remains available for deliberate reruns.
 
 ## What comes next
 
+The publisher job now provides unattended, commit-bound decision and source-open
+evidence. The next work is to use those checked decisions in an actual publishing
+workflow and measure acquisition or capability-use costs exposed by that path.
+This validation repository remains maintained by Sealr's owner and does not
+establish independently maintained adoption or production publisher deployment.
+
 The [bounded retention experiment](experiments/retention/README.md) compares
 nine full installations with no retention, a semantic working set, and up to
 64 explicitly selected members. It keeps the copied handoff unchanged and
@@ -101,10 +129,8 @@ single-run integration observations, not controlled benchmark results.
 The [observed Linux run](experiments/retention/observed-linux-wsl/README.md)
 passed all nine installations and three native-manifest refusals.
 
-Deepr's wheel-content checks are the clearest real integration seam; Primr's
-publication workflow is another candidate. A future integration must make the
-consumer's real acceptance decision depend on the capability and checked evidence,
-own its CI and release decisions, and report API, compatibility, and acquisition
-friction. A copied validation project alone does not satisfy that requirement.
+The committed observed retention reports remain historical Alpha.14 evidence.
+New executions use the active Alpha.15 pins and must produce new reports; existing
+observations are not relabeled as results from the newer release.
 
 [Apache-2.0](LICENSE).
